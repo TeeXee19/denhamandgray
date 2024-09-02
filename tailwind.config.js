@@ -42,7 +42,8 @@ module.exports = {
           "dark-blue": "#1A1A2E",
           "green": "#008080",
           "red": "#AB0A14",
-          "gray": "#8992A1"
+          "gray": "#8992A1",
+          "gray-2": "#F0F0F0"
         },
       },
       boxShadow: {
