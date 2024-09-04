@@ -16,16 +16,16 @@
         </div>
     </div>
     <div class="relative flex flex-col justify-end space-y-8">
-        <NuxtLink to="/facebook">
+        <NuxtLink to="/">
             <img src="/assets/images/facebook-side.svg" alt="Facebook" class="h-6 w-6" />
         </NuxtLink>
-        <NuxtLink to="/instagram">
+        <NuxtLink to="/">
             <img src="/assets/images/instagram-side.svg" alt="Instagram" class="h-6 w-6" />
         </NuxtLink>
-        <NuxtLink to="/twitter">
+        <NuxtLink to="/">
             <img src="/assets/images/x-side.svg" alt="Twitter" class="h-6 w-6" />
         </NuxtLink>
-        <NuxtLink to="/linkedin">
+        <NuxtLink to="/">
             <img src="/assets/images/youtube-side.svg" alt="LinkedIn" class="h-6 w-6" />
         </NuxtLink>
     </div>
