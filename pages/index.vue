@@ -218,21 +218,21 @@
 
 <script lang="ts" setup>
 const posts = [{
-    href: '/blog/12',
+    href: '/',
     heading: 'Smart Financial Habits to Start Now',
     img: 'assets/images/feed1.svg',
     description: 'This post could explore the importance of establishing strong financial habits early in life. Discuss budgeting, saving, investing in index funds, and building an emergency fund. Include tips on how to manage student loans and credit cards responsibly',
     tags: ["News feed"],
     date: 'July 15, 2023'
 }, {
-    href: '/blog/14',
+    href: '/',
     heading: 'The Impact of AI on the Future of Personal Finance Management',
     img: 'assets/images/feed2.svg',
     description: 'Explore how artificial intelligence is revolutionizing personal finance management. Discuss AI-powered budgeting apps, robo-advisors, and personalized....',
     tags: ["News feed"],
     date: 'July 15, 2023'
 }, {
-    href: '/blog/14',
+    href: '/',
     heading: 'How to Align Your Portfolio with Your Values',
     img: 'assets/images/feed3.svg',
     description: 'Explore the growing trend of Environmental, Social, and Governance (ESG) investing. Discuss what ESG investing entails, its benefits, and how to get started. Include examples of companies and funds that prioritize sustainability and',
