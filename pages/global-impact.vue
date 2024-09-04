@@ -18,17 +18,62 @@
             </p>
         </div>
         <div class="flex flex-row items-center justify-center">
-        <mapComponent class="w-[50%]"/>    
-        <div class="w-[50%]">
-            <div class="flex flex-row gap-4 h-fit items-center">
-                <h3 class=" font-bold font-in text-[48px] w-[70%]">Financial Institutions</h3>
-                <img src="/assets/images/bank.svg" class="w-[30%]"/>
+        <mapComponent class="w-[40%]"/>    
+        <div class="w-[60%] space-y-[18%]">
+            <div class="flex flex-row gap-2 h-fit items-center">
+                <h3 class=" font-bold font-in text-[36px] w-[80%]">Financial Institutions</h3>
+                <img src="/assets/images/bank.svg" class="w-[20%]"/>
             </div>
-            <div>
-
+            <div class="flex justify-start items-center space-x-8">
+                <div class="font-in font-bold leading-tight">
+                    <h3 class="text-[36px] text-blue-500">3</h3>
+                    <span class="font-medium text-[18px]">Financial Institution Onboarded</span>
+                  </div>
+                  <div class="font-in font-bold leading-tight">
+                    <h3 class="text-[36px] text-blue-500">&#8358; 5 Million</h3>
+                    <span class="font-medium text-[18px]">Approved for Onboarded Banks</span>
+                  </div>
             </div>
 
         </div>
+        </div>
+    </section>
+    <section class="mt-[-100px] px-[10%] pb-[5%]">
+        <div class="flex flex-row items-center justify-end h-fit ">
+            <h3 class=" font-bold font-in text-[48px] ">Beneficiary</h3>
+            <img src="/assets/images/female.svg"/>
+        </div>
+        <div class="grid grid-cols-3 ">
+            <div class="font-in font-bold leading-tight">
+                <h3 class="text-[36px] text-blue-500">70%</h3>
+                <span class="font-medium text-[18px]">Women</span>
+              </div>
+              <div class="font-in font-bold leading-tight">
+                <h3 class="text-[36px] text-blue-500">&#8358; 300 Million</h3>
+                <span class="font-medium text-[18px]">Amount Disbursed</span>
+              </div>
+              <div class="font-in font-bold leading-tight">
+                <h3 class="text-[36px] text-blue-500">1000</h3>
+                <span class="font-medium text-[18px]">MSME’s Financed</span>
+              </div>
+        </div>
+        <div class="flex flex-row items-center justify-end h-fit ">
+            <h3 class=" font-bold font-in text-[48px] ">Green Finance</h3>
+            <img src="/assets/images/crop.svg"/>
+        </div>
+        <div class="grid grid-cols-3 ">
+            <div class="font-in font-bold leading-tight">
+                <h3 class="text-[36px] text-blue-500">10</h3>
+                <span class="font-medium text-[18px]">Bank branches transitioned to green energy</span>
+              </div>
+               <div class="font-in font-bold leading-tight">
+                <h3 class="text-[36px] text-blue-500">50K</h3>
+                <span class="font-medium text-[18px]">Tons of carbon emission saved</span>
+              </div>
+              <div class="font-in font-bold leading-tight">
+                <h3 class="text-[36px] text-blue-500">50%</h3>
+                <span class="font-medium text-[18px]">Transactions financed are green</span>
+              </div>
         </div>
     </section>
     </template>
