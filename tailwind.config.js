@@ -13,6 +13,7 @@ module.exports = {
        dg: ['"Darker Grotesque"', 'sans'],
        tw: ['"Titillium Web"', 'sans'],
        mc: ['"MonteCarlo"', 'sans'],
+       in: ['"Inter"', 'sans'],
      },
      fontSize:{
        'dg-xs': '14px',

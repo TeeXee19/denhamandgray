@@ -65,7 +65,7 @@ const menuItems = ref([{
     },
     {
         name: 'FAQ',
-        path: '/faq'
+        path: '/'
     },
     {
         name: 'Contact Us',
@@ -73,7 +73,7 @@ const menuItems = ref([{
     },
     {
         name: 'Career',
-        path: '/career'
+        path: '/'
     },
     {
         name: 'Global Impact',

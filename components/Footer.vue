@@ -17,16 +17,16 @@
             +234 803 227 0835
           </p>
           <div class="flex justify-end space-x-4 mt-2">
-            <NuxtLink to="/linkedin">
+            <NuxtLink to="/">
               <img src="/assets/images/youtube.svg" alt="LinkedIn" class="h-5 w-5" />
             </NuxtLink>
-            <NuxtLink to="/twitter">
+            <NuxtLink to="/">
               <img src="/assets/images/x.svg" alt="Twitter" class="h-5 w-5" />
             </NuxtLink>
-            <NuxtLink to="/instagram">
+            <NuxtLink to="/">
               <img src="/assets/images/instagram.svg" alt="Instagram" class="h-5 w-5" />
             </NuxtLink>
-            <NuxtLink to="/facebook">
+            <NuxtLink to="/">
               <img src="/assets/images/facebook.svg" alt="Facebook" class="h-5 w-5" />
             </NuxtLink>
           </div>

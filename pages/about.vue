@@ -187,11 +187,11 @@
           <div
             class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300"
           >
-            <div class="bg-white p-2">
+            <NuxtLink class="bg-white p-2">
               <h3 class="font-dg text-[16px] font-semibold text-black">
-                Know more
+                Read more
               </h3>
-            </div>
+            </NuxtLink>
           </div>
     
           <!-- Name Card -->

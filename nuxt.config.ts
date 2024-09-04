@@ -21,7 +21,7 @@ export default defineNuxtConfig({
     ['@nuxtjs/google-fonts', {
       families: {
         Sen: true,
-        'DM+Sans': true,
+        'Inter': true,
         'Darker+Grotesque':true,
         'Titillium+Web':true,
         'MonteCarlo':true

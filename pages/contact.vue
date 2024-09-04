@@ -8,8 +8,8 @@
 </section>
 <section class="py-[4%] px-[10%] font-dg ">
 
-  <div class="grid grid-cols-2 font-dg px-[20%] gap-8">
-      <div class=" space-y-[15%] w-[80%]">
+  <div class="grid grid-cols-2 font-dg px-[20%] gap-4">
+      <div class=" space-y-[10%] w-[90%]">
         <form @submit="" class="space-y-6">
           <h3 class="font-dg font-medium text-[48px]">
             Send us a message
@@ -19,11 +19,11 @@
           </h3>
           <div class="space-y-3">
               <div class="flex flex-row gap-3">
-                  <input type="text" id="name" v-model="name" class=" border text-gray-300 text-sm block w-full p-2.5 " placeholder="Name" required>
-                  <input type="email" id="email" v-model="lastname" class=" border text-gray-300 text-sm block w-full p-2.5 " placeholder="Email" required>
+                  <input type="text" id="name" v-model="name" class=" border-2 text-md text-black block w-full p-2.5 " placeholder="Name" required>
+                  <input type="email" id="email" v-model="lastname" class=" border-2 text-md text-black block w-full p-2.5 " placeholder="Email" required>
               </div>
               <div>
-                  <textarea id="message" v-model="message" rows="4" class="block p-2.5 w-full text-sm text-gray-400  border " placeholder="Tell us what you want"></textarea>
+                  <textarea id="message" v-model="message" rows="4" class="block p-2.5 w-full text-[14px] font-dg text-black  border-2 bg-white " placeholder="Tell us what you want"></textarea>
               </div>
           </div>
           <div class="">
@@ -39,9 +39,31 @@
           </div>
       </form>
       </div>
-      <div class="bg-[url('/assets/images/contactRight.svg')] w-[60%] h-full bg-center bg-cover bg-clip-border bg-no-repeat  p-6 text-white">
+      <div class="bg-[url('/assets/images/contactRight.svg')] w-[80%] h-full bg-center bg-cover bg-clip-border bg-no-repeat  p-6 text-white space-y-4">
           <h3 class="font-dg font-medium text-[24px]">Our Contact details</h3>
           <h3 class="font-dg font-medium text-[14px]">Give us a call or drop by anytime, we endeavour to answer all enquiries within 24 hours on business days. We will be happy to answer your questions.</h3>
+          <div class="flex gap-2 h-fit">
+            <img src="/assets/images/home.svg" />
+            <div class="font-dg font-semibold leading-tight">
+              <h3 class="text-[16px]">Our Address</h3>
+              <span class="font-medium text-[14px]">4, King AJ Turner Crescent Wuye, FCT Abuja.</span>
+            </div>
+          </div>
+          <div class="flex gap-2 h-fit">
+            <img src="/assets/images/email.svg" />
+            <div class="font-dg font-semibold leading-tight">
+              <h3 class="text-[16px]">Our Email</h3>
+              <span class="font-medium text-[14px]">info@denhamangrey.com</span>
+            </div>
+          </div>
+          
+          <div class="flex gap-2 h-fit">
+            <img src="/assets/images/phone.svg" />
+            <div class="font-dg font-semibold leading-tight">
+              <h3 class="text-[16px]">Our Phone</h3>
+              <span class="font-medium text-[14px]">info@denhamangrey.com</span>
+            </div>
+          </div>
           <h3 class="font-dg font-bold text-[14px]">Socials</h3>
           <div class="flex justify-start space-x-4 mt-2">
             <NuxtLink to="/linkedin">
@@ -60,6 +82,9 @@
       </div>
   </div>
 
+</section>
+<section class="">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d32278330.766872633!2d7.436678000000001!3d9.043145!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104e74b4983c0001%3A0x665ee6557d20b17a!2sDenham%20and%20Grey!5e0!3m2!1sen!2sng!4v1725460497084!5m2!1sen!2sng" class="w-full h-[600px]" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </section>
 </template>
 
