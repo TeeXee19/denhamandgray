@@ -3,7 +3,7 @@
     <div class="absolute inset-0 bg-black opacity-40 h-[83.5vh]"></div>
     <div class="relative w-[95%] flex flex-col space-y-4">
         <h1 class="font-semibold font-dg text-[70px] w-[45%] mx-auto leading-[70px]">Secure Your Financial Success with Denham &amp; Grey</h1>
-        <span class="font-medium text-[18px]">WHOLESALE FUNDING | IMPACT FUNDING | STRATEGIC FUNDING</span>
+        <span class="font-medium text-[18px]">Financing the SGDs, Ensuring Tomorrow!!</span>
 
         <div>
             <div class="relative inline-block">
@@ -33,29 +33,30 @@
 <section class="bg-[url('/assets/images/sub-hero.svg')] bg-center bg-cover  bg-clip-border bg-no-repeat font-dg space-y-0 md:grid grid-cols-3 hidden">
     <div class="p-4 border-r-2 border-gray-500">
         <span class="font-tw font-expanded text-[70px] text-hollow tracking-normal">01</span>
-        <div class="font-dg text-[20px] text-white font-normal">"Financial freedom is not about how much you make, but how much you keep, invest wisely, and let grow over time."</div>
+        <div class="font-dg text-[20px] text-white font-normal">Empowering Communities!</div>
     </div>
     <div class="p-4 border-r border-gray-500">
         <span class="font-tw font-expanded text-[70px] text-hollow tracking-normal">02</span>
-        <div class="font-dg text-[20px] text-white font-normal">"Building wealth is a marathon, not a sprint. It’s the consistent, small steps that lead to lasting financial success."</div>
+        <div class="font-dg text-[20px] text-white font-normal">Driving Economic Growth</div>
     </div>
     <div class="p-4">
         <span class="font-tw font-expanded text-[70px] text-hollow tracking-normal">03</span>
-        <div class="font-dg text-[20px] text-white font-normal">"Your financial future is created by what you do today, not tomorrow. Invest in your goals, and let time do the rest."</div>
+        <div class="font-dg text-[20px] text-white font-normal">Protecting the Environment!!</div>
     </div>
 </section>
 <section class="py-[4%] px-[10%] font-dg bg-[#F0F0F0]">
     <div class="pb-3">
         <h5 class=" font-semibold text-theme-green mb-3">ABOUT US</h5>
-        <h3 class="font-bold text-[56px] leading-[auto] tracking-0">Welcome to Denham & Grey</h3>
+        <h3 class="font-bold text-[56px] leading-[auto] tracking-0">Welcome to Denham &amp; Grey</h3>
         <p class="font-medium w-[55%] text-theme-gray">
-            With over 8 years of combined expertise in the industry, we ensure you receive the perfect solution tailored to your needs. We have more to offer.
+            “Led by a team with combined experience of over 100 years in Banking, Investment and Development Finance, we offer innovative financing solutions through our Impact Partner Institutions that addresses the various SGDs.”
+
         </p>
     </div>
     <div class="grid grid-cols-2 font-dg">
         <div class="p-10 bg-white space-y-[15%]">
             <p class="font-medium text-theme-gray">
-                At Denham &amp; Grey, our seasoned professionals offer unmatched expertise in institutional lending and business development. With deep experience in Nigerian wholesale banking, we are dedicated to driving financial success and delivering tailored solutions that meet our clients' unique needs.
+                At Denham &amp; Grey, our team of seasoned professionals with expertise in institutional lending and development finance, drive positive change by providing wholesale medium to long term financing towards funding initiatives through our Impact Partner Institutions (licensed and regulated financial institutions) that align with the Sustainable Development Goals (SDGs).
             </p>
             <div class="relative inline-block float-right">
                 <button class="bg-theme-green text-white py-3 px-14 ">
@@ -71,7 +72,7 @@
             <img src="/assets/images/about-right.svg" alt="" class="w-full h-auto">
             <div class="absolute inset-0 px-6 py-3 bg-black h-fit opacity-70 self-end">
               <h3 class="text-left font-dg text-[32px] font-semibold text-white leading-8 ">
-                Redefining Nigerian Wholesale <br /> Banking...
+                Leading wholesale impact investment in <br/>Nigeria....
               </h3>
             </div>
         </div>
@@ -80,19 +81,15 @@
 <section class="bg-[url('/assets/images/est.svg')] bg-center bg-cover bg-fixed bg-clip-border bg-no-repeat py-[5%] px-[10%] font-dg text-white ">
     <div class="max-w-[1440px]">
         <h3 class="font-bold text-[36px] tracking-[10px]">ESTABLISHED IN 2003</h3>
-        <h3 class="font-semibold text-[70px] w-[70%] leading-[80px]">We are experts in institutional lending and development</h3>
-        <div class="grid grid-cols-3 ">
+        <h3 class="font-semibold text-[70px] w-[70%] leading-[80px]">We are experts in impact investment and wholesale lending</h3>
+        <div class="grid grid-cols-2 ">
             <div class="flex flex-col font-bold ">
-                <span class="border-b-[3px] w-[85%] border-yellow-theme text-[90px]">$75.63 bn</span>
-                <span class="font-normal text-[36px]">Total portfolio</span>
+                <span class="border-b-[3px] w-[85%] border-yellow-theme text-[90px]">$20 Million</span>
+                <span class="font-normal text-[36px]">Approved funding</span>
             </div>
             <div class="flex flex-col font-bold ">
-                <span class="border-b-[3px] w-[85%] border-yellow-theme text-[90px]">204</span>
-                <span class="font-normal text-[36px]">Branches in Africa</span>
-            </div>
-            <div class="flex flex-col font-bold ">
-                <span class="border-b-[3px] w-[85%] border-yellow-theme text-[90px]">72%</span>
-                <span class="font-normal text-[36px]">Annual returns</span>
+                <span class="border-b-[3px] w-[85%] border-yellow-theme text-[90px]">49 Locations</span>
+                <span class="font-normal text-[36px]">Impact channels</span>
             </div>
         </div>
     </div>
@@ -104,8 +101,8 @@
             <div class="w-[20%] h-[4px] bg-theme-green"></div>
             <div class="w-[80%] h-[4px] bg-theme-green"></div>
         </div>
-        <p class="font-dg text-[32px] text-theme-gray font-medium w-[50%] leading-[40px]">
-            We specialize in <span class="font-mc text-[64px] font-normal text-theme-red">3</span> key areas: Impact funding, Wholesale funding, and Strategic finance, ensuring comprehensive solutions tailored to your needs.
+        <p class="font-dg text-[32px] text-theme-gray font-medium w-[70%] leading-[40px]">
+            We specialize in <span class="font-mc text-[64px] font-normal text-theme-red">3</span> areas: Impact funding, Wholesale funding, and Strategic finance, ensuring comprehensive solutions tailored to your needs to this – Our financial offerings are specialized to three key areas which are tailored in line with the risk profile and financial needs of our partners.
         </p>
     </div>
     <div class=" grid grid-cols-3 text-white ">
@@ -155,9 +152,34 @@
             </div>
         </div>
     </div>
-    <div class="bg-[url('/assets/images/windmill.svg')] bg-center bg-cover bg-fixed bg-clip-border bg-no-repeat py-[5%] px-[10%] font-dg text-white h-[20%]">
-
+</section>
+<section class="bg-[url('/assets/images/TA.png')] bg-center bg-cover h-[50%]   bg-clip-border bg-no-repeat text-white m-auto font-dg px-[10%] py-[5%]">
+    <div class="h-[30%] flex flex-col items-left space-y-4">
+        <h2 class="font-semibold text-[70px]  w-[60%]">Technical Assistance and Capacity Building</h2>
+        <div class="flex flex-row w-[8%] gap-3">
+            <div class="w-[20%] h-[4px] bg-theme-green"></div>
+            <div class="w-[80%] h-[4px] bg-theme-green"></div>
+        </div>
     </div>
+    <article class="font-dg font-medium text-white text-[26px] w-3/4 space-y-6">
+        <p>
+            At Denham &amp; Grey, we understand that achieving sustainable development goes beyond
+            financial investment. That&#39;s why we offer comprehensive technical assistance and
+            capacity-building services to empower our partners with the knowledge, skills, and
+            resources they need to succeed.
+        </p>
+        <p>
+            We provide support to our impact partners to build their capacity to manage risk, enhance efficiency, and drive long-term sustainable impact.
+        </p>
+        <p>
+            Denham &amp; Grey provides tailored support to our Impact Partner Institutions to develop
+            the technical and financial capacity required to structure sustainable financing towards
+            transactions and initiatives that align with the SDGs.
+        </p>
+         <p>
+            Our technical assistance and capacity building supports our Impact partners in various forms such as structuring green transactions, developing financial and non-financial offerings to drive financial inclusion across the country and aiming to optimize impact on any of the SGDs.
+        </p>
+    </article>
 </section>
 <section class="gap-0 custom-container py-8 px-[10%]">
     <div class="pb-3">
@@ -181,22 +203,21 @@
 </section>
 <section class="bg-[url('/assets/images/contact.svg')] bg-center bg-cover bg-fixed  bg-no-repeat py-[5%] px-[20%] font-dg text-white mx-auto">
     <div class="max-w-[1440px] flex flex-row gap-6">
-        <div class="w-[50%]">
-            <h3 class="font-semibold text-[50px] leading-[60px]">Get Involved With Denham &amp; Grey</h3>
-            <p class="font-bold text-[24px] w-[80%]">Connect with Denham &amp; Grey Financial Solutions today.</p>
+        <div class="w-[40%]">
+            <h3 class="font-semibold text-[50px] leading-[60px]">Partner With Us</h3>
         </div>
-        <div class="w-50%">
+        <div class="w-[60%]">
             <form @submit="" class="space-y-3">
                 <h3 class="font-dg font-bold text-[18px]">
                     How can we help you?
                 </h3>
                 <div class="space-y-3">
                     <div class="flex flex-row gap-3">
-                        <input type="text" id="name" v-model="name" class="bg-black border border-white text-gray-300 text-sm block w-full p-2.5 opacity-50" placeholder="Name" required>
-                        <input type="email" id="email" v-model="lastname" class="bg-black border border-white text-gray-300 text-sm block w-full p-2.5 opacity-50" placeholder="Email" required>
+                        <input type="text" id="name" v-model="name" class="bg-black border border-white text-gray-300 text-[24px] block w-full p-2.5 opacity-50" placeholder="Name" required>
+                        <input type="email" id="email" v-model="lastname" class="bg-black border border-white text-gray-300 text-[24px] block w-full p-2.5 opacity-50" placeholder="Email" required>
                     </div>
                     <div>
-                        <textarea id="message" v-model="message" rows="4" class="block p-2.5 w-full text-sm text-gray-400 bg-black border border-white opacity-50" placeholder="Tell us what you want"></textarea>
+                        <textarea id="message" v-model="message" rows="4" class="block p-2.5 w-full text-[24px] text-gray-400 bg-black border border-white opacity-50" placeholder="Tell us what you want"></textarea>
                     </div>
                 </div>
                 <div class="float-right">

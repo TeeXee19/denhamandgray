@@ -6,20 +6,14 @@
         About Us
     </div>
 </section>
-<section class="grid md:grid-cols-2 gap-3 py-16 px-[12%]">
+<section class="grid md:grid-cols-2 gap-3 py-16 px-[12%] items-center">
     <div>
         <img src="/assets/images/exp.svg" class="" alt="">
     </div>
-    <div class="space-y-4">
-        <div class="space-y-4">
-            <h5 class="font-dg text-[48px] leading-[1em] font-medium">Our Expertise in Institutional Lending and Business Development</h5>
-            <p class="font-dg font-medium text-theme-gray text-[24px] leading-auto">Denham &amp; Grey is an assembly of institutional lending and business development experts with unparalleled combined experience in the Nigerian Wholesale Banking Industry. Founded by banking professionals who were among the pioneer staff in the first wholly licensed wholesale financial institution, Denham &amp; Grey is made up of black professional advisors and financiers of wholesale lending in Nigeria. Our Management team and Directors bring extensive experience in commercial, retail, and wholesale banking.</p>
-        </div>
         <div class="space-y-4">
             <h5 class="font-dg text-[48px] leading-[1em] font-medium">Our Foundation and Operations</h5>
-            <p class="font-dg font-medium text-theme-gray text-[24px] leading-auto">Established in 2021, Denham &amp; Grey was initially registered with 100% ownership held in trust by Mr. Zayad Ayuba Tumba for David Chinda, the founder. The full ownership was transferred to David Chinda as the firm prepared to commence operations in 2023. Our primary location is in Lagos State, the financial capital of Nigeria, allowing us easy access to our clients, critical market information, and effective client monitoring.</p>
+            <p class="font-dg font-medium text-theme-gray text-[24px] leading-auto">Established in 2021, Denham &amp; Grey commenced full operations in 2024. Our primary location is in Lagos State, the financial capital of Nigeria, allowing us easy access to our clients, critical market information, and effective client monitoring with a secondary location in the Federal Capital Territory of Nigeria. </p>
         </div>
-    </div>
 
 </section>
 <section class="text-center font-dg bg-[url('/assets/images/philosophy.svg')] bg-no-repeat bg-cover bg-fixed py-[5%]">
@@ -30,7 +24,7 @@
         <div class="relative group">
             <img src="/assets/images/vision.svg" alt="" class="w-full h-auto hover:opacity-75 transition-opacity duration-300">
             <h3 class="absolute inset-0 flex flex-col items-center justify-center text-center font-dg text-[32px] font-medium group-hover:hidden">
-                <img src="/assets/images/brick.svg" />
+                <img src="/assets/images/logo-yellow.png" />
                 Our Vision
             </h3>
             <div class="absolute bg-white p-8 inset-0 flex flex-col text-left  opacity-0  hover:opacity-70 transition-opacity duration-300 group-hover:opacity-90 text-theme-gray">
@@ -42,7 +36,7 @@
         <div class="relative group">
             <img src="/assets/images/mission.svg" alt="" class="w-full h-auto hover:opacity-75 transition-opacity duration-300">
             <h3 class="absolute inset-0 flex flex-col items-center justify-center text-center font-dg text-[32px] font-medium group-hover:hidden">
-                <img src="/assets/images/solar_map.svg" />
+                <img src="/assets/images/logo-yellow.png" />
                 Our Mission
             </h3>
             <div class="absolute bg-white p-8 inset-0 flex flex-col text-left  opacity-0  hover:opacity-70 transition-opacity duration-300 group-hover:opacity-90 text-theme-gray">
@@ -54,7 +48,7 @@
         <div class="relative group">
             <img src="/assets/images/values.svg" alt="" class="w-full h-auto hover:opacity-75 transition-opacity duration-300">
             <h3 class="absolute inset-0 flex flex-col items-center justify-center text-center font-dg text-[32px] font-medium group-hover:hidden">
-                <img src="/assets/images/cube.svg" />
+                <img src="/assets/images/logo-yellow.png" />
                 Our Values
             </h3>
             <div class="absolute bg-white p-8 inset-0 flex flex-col text-left  opacity-0  hover:opacity-70 transition-opacity duration-300 group-hover:opacity-90 text-theme-gray">
@@ -65,65 +59,7 @@
         </div>
     </div>
 </section>
-<section class="text-center font-dg">
-    <div class="h-[30%] flex flex-col items-center space-y-4 pt-[6%] mb-[3%]">
-        <h2 class="font-semibold text-[64px] leading-[50px]">Our Three Pillars of Service</h2>
-        <div class="flex flex-row w-[8%] gap-3">
-            <div class="w-[20%] h-[4px] bg-theme-green"></div>
-            <div class="w-[80%] h-[4px] bg-theme-green"></div>
-        </div>
-        <p class="font-dg text-[32px] text-theme-gray font-medium w-[50%] leading-[40px]">
-            We specialize in <span class="font-mc text-[64px] font-normal text-theme-red">3</span> key areas: Impact funding, Wholesale funding, and Strategic finance, ensuring comprehensive solutions tailored to your needs.
-        </p>
-    </div>
-    <div class=" grid grid-cols-3 text-white ">
-        <div class="relative group">
-            <img src="/assets/images/pillar1.svg" alt="" class="w-full h-auto hover:opacity-75 transition-opacity duration-300">
-            <h3 class="absolute inset-0 flex items-center justify-center text-center font-dg text-[32px] font-semibold group-hover:hidden">
-                Impact Funding
-            </h3>
-            <div class="absolute p-8 inset-0 flex flex-col text-left  opacity-0  hover:opacity-70 transition-opacity duration-300 group-hover:opacity-70 ">
-                <h3 class="font-dg text-[32px] font-semibold hover:hidden">
-                    Impact Funding
-                </h3>
-                <p class="font-dg font-medium text-[28px] leading-8">
-                    Impact driven funding will be made available to drive
-                    financing in specific segments of the economy, with a
-                    focus on women, start-ups, green projects, and other
-                    segments as deemed necessary.
-                </p>
-            </div>
-        </div>
-        <div class="relative group">
-            <img src="/assets/images/pillar2.svg" alt="" class="w-full h-auto hover:opacity-75 transition-opacity duration-300">
-            <h3 class="absolute inset-0 flex items-center justify-center text-center font-dg text-[32px] font-semibold group-hover:hidden">
-                Wholesale Funding
-            </h3>
-            <div class="absolute p-8 inset-0 flex flex-col text-left  opacity-0  hover:opacity-70 transition-opacity duration-300 group-hover:opacity-70 ">
-                <h3 class="font-dg text-[32px] font-semibold hover:hidden">
-                    Wholesale Funding
-                </h3>
-                <p class="font-dg font-medium text-[28px] leading-8">
-                    We are a niche firm with a focus on providing flexible and innovative financing solutions to licensed and regulated financial institutions in Africa with a track record of good corporate governance, competent management, and prudent risk management practices.
-                </p>
-            </div>
-        </div>
-        <div class="relative group">
-            <img src="/assets/images/pillar3.svg" alt="" class="w-full h-auto hover:opacity-75 transition-opacity duration-300">
-            <h3 class="absolute inset-0 flex items-center justify-center text-center font-dg text-[32px] font-semibold group-hover:hidden">
-                Strategic Finance
-            </h3>
-            <div class="absolute p-8 inset-0 flex flex-col text-left  opacity-0  hover:opacity-70 transition-opacity duration-300 group-hover:opacity-70 ">
-                <h3 class="font-dg text-[32px] font-semibold hover:hidden">
-                    Strategic Finance
-                </h3>
-                <p class="font-dg font-medium text-[28px] leading-8">
-                    Our partners require funding to enable them achieve their strategic objectives from acquisition to other financial institutions to branch expansion, we are here to support your strategies to ensure you achieve your mandates.
-                </p>
-            </div>
-        </div>
-    </div>
-</section>
+
 <section class="text-center font-dg">
     <div class="h-[30%] flex flex-col items-center space-y-4 pt-[6%] mb-[3%]">
         <h2 class="font-semibold text-[64px] leading-[50px]">Meet Our Team</h2>
@@ -132,12 +68,12 @@
             <div class="w-[80%] h-[4px] bg-theme-green"></div>
         </div>
         <p class="font-dg text-[32px] text-theme-gray font-medium w-[50%] leading-[40px]">
-            Our team at Denham &amp; Grey consists of experienced professionals dedicated to providing innovative financial solutions. Together, we leverage our expertise to drive success and lead in Nigeria's financial sector.
+          Our team at Denham &amp; Grey consists of experienced professionals dedicated to providing innovative financial solutions to our Impact Partners. Together, we leverage our expertise to drive impact in Nigeria’s development finance sector
         </p>
     </div>
     <div class="bg-theme-gray-2 px-[10%] py-[3%]">
       <h3 class="font-dg font-semibold my-4 text-[40px]">Board of Directors</h3>
-      <div class="grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+      <div class="grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center justify-center">
         <div
           v-for="person in people"
           :key="person.name"
@@ -205,6 +141,76 @@
       </div>
     </div>
 </section>
+<section class="text-center font-dg">
+    <div class="h-[30%] flex flex-col items-center space-y-4 pt-[6%] mb-[3%]">
+        <h2 class="font-semibold text-[64px] leading-[50px]">Our Three Pillars of Service</h2>
+        <div class="flex flex-row w-[8%] gap-3">
+            <div class="w-[20%] h-[4px] bg-theme-green"></div>
+            <div class="w-[80%] h-[4px] bg-theme-green"></div>
+        </div>
+        <p class="font-dg text-[32px] text-theme-gray font-medium w-[50%] leading-[40px]">
+            We specialize in <span class="font-mc text-[64px] font-normal text-theme-red">3</span> key areas: Impact funding, Wholesale funding, and Strategic finance, ensuring comprehensive solutions tailored to your needs.
+        </p>
+    </div>
+    <div class=" grid grid-cols-3 text-white ">
+        <div class="relative group">
+            <img src="/assets/images/pillar1.svg" alt="" class="w-full h-auto hover:opacity-75 transition-opacity duration-300">
+            <h3 class="absolute inset-0 flex items-center justify-center text-center font-dg text-[32px] font-semibold group-hover:hidden">
+                Impact Funding
+            </h3>
+            <div class="absolute p-8 inset-0 flex flex-col text-left  opacity-0  hover:opacity-70 transition-opacity duration-300 group-hover:opacity-70 ">
+                <h3 class="font-dg text-[32px] font-semibold hover:hidden">
+                    Impact Funding
+                </h3>
+                <p class="font-dg font-medium text-[28px] leading-8">
+                    Impact driven funding will be made available to drive
+                    financing in specific segments of the economy, with a
+                    focus on women, start-ups, green projects, and other
+                    segments as deemed necessary.
+                </p>
+            </div>
+        </div>
+        <div class="relative group">
+            <img src="/assets/images/pillar2.svg" alt="" class="w-full h-auto hover:opacity-75 transition-opacity duration-300">
+            <h3 class="absolute inset-0 flex items-center justify-center text-center font-dg text-[32px] font-semibold group-hover:hidden">
+                Wholesale Funding
+            </h3>
+            <div class="absolute p-8 inset-0 flex flex-col text-left  opacity-0  hover:opacity-70 transition-opacity duration-300 group-hover:opacity-70 ">
+                <h3 class="font-dg text-[32px] font-semibold hover:hidden">
+                    Wholesale Funding
+                </h3>
+                <p class="font-dg font-medium text-[28px] leading-8">
+                    We are a niche firm with a focus on providing flexible and innovative financing solutions to licensed and regulated financial institutions in Africa with a track record of good corporate governance, competent management, and prudent risk management practices.
+                </p>
+            </div>
+        </div>
+        <div class="relative group">
+            <img src="/assets/images/pillar3.svg" alt="" class="w-full h-auto hover:opacity-75 transition-opacity duration-300">
+            <h3 class="absolute inset-0 flex items-center justify-center text-center font-dg text-[32px] font-semibold group-hover:hidden">
+                Strategic Finance
+            </h3>
+            <div class="absolute p-8 inset-0 flex flex-col text-left  opacity-0  hover:opacity-70 transition-opacity duration-300 group-hover:opacity-70 ">
+                <h3 class="font-dg text-[32px] font-semibold hover:hidden">
+                    Strategic Finance
+                </h3>
+                <p class="font-dg font-medium text-[28px] leading-8">
+                    Our partners require funding to enable them achieve their strategic objectives from acquisition to other financial institutions to branch expansion, we are here to support your strategies to ensure you achieve your mandates.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="grid md:grid-cols-2 gap-3 py-16 px-[12%] items-center">
+  <div>
+      <img src="/assets/images/exp-b.svg" class="" alt="">
+  </div>
+      <div class="space-y-4">
+          <h5 class="font-dg lg:text-[36px] xl:text-[48px] leading-[1em] font-medium">Our Expertise in Institutional Lending and Business Development</h5>
+          <p class="font-dg font-medium text-theme-gray text-[24px] leading-auto">At Denham &amp; Grey, our team of seasoned professionals with expertise in institutional lending and development finance, drive positive change by providing wholesale medium to long term financing towards funding initiatives through our Impact Partner Institutions (licensed and regulated financial institutions) that align with the Sustainable Development Goals (SDGs). 
+            Denham &amp; Grey is an assembly of experienced banking and development finance professionals with unparalleled combined experience in the Nigerian Finance Industry. Founded by banking professionals who were among the pioneer staff in the first wholly licensed wholesale development finance institution, Denham &amp; Grey is made up of Management and Directors with extensive experience in risk management, finance, treasury, business development, audit, compliance and impact investment.</p>
+      </div>
+
+</section>
 <section class="flex flex-col items-center text-center font-dg bg-[url('/assets/images/philosophy.svg')] bg-no-repeat bg-cover bg-fixed py-[5%] gap-6 mb-[3%]">
     <h2 class="font-medium text-[48px] text-white w-[50%] leading-[auto]">Ready to take your business to the next level? Click below to get started with our expert financial solutions.</h2>
     <button class="bg-white px-[5%] py-4  mx-auto">PARTNER WITH US</button>
@@ -249,6 +255,16 @@ const people: Person[] = [
     name: "Victor Onoja Victor",
     title: "Non-executive Director",
     imageSrc: "/assets/images/victor.svg",
+  },
+  {
+    name: "Awa Michael",
+    title: "Head Internal Audit, Control and Compliance",
+    imageSrc: "/assets/images/awa.svg",
+  },
+  {
+    name: "Daniel Ijudai Denis ",
+    title: "Head Human Resources and Administration",
+    imageSrc: "/assets/images/daniel.svg",
   },
 ];
 

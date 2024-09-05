@@ -10,9 +10,9 @@
                 </div>
                 
             </div>
-            <h3 class="font-dg text-[32px] py-4 font-bold capitalize w-3/4">{{heading}}</h3>
+            <h3 class="font-dg text-[32px] py-4 font-bold capitalize w-full">{{heading}}</h3>
                 <div class="">
-                    <p class="font-dg text-[20px] text-grayTheme-gray-600 md:w-3/4 line-clamp-4" v-html="description"></p><NuxtLink :to="href" class="text-theme-green">Read More</NuxtLink>
+                    <p class="font-dg text-[20px] text-grayTheme-gray-600 md:w-full line-clamp-4" v-html="description"></p><span><NuxtLink :to="href" class="text-theme-green">Read More</NuxtLink></span>
                 </div>
     </NuxtLink>
     

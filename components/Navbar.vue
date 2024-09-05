@@ -76,8 +76,8 @@ const menuItems = ref([{
         path: '/'
     },
     {
-        name: 'Global Impact',
-        path: '/global-impact'
+        name: 'Impact and Sustainability',
+        path: '/impact-and-sustainability'
     }
 ]);
 

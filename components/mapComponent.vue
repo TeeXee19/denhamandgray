@@ -269,7 +269,6 @@ function moveInfoBox(event) {
 }
 
 .region:hover {
-  fill: #ffcc00;
   cursor: pointer;
 }
 

@@ -1,5 +1,5 @@
 <template>
-<section class="bg-[url('/assets/images/about.svg')] bg-center bg-cover bg-fixed  bg-clip-border bg-no-repeat text-center text-white items-center m-auto justify-center font-dg space-y-0 flex flex-col py-[5%]">
+<section class="bg-[url('/assets/images/handshake.svg')] bg-center bg-cover h-[500px]  bg-clip-border bg-no-repeat text-center text-white items-center m-auto justify-center font-dg space-y-0 flex flex-col py-[5%]">
     <h3 class="text-[96px]">CONTACT US</h3>
     <div class="font-bold text-[20px]">
         <NuxtLink class="text-theme-green" to="/">Home &nbsp; >> &nbsp;</NuxtLink>
@@ -53,7 +53,7 @@
             <img src="/assets/images/email.svg" />
             <div class="font-dg font-semibold leading-tight">
               <h3 class="text-[16px]">Our Email</h3>
-              <span class="font-medium text-[14px]">info@denhamangrey.com</span>
+              <a href="mailto:info@denhamangrey.com" class="font-medium text-[14px]">info@denhamangrey.com</a>
             </div>
           </div>
           
@@ -61,7 +61,7 @@
             <img src="/assets/images/phone.svg" />
             <div class="font-dg font-semibold leading-tight">
               <h3 class="text-[16px]">Our Phone</h3>
-              <span class="font-medium text-[14px]">info@denhamangrey.com</span>
+              <a href="tel:+2348032270335" class="font-medium text-[14px]">+234 803 227 0335</a>
             </div>
           </div>
           <h3 class="font-dg font-bold text-[14px]">Socials</h3>
