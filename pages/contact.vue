@@ -75,7 +75,7 @@
             <NuxtLink to="/">
               <img src="/assets/images/instagram.svg" alt="Instagram" class="h-5 w-5" />
             </NuxtLink>
-            <NuxtLink to="/"">
+            <NuxtLink to="/">
               <img src="/assets/images/facebook.svg" alt="Facebook" class="h-5 w-5" />
             </NuxtLink>
           </div>

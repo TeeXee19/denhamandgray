@@ -18,11 +18,11 @@
             </p>
         </div>
         <div class="flex flex-row items-center justify-center">
-        <mapComponent class="w-[40%]"/>    
-        <div class="w-[60%] space-y-[18%]">
-            <div class="flex flex-row gap-2 h-fit items-center">
-                <h3 class=" font-bold font-in text-[36px] w-[80%]">Financial Institutions</h3>
-                <img src="/assets/images/bank.svg" class="w-[20%]"/>
+        <mapComponent class="w-[50%]"/>    
+        <div class="w-[50%] space-y-[18%]">
+            <div class="flex flex-row gap-4 h-fit items-center">
+                <h3 class=" font-bold font-in text-[48px] w-[70%]">Financial Institutions</h3>
+                <img src="/assets/images/bank.svg" class="w-[30%]"/>
             </div>
             <div class="flex justify-start items-center space-x-8">
                 <div class="font-in font-bold leading-tight">

@@ -126,7 +126,7 @@
 </section>
 <section class="text-center font-dg">
     <div class="h-[30%] flex flex-col items-center space-y-4 pt-[6%] mb-[3%]">
-        <h2 class="font-semibold text-[64px] leading-[50px]">Met Our Team</h2>
+        <h2 class="font-semibold text-[64px] leading-[50px]">Meet Our Team</h2>
         <div class="flex flex-row w-[8%] gap-3">
             <div class="w-[20%] h-[4px] bg-theme-green"></div>
             <div class="w-[80%] h-[4px] bg-theme-green"></div>
