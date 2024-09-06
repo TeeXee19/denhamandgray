@@ -44,9 +44,7 @@
                     <img src="/assets/images/woman.svg" />
                     <div class="font-in text-white font-semibold leading-8">
                         <h3 class="text-[20px]"><span class="text-blue-500">70%</span> of Beneficiaries are women
-                            <!-- <progress value="70" max="100" class="w-full h-2 rounded-lg bg-blue-800"></progress> -->
                             <meter value="0.7" class="w-full h-4 border-0 rounded-lg white">70%</meter>
-
                         </h3>
                     </div>
                 </div>

@@ -73,7 +73,7 @@ const menuItems = ref([{
     },
     {
         name: 'Career',
-        path: '/'
+        path: '/career'
     },
     {
         name: 'Impact and Sustainability',

@@ -29,7 +29,8 @@
             </h3>
             <div class="absolute bg-white p-8 inset-0 flex flex-col text-left  opacity-0  hover:opacity-70 transition-opacity duration-300 group-hover:opacity-90 text-theme-gray">
                 <p class="font-dg font-medium text-[28px] leading-8">
-                    To lead Nigeria's wholesale financial sector with excellence, trust, and innovation, setting the standard for institutional lending and business development.
+                  To be the leading impact investment firm in Nigeria, fostering sustainable
+                  development through investments that contribute to a prosperous and equitable future.
                 </p>
             </div>
         </div>
@@ -41,7 +42,7 @@
             </h3>
             <div class="absolute bg-white p-8 inset-0 flex flex-col text-left  opacity-0  hover:opacity-70 transition-opacity duration-300 group-hover:opacity-90 text-theme-gray">
                 <p class="font-dg font-medium text-[28px] leading-8">
-                    Empowering businesses with innovative financial solutions in Nigeria's wholesale banking industry, fostering long-term success through expertise and partnership.
+                  To mobilize capital for Nigeria's SDGs with financial solutions that empower communities, drive growth, and protect the environment.
                 </p>
             </div>
         </div>
@@ -53,7 +54,7 @@
             </h3>
             <div class="absolute bg-white p-8 inset-0 flex flex-col text-left  opacity-0  hover:opacity-70 transition-opacity duration-300 group-hover:opacity-90 text-theme-gray">
                 <p class="font-dg font-medium text-[28px] leading-8">
-                    We value integrity, striving for excellence, fostering collaboration, embracing innovation, and always prioritizing our clients' needs in every solution we provide.
+                  We value integrity, striving for excellence, fostering collaboration, embracing innovation, and always prioritizing our clients' needs in every solution we provide.
                 </p>
             </div>
         </div>
