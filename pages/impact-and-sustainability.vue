@@ -8,17 +8,20 @@
 </section>
 <section class="py-[2%] px-[10%] font-dg  ">
     <div class="h-[30%] flex flex-col items-center space-y-4 pt-[3%] mb-[3%]">
-        <h2 class="font-semibold text-[64px] leading-[50px]">Our Impact Story</h2>
+        <h2 class="font-semibold text-[64px] leading-[50px]">Our Commitment to Sustainability</h2>
         <div class="flex flex-row w-[8%] gap-3">
             <div class="w-[20%] h-[4px] bg-theme-green"></div>
             <div class="w-[80%] h-[4px] bg-theme-green"></div>
         </div>
-        <p class="font-dg text-[32px] text-theme-gray font-medium w-[70%] leading-[40px]">
-            A client’s urgent issue was resolved within 24 hours thanks to our rapid response and efficient processes, reinforcing their trust in our swift and effective solutions.
+        <p class="font-dg text-[24px] text-theme-gray font-medium w-[70%] leading-[40px]">
+            Sustainability is at the heart of everything we do. We believe that responsible investment is key to building a resilient and prosperous future for Nigeria. Our focus is on financing projects and businesses that align with the Sustainable Development Goals (SDGs), promoting economic growth that benefits people and protects the planet.
+        </p>
+        <p class="font-dg text-[24px] text-theme-gray font-medium w-[70%] leading-[40px]">
+            Through our investments, we support renewable energy, financing for SMEs, financial inclusion for women, energy efficiency, and more, ensuring that every project we finance contributes to environmental stewardship and long-term prosperity. We work closely with our partners to reduce environmental risks, improve resource efficiency, and foster inclusive development.
         </p>
     </div>
 </section>
-<section class="py-[4%] px-[6%] font-dg  bg-[url('/assets/images/windmill.png')] bg-cover  bg-clip-border bg-no-repeat bg-no-repeat">
+<section class="py-[4%] md:px-[2%] lg:px-[2%] xl:px-[4%] font-dg  bg-[url('/assets/images/tractor-black.svg')] bg-cover  bg-clip-border bg-no-repeat bg-no-repeat">
     <div class="flex flex-row items-center justify-center ">
         <div class="w-[50%]">
             <mapComponent />
@@ -85,7 +88,7 @@
         </div>
     </div>
 </section>
-<section class="grid md:grid-cols-2 gap-3 py-16 px-[12%] items-center">
+<!-- <section class="grid md:grid-cols-2 gap-3 py-16 px-[12%] items-center">
 
     <div class="space-y-4">
         <h5 class="font-dg text-[48px] leading-[1em] font-medium">Our Commitment to Sustainability</h5>
@@ -96,7 +99,7 @@
     <div>
         <img src="/assets/images/man-typing.svg" class="" alt="">
     </div>
-</section>
+</section> -->
 </template>
 
 <script lang="ts" setup>
