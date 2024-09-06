@@ -91,7 +91,7 @@
           >
             <div class="bg-white p-2">
               <h3 class="font-dg text-[16px] font-semibold text-black">
-                Know more
+                Read More
               </h3>
             </div>
           </div>
@@ -126,7 +126,7 @@
           >
             <NuxtLink class="bg-white p-2">
               <h3 class="font-dg text-[16px] font-semibold text-black">
-                Read more
+                Read More
               </h3>
             </NuxtLink>
           </div>

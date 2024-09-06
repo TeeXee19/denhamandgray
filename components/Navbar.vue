@@ -59,14 +59,16 @@
   
 <script lang="ts" setup>
 // Menu Items
-const menuItems = ref([{
+const menuItems = ref([
+    {
+        name: 'Home',
+        path: '/'
+    },
+    {
         name: 'About Us',
         path: '/about'
     },
-    {
-        name: 'FAQ',
-        path: '/'
-    },
+    
     {
         name: 'Contact Us',
         path: '/contact'
@@ -78,7 +80,10 @@ const menuItems = ref([{
     {
         name: 'Impact and Sustainability',
         path: '/impact-and-sustainability'
-    }
+    },{
+        name: 'FAQ',
+        path: '/'
+    },
 ]);
 
 const emit = defineEmits(['update:navbarHeight']);
