@@ -87,6 +87,9 @@
             </div>
         </div>
     </div>
+    <div class="font-bold font-italic text-[32px] text-white w-[80%] mx-auto py-[5%]">
+        "Our success with these pilot institutions is just the beginning. We are poised to onboard 10 more partners this year, expanding our impact and ensuring that every region in Nigeria benefits from inclusive and sustainable financing."
+    </div>
 </section>
 </template>
 
