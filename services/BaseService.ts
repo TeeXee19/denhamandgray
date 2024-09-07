@@ -12,20 +12,20 @@ interface UserResponse {
     code: number;
 }
 
-export interface UserServiceInterface {
-    user(input: CreateUserInput): Promise<UserResponse>
+export interface BaseServiceInterface {
+    summary(): Promise<UserResponse>
 }
 
-export class UserService implements UserServiceInterface {
+export class BaseService implements BaseServiceInterface {
     client: AxiosInstance;
 
     constructor(client: AxiosInstance) {
         this.client = client;
     }
 
-    async user(input: CreateUserInput): Promise<UserResponse> {
+    async summary(): Promise<UserResponse> {
         try {
-            const response = await this.client.post('/contact/save', input) 
+            const response = await this.client.get('/summary') 
             return response.data   
         } catch (error) {
             throw error 

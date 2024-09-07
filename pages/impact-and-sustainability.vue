@@ -27,9 +27,9 @@
             <mapComponent />
         </div>
         <div class="w-[50%] border-[10px] border-theme-gray p-10 space-y-[5%] float-center">
-           <div class="mt-[-8.5%] flex justify-center">
-            <h3 class="text-white text-center font-bold font-in text-[26px] bg-[#2a2a2a] w-1/2"> IMPACT</h3>
-           </div>
+            <div class="mt-[-8.5%] flex justify-center">
+                <h3 class="text-white text-center font-bold font-in text-[26px] bg-[#2a2a2a] w-1/2"> IMPACT</h3>
+            </div>
             <div class="grid grid-cols-2 gap-14">
                 <div class="flex gap-4 h-fit items-center">
                     <img src="/assets/images/co2.svg" />
@@ -40,72 +40,72 @@
                 <div class="flex gap-4 h-fit items-center">
                     <img src="/assets/images/bank-leaf.svg" />
                     <div class="font-in text-white font-semibold leading-8">
-                        <h3 class="text-[20px]"><span class="text-blue-500">10</span> Bank branches Transitioned to Green Energy</h3>
+                        <h3 class="text-[20px]"><span class="text-blue-500">{{summary.bankBranchesTransitioned}}</span> Bank branches Transitioned to Green Energy</h3>
                     </div>
                 </div>
                 <div class="flex gap-4 h-fit items-center">
                     <img src="/assets/images/woman.svg" />
                     <div class="font-in text-white font-semibold leading-8">
-                        <h3 class="text-[20px]"><span class="text-blue-500">70%</span> of Beneficiaries are women
-                            <meter value="0.7" class="w-full h-4 border-0 rounded-lg white">70%</meter>
+                        <h3 class="text-[20px]"><span class="text-blue-500">{{summary.femaleBeneficiaries}}</span> of Beneficiaries are women
+                            <meter :value="meterBen" class="w-full h-4 border-0 rounded-lg white">{{summary.femaleBeneficiaries}}</meter>
                         </h3>
                     </div>
                 </div>
                 <div class="flex gap-4 h-fit items-center">
                     <img src="/assets/images/world-leaf.svg" />
                     <div class="font-in text-white font-semibold leading-8">
-                        <h3 class="text-[20px]"><span class="text-blue-500">50%</span> of Transactions Financed are Green
-                            <meter value="0.5" class="w-full h-4 border-0 rounded-lg white">50%</meter>
+                        <h3 class="text-[20px]"><span class="text-blue-500">{{summary.greenTransactions}}</span> of Transactions Financed are Green
+                            <meter :value="meterGreen" class="w-full h-4 border-0 rounded-lg white">{{summary.greenTransactions}}</meter>
                         </h3>
                     </div>
                 </div>
                 <div class="flex gap-4 h-fit items-center">
                     <img src="/assets/images/kiosk.svg" />
                     <div class="font-in text-white font-semibold leading-8">
-                        <h3 class="text-[20px]"><span class="text-blue-500">1000</span> MSME’s Financed</h3>
+                        <h3 class="text-[20px]"><span class="text-blue-500">{{summary.businessesFinanced}}</span> MSME’s Financed</h3>
                     </div>
                 </div>
                 <div class="flex gap-4 h-fit items-center">
                     <img src="/assets/images/coins.svg" />
                     <div class="font-in text-white font-semibold leading-8">
-                        <h3 class="text-[20px]"><span class="text-blue-500">&#8358;300 Million</span> Amount Disbursed</h3>
+                        <h3 class="text-[20px]"><span class="text-blue-500">{{summary.amountDisbursed}}</span> Amount Disbursed</h3>
                     </div>
                 </div>
                 <div class="flex gap-4 h-fit items-center">
                     <img src="/assets/images/hand-naira.svg" />
                     <div class="font-in text-white font-semibold leading-8">
-                        <h3 class="text-[20px]"><span class="text-blue-500">&#8358;5 billion</span> Approved for Onboarded Banks</h3>
+                        <h3 class="text-[20px]"><span class="text-blue-500">{{summary.amountApproved}}</span> Approved for Onboarded Banks</h3>
                     </div>
                 </div>
                 <div class="flex gap-4 h-fit items-center">
                     <img src="/assets/images/handcase.svg" />
                     <div class="font-in text-white font-semibold leading-8">
-                        <h3 class="text-[20px]"><span class="text-blue-500">3</span> Financial Institutions Onboarded</h3>
+                        <h3 class="text-[20px]"><span class="text-blue-500">{{summary.financialInstitutions}}</span> Financial Institutions Onboarded</h3>
                     </div>
                 </div>
-    
+
             </div>
         </div>
     </div>
 </section>
-<!-- <section class="grid md:grid-cols-2 gap-3 py-16 px-[12%] items-center">
-
-    <div class="space-y-4">
-        <h5 class="font-dg text-[48px] leading-[1em] font-medium">Our Commitment to Sustainability</h5>
-        <p class="font-dg font-medium text-theme-gray text-[24px] leading-auto">Sustainability is at the heart of everything we do. We believe that responsible investment is key to building a resilient and prosperous future for Nigeria. Our focus is on financing projects and businesses that align with the Sustainable Development Goals (SDGs), promoting economic growth that benefits people and protects the planet.</p>
-        <p class="font-dg font-medium text-theme-gray text-[24px] leading-auto">
-            Through our investments, we support renewable energy, financing for SMEs, financial inclusion for women, energy efficiency, and more, ensuring that every project we finance contributes to environmental stewardship and long-term prosperity. We work closely with our partners to reduce environmental risks, improve resource efficiency, and foster inclusive development.</p>
-    </div>
-    <div>
-        <img src="/assets/images/man-typing.svg" class="" alt="">
-    </div>
-</section> -->
 </template>
 
 <script lang="ts" setup>
+import {
+    StatusCode
+} from "~/helpers/statusCodes";
 
-    </script>
+const {
+    $services
+} = useNuxtApp();
 
-<style>
+const summary = ref('')
+const meterGreen = ref('')
+const meterBen = ref('')
+onMounted(async () => {
+    summary.value = await $services.base.summary();
+    meterGreen.value = parseInt(summary.value.greenTransactions, 10) / 100
+    meterBen.value = parseInt(summary.value.femaleBeneficiaries, 10) / 100
 
-    </style>
+});
+</script>

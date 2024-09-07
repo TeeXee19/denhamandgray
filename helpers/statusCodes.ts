@@ -1,4 +1,4 @@
 export enum StatusCode {
-    "SUCCESS" = 200,
+    "SUCCESS" = 201,
     "ERROR" = 400
 }

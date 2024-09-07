@@ -1,18 +1,18 @@
 import axios from "axios"
 import { type LoginServiceInterface, LoginService } from "./LoginService";
-import { type UserServiceInterface, UserService } from "./UserService";
+import { type BaseServiceInterface, BaseService } from "./BaseService";
 
 export interface ServiceProviderInterface {
     login: LoginServiceInterface;
-    user: UserServiceInterface;
+    base: BaseServiceInterface;
 }
 
 export const serviceProvider = (): ServiceProviderInterface => {
     const client = axios.create({
-        baseURL: ''
+        baseURL: 'https://denhamandgray-backend.onrender.com/'
     })
     return {
         login: new LoginService(client),
-        user: new UserService(client),
+        base: new BaseService(client),
     }
 }

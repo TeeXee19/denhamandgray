@@ -23,8 +23,8 @@ export class LoginService implements LoginServiceInterface {
 
     async login(input: LoginInput): Promise<LoginResponse> {
         try {
-            const response = await this.client.post('/user/login', input) 
-            return response.data   
+            const response = await this.client.post('/auth/login', input) 
+            return response 
         } catch (error) {
             throw error 
         }

@@ -63,26 +63,24 @@ const menuItems = ref([
     {
         name: 'Home',
         path: '/'
+    },{
+        name: 'Impact and Sustainability',
+        path: '/impact-and-sustainability'
     },
     {
         name: 'About Us',
         path: '/about'
-    },
-    
-    {
-        name: 'Contact Us',
-        path: '/contact'
     },
     {
         name: 'Career',
         path: '/career'
     },
     {
-        name: 'Impact and Sustainability',
-        path: '/impact-and-sustainability'
-    },{
         name: 'FAQ',
         path: '/'
+    },{
+        name: 'Contact Us',
+        path: '/contact'
     },
 ]);
 
