@@ -86,11 +86,11 @@
             class="w-3/4 h-auto transition-opacity duration-300 "
           />
       <div class="absolute inset-y-0 bg-black flex opacity-0 group-hover:opacity-50 transition-opacity duration-300 w-3/4"></div>
-          <NuxtLink to="/"
+          <div @click="openModal(person)"
             class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300"
           >
 
-          </NuxtLink>
+          </div>
     
           <!-- Name Card -->
           <div
@@ -117,11 +117,11 @@
             class="w-1/2 h-auto transition-opacity duration-300 "
           />
       <div class="absolute inset-y-0 bg-black flex opacity-0 group-hover:opacity-50 transition-opacity duration-300 w-1/2"></div>
-          <NuxtLink to="/"
+          <div @click="openModal(mgt)"
             class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300"
           >
-
-          </NuxtLink>
+        
+          </div>
     
           <!-- Name Card -->
           <div
@@ -130,6 +130,21 @@
             <h2>{{ mgt.name }}</h2>
             <p class="text-gray-500 text-sm font-normal">{{ mgt.title }}</p>
           </div>
+        </div>
+      </div>
+    </div>
+    <div v-if="showModal" class="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50">
+      <div class="bg-white p-8 rounded-lg shadow-lg max-w-[70%] mx-2" @click="closeModal">
+        <button @click="closeModal" class="absolute top-2 right-2 text-white font-bold text-xl">×</button>
+        <div class="flex flex-row gap-8">
+          <div class="w-[30%]">
+            <img :src="selectedPerson.imageSrc" alt="" class="w-full h-auto mb-4">
+            <h2 class="text-2xl font-semibold">{{ selectedPerson.name }}</h2>
+            <p class="text-gray-700">{{ selectedPerson.title }}</p>
+          </div>
+          <p class="w-[70%] text-left">
+            {{selectedPerson.description}}
+          </p>
         </div>
       </div>
     </div>
@@ -223,41 +238,49 @@ const people: Person[] = [
     name: "Shehu Jafiya",
     title: "Chairman and Independent Director",
     imageSrc: "/assets/images/shehu.svg",
+    description: "Shehu Jafiya is a distinguished figure in African finance, renowned for his exceptional leadership in the commercial banking sector spanning more than three decades. Shehu's journey is marked by his transformative roles across multiple financial institutions. Before his current role as Chairman of the Board of Directors of Denham and Grey, he has served as; Group Head, EcoBank Transnational Inc (ETI). Executive Director FCT/North EcoBank, Nigeria. General Manager, FCT/North EcoBank, Nigeria. Managing Director, North-East, Bank PHB Plc, Nigeria. Zonal Head, North-West, Oceanic Bank International Plc, Nigeria. Member, Group Commercial Bank (CMB) Management Committee Member, Group CMB Asset Liability Committee Member, Group CMB HR Committee Senior Management, Executive Committee (EXCO), North Bank Strategy Committee Management Credit Committee Member, Group Assets Remedial Committee As Chairman of the Board at Denham and Grey Capital, Shehu Jafiya bringsan unparalleled blend of experience, network and strategic thinking. Hisoverarching vision is to establish a financial landscape characterized byinnovation, customer-centricity, and sustainable growth."
   },
   {
     name: "Kazeem Abdulrasheed Olanrewaju",
     title: "Independent Non-executive Director",
     imageSrc: "/assets/images/kazeem.svg",
+    description: "Kazeem Abdulrasheed Olanrewaju is a transformative senior executive renowned for his visionary leadership and expertise across diverse sectors. With a proven track record spanning strategic planning, entrepreneurship, credit risk management, policy formulation, and microfinance banking, Kazeem excels at aligning corporate goals with comprehensive strategies. As the Founder of Alert Group Limited, Kazeem's forward-thinking vision centers on Microfinance development in Nigeria and Africa targeting over 5 million entrepreneurs. During his tenure as MD/CEO of Baobab Microfinance Ltd Nigeria, Kazeem propelled the institution to the top 3 in Nigeria. Overseeing steady growth in balance sheet size, customer retention, and profitability for five consecutive years. Mr. Kazeem holds a Ph.D. in Management Finance, M.Sc. in Financial Economics, and an MBA in Finance. Other professional affiliations include the Chartered Institute of Bankers of Nigeria, Certified Microfinance Banker, and more. He is a dedicated philanthropist through initiatives such as school sponsorship, scholarships, medical ambulance donations, and community service projects."
   },
   {
     name: "Sadiya El-Rufai",
     title: "Independent Non-executive Director",
     imageSrc: "/assets/images/sadiat.svg",
+    description: "Sadiya El-Rufai is an accomplished legal professional with a dynamic career spanning over 18 years, marked by her exceptional expertise in Corporate & Commercial Law and Arbitration. She is a qualified Chartered Secretary and a Data Protection Practitioner, which has enabled her to weave through both the public and private sector engagements successfully. Sadiya has worked at Dikko & Mahmoud law firm where she rose to the position of Partner. She has served as the Regional Legal Officer at the Bank of Industry, Nigeria. She has been DBN’s (Development Bank of Nigeria Plc) Legal Counsel since its inception, thereby helping shape policies, procedures, standardization of its credit appraisal processes, and board evaluation exercises towards good governance. Sadiya is an alumna of Ahmadu Bello University (ABU), Bayero University, and the Smith's School of Business at Queen's University in Canada. She currently serves as the Managing Partner at El-Rufai Attorneys at Law."
   },
   {
     name: "Dauda Madubu Milgwe",
     title: "Non-executive Director",
     imageSrc: "/assets/images/dauda.svg",
+    description: "Dauda Madubu Milgwe is an experienced public health expert with decades of experience in global public health and leadership. Dr. Madubu's professional career placed him at the center of crucial public health emergencies and efforts in Sub-Saharan Africa, playing leadership roles in the World Health Organisation’s (WHO) efforts in the surveillance, control, and management of the outbreak of epidemic-prone diseases like Ebola, Meningitis, Cholera, and Polio eradication in Nigeria. He has worked across the public and private sectors, carefully mobilizing support and coordinating the delivery of financial and programme support to the government across state and district levels in pursuit of enhanced healthcare delivery in Africa. In addition to his professional career, Dr. Madubu has maintained a keen interest in finance, specifically, building a resilient personal portfolio across different asset classes. He has enjoyed significant success in investing in money and capital markets through reputable intermediaries, promising entrepreneurs and businesses, and real estate. More recently, he is consolidating his knowledge and experience in finance with a careful foray into equity investments in promising financial and technology startups."
   },
   {
     name: "Dr Babangida Yohanna Kure",
     title: "Non-executive Director",
     imageSrc: "/assets/images/kure.svg",
+    description: "Dr. Babangida Yohanna Kure is an investment analyst and consultant with a versatile background across various sectors. His expertise spans venture capital investment, business angel investment, deal structuring, due diligence, strategic planning, and deal selection. Dr. Kure possesses outstanding communication, analytical, and numerical skills that allow him to delve deeply into client requirements and provide insightful solutions. He is currently the Managing Director of MyDeeds Ltd London and Abuja, and leads organizational services focused on trading agri-commodities on the international market and advising clients on debt and equity financing. His accomplishments include advising startups, securing substantial trade finance, and developing bespoke business growth strategies. He was also Managing Director of Go Africa Global London, and has worked at several other international establishments such as: Telefonica (Wayra) London, UK. R, BuroHappold Engineering London Dr. Babangida is also a Course Director and Lecturer at Kingston University London, UK, with several published works to his credit. This multifaceted expertise in investment analysis, consulting, and academia makes him a valuable asset as a Director at Denham and Grey."
   },
   {
     name: "Victor Onoja Victor",
     title: "Non-executive Director",
     imageSrc: "/assets/images/victor.svg",
+    description: "Mr. Victor Onoja Victor is a Chartered Engineer and Six Sigma professional. He also holds a Bachelor of Engineering Degree in Electrical and Electronic.He was appointed Chief Executive Officer of CENIT Energy Ghana in March 2020 after acting in this role for 2 years. Victor joined CENIT Energy in 2012 as Technical Director, having previously managed the construction of the CENIT Plant. Victor is an engineer with experience in power plant construction and management. He has worked in various operational, commercial, and management roles with Shandong Electric Power Construction Corporation (SEPCO III), GTG Energy, and Mechano SPM. Victor also worked on the National Integrated Power Project (NIPP) and the privatization process of all government-owned power plants in Nigeria as a consultant. These projects were geared towards the provision of sustainable energy for Nigeria and other West African countries. Victor brings a wealth of experience in Corporate Governance, Finance, and Risk Management to the Board."
   },
   {
     name: "Awa Michael",
     title: "Head Internal Audit, Control and Compliance",
     imageSrc: "/assets/images/awa.svg",
+    description: "Awa Michael is a chartered accounting professional with 11 years’ experience in auditing. She started her professional career at PricewaterhouseCoopers and moved to the Development Bank of Nigeria as the Specialist Financial Audit in 2018. In 2022 she became the Head Internal Audit Department of Impact Credit Guarantee Limited. She joined Denham and Grey in 2024 as the Head, Internal Audit, Control and Compliance. Awa holds a BSc. Accountancy from the University of Maiduguri, Borno Nigeria and holds an MBA from the Quantic School of Business and Technology, Washington, DC, USA. She is a member of the Institute of Internal Auditors (IIA), Institute of Chartered Accountants of Nigeria (ICAN), Association of Chartered Certified Accountants (ACCA) and is a Certified Information Systems Auditor (CISA). Awa is passionate about financial inclusion and engages in mentorship activities in her voluntary time."
   },
   {
     name: "Daniel Ijudai Denis ",
     title: "Head Human Resources and Administration",
     imageSrc: "/assets/images/daniel.svg",
+    description: "Daniel joined Denham and Grey Ltd in 2024 as the Head of Human Resources and Administration. Prior to joining Denham and Grey, Daniel worked in Business Strategy and Development in startups such as Scoutsoft, Phenom Sports and Hymam Synergy, with primary focus on business model development, capital raise, asset acquisition and management. Daniel has a BSc in Environmental Sciences from the American University of Nigeria, MSc in Energy Finance and Markets from the University of Edinburgh Business School and an MBA in Entrepreneurship and Innovation from the University of Abuja Business School. Daniel is passionate about Green Energy."
   },
 ];
 
@@ -266,13 +289,29 @@ const mgts: Person[] = [
     name: "David Chinda",
     title: "Managing Director",
     imageSrc: "/assets/images/david.svg",
+    description: "David brings over a decade of strategic expertise and hands-on experience in Commercial and Wholesale Banking, Credit Operations, Relationship Management, and Risk Management. As the Founder and Managing Director of Denham and Grey, David is committed to delivering exceptional results and value to clients while fostering a culture of innovation and excellence. David has worked with Access Bank in Credit Commercial, Retail and Public Sector Banking, Business Development, and Relationship Management. David worked as the Chief Operating Officer of Leadership Holdings, an Investment Management Company, and at the Development Bank of Nigeria specializing in wholesale Credit Operations, Risk Management, and Business Development. David has carried out due diligence on over 50 financial institutions and disbursed over $1.3bn with zero non-performing loans to 32 Financial Institutions at DBN. David holds a degree in Information Technology and an MSc in Finance & Investment (in view). David also holds a certificate in Sustainable Finance from Oxford University, a Certificate in Bank Analysis from Fitch Solutions, a Certificate in Loan Documentation, and is a Certified Development Finance Professional. David has received several commendations, including DBN’s Staff of the Year, Team Player of the Year, Winner of the DBN Innovation Challenge 2022, and an Award for Exceptional Performance - Access to Finance from the Vice President of the Federal Republic of Nigeria."
   },
   {
     name: "Bamidele Ibine FCA",
     title: "Chief Risk Officer",
     imageSrc: "/assets/images/bami.svg",
+    description: "Bamidele is an accomplished financial professional with a distinguished career spanning financial analysis, risk management, due diligence consulting, financial reporting, and strategic financial management. With a proven track record of driving insightful decision-making and optimizing financial operations, Bamidele's expertise has contributed to the success of prominent financial institutions for over 20 years. His primary experience is in Financial Control and Risk Management across five banks, including UBA Plc and FCMB Ltd. He has served as a Financial Analyst and Due Diligence Consultant at the Development Bank of Nigeria, contributing to the bank's prudent risk management practices. Bamidele is an MBA holder from Pan Atlantic University (Lagos Business School), a Chartered Accountant, and a graduate of Industrial Mathematics from the Federal University of Technology Akure with a second upper division. He is a Fellow of the Institute of Chartered Accountants of Nigeria (ICAN) and a Senior Associate Member of the Risk Management Association of Nigeria (RIMAN)."
   }
 ];
+
+const showModal = ref(false);
+const selectedPerson = ref<Person | null>(null);
+
+// Functions to handle modal
+const openModal = (person: Person) => {
+  selectedPerson.value = person;
+  showModal.value = true;
+};
+
+const closeModal = () => {
+  showModal.value = false;
+  selectedPerson.value = null;
+};
 </script>
 
 <style>
