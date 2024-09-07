@@ -59,9 +59,9 @@
                 At Denham &amp; Grey, our team of seasoned professionals with expertise in institutional lending and development finance, drive positive change by providing wholesale medium to long term financing towards funding initiatives through our Impact Partner Institutions (licensed and regulated financial institutions) that align with the Sustainable Development Goals (SDGs).
             </p>
             <div class="relative inline-block float-right">
-                <button class="bg-theme-green text-white py-3 px-14 ">
+                <NuxtLink to="/about" class="bg-theme-green text-white py-3 px-14 ">
                     Discover how we can empower your business
-                </button>
+                </NuxtLink>
                 <div class="absolute inset-0 flex justify-center items-center">
                     <div class="w-full h-px bg-theme-gray transform translate-y-7 translate-x-5"></div>
                     <div class="h-full w-px bg-theme-gray transform translate-x-1.5 translate-y-4"></div>
