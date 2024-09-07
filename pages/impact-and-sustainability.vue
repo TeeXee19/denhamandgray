@@ -106,6 +106,5 @@ onMounted(async () => {
     summary.value = await $services.base.summary();
     meterGreen.value = parseInt(summary.value.greenTransactions, 10) / 100
     meterBen.value = parseInt(summary.value.femaleBeneficiaries, 10) / 100
-
 });
 </script>
