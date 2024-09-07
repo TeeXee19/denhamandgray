@@ -7,7 +7,7 @@
 
         <div>
             <div class="relative inline-block">
-                <button class="bg-theme-green px-6 py-4  mx-auto">PARTNER WITH US</button>
+                <NuxtLink to="/#contact" class="bg-theme-green px-6 py-4  mx-auto">PARTNER WITH US</NuxtLink>
                 <div class="absolute inset-0 flex justify-center items-center">
                     <div class="w-full h-px bg-theme-gray transform translate-y-8 translate-x-5"></div>
                     <div class="h-full w-px bg-theme-gray transform translate-x-1 translate-y-5"></div>
@@ -201,7 +201,7 @@
         </div>
     </div>
 </section>
-<section class="bg-[url('/assets/images/contact.svg')] bg-center bg-cover bg-fixed  bg-no-repeat py-[5%] px-[20%] font-dg text-white mx-auto">
+<section class="bg-[url('/assets/images/contact.svg')] bg-center bg-cover bg-fixed  bg-no-repeat py-[5%] px-[20%] font-dg text-white mx-auto" id="contact">
     <div class="max-w-[1440px] flex flex-row gap-6">
         <div class="w-[40%]">
             <h3 class="font-semibold text-[50px] leading-[60px]">Partner With Us</h3>

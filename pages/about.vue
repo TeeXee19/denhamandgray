@@ -20,15 +20,15 @@
     <div class="h-[30%] flex flex-col items-center space-y-4  mb-[3%]">
         <h2 class="font-semibold text-[64px] text-white">Our Philosophy</h2>
     </div>
-    <div class="grid grid-cols-3 text-white gap-6 px-[17%]">
+    <div class="grid grid-cols-1 md:grid-cols-3 text-white gap-6 px-[17%]">
         <div class="relative group">
             <img src="/assets/images/vision.svg" alt="" class="w-full h-auto hover:opacity-75 transition-opacity duration-300">
             <h3 class="absolute inset-0 flex flex-col items-center justify-center text-center font-dg text-[32px] font-medium group-hover:hidden">
                 <img src="/assets/images/logo-yellow.png" />
                 Our Vision
             </h3>
-            <div class="absolute bg-white p-8 inset-0 flex flex-col text-left  opacity-0  hover:opacity-70 transition-opacity duration-300 group-hover:opacity-90 text-theme-gray">
-                <p class="font-dg font-medium text-[28px] leading-8">
+            <div class="absolute bg-white p-6 inset-0 flex flex-col text-left  opacity-0  hover:opacity-70 transition-opacity duration-300 group-hover:opacity-90 text-theme-gray">
+                <p class="font-dg font-medium md:text-[16px] lg:text-[14px] xl:text-[16px] 2xl:text-[24px] xl:leading-8">
                   To be the leading impact investment firm in Nigeria, fostering sustainable
                   development through investments that contribute to a prosperous and equitable future.
                 </p>
@@ -40,8 +40,8 @@
                 <img src="/assets/images/logo-yellow.png" />
                 Our Mission
             </h3>
-            <div class="absolute bg-white p-8 inset-0 flex flex-col text-left  opacity-0  hover:opacity-70 transition-opacity duration-300 group-hover:opacity-90 text-theme-gray">
-                <p class="font-dg font-medium text-[28px] leading-8">
+            <div class="absolute bg-white p-6 inset-0 flex flex-col text-left  opacity-0  hover:opacity-70 transition-opacity duration-300 group-hover:opacity-90 text-theme-gray">
+                <p class="font-dg font-medium md:text-[16px] lg:text-[14px] xl:text-[16px] 2xl:text-[24px] xl:leading-8">
                   To mobilize capital for Nigeria's SDGs with financial solutions that empower communities, drive growth, and protect the environment.
                 </p>
             </div>
@@ -52,8 +52,8 @@
                 <img src="/assets/images/logo-yellow.png" />
                 Our Values
             </h3>
-            <div class="absolute bg-white p-8 inset-0 flex flex-col text-left  opacity-0  hover:opacity-70 transition-opacity duration-300 group-hover:opacity-90 text-theme-gray">
-                <p class="font-dg font-medium text-[28px] leading-8">
+            <div class="absolute bg-white p-6 inset-0 flex flex-col text-left  opacity-0  hover:opacity-70 transition-opacity duration-300 group-hover:opacity-90 text-theme-gray">
+                <p class="font-dg font-medium md:text-[16px] lg:text-[14px] xl:text-[16px] 2xl:text-[24px] xl:leading-8">
                   We value integrity, striving for excellence, fostering collaboration, embracing innovation, and always prioritizing our clients' needs in every solution we provide.
                 </p>
             </div>
@@ -86,19 +86,15 @@
             class="w-3/4 h-auto transition-opacity duration-300 "
           />
       <div class="absolute inset-y-0 bg-black flex opacity-0 group-hover:opacity-50 transition-opacity duration-300 w-3/4"></div>
-          <div
+          <NuxtLink to="/"
             class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300"
           >
-            <div class="bg-white p-2">
-              <h3 class="font-dg text-[16px] font-semibold text-black">
-                Read More
-              </h3>
-            </div>
-          </div>
+
+          </NuxtLink>
     
           <!-- Name Card -->
           <div
-            class="absolute inset-x-0 bottom-[-20px] flex flex-col items-center justify-center text-center font-dg text-[20px] font-semibold border-2 border-yellow-theme bg-white w-[60%] mx-auto  h-auto p-2"
+            class="absolute inset-x-0 bottom-[-50px] flex flex-col items-center justify-center text-center font-dg text-[20px] font-semibold border-2 border-yellow-theme bg-white w-[70%] mx-auto  h-auto py-2 px-1"
           >
             <h2>{{ person.name }}</h2>
             <p class="text-gray-500 text-sm font-normal">{{ person.title }}</p>
@@ -121,19 +117,15 @@
             class="w-1/2 h-auto transition-opacity duration-300 "
           />
       <div class="absolute inset-y-0 bg-black flex opacity-0 group-hover:opacity-50 transition-opacity duration-300 w-1/2"></div>
-          <div
+          <NuxtLink to="/"
             class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300"
           >
-            <NuxtLink class="bg-white p-2">
-              <h3 class="font-dg text-[16px] font-semibold text-black">
-                Read More
-              </h3>
-            </NuxtLink>
-          </div>
+
+          </NuxtLink>
     
           <!-- Name Card -->
           <div
-            class="absolute inset-x-0 bottom-[-20px] flex flex-col items-center justify-center text-center font-dg text-[20px] font-semibold border-2 border-yellow-theme bg-white w-[30%] mx-auto  h-auto p-2"
+            class="absolute inset-x-0 bottom-[-20px] flex flex-col items-center justify-center text-center font-dg text-[20px] font-semibold border-2 border-yellow-theme bg-white w-[40%] mx-auto  h-auto p-2"
           >
             <h2>{{ mgt.name }}</h2>
             <p class="text-gray-500 text-sm font-normal">{{ mgt.title }}</p>
