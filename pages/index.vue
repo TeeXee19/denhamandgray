@@ -1,11 +1,11 @@
 <template>
 <section class="bg-[url('/assets/images/hero.svg')] bg-center bg-cover bg-fixed  bg-clip-border bg-no-repeat h-[75vh] text-center text-white items-center m-auto justify-center font-dg space-y-0 flex flex-row">
     <div class="absolute inset-0 bg-black opacity-40 h-[83.5vh]"></div>
-    <div class="relative w-[95%] flex flex-col space-y-4">
+    <div class="relative w-[95%] flex flex-col space-y-8">
         <h1 class="font-semibold font-dg text-[70px] md:w-[65%] lg:w-[55%] xl:w-[65%] mx-auto leading-[70px]">Secure Your Financial Success with Denham &amp; Grey</h1>
-        <span class="font-medium text-[18px]">Financing the SGDs, Ensuring Tomorrow!!</span>
+        <span class="font-medium text-[24px]">Financing the SGDs, Ensuring Tomorrow!!</span>
 
-        <div>
+        <div class="mt-8">
             <div class="relative inline-block">
                 <NuxtLink to="/#contact" class="bg-theme-green px-6 py-4  mx-auto">PARTNER WITH US</NuxtLink>
                 <div class="absolute inset-0 flex justify-center items-center">
@@ -102,7 +102,7 @@
             <div class="w-[80%] h-[4px] bg-theme-green"></div>
         </div>
         <p class="font-dg text-[32px] text-theme-gray font-medium w-[70%] leading-[40px]">
-            We specialize in <span class="font-mc text-[64px] font-normal text-theme-red">3</span> areas: Impact funding, Wholesale funding, and Strategic finance, ensuring comprehensive solutions tailored to your needs to this – Our financial offerings are specialized to three key areas which are tailored in line with the risk profile and financial needs of our partners.
+            We specialize in <span class="font-mc text-[64px] font-normal text-theme-green">3</span> areas: Impact funding, Wholesale funding, and Strategic finance, ensuring comprehensive solutions tailored to your needs to this – Our financial offerings are specialized to three key areas which are tailored in line with the risk profile and financial needs of our partners.
         </p>
     </div>
     <div class=" grid grid-cols-3 text-white ">

@@ -74,7 +74,7 @@
     </div>
     <div class="bg-theme-gray-2 px-[10%] py-[3%]">
       <h3 class="font-dg font-semibold my-4 text-[40px]">Board of Directors</h3>
-      <div class="grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center justify-center">
+      <div class="grid gap-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center justify-center">
         <div
           v-for="person in people"
           :key="person.name"
@@ -157,7 +157,7 @@
             <div class="w-[80%] h-[4px] bg-theme-green"></div>
         </div>
         <p class="font-dg text-[32px] text-theme-gray font-medium w-[50%] leading-[40px]">
-            We specialize in <span class="font-mc text-[64px] font-normal text-theme-red">3</span> key areas: Impact funding, Wholesale funding, and Strategic finance, ensuring comprehensive solutions tailored to your needs.
+            We specialize in <span class="font-mc text-[64px] font-normal text-theme-green">3</span> key areas: Impact funding, Wholesale funding, and Strategic finance, ensuring comprehensive solutions tailored to your needs.
         </p>
     </div>
     <div class=" grid grid-cols-3 text-white ">
