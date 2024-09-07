@@ -2,7 +2,7 @@
 <section class="bg-[url('/assets/images/hero.svg')] bg-center bg-cover bg-fixed  bg-clip-border bg-no-repeat h-[75vh] text-center text-white items-center m-auto justify-center font-dg space-y-0 flex flex-row">
     <div class="absolute inset-0 bg-black opacity-40 h-[83.5vh]"></div>
     <div class="relative w-[95%] flex flex-col space-y-4">
-        <h1 class="font-semibold font-dg text-[70px] w-[45%] mx-auto leading-[70px]">Secure Your Financial Success with Denham &amp; Grey</h1>
+        <h1 class="font-semibold font-dg text-[70px] md:w-[65%] lg:w-[55%] xl:w-[65%] mx-auto leading-[70px]">Secure Your Financial Success with Denham &amp; Grey</h1>
         <span class="font-medium text-[18px]">Financing the SGDs, Ensuring Tomorrow!!</span>
 
         <div>
@@ -48,14 +48,14 @@
     <div class="pb-3">
         <h5 class=" font-semibold text-theme-green mb-3">ABOUT US</h5>
         <h3 class="font-bold text-[56px] leading-[auto] tracking-0">Welcome to Denham &amp; Grey</h3>
-        <p class="font-medium w-[55%] text-theme-gray">
+        <!-- <p class="font-medium w-[55%] text-theme-gray">
             “Led by a team with combined experience of over 100 years in Banking, Investment and Development Finance, we offer innovative financing solutions through our Impact Partner Institutions that addresses the various SGDs.”
 
-        </p>
+        </p> -->
     </div>
     <div class="grid grid-cols-2 font-dg">
         <div class="p-10 bg-white space-y-[15%]">
-            <p class="font-medium text-theme-gray">
+            <p class="font-medium text-theme-gray text-[20px]">
                 At Denham &amp; Grey, our team of seasoned professionals with expertise in institutional lending and development finance, drive positive change by providing wholesale medium to long term financing towards funding initiatives through our Impact Partner Institutions (licensed and regulated financial institutions) that align with the Sustainable Development Goals (SDGs).
             </p>
             <div class="relative inline-block float-right">
@@ -181,7 +181,7 @@
         </p>
     </article>
 </section>
-<section class="gap-0 custom-container py-8 px-[10%]">
+<!-- <section class="gap-0 custom-container py-8 px-[10%]">
     <div class="pb-3">
         <h5 class="font-dg font-semibold text-[48px]">News Feeds</h5>
         <div class="flex justify-between">
@@ -200,20 +200,21 @@
             <blog :heading="post.heading" :href="post.href" :img="post.img" :description="post.description" :tags="post.tags" :date="post.date" />
         </div>
     </div>
-</section>
+</section> -->
 <section class="bg-[url('/assets/images/contact.svg')] bg-center bg-cover bg-fixed  bg-no-repeat py-[5%] px-[20%] font-dg text-white mx-auto" id="contact">
-    <div class="max-w-[1440px] flex flex-row gap-6">
+    <div class="max-w-[1440px] flex flex-col gap-6 items-center">
         <div class="w-[40%]">
             <h3 class="font-semibold text-[50px] leading-[60px]">Partner With Us</h3>
         </div>
         <div class="w-[60%]">
             <form @submit="" class="space-y-3">
-                <h3 class="font-dg font-bold text-[18px]">
-                    How can we help you?
-                </h3>
+
                 <div class="space-y-3">
                     <div class="flex flex-row gap-3">
                         <input type="text" id="name" v-model="name" class="bg-black border border-white text-gray-300 text-[24px] block w-full p-2.5 opacity-50" placeholder="Name" required>
+                        <input type="tel" id="tel" v-model="lastname" class="bg-black border border-white text-gray-300 text-[24px] block w-full p-2.5 opacity-50" placeholder="Phone" required>
+                    </div>
+                    <div>
                         <input type="email" id="email" v-model="lastname" class="bg-black border border-white text-gray-300 text-[24px] block w-full p-2.5 opacity-50" placeholder="Email" required>
                     </div>
                     <div>

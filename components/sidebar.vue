@@ -1,7 +1,6 @@
 <template>
 
-      <div class="border-r-t-15 h-screen flex flex-col gap-6 w-full bg-theme-dark-blue text-white p-4">
-        <img src="/assets/images/logo-yellow.png" class="h-10 w-10"/>
+      <div class="border-r-t-15 h-screen flex flex-col static gap-6 w-full border-r shadow-r-2 p-4">
         <div class="flex flex-col gap-2 w-full">
           <div class="overview">
             <div class="flex flex-col gap-[10px] sm:gap-[10px] items-center">
@@ -17,7 +16,7 @@
                     'rounded-t-[15px]': isActive(index) && index === 0,
                     'border-theme-as rounded-r-full': isActive(index),
                   }"
-                  exact-active-class="text-white bg-theme-blue"
+                  exact-active-class="text-theme-green bg-theme-blue"
                 >
                   <img
                     :src="isActive(index) ? option.src2 : option.src"
@@ -59,21 +58,15 @@
   
   const options = [
     {
-      to: "/admin",
-      src: "/assets/images/overview.svg",
-      src2: "/assets/images/overview-white.svg",
-      title: "Overview",
-    },
-    {
       to: "/admin/stats",
-      src: "/assets/images/patient.svg",
-      src2: "/assets/images/patient-white.svg",
-      title: "Stats",
+      src: "/assets/images/infographics.svg",
+      src2: "/assets/images/infographics.svg",
+      title: "Infographics",
     },
     {
       to: "/admin/blog",
-      src: "/assets/images/patient.svg",
-      src2: "/assets/images/patient-white.svg",
+      src: "/assets/images/blog.svg",
+      src2: "/assets/images/blog.svg",
       title: "Blog",
     },
   ];

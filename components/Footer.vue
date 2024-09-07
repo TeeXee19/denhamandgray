@@ -4,7 +4,7 @@
         <!-- Left Side: Logo -->
         <div class="flex flex-col text-xs text-gray-400 mt-2 space-y-4">
           <NuxtLink to="/" class="flex items-center">
-            <img src="/assets/images/logo.svg" class="h-12" alt="Denham & Grey Logo" />
+            <img src="/assets/images/yellow-logo.svg" class="h-12" alt="Denham & Grey Logo" />
           </NuxtLink>
           <span>Copyright © {{ currentYear }} DENHAM & GREY. All rights reserved.</span>
         </div>

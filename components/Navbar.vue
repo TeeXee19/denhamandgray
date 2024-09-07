@@ -3,7 +3,7 @@
     <div class="flex items-center justify-between flex-wrap max-w-full mx-auto px-4 md:px-8">
         <!-- Logo -->
         <NuxtLink to="/" class="flex items-center flex-shrink-0">
-            <img src="/assets/images/logo.svg" class="h-[50px] md:h-[50px] w-auto" alt="logo" title="Go Home" />
+            <img src="/assets/images/yellow-logo.svg" class="h-[50px] md:h-[50px] w-auto" alt="logo" title="Go Home" />
         </NuxtLink>
 
         <!-- Dynamic Menu Items -->
@@ -75,10 +75,11 @@ const menuItems = ref([
         name: 'Career',
         path: '/career'
     },
+    // {
+    //     name: 'FAQ',
+    //     path: '/'
+    // },
     {
-        name: 'FAQ',
-        path: '/'
-    },{
         name: 'Contact Us',
         path: '/contact'
     },
