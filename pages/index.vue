@@ -1,5 +1,5 @@
 <template>
-<section class="bg-[url('/assets/images/hero.svg')] bg-center bg-cover bg-fixed  bg-clip-border bg-no-repeat h-[75vh] text-center text-white items-center m-auto justify-center font-dg space-y-0 flex flex-row">
+<section class="bg-[url('/assets/images/hero.png')] bg-center bg-cover bg-fixed  bg-clip-border bg-no-repeat h-[75vh] text-center text-white items-center m-auto justify-center font-dg space-y-0 flex flex-row">
     <div class="absolute inset-0 bg-black opacity-40 h-[83.5vh]"></div>
     <div class="relative w-[95%] flex flex-col space-y-8">
         <h1 class="font-semibold font-dg text-[70px] md:w-[65%] lg:w-[55%] xl:w-[65%] mx-auto leading-[70px]">Secure Your Financial Success with Denham &amp; Grey</h1>
@@ -30,7 +30,7 @@
         </NuxtLink>
     </div>
 </section>
-<section class="bg-[url('/assets/images/sub-hero.svg')] bg-center bg-cover  bg-clip-border bg-no-repeat font-dg space-y-0 md:grid grid-cols-3 hidden">
+<section class="bg-[url('/assets/images/sub-hero.png')] bg-center bg-cover  bg-clip-border bg-no-repeat font-dg space-y-0 md:grid grid-cols-3 hidden">
     <div class="p-4 border-r-2 border-gray-500">
         <span class="font-tw font-expanded text-[70px] text-hollow tracking-normal">01</span>
         <div class="font-dg text-[20px] text-white font-normal">Empowering Communities!</div>
@@ -72,7 +72,7 @@
             </div>
         </div>
         <div class="relative">
-            <img src="/assets/images/about-right.svg" alt="" class="w-full h-auto">
+            <img src="/assets/images/about-right.png" alt="" class="w-full h-auto">
             <div class="absolute inset-0 px-6 py-3 bg-black h-fit opacity-70 self-end">
               <h3 class="text-left font-dg text-[32px] font-semibold text-white leading-8 ">
                 Leading wholesale impact investment in <br/>Nigeria....
@@ -81,7 +81,7 @@
         </div>
     </div>
 </section>
-<section class="bg-[url('/assets/images/est.svg')] bg-center bg-cover bg-fixed bg-clip-border bg-no-repeat py-[5%] px-[10%] font-dg text-white ">
+<section class="bg-[url('/assets/images/est.png')] bg-center bg-cover bg-fixed bg-clip-border bg-no-repeat py-[5%] px-[10%] font-dg text-white ">
     <div class="max-w-[1440px]">
         <h3 class="font-bold text-[36px] tracking-[10px]">ESTABLISHED IN 2003</h3>
         <h3 class="font-semibold text-[70px] w-[70%] leading-[80px]">We are experts in impact investment and wholesale lending</h3>
@@ -110,7 +110,7 @@
     </div>
     <div class=" grid grid-cols-3 text-white ">
         <div class="relative group">
-            <img src="/assets/images/pillar1.svg" alt="" class="w-full h-auto hover:opacity-75 transition-opacity duration-300">
+            <img src="/assets/images/pillar1.png" alt="" class="w-full h-auto hover:opacity-75 transition-opacity duration-300">
             <h3 class="absolute inset-0 flex items-center justify-center text-center font-dg text-[32px] font-semibold group-hover:hidden">
                 Impact Funding
             </h3>
@@ -127,7 +127,7 @@
             </div>
         </div>
         <div class="relative group">
-            <img src="/assets/images/pillar2.svg" alt="" class="w-full h-auto hover:opacity-75 transition-opacity duration-300">
+            <img src="/assets/images/pillar2.png" alt="" class="w-full h-auto hover:opacity-75 transition-opacity duration-300">
             <h3 class="absolute inset-0 flex items-center justify-center text-center font-dg text-[32px] font-semibold group-hover:hidden">
                 Wholesale Funding
             </h3>
@@ -141,7 +141,7 @@
             </div>
         </div>
         <div class="relative group">
-            <img src="/assets/images/pillar3.svg" alt="" class="w-full h-auto hover:opacity-75 transition-opacity duration-300">
+            <img src="/assets/images/pillar3.png" alt="" class="w-full h-auto hover:opacity-75 transition-opacity duration-300">
             <h3 class="absolute inset-0 flex items-center justify-center text-center font-dg text-[32px] font-semibold group-hover:hidden">
                 Strategic Finance
             </h3>
@@ -204,7 +204,7 @@
         </div>
     </div>
 </section> -->
-<section class="bg-[url('/assets/images/contact.svg')] bg-center bg-cover bg-fixed  bg-no-repeat py-[5%] px-[20%] font-dg text-white mx-auto" id="contact">
+<section class="bg-[url('/assets/images/contact.png')] bg-center bg-cover bg-fixed  bg-no-repeat py-[5%] px-[20%] font-dg text-white mx-auto" id="contact">
     <div class="max-w-[1440px] flex flex-col gap-6 items-center">
         <div class="w-[40%]">
             <h3 class="font-semibold text-[50px] leading-[60px]">Partner With Us</h3>
@@ -245,21 +245,21 @@
 const posts = [{
     href: '/',
     heading: 'Smart Financial Habits to Start Now',
-    img: 'assets/images/feed1.svg',
+    img: 'assets/images/feed1.png',
     description: 'This post could explore the importance of establishing strong financial habits early in life. Discuss budgeting, saving, investing in index funds, and building an emergency fund. Include tips on how to manage student loans and credit cards responsibly',
     tags: ["News feed"],
     date: 'July 15, 2023'
 }, {
     href: '/',
     heading: 'The Impact of AI on the Future of Personal Finance Management',
-    img: 'assets/images/feed2.svg',
+    img: 'assets/images/feed2.png',
     description: 'Explore how artificial intelligence is revolutionizing personal finance management. Discuss AI-powered budgeting apps, robo-advisors, and personalized....',
     tags: ["News feed"],
     date: 'July 15, 2023'
 }, {
     href: '/',
     heading: 'How to Align Your Portfolio with Your Values',
-    img: 'assets/images/feed3.svg',
+    img: 'assets/images/feed3.png',
     description: 'Explore the growing trend of Environmental, Social, and Governance (ESG) investing. Discuss what ESG investing entails, its benefits, and how to get started. Include examples of companies and funds that prioritize sustainability and',
     tags: ["News feed"],
     date: 'July 15, 2023'
