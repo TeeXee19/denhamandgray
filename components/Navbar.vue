@@ -64,13 +64,13 @@ const menuItems = ref([
         name: 'Home',
         path: '/'
     },{
+        name: 'About Us',
+        path: '/about'
+    },{
         name: 'Impact and Sustainability',
         path: '/impact-and-sustainability'
     },
-    {
-        name: 'About Us',
-        path: '/about'
-    },
+    
     {
         name: 'Career',
         path: '/career'
