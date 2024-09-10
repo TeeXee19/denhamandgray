@@ -78,12 +78,12 @@
                         <h3 class="text-[20px]"><span class="text-blue-500">{{summary.amountDisbursed}}</span> Amount Disbursed</h3>
                     </div>
                 </div>
-                <div class="flex gap-4 h-fit items-center">
+                <!-- <div class="flex gap-4 h-fit items-center">
                     <img src="/assets/images/hand-naira.svg" />
                     <div class="font-in text-white font-semibold leading-8">
                         <h3 class="text-[20px]"><span class="text-blue-500">{{summary.amountApproved}}</span> Approved for Onboarded Banks</h3>
                     </div>
-                </div>
+                </div> -->
                  <div class="flex gap-4 h-fit items-center">
                     <img src="/assets/images/hand-naira.svg" />
                     <div class="font-in text-white font-semibold leading-8">
