@@ -158,7 +158,7 @@
             <div class="w-[80%] h-[4px] bg-theme-green"></div>
         </div>
         <p class="font-dg text-[32px] text-theme-gray font-medium w-[50%] leading-[40px]">
-            We specialize in <span class="font-mc text-[64px] font-normal text-theme-green">3</span> key areas: Impact funding, Wholesale funding, and Strategic finance, ensuring comprehensive solutions tailored to your needs.
+          Our financial offerings are specialized to three key areas which are tailored in line with the risk profile and financial needs of our partners.
         </p>
     </div>
     <div class=" grid grid-cols-3 text-white ">

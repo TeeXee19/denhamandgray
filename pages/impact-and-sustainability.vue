@@ -48,7 +48,8 @@
                     <div class="font-in text-white font-semibold leading-8">
                         <h3 class="text-[20px]">Financed transition of <span class="text-blue-500">{{summary.bankBranchesTransitioned}}</span> Bank Branches to Green Energy</h3>
                     </div>
-                </div><div class="flex gap-4 h-fit items-center">
+                </div>
+                <div class="flex gap-4 h-fit items-center">
                     <img src="/assets/images/bank-leaf.svg" />
                     <div class="font-in text-white font-semibold leading-8">
                         <h3 class="text-[20px]">Financed transition of <span class="text-blue-500">{{summary.bankBranchesTransitioned}}</span> Bank Branches to Green Energy</h3>
