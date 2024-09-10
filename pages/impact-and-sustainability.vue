@@ -32,6 +32,12 @@
             </div>
             <div class="grid grid-cols-2 gap-14">
                 <div class="flex gap-4 h-fit items-center">
+                    <img src="/assets/images/handcase.svg" />
+                    <div class="font-in text-white font-semibold leading-8">
+                        <h3 class="text-[20px]"><span class="text-blue-500">{{summary.financialInstitutions}}</span> Financial Institutions Onboarded</h3>
+                    </div>
+                </div>
+                <div class="flex gap-4 h-fit items-center">
                     <img src="/assets/images/co2.svg" />
                     <div class="font-in text-white font-semibold leading-8">
                         <h3 class="text-[20px]"><span class="text-blue-500">XXX</span> Tons of Carbon Emissions saved</h3>
@@ -40,13 +46,13 @@
                 <div class="flex gap-4 h-fit items-center">
                     <img src="/assets/images/bank-leaf.svg" />
                     <div class="font-in text-white font-semibold leading-8">
-                        <h3 class="text-[20px]"><span class="text-blue-500">{{summary.bankBranchesTransitioned}}</span> Bank branches Transitioned to Green Energy</h3>
+                        <h3 class="text-[20px]">Financed transition of <span class="text-blue-500">{{summary.bankBranchesTransitioned}}</span> Bank Branches to Green Energy</h3>
                     </div>
                 </div>
                 <div class="flex gap-4 h-fit items-center">
                     <img src="/assets/images/woman.svg" />
                     <div class="font-in text-white font-semibold leading-8">
-                        <h3 class="text-[20px]"><span class="text-blue-500">{{summary.femaleBeneficiaries}}</span> of Beneficiaries are women
+                        <h3 class="text-[20px]"><span class="text-blue-500">{{summary.femaleBeneficiaries}}</span> of Beneficiaries are Women
                             <meter :value="meterBen" class="w-full h-4 border-0 rounded-lg white">{{summary.femaleBeneficiaries}}</meter>
                         </h3>
                     </div>
@@ -54,7 +60,7 @@
                 <div class="flex gap-4 h-fit items-center">
                     <img src="/assets/images/world-leaf.svg" />
                     <div class="font-in text-white font-semibold leading-8">
-                        <h3 class="text-[20px]"><span class="text-blue-500">{{summary.greenTransactions}}</span> of Transactions Financed are Green
+                        <h3 class="text-[20px]"><span class="text-blue-500">{{summary.greenTransactions}}</span> are green transactions 
                             <meter :value="meterGreen" class="w-full h-4 border-0 rounded-lg white">{{summary.greenTransactions}}</meter>
                         </h3>
                     </div>
@@ -62,7 +68,8 @@
                 <div class="flex gap-4 h-fit items-center">
                     <img src="/assets/images/kiosk.svg" />
                     <div class="font-in text-white font-semibold leading-8">
-                        <h3 class="text-[20px]"><span class="text-blue-500">{{summary.businessesFinanced}}</span> MSME’s Financed</h3>
+                        <h3 class="text-[20px]">Over <span class="text-blue-500">{{summary.businessesFinanced}}</span> MSMEs Financed
+                        </h3>
                     </div>
                 </div>
                 <div class="flex gap-4 h-fit items-center">
@@ -77,13 +84,13 @@
                         <h3 class="text-[20px]"><span class="text-blue-500">{{summary.amountApproved}}</span> Approved for Onboarded Banks</h3>
                     </div>
                 </div>
-                <div class="flex gap-4 h-fit items-center">
-                    <img src="/assets/images/handcase.svg" />
+                 <div class="flex gap-4 h-fit items-center">
+                    <img src="/assets/images/hand-naira.svg" />
                     <div class="font-in text-white font-semibold leading-8">
-                        <h3 class="text-[20px]"><span class="text-blue-500">{{summary.financialInstitutions}}</span> Financial Institutions Onboarded</h3>
+                        <!-- <h3 class="text-[20px]"><span class="text-blue-500">{{summary.amountApproved}}</span> Approved for Onboarded Banks</h3> -->
+                        <h3 class="text-[20px]">N30billion Approved for Onboarded Banks</h3>
                     </div>
                 </div>
-
             </div>
         </div>
     </div>

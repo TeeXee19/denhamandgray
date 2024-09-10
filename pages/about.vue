@@ -142,7 +142,7 @@
             <h2 class="text-2xl font-semibold">{{ selectedPerson.name }}</h2>
             <p class="text-gray-700">{{ selectedPerson.title }}</p>
           </div>
-          <p class="w-[70%] text-left">
+          <p class="w-[70%] text-left text-black">
             {{selectedPerson.description}}
           </p>
         </div>

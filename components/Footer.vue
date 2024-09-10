@@ -12,9 +12,12 @@
         <!-- Right Side: Address, Contact, Social Icons -->
         <div class="text-right font-dg">
           <p class="text-sm">
-            4, King AJ Turner Crescent Wuye, FCT Abuja
+            No 6, Jerry Gana Close, Utako Abuja, Nigeria.
             <br />
-            +234 803 227 0835
+            <a href="tel:+2347067939313">+234 (706) 793 9313</a>
+            <br />
+            <a href="mailto:info@denhamandgrey.com">info@denhamandgrey.com
+            </a>
           </p>
           <div class="flex justify-end space-x-4 mt-2">
             <NuxtLink to="/">
