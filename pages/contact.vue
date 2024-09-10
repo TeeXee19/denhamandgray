@@ -46,7 +46,7 @@
             <img src="/assets/images/home.svg" />
             <div class="font-dg font-semibold leading-tight">
               <h3 class="text-[16px]">Our Address</h3>
-              <span class="font-medium text-[14px]">4, King AJ Turner Crescent Wuye, FCT Abuja.</span>
+              <span class="font-medium text-[14px]"> No 6, Jerry Gana Close, Utako Abuja, Nigeria.</span>
             </div>
           </div>
           <div class="flex gap-2 h-fit">
@@ -61,7 +61,7 @@
             <img src="/assets/images/phone.svg" />
             <div class="font-dg font-semibold leading-tight">
               <h3 class="text-[16px]">Our Phone</h3>
-              <a href="tel:+2348032270335" class="font-medium text-[14px]">+234 803 227 0335</a>
+              <a href="tel:+2347067939313" class="font-medium text-[14px]">+234 (706) 793 9313</a>
             </div>
           </div>
           <h3 class="font-dg font-bold text-[14px]">Socials</h3>
