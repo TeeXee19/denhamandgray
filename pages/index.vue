@@ -2,7 +2,8 @@
 <section class="bg-[url('/assets/images/hero.png')] bg-center bg-cover bg-fixed  bg-clip-border bg-no-repeat h-[75vh] text-center text-white items-center m-auto justify-center font-dg space-y-0 flex flex-row">
     <div class="absolute inset-0 bg-black opacity-40 h-[83.5vh]"></div>
     <div class="relative w-[95%] flex flex-col space-y-8">
-        <h1 class="font-semibold font-dg text-[70px] md:w-[65%] lg:w-[55%] xl:w-[65%] mx-auto leading-[70px]">Secure Your Financial Success with Denham &amp; Grey</h1>
+        <h1 class="font-semibold font-dg text-[70px] md:w-[65%] lg:w-[55%] xl:w-[65%] mx-auto leading-[70px]">Secure Your Financial Success with </h1>
+        <h1 class="font-semibold font-dg text-[70px] md:w-[65%] lg:w-[55%] xl:w-[65%] mx-auto leading-[70px]">Denham &amp; Grey</h1>
         <span class="font-medium text-[24px]">Financing the SGDs, Ensuring Tomorrow!!</span>
 
         <div class="mt-8">
