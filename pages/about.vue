@@ -74,7 +74,7 @@
     </div>
     <div class="bg-theme-gray-2 px-[10%] py-[3%]">
       <h3 class="font-dg font-semibold my-4 text-[40px]">Board of Directors</h3>
-      <div class="grid gap-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center justify-center">
+      <div class="grid gap-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center justify-center cursor-pointer">
         <div
           v-for="person in people"
           :key="person.name"
@@ -105,7 +105,7 @@
 
     <div class="px-[10%] py-[5%]">
       <h3 class="font-dg font-semibold my-4 text-[40px]">Management Team</h3>
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 cursor-pointer">
         <div
           v-for="mgt in mgts"
           :key="mgt.name"
@@ -134,15 +134,16 @@
       </div>
     </div>
     <div v-if="showModal" class="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50">
-      <div class="bg-white p-8 rounded-lg shadow-lg max-w-[70%] mx-2" @click="closeModal">
-        <button @click="closeModal" class="absolute top-2 right-2 text-white font-bold text-xl">×</button>
+     
+      <div class="bg-white px-8 pb-8 rounded-lg shadow-lg max-w-[70%] mx-2 flex flex-col align-right" @click="closeModal">
+         <button @click="closeModal" class="text-black font-bold text-[50px] text-end">×</button>
         <div class="flex flex-row gap-8">
           <div class="w-[30%]">
             <img :src="selectedPerson.imageSrc" alt="" class="w-full h-auto mb-4">
             <h2 class="text-2xl font-semibold">{{ selectedPerson.name }}</h2>
             <p class="text-gray-700">{{ selectedPerson.title }}</p>
           </div>
-          <p class="w-[70%] text-left text-black">
+          <p class="w-[70%] text-left text-black text-[20px]">
             {{selectedPerson.description}}
           </p>
         </div>
