@@ -12,7 +12,7 @@
         <!-- Right Side: Address, Contact, Social Icons -->
         <div class="text-right font-dg">
           <p class="text-sm">
-            No 6, Jerry Gana Close, Utako Abuja, Nigeria.
+            <NuxtLink to="https://maps.app.goo.gl/Zuk77meWv4vrnadh8">No 6, Jerry Gana Close, Utako Abuja, Nigeria.</NuxtLink>
             <br />
             <a href="tel:+2347067939313">+234 (706) 793 9313</a>
             <br />

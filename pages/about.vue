@@ -18,7 +18,7 @@
 </section>
 <section class="text-center font-dg bg-[url('/assets/images/philosophy.svg')] bg-no-repeat bg-cover bg-fixed py-[5%]">
     <div class="h-[30%] flex flex-col items-center space-y-4  mb-[3%]">
-        <h2 class="font-semibold text-[64px] text-white">Our Philosophy</h2>
+        <h2 class="font-semibold text-[64px] text-white">Corporate Philosophy</h2>
     </div>
     <div class="grid grid-cols-1 md:grid-cols-3 text-white gap-6 px-[17%]">
         <div class="relative group">

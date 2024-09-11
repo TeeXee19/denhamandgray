@@ -83,7 +83,7 @@
 </section>
 <section class="bg-[url('/assets/images/est.png')] bg-center bg-cover bg-fixed bg-clip-border bg-no-repeat py-[5%] px-[10%] font-dg text-white ">
     <div class="max-w-[1440px]">
-        <h3 class="font-bold text-[36px] tracking-[10px]">ESTABLISHED IN 2003</h3>
+        <h3 class="font-bold text-[36px] tracking-[10px]">ESTABLISHED IN 2021</h3>
         <h3 class="font-semibold text-[70px] w-[70%] leading-[80px]">We are experts in impact investment and wholesale lending</h3>
         <div class="grid grid-cols-2 ">
             <div class="flex flex-col font-bold ">
@@ -183,7 +183,7 @@
             transactions and initiatives that align with the SDGs.
         </p>
          <p>
-            Our technical assistance and capacity building supports our Impact partners in various forms such as structuring green transactions, developing financial and non-financial offerings to drive financial inclusion across the country and aiming to optimize impact on any of the SGDs.
+            Our technical assistance and capacity building supports our Impact partners in various forms such as <b>structuring green transactions, developing financial and non-financial offerings</b> to drive <b>financial inclusion across the country</b> and aiming to optimize impact on any of the SGDs.
         </p>
     </article>
 </section>
