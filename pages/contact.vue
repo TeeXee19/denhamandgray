@@ -6,20 +6,21 @@
         About Us
     </div>
 </section>
-<section class="py-[4%] px-[10%] font-dg ">
+<section class="py-[4%] px-[6%] font-dg ">
 
-  <div class="grid grid-cols-2 font-dg px-[20%] gap-4">
+  <div class="grid grid-cols-2 font-dg px-[10%] gap-4">
       <div class=" space-y-[10%] w-[90%]">
-        <form @submit="" class="space-y-6">
+        <form @submit="submitForm" class="space-y-6">
           <h3 class="font-dg font-medium text-[48px]">
             Send us a message
-          </h3>
-          <h3 class="font-dg text-[18px]">
-            Your email address will not be published.
           </h3>
           <div class="space-y-3">
               <div class="flex flex-row gap-3">
                   <input type="text" id="name" v-model="name" class=" border-2 text-md text-black block w-full p-2.5 " placeholder="Name" required>
+                  <input type="tel" id="tel" v-model="lastname" class="border-2 text-md text-black block w-full p-2.5" placeholder="Phone" required>
+                  
+              </div>
+              <div>
                   <input type="email" id="email" v-model="lastname" class=" border-2 text-md text-black block w-full p-2.5 " placeholder="Email" required>
               </div>
               <div>
@@ -27,32 +28,31 @@
               </div>
           </div>
           <div class="">
-              <div class="relative inline-block">
+              <!-- <div class="relative inline-block"> -->
                   <button class="bg-theme-green text-white py-3 px-14 ">
                       Submit
                   </button>
-                  <div class="absolute inset-0 flex justify-center items-center">
+                  <!-- <div class="absolute inset-0 flex justify-center items-center">
                       <div class="w-full h-px bg-theme-gray transform translate-y-8 translate-x-5"></div>
                       <div class="h-full w-px bg-theme-gray transform translate-x-1 translate-y-5"></div>
                   </div>
-              </div>
+              </div> -->
           </div>
       </form>
       </div>
       <div class="bg-[url('/assets/images/contactRight.svg')] w-[80%] h-full bg-center bg-cover bg-clip-border bg-no-repeat  p-6 text-white space-y-4">
           <h3 class="font-dg font-medium text-[24px]">Our Contact details</h3>
-          <h3 class="font-dg font-medium text-[14px]">Give us a call or drop by anytime, we endeavour to answer all enquiries within 24 hours on business days. We will be happy to answer your questions.</h3>
           <div class="flex gap-2 h-fit">
             <img src="/assets/images/home.svg" />
             <div class="font-dg font-semibold leading-tight">
-              <h3 class="text-[16px]">Our Address</h3>
+              <h3 class="text-[16px]">Address</h3>
               <span class="font-medium text-[14px]"> No 6, Jerry Gana Close, Utako Abuja, Nigeria.</span>
             </div>
           </div>
           <div class="flex gap-2 h-fit">
             <img src="/assets/images/email.svg" />
             <div class="font-dg font-semibold leading-tight">
-              <h3 class="text-[16px]">Our Email</h3>
+              <h3 class="text-[16px]">Email</h3>
               <a href="mailto:info@denhamangrey.com" class="font-medium text-[14px]">info@denhamangrey.com</a>
             </div>
           </div>
@@ -60,7 +60,7 @@
           <div class="flex gap-2 h-fit">
             <img src="/assets/images/phone.svg" />
             <div class="font-dg font-semibold leading-tight">
-              <h3 class="text-[16px]">Our Phone</h3>
+              <h3 class="text-[16px]">Phone Number</h3>
               <a href="tel:+2347067939313" class="font-medium text-[14px]">+234 (706) 793 9313</a>
             </div>
           </div>
@@ -84,7 +84,8 @@
 
 </section>
 <section class="">
-  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d32278330.766872633!2d7.436678000000001!3d9.043145!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104e74b4983c0001%3A0x665ee6557d20b17a!2sDenham%20and%20Grey!5e0!3m2!1sen!2sng!4v1725460497084!5m2!1sen!2sng" class="w-full h-[600px]" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d32633153.85138364!2d0.026524122631017194!3d3.2148771789038095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104e0ada00c64b5f%3A0x3a37b6743c0cf37e!2s6%20Jerry%20Gana%20Cl%2C%20Utako%2C%20Abuja%20900104%2C%20Federal%20Capital%20Territory%2C%20Nigeria!5e0!3m2!1sen!2sru!4v1726013250289!5m2!1sen!2sru" class="w-full h-[600px]" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  
 </section>
 </template>
 

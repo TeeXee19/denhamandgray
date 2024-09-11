@@ -7,13 +7,13 @@
         <span class="font-medium text-[24px]">Financing the SGDs, Ensuring Tomorrow!!</span>
 
         <div class="mt-8">
-            <div class="relative inline-block">
+            <NuxtLink to="/#contact" class="relative inline-block">
                 <NuxtLink to="/#contact" class="bg-theme-green px-6 py-4  mx-auto">PARTNER WITH US</NuxtLink>
                 <div class="absolute inset-0 flex justify-center items-center">
                     <div class="w-full h-px bg-theme-gray transform translate-y-8 translate-x-5"></div>
                     <div class="h-full w-px bg-theme-gray transform translate-x-1 translate-y-5"></div>
                 </div>
-            </div>
+            </NuxtLink>
         </div>
     </div>
     <div class="relative flex flex-col justify-end space-y-8">
@@ -61,7 +61,7 @@
                 <br/>
                 We leverage the channels and reach of our Impact Partner Institutions to provide funding towards empowering communities, driving economic growth and protecting the environment.
             </p>
-            <div class="relative inline-block float-right">
+            <NuxtLink to="/about" class="relative inline-block float-right">
                 <NuxtLink to="/about" class="bg-theme-green text-white py-3 px-14 ">
                     Discover how we can empower your business
                 </NuxtLink>
@@ -69,7 +69,7 @@
                     <div class="w-full h-px bg-theme-gray transform translate-y-7 translate-x-5"></div>
                     <div class="h-full w-px bg-theme-gray transform translate-x-1.5 translate-y-4"></div>
                 </div>
-            </div>
+            </NuxtLink>
         </div>
         <div class="relative">
             <img src="/assets/images/about-right.png" alt="" class="w-full h-auto">
@@ -158,7 +158,7 @@
 </section>
 <section class="bg-[url('/assets/images/TA.png')] bg-center bg-cover h-[50%]   bg-clip-border bg-no-repeat text-white m-auto font-dg px-[10%] py-[5%]">
     <div class="h-[30%] flex flex-col items-center space-y-2 mb-[3%]">
-        <h2 class="font-semibold text-[64px] leading-[50px]">Non-Financial Products</h2>
+        <h2 class="font-semibold text-[64px] leading-[50px]">Our Non-Financial Offering</h2>
         <div class="flex flex-row w-[8%] gap-3">
             <div class="w-[20%] h-[4px] bg-theme-green"></div>
             <div class="w-[80%] h-[4px] bg-theme-green"></div>
