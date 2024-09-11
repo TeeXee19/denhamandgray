@@ -228,15 +228,9 @@
                     </div>
                 </div>
                 <div class="float-right">
-                    <div class="relative inline-block">
                         <button class="bg-theme-green text-white py-3 px-14 ">
                             Submit
-                        </button>
-                        <div class="absolute inset-0 flex justify-center items-center">
-                            <div class="w-full h-px bg-theme-gray transform translate-y-8 translate-x-5"></div>
-                            <div class="h-full w-px bg-theme-gray transform translate-x-1 translate-y-5"></div>
-                        </div>
-                    </div>
+                        </button>   
                 </div>
             </form>
         </div>
