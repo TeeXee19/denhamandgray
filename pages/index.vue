@@ -58,8 +58,7 @@
         <div class="p-10 bg-white space-y-[15%]">
             <p class="font-medium text-theme-gray text-[20px]">
                 At Denham &amp; Grey, our team of seasoned professionals with expertise in institutional lending and development finance, drive positive change by providing wholesale medium to long term financing towards funding initiatives through our Impact Partner Institutions (licensed and regulated financial institutions) that align with the Sustainable Development Goals (SDGs).
-            </p>
-            <p class="font-medium text-theme-gray text-[20px]">
+                <br/>
                 We leverage the channels and reach of our Impact Partner Institutions to provide funding towards empowering communities, driving economic growth and protecting the environment.
             </p>
             <div class="relative inline-block float-right">
@@ -158,12 +157,15 @@
     </div>
 </section>
 <section class="bg-[url('/assets/images/TA.png')] bg-center bg-cover h-[50%]   bg-clip-border bg-no-repeat text-white m-auto font-dg px-[10%] py-[5%]">
-    <div class="h-[30%] flex flex-col items-left space-y-4">
-        <h2 class="font-semibold text-[70px]  w-[60%]">Technical Assistance and Capacity Building</h2>
+    <div class="h-[30%] flex flex-col items-center space-y-2 mb-[3%]">
+        <h2 class="font-semibold text-[64px] leading-[50px]">Non-Financial Products</h2>
         <div class="flex flex-row w-[8%] gap-3">
             <div class="w-[20%] h-[4px] bg-theme-green"></div>
             <div class="w-[80%] h-[4px] bg-theme-green"></div>
         </div>
+    </div>
+    <div class="h-[30%] flex flex-col items-left space-y-4">
+        <h2 class="font-semibold text-[40px]  w-[60%]">Technical Assistance and Capacity Building</h2>
     </div>
     <article class="font-dg font-medium text-white text-[26px] w-3/4 space-y-6">
         <p>
