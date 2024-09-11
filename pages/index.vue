@@ -167,7 +167,7 @@
     <div class="h-[30%] flex flex-col items-left space-y-4">
         <h2 class="font-semibold text-[40px]  w-[60%]">Technical Assistance and Capacity Building</h2>
     </div>
-    <article class="font-dg font-medium text-white text-[26px] w-3/4 space-y-6">
+    <article class="font-dg font-medium text-white text-[26px] text-justify w-3/4 space-y-6">
         <p>
             At Denham &amp; Grey, we understand that achieving sustainable development goes beyond
             financial investment. That&#39;s why we offer comprehensive technical assistance and
