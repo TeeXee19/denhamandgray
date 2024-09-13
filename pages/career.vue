@@ -44,61 +44,24 @@
         </div>
         <div class="grid grid-cols-3 text-white gap-8 px-[12%]">
           <div class="relative group">
-              <img src="/assets/images/value1.svg" alt="" class="w-full h-auto hover:opacity-75 transition-opacity duration-300">
-
-              <div class="absolute bg-theme-teal p-9 inset-0 flex flex-col text-left  opacity-0  hover:opacity-70 transition-opacity duration-300 group-hover:opacity-90 space-y-4">
-                <h5 class="font-dg text-[24px] leading-[1em] font-semibold">⁠Sustainability</h5>
-                  <p class="font-dg font-medium text-[16px] text-white leading-6">
-                    We prioritize our clients' goals through teamwork and maintain a respectful, high-performance environment for our employees.
-                  </p>
-              </div>
+              <img src="/assets/images/value1.png" alt="" class="w-full h-auto transition-opacity duration-300">
           </div>
           <div class="relative group">
-              <img src="/assets/images/value2.svg" alt="" class="w-full h-auto hover:opacity-75 transition-opacity duration-300">
+              <img src="/assets/images/value2.png" alt="" class="w-full h-auto transition-opacity duration-300">
 
-              <div class="absolute bg-theme-teal p-9 inset-0 flex flex-col text-left  opacity-0  hover:opacity-70 transition-opacity duration-300 group-hover:opacity-90 space-y-4">
-                <h5 class="font-dg text-[24px] leading-[1em] font-semibold">⁠Integrity</h5>
-                  <p class="font-dg font-medium text-[16px] text-white leading-6">
-                    We cultivate innovation by encouraging creative thinking and fresh ideas, empowering our team to push boundaries and drive progress in everything we do.
-                  </p>
-              </div>
           </div>
            <div class="relative group">
-              <img src="/assets/images/value2.svg" alt="" class="w-full h-auto hover:opacity-75 transition-opacity duration-300">
+              <img src="/assets/images/value3.png" alt="" class="w-full h-auto transition-opacity duration-300">
 
-              <div class="absolute bg-theme-teal p-9 inset-0 flex flex-col text-left  opacity-0  hover:opacity-70 transition-opacity duration-300 group-hover:opacity-90 space-y-4">
-                <h5 class="font-dg text-[24px] leading-[1em] font-semibold">Innovation</h5>
-                  <p class="font-dg font-medium text-[16px] text-white leading-6">
-                    We cultivate innovation by encouraging creative thinking and fresh ideas, empowering our team to push boundaries and drive progress in everything we do.
-                  </p>
-              </div>
           </div>
           <div class="relative group">
-              <img src="/assets/images/value3.svg" alt="" class="w-full h-auto hover:opacity-75 transition-opacity duration-300">
-
-              <div class="absolute bg-theme-teal p-9 inset-0 flex flex-col text-left  opacity-0  hover:opacity-70 transition-opacity duration-300 group-hover:opacity-90 space-y-4">
-                <h5 class="font-dg text-[24px] leading-[1em] font-semibold">Inclusivity</h5>
-                  <p class="font-dg font-medium text-[16px] text-white leading-6">
-                    Integrity and transparency are the foundation of our actions, fostering trust with clients and partners through unwavering ethical standards.
-                  </p>
-              </div>
+              <img src="/assets/images/value4.png" alt="" class="w-full h-auto transition-opacity duration-300">
           </div>
           <div class="relative group">
-              <img src="/assets/images/value4.svg" alt="" class="w-full h-auto hover:opacity-75 transition-opacity duration-300">
-
-              <div class="absolute bg-theme-teal p-9 inset-0 flex flex-col text-left  opacity-0  hover:opacity-70 transition-opacity duration-300 group-hover:opacity-90 space-y-4">
-                <h5 class="font-dg text-[24px] leading-[1em] font-semibold">Partnership</h5>
-              </div>
+              <img src="/assets/images/value5.png" alt="" class="w-full h-auto transition-opacity duration-300">
           </div>
           <div class="relative group">
-              <img src="/assets/images/value5.svg" alt="" class="w-full h-auto hover:opacity-75 transition-opacity duration-300">
-
-              <div class="absolute bg-theme-teal p-9 inset-0 flex flex-col text-left  opacity-0  hover:opacity-70 transition-opacity duration-300 group-hover:opacity-90 space-y-4">
-                <h5 class="font-dg text-[24px] leading-[1em] font-semibold">Competence</h5>
-                  <p class="font-dg font-medium text-[16px] text-white leading-6">
-                    Delivering results quickly and efficiently is a priority. By streamlining processes and embracing agility, we ensure swift responses and timely solutions for our clients.
-                  </p>
-              </div>
+              <img src="/assets/images/value6.png" alt="" class="w-full h-auto transition-opacity duration-300">
           </div>
       </div>
     </div>
