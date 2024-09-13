@@ -72,9 +72,9 @@
           Our team at Denham &amp; Grey consists of experienced professionals dedicated to providing innovative financial solutions to our Impact Partners. Together, we leverage our expertise to drive impact in Nigeria’s development finance sector
         </p>
     </div>
-    <div class="bg-theme-gray-2 px-[10%] py-[3%]">
+    <div class=" px-[10%] py-[3%]">
       <h3 class="font-dg font-semibold my-4 text-[40px]">Board of Directors</h3>
-      <div class="grid gap-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center justify-center cursor-pointer">
+      <div class="grid gap-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 items-center justify-center cursor-pointer">
         <div
           v-for="person in people"
           :key="person.name"
