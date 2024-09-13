@@ -4,7 +4,7 @@
     <div class="relative w-[95%] flex flex-col space-y-8">
         <h1 class="font-semibold font-dg text-[70px] md:w-[65%] lg:w-[55%] xl:w-[65%] mx-auto leading-[70px]">Secure Your Financial Success with</h1>
         <h1 class="font-semibold font-dg text-[70px] md:w-[65%] lg:w-[55%] xl:w-[65%] mx-auto leading-[70px]">Denham &amp; Grey</h1>
-        <span class="font-medium text-[24px]">Financing the SGDs, Ensuring Tomorrow!!</span>
+        <span class="font-medium text-[24px]">Financing the SGDs, Ensuring Tomorrow</span>
 
         <div class="mt-8">
             <NuxtLink to="/#contact" class="relative inline-block">
