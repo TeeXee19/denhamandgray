@@ -110,11 +110,11 @@
     </div>
     <div class=" grid grid-cols-3 text-white ">
         <div class="relative group">
-            <img src="/assets/images/pillar1.png" alt="" class="w-full h-auto hover:opacity-75 transition-opacity duration-300">
+            <img src="/assets/images/pillar1.png" alt="" class="w-full h-auto hover:opacity-75 transition-opacity duration-800">
             <h3 class="absolute inset-0 flex items-center justify-center text-center font-dg text-[32px] font-semibold group-hover:hidden">
                 Impact Funding
             </h3>
-            <div class="absolute p-8 inset-0 flex flex-col text-left  opacity-0  hover:opacity-70 transition-opacity duration-300 group-hover:opacity-70 ">
+            <div class="absolute p-8 inset-0 flex flex-col justify-center text-left  opacity-0  hover:opacity-70 transition-opacity duration-1000 group-hover:opacity-70 ">
                 <h3 class="font-dg text-[32px] font-semibold hover:hidden">
                     Impact Funding
                 </h3>
@@ -127,11 +127,11 @@
             </div>
         </div>
         <div class="relative group">
-            <img src="/assets/images/pillar2.png" alt="" class="w-full h-auto hover:opacity-75 transition-opacity duration-300">
+            <img src="/assets/images/pillar2.png" alt="" class="w-full h-auto hover:opacity-75 transition-opacity duration-500">
             <h3 class="absolute inset-0 flex items-center justify-center text-center font-dg text-[32px] font-semibold group-hover:hidden">
                 Wholesale Funding
             </h3>
-            <div class="absolute p-8 inset-0 flex flex-col text-left  opacity-0  hover:opacity-70 transition-opacity duration-300 group-hover:opacity-70 ">
+            <div class="absolute p-8 inset-0 flex flex-col justify-center text-left  opacity-0  hover:opacity-70 transition-opacity duration-1000 group-hover:opacity-70 ">
                 <h3 class="font-dg text-[32px] font-semibold hover:hidden">
                     Wholesale Funding
                 </h3>
@@ -145,7 +145,7 @@
             <h3 class="absolute inset-0 flex items-center justify-center text-center font-dg text-[32px] font-semibold group-hover:hidden">
                 Strategic Finance
             </h3>
-            <div class="absolute p-8 inset-0 flex flex-col text-left  opacity-0  hover:opacity-70 transition-opacity duration-300 group-hover:opacity-70 ">
+            <div class="absolute p-8 inset-0 flex flex-col justify-center text-left  opacity-0  hover:opacity-70 transition-opacity duration-1000 group-hover:opacity-70 ">
                 <h3 class="font-dg text-[32px] font-semibold hover:hidden">
                     Strategic Finance
                 </h3>

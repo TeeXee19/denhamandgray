@@ -151,63 +151,63 @@
     </div>
 </section>
 <section class="text-center font-dg">
-    <div class="h-[30%] flex flex-col items-center space-y-4 pt-[6%] mb-[3%]">
-        <h2 class="font-semibold text-[64px] leading-[50px]">Our Financial Products</h2>
-        <div class="flex flex-row w-[8%] gap-3">
-            <div class="w-[20%] h-[4px] bg-theme-green"></div>
-            <div class="w-[80%] h-[4px] bg-theme-green"></div>
-        </div>
-        <p class="font-dg text-[32px] text-theme-gray font-medium w-[50%] leading-[40px]">
+  <div class="h-[30%] flex flex-col items-center space-y-4 pt-[6%] mb-[3%]">
+      <h2 class="font-semibold text-[64px] leading-[50px]">Our Financial Products</h2>
+      <div class="flex flex-row w-[8%] gap-3">
+          <div class="w-[20%] h-[4px] bg-theme-green"></div>
+          <div class="w-[80%] h-[4px] bg-theme-green"></div>
+      </div>
+      <p class="font-dg text-[32px] text-theme-gray font-medium w-[70%] leading-[40px]">
           Our financial offerings are specialized to three key areas which are tailored in line with the risk profile and financial needs of our partners.
-        </p>
-    </div>
-    <div class=" grid grid-cols-3 text-white ">
-        <div class="relative group">
-            <img src="/assets/images/pillar1.svg" alt="" class="w-full h-auto hover:opacity-75 transition-opacity duration-300">
-            <h3 class="absolute inset-0 flex items-center justify-center text-center font-dg text-[32px] font-semibold group-hover:hidden">
-                Impact Funding
-            </h3>
-            <div class="absolute p-8 inset-0 flex flex-col text-left  opacity-0  hover:opacity-70 transition-opacity duration-300 group-hover:opacity-70 ">
-                <h3 class="font-dg text-[32px] font-semibold hover:hidden">
-                    Impact Funding
-                </h3>
-                <p class="font-dg font-medium text-[28px] leading-8">
-                    Impact driven funding will be made available to drive
-                    financing in specific segments of the economy, with a
-                    focus on women, start-ups, green projects, and other
-                    segments as deemed necessary.
-                </p>
-            </div>
-        </div>
-        <div class="relative group">
-            <img src="/assets/images/pillar2.svg" alt="" class="w-full h-auto hover:opacity-75 transition-opacity duration-300">
-            <h3 class="absolute inset-0 flex items-center justify-center text-center font-dg text-[32px] font-semibold group-hover:hidden">
-                Wholesale Funding
-            </h3>
-            <div class="absolute p-8 inset-0 flex flex-col text-left  opacity-0  hover:opacity-70 transition-opacity duration-300 group-hover:opacity-70 ">
-                <h3 class="font-dg text-[32px] font-semibold hover:hidden">
-                    Wholesale Funding
-                </h3>
-                <p class="font-dg font-medium text-[28px] leading-8">
-                    We are a niche firm with a focus on providing flexible and innovative financing solutions to licensed and regulated financial institutions in Africa with a track record of good corporate governance, competent management, and prudent risk management practices.
-                </p>
-            </div>
-        </div>
-        <div class="relative group">
-            <img src="/assets/images/pillar3.svg" alt="" class="w-full h-auto hover:opacity-75 transition-opacity duration-300">
-            <h3 class="absolute inset-0 flex items-center justify-center text-center font-dg text-[32px] font-semibold group-hover:hidden">
-                Strategic Finance
-            </h3>
-            <div class="absolute p-8 inset-0 flex flex-col text-left  opacity-0  hover:opacity-70 transition-opacity duration-300 group-hover:opacity-70 ">
-                <h3 class="font-dg text-[32px] font-semibold hover:hidden">
-                    Strategic Finance
-                </h3>
-                <p class="font-dg font-medium text-[28px] leading-8">
-                    Our partners require funding to enable them achieve their strategic objectives from acquisition to other financial institutions to branch expansion, we are here to support your strategies to ensure you achieve your mandates.
-                </p>
-            </div>
-        </div>
-    </div>
+      </p>
+  </div>
+  <div class=" grid grid-cols-3 text-white ">
+      <div class="relative group">
+          <img src="/assets/images/pillar1.png" alt="" class="w-full h-auto hover:opacity-75 transition-opacity duration-800">
+          <h3 class="absolute inset-0 flex items-center justify-center text-center font-dg text-[32px] font-semibold group-hover:hidden">
+              Impact Funding
+          </h3>
+          <div class="absolute p-8 inset-0 flex flex-col justify-center text-left  opacity-0  hover:opacity-70 transition-opacity duration-1000 group-hover:opacity-70 ">
+              <h3 class="font-dg text-[32px] font-semibold hover:hidden">
+                  Impact Funding
+              </h3>
+              <p class="font-dg font-medium text-[28px] leading-8">
+                  Impact driven funding will be made available to drive
+                  financing in specific segments of the economy, with a
+                  focus on women, start-ups, green projects, and other
+                  segments as deemed necessary.
+              </p>
+          </div>
+      </div>
+      <div class="relative group">
+          <img src="/assets/images/pillar2.png" alt="" class="w-full h-auto hover:opacity-75 transition-opacity duration-500">
+          <h3 class="absolute inset-0 flex items-center justify-center text-center font-dg text-[32px] font-semibold group-hover:hidden">
+              Wholesale Funding
+          </h3>
+          <div class="absolute p-8 inset-0 flex flex-col justify-center text-left  opacity-0  hover:opacity-70 transition-opacity duration-1000 group-hover:opacity-70 ">
+              <h3 class="font-dg text-[32px] font-semibold hover:hidden">
+                  Wholesale Funding
+              </h3>
+              <p class="font-dg font-medium text-[28px] leading-8">
+                  We are a niche firm with a focus on providing flexible and innovative financing solutions to licensed and regulated financial institutions in Africa with a track record of good corporate governance, competent management, and prudent risk management practices.
+              </p>
+          </div>
+      </div>
+      <div class="relative group">
+          <img src="/assets/images/pillar3.png" alt="" class="w-full h-auto hover:opacity-75 transition-opacity duration-300">
+          <h3 class="absolute inset-0 flex items-center justify-center text-center font-dg text-[32px] font-semibold group-hover:hidden">
+              Strategic Finance
+          </h3>
+          <div class="absolute p-8 inset-0 flex flex-col justify-center text-left  opacity-0  hover:opacity-70 transition-opacity duration-1000 group-hover:opacity-70 ">
+              <h3 class="font-dg text-[32px] font-semibold hover:hidden">
+                  Strategic Finance
+              </h3>
+              <p class="font-dg font-medium text-[28px] leading-8">
+                  Our partners require funding to enable them achieve their strategic objectives from acquisition to other financial institutions to branch expansion, we are here to support your strategies to ensure you achieve your mandates.
+              </p>
+          </div>
+      </div>
+  </div>
 </section>
 <section class="grid md:grid-cols-2 gap-3 py-16 px-[12%] items-center">
   <div>
