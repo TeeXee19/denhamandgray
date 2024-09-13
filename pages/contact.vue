@@ -46,14 +46,14 @@
             <img src="/assets/images/home.svg" />
             <div class="font-dg font-semibold leading-tight">
               <h3 class="text-[16px]">Address</h3>
-              <span class="font-medium text-[14px]"> No 6, Jerry Gana Close, Utako Abuja, Nigeria.</span>
+              <NuxtLink to="https://maps.app.goo.gl/Zuk77meWv4vrnadh8" class="font-medium text-[14px] hover:text-theme-green"> No 6, Jerry Gana Close, Utako Abuja, Nigeria.</NuxtLink>
             </div>
           </div>
           <div class="flex gap-2 h-fit">
             <img src="/assets/images/email.svg" />
             <div class="font-dg font-semibold leading-tight">
               <h3 class="text-[16px]">Email</h3>
-              <a href="mailto:info@denhamangrey.com" class="font-medium text-[14px]">info@denhamangrey.com</a>
+              <a href="mailto:info@denhamangrey.com" class="font-medium text-[14px] hover:text-theme-green">info@denhamangrey.com</a>
             </div>
           </div>
           
@@ -61,7 +61,7 @@
             <img src="/assets/images/phone.svg" />
             <div class="font-dg font-semibold leading-tight">
               <h3 class="text-[16px]">Phone Number</h3>
-              <a href="tel:+2347067939313" class="font-medium text-[14px]">+234 (706) 793 9313</a>
+              <a href="tel:+2347067939313" class="font-medium text-[14px] hover:text-theme-green">+234 (706) 793 9313</a>
             </div>
           </div>
           <h3 class="font-dg font-bold text-[14px]">Socials</h3>
