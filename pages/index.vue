@@ -44,17 +44,10 @@
         <div class="font-dg text-[20px] text-white font-normal">Protecting the Environment</div>
     </div>
 </section>
-<section class="py-[4%] px-[10%] font-dg bg-[#F0F0F0]">
-    <div class="pb-3">
-        <h5 class=" font-semibold text-theme-green mb-3">ABOUT US</h5>
-        <h3 class="font-bold text-[56px] leading-[auto] tracking-0">Welcome to Denham &amp; Grey</h3>
-        <!-- <p class="font-medium w-[55%] text-theme-gray">
-            “Led by a team with combined experience of over 100 years in Banking, Investment and Development Finance, we offer innovative financing solutions through our Impact Partner Institutions that addresses the various SGDs.”
-
-        </p> -->
-    </div>
+<section class="font-dg bg-[#F0F0F0]">
     <div class="grid grid-cols-2 font-dg">
         <div class="p-10 bg-white space-y-[15%]">
+            <h3 class="font-bold text-[56px] leading-[auto] tracking-0">Welcome to Denham &amp; Grey</h3>
             <p class="font-medium text-black text-[20px]">
                 At Denham &amp; Grey, our team of seasoned professionals with expertise in institutional lending and development finance, drive positive change by providing wholesale medium to long term financing towards funding initiatives through our Impact Partner Institutions (licensed and regulated financial institutions) that align with the Sustainable Development Goals (SDGs).
                 <br/>
@@ -81,16 +74,16 @@
     </div>
 </section>
 <section class="bg-[url('/assets/images/est.png')] bg-center bg-cover bg-fixed bg-clip-border bg-no-repeat py-[5%] px-[10%] font-dg text-white ">
-    <div class="max-w-[1440px]">
+    <div class="">
         <h3 class="font-bold text-[36px] tracking-[10px]">ESTABLISHED IN 2021</h3>
         <h3 class="font-semibold text-[70px] w-[70%] leading-[80px]">We are experts in impact investment and wholesale lending</h3>
         <div class="grid grid-cols-2 ">
             <div class="flex flex-col font-bold ">
-                <span class="border-b-[3px] w-[85%] border-yellow-theme text-[90px]">$20 Million</span>
+                <span class="border-b-[3px] w-[85%] border-yellow-theme lg:text-[90px]">$20 Million</span>
                 <span class="font-normal text-[36px]">Approved funding</span>
             </div>
             <div class="flex flex-col font-bold ">
-                <span class="border-b-[3px] w-[85%] border-yellow-theme text-[90px]">49 Locations</span>
+                <span class="border-b-[3px] w-[85%] border-yellow-theme lg:text-[90px]">49 Locations</span>
                 <span class="font-normal text-[36px]">Impact channels</span>
             </div>
         </div>
@@ -206,7 +199,7 @@
         </div>
     </div>
 </section> -->
-<section class="bg-[url('/assets/images/contact.png')] bg-center bg-cover bg-fixed  bg-no-repeat py-[5%] px-[20%] font-dg text-white mx-auto" id="contact">
+<section class="bg-[url('/assets/images/contact.png')] bg-center bg-cover bg-fixed  bg-no-repeat py-[5%] px-[20%] font-dg text-white" id="contact">
     <div class="max-w-[1440px] flex flex-col gap-6 items-center">
         <div class="w-[40%]">
             <h3 class="font-semibold text-[50px] leading-[60px]">Partner With Us</h3>

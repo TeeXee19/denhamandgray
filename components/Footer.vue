@@ -1,5 +1,5 @@
 <template>
-    <footer class="bg-theme-dark-blue text-white font-dg">
+    <footer class="bg-theme-dark-blue text-white font-dg w-full">
       <div class="mx-auto w-full max-w-7xl p-6 flex justify-between items-center">
         <!-- Left Side: Logo -->
         <div class="flex flex-col text-xs text-gray-400 mt-2 space-y-4">

@@ -1,12 +1,9 @@
 <template>
-  <div >
     <Navbar @update:navbarHeight="updateNavbarHeight" />
-
-    <div :style="{ marginTop: navbarHeight + 'px' }" class="my-0">
-      <slot />
+    <div :style="{ marginTop: navbarHeight + 'px' }" class="my-0 w-full">
+      <slot class="w-full"/>
     </div>
     <Footer />
- </div>
 </template>
 
 <script lang="ts" setup>
