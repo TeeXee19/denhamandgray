@@ -31,16 +31,16 @@
     </div>
 </section>
 <section class="bg-[url('/assets/images/sub-hero.png')] bg-center bg-cover  bg-clip-border bg-no-repeat font-dg space-y-0 md:grid grid-cols-3 hidden">
-    <div class="p-4 border-r-2 border-gray-500">
-        <span class="font-tw font-expanded text-[70px] text-hollow tracking-normal">01</span>
+    <div class="p-2 border-r-2 border-gray-500">
+        <span class="font-tw font-expanded text-[50px] text-hollow tracking-normal">01</span>
         <div class="font-dg text-[20px] text-white font-normal">Empowering Communities</div>
     </div>
-    <div class="p-4 border-r border-gray-500">
-        <span class="font-tw font-expanded text-[70px] text-hollow tracking-normal">02</span>
+    <div class="p-2 border-r border-gray-500">
+        <span class="font-tw font-expanded text-[50px] text-hollow tracking-normal">02</span>
         <div class="font-dg text-[20px] text-white font-normal">Driving Economic Growth</div>
     </div>
-    <div class="p-4">
-        <span class="font-tw font-expanded text-[70px] text-hollow tracking-normal">03</span>
+    <div class="p-2">
+        <span class="font-tw font-expanded text-[50px] text-hollow tracking-normal">03</span>
         <div class="font-dg text-[20px] text-white font-normal">Protecting the Environment</div>
     </div>
 </section>
