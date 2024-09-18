@@ -46,8 +46,8 @@
 </section>
 <section class="font-dg bg-[#F0F0F0]">
     <div class="grid grid-cols-2 font-dg">
-        <div class="p-10 bg-white space-y-[15%]">
-            <h3 class="font-bold text-[56px] leading-[auto] tracking-0">Welcome to Denham &amp; Grey</h3>
+        <div class="p-10 bg-white space-y-[5%]">
+            <h3 class="font-bold text-[56px]  tracking-0">Welcome to Denham &amp; Grey</h3>
             <p class="font-medium text-black text-[20px]">
                 At Denham &amp; Grey, our team of seasoned professionals with expertise in institutional lending and development finance, drive positive change by providing wholesale medium to long term financing towards funding initiatives through our Impact Partner Institutions (licensed and regulated financial institutions) that align with the Sustainable Development Goals (SDGs).
                 <br/>
@@ -67,7 +67,7 @@
             <img src="/assets/images/about-right.png" alt="" class="w-full h-auto">
             <div class="absolute inset-0 px-6 py-3 bg-black h-fit opacity-70 self-end">
               <h3 class="text-left font-dg text-[32px] font-semibold text-white leading-8 ">
-                Leading wholesale impact investment in <br/>Nigeria....
+                Leading wholesale impact investment in Nigeria....
               </h3>
             </div>
         </div>
