@@ -1,7 +1,7 @@
 <template>
-<div class="md:w-[30%] h-[100%] lg:p-[30px] m-auto my-[2%] border-2 shadow-lg rounded-lg bg-theme-gray-2">
+<div class="md:w-[30%] h-[100%] lg:p-[30px] m-auto my-[2%] border-2 shadow-lg rounded-lg">
     <form action="" @submit="submitForm">
-        <div class="grid grid-cols-1 gap-2 md:gap-5 mt-5 w-full justify-center">
+        <div class="grid grid-cols-1 gap-2 md:gap-5 mt-5 w-full justify-center items-center">
             <img src="/assets/images/logo.svg"/>
             <div>
                 <label for="email" class="block my-[2px] mx-[5px] text-sm font-bold text-theme-primary">Email</label>

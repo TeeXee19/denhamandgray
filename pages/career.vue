@@ -30,7 +30,7 @@
                 </div>
             </div>
             <div class="items-right w-1/2 ">
-                <img src="/assets/images/career.svg" alt="" class="w-full h-auto">
+                <img src="/assets/images/career.png" alt="" class="w-full h-auto">
             </div>
         </div>
     </div>

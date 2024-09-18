@@ -170,7 +170,7 @@
     <article class="font-dg font-medium text-white text-[26px] text-justify w-3/4 space-y-6">
         <p>
             At Denham &amp; Grey, we understand that achieving sustainable development goes beyond
-            financial investment. That&#39;s why we offer comprehensive technical assistance and
+            financial investment. That is why we offer comprehensive technical assistance and
             capacity-building services to empower our partners with the knowledge, skills, and
             resources they need to succeed.
         </p>

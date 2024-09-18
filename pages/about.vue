@@ -1,5 +1,5 @@
 <template>
-<section class="bg-[url('/assets/images/about.svg')] bg-center bg-cover bg-fixed  bg-clip-border bg-no-repeat text-center text-white items-center m-auto justify-center font-dg space-y-0 flex flex-col py-[5%]">
+<section class="bg-[url('/assets/images/about.png')] bg-center bg-cover bg-fixed  bg-clip-border bg-no-repeat text-center text-white items-center m-auto justify-center font-dg space-y-0 flex flex-col py-[5%]">
     <h3 class="text-[96px]">ABOUT US</h3>
     <div class="font-bold text-[20px]">
         <NuxtLink class="text-theme-green" to="/">Home &nbsp; >> &nbsp;</NuxtLink>
@@ -8,7 +8,7 @@
 </section>
 <section class="grid md:grid-cols-2 gap-3 py-16 px-[12%] items-center">
     <div>
-        <img src="/assets/images/exp.svg" class="" alt="">
+        <img src="/assets/images/exp.png" class="" alt="">
     </div>
         <div class="space-y-4">
             <h5 class="font-dg text-[48px] leading-[1em] font-medium">Our Foundation and Operations</h5>
@@ -16,13 +16,13 @@
         </div>
 
 </section>
-<section class="text-center font-dg bg-[url('/assets/images/philosophy.svg')] bg-no-repeat bg-cover bg-fixed py-[5%]">
+<section class="text-center font-dg bg-[url('/assets/images/philosophy.png')] bg-no-repeat bg-cover bg-fixed py-[5%]">
     <div class="h-[30%] flex flex-col items-center space-y-4  mb-[3%]">
         <h2 class="font-semibold text-[64px] text-white">Corporate Philosophy</h2>
     </div>
     <div class="grid grid-cols-1 md:grid-cols-3 text-white gap-6 px-[17%]">
         <div class="relative group">
-            <img src="/assets/images/vision.svg" alt="" class="w-full h-auto hover:opacity-75 transition-opacity duration-300">
+            <img src="/assets/images/vision.png" alt="" class="w-full h-auto hover:opacity-75 transition-opacity duration-300">
             <h3 class="absolute inset-0 flex flex-col items-center justify-center text-center font-dg text-[32px] font-medium group-hover:hidden">
                 <img src="/assets/images/logo-yellow.png" />
                 Our Vision
@@ -35,7 +35,7 @@
             </div>
         </div>
         <div class="relative group">
-            <img src="/assets/images/mission.svg" alt="" class="w-full h-auto hover:opacity-75 transition-opacity duration-300">
+            <img src="/assets/images/mission.png" alt="" class="w-full h-auto hover:opacity-75 transition-opacity duration-300">
             <h3 class="absolute inset-0 flex flex-col items-center justify-center text-center font-dg text-[32px] font-medium group-hover:hidden">
                 <img src="/assets/images/logo-yellow.png" />
                 Our Mission
@@ -47,7 +47,7 @@
             </div>
         </div>
         <div class="relative group">
-            <img src="/assets/images/values.svg" alt="" class="w-full h-auto hover:opacity-75 transition-opacity duration-300">
+            <img src="/assets/images/values.png" alt="" class="w-full h-auto hover:opacity-75 transition-opacity duration-300">
             <h3 class="absolute inset-0 flex flex-col items-center justify-center text-center font-dg text-[32px] font-medium group-hover:hidden">
                 <img src="/assets/images/logo-yellow.png" />
                 Our Values
