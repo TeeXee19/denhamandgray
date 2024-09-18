@@ -1,10 +1,9 @@
 <template>
-<section class="bg-[url('/assets/images/hero.png')] bg-center bg-cover bg-fixed  bg-clip-border bg-no-repeat h-[75vh] text-center text-white items-center m-auto justify-center font-dg space-y-0 flex flex-row">
-    <div class="absolute inset-0 bg-black opacity-40 h-[83.5vh]"></div>
+<section class="bg-[url('/assets/images/hero.png')] bg-center bg-cover bg-fixed  bg-clip-border bg-no-repeat h-[65vh] text-center text-white items-center m-auto justify-center font-dg space-y-0 flex flex-row">
+    <div class="absolute inset-0 bg-black opacity-40 h-[75.5vh]"></div>
     <div class="relative w-[95%] flex flex-col space-y-8">
-        <h1 class="font-semibold font-dg text-[70px] md:w-[65%] lg:w-[55%] xl:w-[65%] mx-auto leading-[70px]">Secure Your Financial Success with</h1>
-        <h1 class="font-semibold font-dg text-[70px] md:w-[65%] lg:w-[55%] xl:w-[65%] mx-auto leading-[70px]">Denham &amp; Grey</h1>
-        <span class="font-medium text-[24px]">Financing the SGDs, Ensuring Tomorrow</span>
+        <h1 class="font-semibold font-dg text-[60px] md:w-[65%] lg:w-[55%] xl:w-[65%] mx-auto leading-[70px]">Secure Your Financial Success with Denham &amp; Grey</h1>
+        <span class="font-medium text-[26px]">Financing the SGDs, Ensuring Tomorrow</span>
 
         <div class="mt-8">
             <NuxtLink to="/#contact" class="relative inline-block">
@@ -56,7 +55,7 @@
     </div>
     <div class="grid grid-cols-2 font-dg">
         <div class="p-10 bg-white space-y-[15%]">
-            <p class="font-medium text-theme-gray text-[20px]">
+            <p class="font-medium text-black text-[20px]">
                 At Denham &amp; Grey, our team of seasoned professionals with expertise in institutional lending and development finance, drive positive change by providing wholesale medium to long term financing towards funding initiatives through our Impact Partner Institutions (licensed and regulated financial institutions) that align with the Sustainable Development Goals (SDGs).
                 <br/>
                 We leverage the channels and reach of our Impact Partner Institutions to provide funding towards empowering communities, driving economic growth and protecting the environment.

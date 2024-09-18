@@ -68,7 +68,7 @@
             <div class="w-[20%] h-[4px] bg-theme-green"></div>
             <div class="w-[80%] h-[4px] bg-theme-green"></div>
         </div>
-        <p class="font-dg text-[32px] text-theme-gray font-medium w-[50%] leading-[40px]">
+        <p class="font-dg md:text-[24px] lg:text-[26px] lg:text-[28px] text-theme-gray font-medium w-[50%] leading-[40px]">
           Our team at Denham &amp; Grey consists of experienced professionals dedicated to providing innovative financial solutions to our Impact Partners. Together, we leverage our expertise to drive impact in Nigeria’s development finance sector
         </p>
     </div>
