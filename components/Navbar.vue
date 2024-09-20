@@ -1,13 +1,13 @@
 <template>
-    <nav ref="navbar" id="navigation" class="bg-theme-dark-blue py-4 fixed top-0 left-0 w-full z-40 font-body shadow-card hover:shadow-cardhover transition-all duration-500">
-      <div class="flex items-center justify-between flex-wrap max-w-full mx-auto px-4 md:px-8">
+    <nav ref="navbar" id="navigation" class="bg-white py-4 fixed top-0 left-0 w-full z-40 font-body shadow-card hover:shadow-cardhover transition-all duration-500">
+      <div class="flex items-center  flex-wrap max-w-full mx-auto px-4 md:px-8">
         <!-- Logo -->
-        <NuxtLink to="/" class="flex items-center flex-shrink-0">
-          <img src="/assets/images/yellow-logo.svg" class="h-[50px] md:h-[50px] w-auto" alt="logo" title="Go Home" />
+        <NuxtLink to="/" class="flex items-center flex-shrink-0 w-1/4">
+          <img src="/assets/images/logo.svg" class="h-[50px] md:h-[50px] w-auto" alt="logo" title="Go Home" />
         </NuxtLink>
   
         <!-- Mobile Menu Button -->
-        <div class="block md:hidden">
+        <div class="block md:hidden w-3/4">
           <button type="button" class="inline-flex items-center justify-center p-2 rounded-md text-white hover:text-black focus:outline-none" aria-controls="mobile-menu" aria-expanded="false" @click="toggleVisibility">
             <span class="sr-only">Open main menu</span>
   
@@ -22,7 +22,7 @@
         </div>
   
         <!-- Desktop Menu -->
-        <div class="hidden md:flex md:items-center space-x-4 text-white font-light">
+        <div class="hidden md:flex md:items-center space-x-4 text-black font-light">
           <template v-for="(link, index) in menuItems" :key="index">
             <NuxtLink :to="link.path" @click="closeMenu" class="hover:text-blue-400">
               {{ link.name }}
@@ -31,11 +31,11 @@
           </template>
         </div>
   
-        <!-- Contact Info (Desktop) -->
+        <!-- Contact Info (Desktop)
         <div class="hidden md:flex md:items-center text-white">
           <img src="/assets/images/phone.svg" />
           <span>+234 803 227 0835</span>
-        </div>
+        </div> -->
   
         <!-- Mobile Menu -->
         <div :class="{'hidden': !isVisible, 'block': isVisible}" class="fixed top-0 right-0 bottom-0 w-[80%] bg-theme-dark-blue text-white z-50 transition-transform transform" :style="{ transform: isVisible ? 'translateX(0)' : 'translateX(100%)' }">
@@ -55,10 +55,10 @@
             <!-- Contact Info (Mobile) -->
             <div class="flex flex-row items-center mb-[0] space-x-2">
                 <img src="/assets/images/logo-solo.svg" />
-                <div class="flex flex-row items-center ">
+                <!-- <div class="flex flex-row items-center ">
                     <img src="/assets/images/phone.svg" />
                     <span>+234 803 227 0835</span>
-                  </div>
+                  </div> -->
             </div>
           </div>
         </div>

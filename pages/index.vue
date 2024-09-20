@@ -1,75 +1,40 @@
 <template>
 <section class="bg-[url('/assets/images/hero.png')] bg-center bg-cover bg-fixed  bg-clip-border bg-no-repeat h-[65vh] text-center text-white items-center m-auto justify-center font-dg space-y-0 flex flex-row">
-    <div class="absolute inset-0 bg-black opacity-40 h-[75.5vh]"></div>
     <div class="relative w-[95%] flex flex-col space-y-8">
-        <h1 class="font-semibold font-dg text-[60px] md:w-[65%] lg:w-[55%] xl:w-[65%] mx-auto leading-[70px]">Secure Your Financial Success with Denham &amp; Grey</h1>
-        <span class="font-medium text-[26px]">Financing the SGDs, Ensuring Tomorrow</span>
+        <h1 class="font-semibold font-dg text-[24px] md:w-[65%] lg:w-[55%] xl:w-[65%] mx-auto leading-[10px]">Denham &amp; Grey</h1>
+        <span class="font-bold text-[70px]">Financing the SGDs, Ensuring Tomorrow</span>
 
         <div class="mt-8">
-            <NuxtLink to="/#contact" class="relative inline-block">
-                <NuxtLink to="/#contact" class="bg-theme-green px-6 py-4  mx-auto">PARTNER WITH US</NuxtLink>
-                <div class="absolute inset-0 flex justify-center items-center">
-                    <div class="w-full h-px bg-theme-gray transform translate-y-8 translate-x-5"></div>
-                    <div class="h-full w-px bg-theme-gray transform translate-x-1 translate-y-5"></div>
-                </div>
-            </NuxtLink>
+                <NuxtLink to="/#contact" class="bg-primary-theme px-8 py-4 text-black mx-auto">PARTNER WITH US</NuxtLink>
         </div>
     </div>
-    <div class="relative flex flex-col justify-end space-y-8">
-        <NuxtLink to="/">
-            <img src="/assets/images/facebook-side.svg" alt="Facebook" class="h-6 w-6" />
-        </NuxtLink>
-        <NuxtLink to="/">
-            <img src="/assets/images/instagram-side.svg" alt="Instagram" class="h-6 w-6" />
-        </NuxtLink>
-        <NuxtLink to="/">
-            <img src="/assets/images/x-side.svg" alt="Twitter" class="h-6 w-6" />
-        </NuxtLink>
-        <NuxtLink to="/">
-            <img src="/assets/images/youtube-side.svg" alt="LinkedIn" class="h-6 w-6" />
-        </NuxtLink>
+</section>
+<section class=" font-dg space-y-0 md:grid grid-cols-3 hidden p-6">
+    <div class="p-2 space-x-4  border-r border-r-width-[60%] border-gray-500 flex items-center">
+        <span class="font-tw font-bold text-[30px] text-primary-text tracking-normal">01</span>
+        <div class="font-dg text-[30px] font-normal">Empowering Communities</div>
+    </div>
+    <div class="p-2 space-x-4 border-r border-gray-500 flex items-center">
+        <span class="font-tw font-bold text-[30px] text-primary-text tracking-normal">02</span>
+        <div class="font-dg text-[30px] font-normal">Driving Economic Growth</div>
+    </div>
+    <div class="p-2 space-x-4 flex items-center">
+        <span class="font-tw font-bold text-[30px] text-primary-text tracking-normal">03</span>
+        <div class="font-dg text-[30px] font-normal">Protecting the Environment</div>
     </div>
 </section>
-<section class="bg-[url('/assets/images/sub-hero.png')] bg-center bg-cover  bg-clip-border bg-no-repeat font-dg space-y-0 md:grid grid-cols-3 hidden">
-    <div class="p-2 border-r-2 border-gray-500">
-        <span class="font-tw font-expanded text-[50px] text-hollow tracking-normal">01</span>
-        <div class="font-dg text-[20px] text-white font-normal">Empowering Communities</div>
-    </div>
-    <div class="p-2 border-r border-gray-500">
-        <span class="font-tw font-expanded text-[50px] text-hollow tracking-normal">02</span>
-        <div class="font-dg text-[20px] text-white font-normal">Driving Economic Growth</div>
-    </div>
-    <div class="p-2">
-        <span class="font-tw font-expanded text-[50px] text-hollow tracking-normal">03</span>
-        <div class="font-dg text-[20px] text-white font-normal">Protecting the Environment</div>
-    </div>
-</section>
-<section class="font-dg bg-[#F0F0F0]">
-    <div class="grid grid-cols-2 font-dg">
-        <div class="p-10 bg-white space-y-[5%]">
+<section class="font-ar bg-[#F0F0F0]">
+    <div class="grid grid-cols-2 font-ar">
+        <div class="p-[10%]  space-y-[5%]">
             <h3 class="font-bold text-[56px]  tracking-0">Welcome to Denham &amp; Grey</h3>
-            <p class="font-medium text-black text-[20px]">
+            <p class="font-medium text-black text-[24px]">
                 At Denham &amp; Grey, our team of seasoned professionals with expertise in institutional lending and development finance, drive positive change by providing wholesale medium to long term financing towards funding initiatives through our Impact Partner Institutions (licensed and regulated financial institutions) that align with the Sustainable Development Goals (SDGs).
                 <br/>
                 We leverage the channels and reach of our Impact Partner Institutions to provide funding towards empowering communities, driving economic growth and protecting the environment.
             </p>
-            <NuxtLink to="/about" class="relative inline-block float-right">
-                <NuxtLink to="/about" class="bg-theme-green text-white py-3 px-14 ">
-                    Discover how we can empower your business
-                </NuxtLink>
-                <div class="absolute inset-0 flex justify-center items-center">
-                    <div class="w-full h-px bg-theme-gray transform translate-y-7 translate-x-5"></div>
-                    <div class="h-full w-px bg-theme-gray transform translate-x-1.5 translate-y-4"></div>
-                </div>
-            </NuxtLink>
         </div>
-        <div class="relative">
+        <div>
             <img src="/assets/images/about-right.png" alt="" class="w-full h-auto">
-            <div class="absolute inset-0 px-6 py-3 bg-black h-fit opacity-70 self-end">
-              <h3 class="text-left font-dg text-[32px] font-semibold text-white leading-8 ">
-                Leading wholesale impact investment in Nigeria....
-              </h3>
-            </div>
         </div>
     </div>
 </section>
@@ -148,58 +113,20 @@
         </div>
     </div>
 </section>
-<section class="bg-[url('/assets/images/TA.png')] bg-center bg-cover h-[50%]   bg-clip-border bg-no-repeat text-white m-auto font-dg px-[10%] py-[5%]">
-    <div class="h-[30%] flex flex-col items-center space-y-2 mb-[3%]">
-        <h2 class="font-semibold text-[64px] leading-[50px]">Our Non-Financial Offering</h2>
-        <div class="flex flex-row w-[8%] gap-3">
-            <div class="w-[20%] h-[4px] bg-theme-green"></div>
-            <div class="w-[80%] h-[4px] bg-theme-green"></div>
-        </div>
+<section class="h-[50%]   bg-clip-border bg-no-repeat m-auto font-dg px-[10%] py-[5%] flex flex-col items-center">
+    <div class="flex flex-col items-center space-y-2 ">
+        <h2 class="font-semibold text-[64px] font-ti">Our Non-Financial Offering</h2>
     </div>
-    <div class="h-[30%] flex flex-col items-left space-y-4">
-        <h2 class="font-semibold text-[40px]  w-[60%]">Technical Assistance and Capacity Building</h2>
-    </div>
-    <article class="font-dg font-medium text-white text-[26px] text-justify w-3/4 space-y-6">
-        <p>
-            At Denham &amp; Grey, we understand that achieving sustainable development goes beyond
-            financial investment. That is why we offer comprehensive technical assistance and
-            capacity-building services to empower our partners with the knowledge, skills, and
-            resources they need to succeed.
-        </p>
-        <p>
-            We provide support to our impact partners to build their capacity to manage risk, enhance efficiency, and drive long-term sustainable impact.
-        </p>
-        <p>
-            Denham &amp; Grey provides tailored support to our Impact Partner Institutions to develop
-            the technical and financial capacity required to structure sustainable financing towards
-            transactions and initiatives that align with the SDGs.
-        </p>
-         <p>
-            Our technical assistance and capacity building supports our Impact partners in various forms such as <b>structuring green transactions, developing financial and non-financial offerings</b> to drive <b>financial inclusion across the country</b> and aiming to optimize impact on any of the SGDs.
-        </p>
+    <div class="flex flex-col items-center space-y-4 rounded-md bg-[#ECECEC] px-[5%] py-[2%] w-3/4">
+        <h2 class="font-semibold text-[40px] ">Technical Assistance and Capacity Building</h2>
+    
+    <article class="font-ar font-medium text-[28px] text-justify  space-y-6">
+        Denham &amp; Grey offers comprehensive technical assistance and capacity-building services to empower partners with the knowledge, skills, and resources for sustainable development. We help impact partners build their capacity to manage their own risks, improve efficiency, and achieve long-term impact. Our support includes developing the technical and financial capacity to structure sustainable financing aligned with the SDGs. Our technical assistance includes structuring green transactions and developing financial and non-financial offerings to promote financial inclusion and optimise impact on the SDGs.
     </article>
+</div>
 </section>
-<!-- <section class="gap-0 custom-container py-8 px-[10%]">
-    <div class="pb-3">
-        <h5 class="font-dg font-semibold text-[48px]">News Feeds</h5>
-        <div class="flex justify-between">
-            <div class="flex flex-row w-[8%] gap-3">
-                <div class="w-[10%] h-[4px] bg-theme-green"></div>
-                <div class="w-[90%] h-[4px] bg-theme-green"></div>
-            </div>
-            <span>
-                <NuxtLink to="/" class="text-theme-green">View all feeds</NuxtLink>
-            </span>
-        </div>
-    </div>
 
-    <div class="md:gap-4 md:py-10 grid grid-flow-col md:grid-flow-row md:grid-cols-auto md:grid-cols-3 lg:grid-cols-auto lg:grid-cols-3 overflow-x-auto sm:max-h-fit">
-        <div v-for="(post, index) in posts" :key="index" class="flex w-[300px] md:w-full">
-            <blog :heading="post.heading" :href="post.href" :img="post.img" :description="post.description" :tags="post.tags" :date="post.date" />
-        </div>
-    </div>
-</section> -->
-<section class="bg-[url('/assets/images/contact.png')] bg-center bg-cover bg-fixed  bg-no-repeat py-[5%] px-[20%] font-dg text-white" id="contact">
+<section class="bg-[url('/assets/images/handshake.svg')] bg-center bg-cover bg-fixed  bg-no-repeat py-[10%] px-[20%] font-dg text-white" id="contact">
     <div class="max-w-[1440px] flex flex-col gap-6 items-center">
         <div class="w-[40%]">
             <h3 class="font-semibold text-[50px] leading-[60px]">Partner With Us</h3>

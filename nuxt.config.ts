@@ -24,6 +24,8 @@ export default defineNuxtConfig({
         'Inter': true,
         'Darker+Grotesque':true,
         'Titillium+Web':true,
+        'Arimo':true,
+        'Tinos':true,
         'MonteCarlo':true
       },
       display: 'swap', // Recommended for performance

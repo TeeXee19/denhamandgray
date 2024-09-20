@@ -12,6 +12,8 @@ module.exports = {
       fontFamily: {
        dg: ['"Darker Grotesque"', 'sans'],
        tw: ['"Titillium Web"', 'sans'],
+       ar: ['"Arimo"', 'sans'],
+       ti: ['"Tinos"', 'sans'],
        mc: ['"MonteCarlo"', 'sans'],
        in: ['"Inter"', 'sans'],
      },
@@ -26,7 +28,10 @@ module.exports = {
        'dg-3xl': '80px',
      },
       colors: {
-        primary: { "theme": "#FFCE53" },
+        primary: { 
+          "theme": "#E8C86D",
+          "text": "#A58C09",
+       },
         secondary: { "theme": "#1B1725" },
         cream: { "theme": "#FFF9EB" },
         teal: { "theme": "#3AAFA9" },
