@@ -1,10 +1,10 @@
 <template>
-<section class="bg-[url('/assets/images/hero.png')] bg-center bg-cover bg-fixed  bg-clip-border bg-no-repeat text-center text-white items-center m-auto justify-center font-dg space-y-0 flex flex-col py-[5%]">
+<section class="bg-[url('/assets/images/hero.png')] bg-center bg-cover bg-fixed  bg-clip-border bg-no-repeat text-center text-white items-center m-auto justify-center font-dg space-y-0 flex flex-col py-[5%] font-ti">
     <h3 class="text-[76px]">ABOUT US</h3>
 </section>
-<section class="gap-3 py-16 px-[12%] text-center items-center">
-    <h5 class="font-ti text-[48px] leading-[1em] font-bold">Our Foundation and Operations</h5>
-    <p class="font-dg font-medium text-black text-[24px] leading-auto">Established in 2021, Denham &amp; Grey began full operations in 2024. Our main office is in Lagos, Nigeria's financial hub, providing easy access to clients, market insights, and effective client monitoring. We also have a secondary location in the Federal Capital Territory.</p>
+<section class="gap-8 py-16 px-[12%] text-center items-center justify-center flex flex-col">
+    <h5 class="font-ti text-[48px] font-bold">Our Foundation and Operations</h5>
+    <p class="font-ar font-medium text-black text-[24px] leading-[55px] tracking-[2%] w-[80%]">Established in 2021, Denham &amp; Grey began full operations in 2024. Our main office is in Lagos, Nigeria's financial hub, providing easy access to clients, market insights, and effective client monitoring. We also have a secondary location in the Federal Capital Territory.</p>
 </section>
 <section class="text-center font- bg-[#FAFAFA] py-[5%]">
     <div class="h-[30%] flex flex-col items-center space-y-4 mb-[3%]">

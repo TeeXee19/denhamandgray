@@ -12,10 +12,11 @@ module.exports = {
       fontFamily: {
        dg: ['"Darker Grotesque"', 'sans'],
        tw: ['"Titillium Web"', 'sans'],
-       ar: ['"Arimo"', 'sans'],
-       ti: ['"Tinos"', 'sans'],
+       ar: ['"Helvetica"', 'sans'],
+      //  ti: ['"Tinos"', 'sans'],
        mc: ['"MonteCarlo"', 'sans'],
        in: ['"Inter"', 'sans'],
+       ti: ['"Times New Roman"', 'serif'],
      },
      fontSize:{
        'dg-xs': '14px',

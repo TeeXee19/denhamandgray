@@ -1,33 +1,32 @@
 <template>
-<section class="bg-[url('/assets/images/hero.png')] bg-center bg-cover bg-fixed  bg-clip-border bg-no-repeat h-[65vh] text-center text-white items-center m-auto justify-center font-dg space-y-0 flex flex-row">
-    <div class="relative w-[95%] flex flex-col space-y-8">
-        <h1 class="font-semibold font-dg text-[24px] md:w-[65%] lg:w-[55%] xl:w-[65%] mx-auto leading-[10px]">Denham &amp; Grey</h1>
+<section class="bg-[url('/assets/images/hero.png')] bg-center bg-cover bg-fixed  bg-clip-border bg-no-repeat h-[65vh] text-center text-white items-center m-auto justify-center space-y-0 flex flex-row">
+    <div class="relative w-[95%] flex flex-col">
+        <h1 class="font-bold font-ti text-[48px] md:w-[65%] lg:w-[55%] xl:w-[65%] mx-auto ">Denham &amp; Grey</h1>
         <span class="font-bold text-[70px]">Financing the SGDs, Ensuring Tomorrow</span>
-
         <div class="mt-8">
                 <NuxtLink to="/#contact" class="bg-primary-theme px-8 py-4 text-black mx-auto">PARTNER WITH US</NuxtLink>
         </div>
     </div>
 </section>
-<section class=" font-dg space-y-0 md:grid grid-cols-3 hidden p-6">
+<section class=" font-ti space-y-0 md:grid grid-cols-3 hidden p-6">
     <div class="p-2 space-x-4  border-r border-r-width-[60%] border-gray-500 flex items-center">
-        <span class="font-tw font-bold text-[30px] text-primary-text tracking-normal">01</span>
-        <div class="font-dg text-[30px] font-normal">Empowering Communities</div>
+        <span class="font-ti font-bold text-[30px] text-primary-text tracking-normal">01</span>
+        <div class="font-ti text-[30px] font-normal">Empowering Communities</div>
     </div>
     <div class="p-2 space-x-4 border-r border-gray-500 flex items-center">
-        <span class="font-tw font-bold text-[30px] text-primary-text tracking-normal">02</span>
-        <div class="font-dg text-[30px] font-normal">Driving Economic Growth</div>
+        <span class="font-ti font-bold text-[30px] text-primary-text tracking-normal">02</span>
+        <div class="font-ti text-[30px] font-normal">Driving Economic Growth</div>
     </div>
     <div class="p-2 space-x-4 flex items-center">
-        <span class="font-tw font-bold text-[30px] text-primary-text tracking-normal">03</span>
-        <div class="font-dg text-[30px] font-normal">Protecting the Environment</div>
+        <span class="font-ti font-bold text-[30px] text-primary-text tracking-normal">03</span>
+        <div class="font-ti text-[30px] font-normal">Protecting the Environment</div>
     </div>
 </section>
 <section class="font-ar bg-[#F0F0F0]">
     <div class="grid grid-cols-1 md:grid-cols-2  font-ar">
         <div class="p-[10%]  space-y-[5%] order-last md:order-first">
-            <h3 class="font-bold text-[56px]  tracking-0">Welcome to Denham &amp; Grey</h3>
-            <p class="font-medium text-black text-[24px]">
+            <h3 class="font-bold text-[56px] font-ti">Welcome to Denham &amp; Grey</h3>
+            <p class="font-medium text-black text-[24px] font-ar">
                 At Denham &amp; Grey, our team of seasoned professionals with expertise in institutional lending and development finance, drive positive change by providing wholesale medium to long term financing towards funding initiatives through our Impact Partner Institutions (licensed and regulated financial institutions) that align with the Sustainable Development Goals (SDGs).
                 <br/>
                 We leverage the channels and reach of our Impact Partner Institutions to provide funding towards empowering communities, driving economic growth and protecting the environment.
@@ -38,40 +37,34 @@
         </div>
     </div>
 </section>
-<section class="bg-[url('/assets/images/est.png')] bg-center bg-cover bg-fixed bg-clip-border bg-no-repeat py-[5%] px-[10%] font-dg text-white ">
-    <div class="">
-        <h3 class="font-bold text-[36px] tracking-[10px]">ESTABLISHED IN 2021</h3>
-        <h3 class="font-semibold text-[70px] w-[70%] leading-[80px]">We are experts in impact investment and wholesale lending</h3>
+<section class="bg-[url('/assets/images/est.png')] bg-center bg-cover bg-fixed bg-clip-border bg-no-repeat py-[10%] px-[5%] text-white font-ti ">
+    <div class="w-1/2 space-y-8">
+        <h3 class="text-[36px] tracking-[5px] font-ti">ESTABLISHED IN 2021</h3>
+        <h3 class="font-bold text-[48px] w-[100%] leading-[80px]">We are experts in impact investment and wholesale lending</h3>
         <div class="grid grid-cols-2 ">
             <div class="flex flex-col font-bold ">
-                <span class="border-b-[3px] w-[85%] border-yellow-theme lg:text-[90px]">$20 Million</span>
+                <span class="border-b-[3px] w-[85%] border-yellow-theme lg:text-[50px]">$20 Million</span>
                 <span class="font-normal text-[36px]">Approved funding</span>
             </div>
             <div class="flex flex-col font-bold ">
-                <span class="border-b-[3px] w-[85%] border-yellow-theme lg:text-[90px]">49 Locations</span>
+                <span class="border-b-[3px] w-[85%] border-yellow-theme lg:text-[50px]">49 Locations</span>
                 <span class="font-normal text-[36px]">Impact channels</span>
             </div>
         </div>
     </div>
 </section>
-<section class="text-center font-dg">
+<section class="text-center font-ti">
     <div class="h-[30%] flex flex-col items-center space-y-4 pt-[6%] mb-[3%]">
-        <h2 class="font-semibold text-[64px] leading-[50px]">Our Financial Products</h2>
-        <div class="flex flex-row w-[8%] gap-3">
-            <div class="w-[20%] h-[4px] bg-theme-green"></div>
-            <div class="w-[80%] h-[4px] bg-theme-green"></div>
-        </div>
+        <h2 class="font-semibold text-[64px] leading-[50px]">Our Financial Offerings</h2>
+ 
         <p class="font-dg text-[32px] text-theme-gray font-medium w-[70%] leading-[40px]">
-            Our financial offerings are specialized to three key areas which are tailored in line with the risk profile and financial needs of our partners.
+            Our financial offerings are specialised into three key areas, aligned with the risk profile and financial needs of our partners
         </p>
     </div>
     <div class=" grid grid-cols-3 text-white ">
         <div class="relative group">
-            <img src="/assets/images/pillar1.png" alt="" class="w-full h-auto hover:opacity-75 transition-opacity duration-800">
-            <h3 class="absolute inset-0 flex items-center justify-center text-center font-dg text-[32px] font-semibold group-hover:hidden">
-                Impact Funding
-            </h3>
-            <div class="absolute p-8 inset-0 flex flex-col justify-center text-left  opacity-0  hover:opacity-70 transition-opacity duration-1000 group-hover:opacity-70 ">
+            <img src="/assets/images/pillar1.png" alt="" class="w-full h-auto transition-opacity duration-800">
+            <!-- <div class="absolute p-8 inset-0 flex flex-col justify-center text-left  opacity-0  hover:opacity-70 transition-opacity duration-1000 group-hover:opacity-70 ">
                 <h3 class="font-dg text-[32px] font-semibold hover:hidden">
                     Impact Funding
                 </h3>
@@ -81,46 +74,40 @@
                     focus on women, start-ups, green projects, and other
                     segments as deemed necessary.
                 </p>
-            </div>
+            </div> -->
         </div>
         <div class="relative group">
-            <img src="/assets/images/pillar2.png" alt="" class="w-full h-auto hover:opacity-75 transition-opacity duration-500">
-            <h3 class="absolute inset-0 flex items-center justify-center text-center font-dg text-[32px] font-semibold group-hover:hidden">
-                Wholesale Funding
-            </h3>
-            <div class="absolute p-8 inset-0 flex flex-col justify-center text-left  opacity-0  hover:opacity-70 transition-opacity duration-1000 group-hover:opacity-70 ">
+            <img src="/assets/images/pillar2.png" alt="" class="w-full h-auto transition-opacity duration-500">
+            <!-- <div class="absolute p-8 inset-0 flex flex-col justify-center text-left  opacity-0  hover:opacity-70 transition-opacity duration-1000 group-hover:opacity-70 ">
                 <h3 class="font-dg text-[32px] font-semibold hover:hidden">
                     Wholesale Funding
                 </h3>
                 <p class="font-dg font-medium text-[28px] leading-8">
                     We are a niche firm with a focus on providing flexible and innovative financing solutions to licensed and regulated financial institutions in Africa with a track record of good corporate governance, competent management, and prudent risk management practices.
                 </p>
-            </div>
+            </div> -->
         </div>
         <div class="relative group">
-            <img src="/assets/images/pillar3.png" alt="" class="w-full h-auto hover:opacity-75 transition-opacity duration-300">
-            <h3 class="absolute inset-0 flex items-center justify-center text-center font-dg text-[32px] font-semibold group-hover:hidden">
-                Strategic Finance
-            </h3>
-            <div class="absolute p-8 inset-0 flex flex-col justify-center text-left  opacity-0  hover:opacity-70 transition-opacity duration-1000 group-hover:opacity-70 ">
+            <img src="/assets/images/pillar3.png" alt="" class="w-full h-auto transition-opacity duration-300">
+            <!-- <div class="absolute p-8 inset-0 flex flex-col justify-center text-left  opacity-0  hover:opacity-70 transition-opacity duration-1000 group-hover:opacity-70 ">
                 <h3 class="font-dg text-[32px] font-semibold hover:hidden">
                     Strategic Finance
                 </h3>
                 <p class="font-dg font-medium text-[28px] leading-8">
                     Our partners require funding to enable them achieve their strategic objectives from acquisition to other financial institutions to branch expansion, we are here to support your strategies to ensure you achieve your mandates.
                 </p>
-            </div>
+            </div> -->
         </div>
     </div>
 </section>
-<section class="h-[50%]   bg-clip-border bg-no-repeat m-auto font-dg md:bg-[#ECECEC] md:px-25%] md:py-[5%] flex flex-col items-center">
+<section class="h-[50%] bg-clip-border bg-no-repeat m-auto md:bg-[#ECECEC] md:px-25%] md:py-[5%] flex flex-col items-center">
     <div class="flex flex-col items-center space-y-2 ">
         <h2 class="font-semibold text-[64px] font-ti">Our Non-Financial Offering</h2>
     </div>
     <div class="flex flex-col md:items-center space-y-4 rounded-md bg-[#ECECEC] md:bg-white px-[2%] py-[2%] md:w-[80%]">
-        <h2 class="font-semibold text-[40px] ">Technical Assistance and Capacity Building</h2>
+        <h2 class="font-semibold text-[40px] font-ti">Technical Assistance and Capacity Building</h2>
     
-    <article class="font-ar font-medium text-[28px] text-justify  space-y-6">
+    <article class="font-ar text-[28px] text-justify  space-y-6">
         Denham &amp; Grey offers comprehensive technical assistance and capacity-building services to empower partners with the knowledge, skills, and resources for sustainable development. We help impact partners build their capacity to manage their own risks, improve efficiency, and achieve long-term impact. Our support includes developing the technical and financial capacity to structure sustainable financing aligned with the SDGs. Our technical assistance includes structuring green transactions and developing financial and non-financial offerings to promote financial inclusion and optimise impact on the SDGs.
     </article>
 </div>
