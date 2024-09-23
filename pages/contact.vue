@@ -1,10 +1,6 @@
 <template>
-<section class="bg-[url('/assets/images/handshake.svg')] bg-center bg-cover h-[500px]  bg-clip-border bg-no-repeat text-center text-white items-center m-auto justify-center font-dg space-y-0 flex flex-col py-[5%]">
-    <h3 class="text-[96px]">CONTACT US</h3>
-    <div class="font-bold text-[20px]">
-        <NuxtLink class="text-theme-green" to="/">Home &nbsp; >> &nbsp;</NuxtLink>
-        About Us
-    </div>
+<section class="bg-[url('/assets/images/call-centre.png')] bg-center bg-cover h-[200px]  bg-clip-border bg-no-repeat text-center text-white items-center m-auto justify-center font-ti space-y-0 flex flex-col py-[5%]">
+    <h3 class="text-[76px]">Contact Us</h3>
 </section>
 <section class="py-[4%] px-[6%] font-dg ">
 
@@ -29,7 +25,7 @@
           </div>
           <div class="">
               <!-- <div class="relative inline-block"> -->
-                  <button class="bg-theme-green text-white py-3 px-14 ">
+                  <button class="bg-primary-theme py-3 px-[20%] text-black font-bold text-[16px]">
                       Submit
                   </button>
                   <!-- <div class="absolute inset-0 flex justify-center items-center">
@@ -42,11 +38,12 @@
       </div>
       <div class="bg-[url('/assets/images/contactRight.svg')] w-[80%] h-full bg-center bg-cover bg-clip-border bg-no-repeat  p-6 text-white space-y-4">
           <h3 class="font-dg font-medium text-[24px]">Our Contact details</h3>
+          <p class="font-dg font-medium text-[18px]">Give us a call or drop by anytime, we endeavour to answer all enquiries within 24 hours on business days. We will be happy to answer your questions.</p>
           <div class="flex gap-2 h-fit">
             <img src="/assets/images/home.svg" />
             <div class="font-dg font-semibold leading-tight">
               <h3 class="text-[16px]">Address</h3>
-              <NuxtLink to="https://maps.app.goo.gl/Zuk77meWv4vrnadh8" class="font-medium text-[14px] hover:text-theme-green"> No 6, Jerry Gana Close, Utako Abuja, Nigeria.</NuxtLink>
+              <NuxtLink to="https://maps.app.goo.gl/Zuk77meWv4vrnadh8" class="font-medium text-[14px] hover:text-theme-green"> 4, King AJ Turner Crescent Wuye, FCT Abuja, Nigeria.</NuxtLink>
             </div>
           </div>
           <div class="flex gap-2 h-fit">
@@ -61,7 +58,7 @@
             <img src="/assets/images/phone.svg" />
             <div class="font-dg font-semibold leading-tight">
               <h3 class="text-[16px]">Phone Number</h3>
-              <a href="tel:+2347067939313" class="font-medium text-[14px] hover:text-theme-green">+234 (706) 793 9313</a>
+              <a href="tel:+2348032270335" class="font-medium text-[14px] hover:text-theme-green">+234 (803) 227 0335</a>
             </div>
           </div>
           <h3 class="font-dg font-bold text-[14px]">Socials</h3>
@@ -84,8 +81,7 @@
 
 </section>
 <section class="">
-  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d32633153.85138364!2d0.026524122631017194!3d3.2148771789038095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104e0ada00c64b5f%3A0x3a37b6743c0cf37e!2s6%20Jerry%20Gana%20Cl%2C%20Utako%2C%20Abuja%20900104%2C%20Federal%20Capital%20Territory%2C%20Nigeria!5e0!3m2!1sen!2sru!4v1726013250289!5m2!1sen!2sru" class="w-full h-[600px]" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-  
+  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d60726753.130384624!2d-10.139275!3d21.723419!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104e74b4983f0387%3A0xd832dfb1406e3bce!2s4%20King%20A%20J%20Turner%20Cres%2C%20Wuye%2C%20Ankuru%20900001%2C%20Federal%20Capital%20Territory%2C%20Nigeria!5e0!3m2!1sen!2sru!4v1727075690182!5m2!1sen!2sru" class="w-full h-[600px]" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </section>
 </template>
 

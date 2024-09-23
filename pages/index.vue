@@ -24,8 +24,8 @@
     </div>
 </section>
 <section class="font-ar bg-[#F0F0F0]">
-    <div class="grid grid-cols-2 font-ar">
-        <div class="p-[10%]  space-y-[5%]">
+    <div class="grid grid-cols-1 md:grid-cols-2  font-ar">
+        <div class="p-[10%]  space-y-[5%] order-last md:order-first">
             <h3 class="font-bold text-[56px]  tracking-0">Welcome to Denham &amp; Grey</h3>
             <p class="font-medium text-black text-[24px]">
                 At Denham &amp; Grey, our team of seasoned professionals with expertise in institutional lending and development finance, drive positive change by providing wholesale medium to long term financing towards funding initiatives through our Impact Partner Institutions (licensed and regulated financial institutions) that align with the Sustainable Development Goals (SDGs).
@@ -33,7 +33,7 @@
                 We leverage the channels and reach of our Impact Partner Institutions to provide funding towards empowering communities, driving economic growth and protecting the environment.
             </p>
         </div>
-        <div>
+        <div >
             <img src="/assets/images/about-right.png" alt="" class="w-full h-auto">
         </div>
     </div>
@@ -113,11 +113,11 @@
         </div>
     </div>
 </section>
-<section class="h-[50%]   bg-clip-border bg-no-repeat m-auto font-dg px-[10%] py-[5%] flex flex-col items-center">
+<section class="h-[50%]   bg-clip-border bg-no-repeat m-auto font-dg md:bg-[#ECECEC] md:px-25%] md:py-[5%] flex flex-col items-center">
     <div class="flex flex-col items-center space-y-2 ">
         <h2 class="font-semibold text-[64px] font-ti">Our Non-Financial Offering</h2>
     </div>
-    <div class="flex flex-col items-center space-y-4 rounded-md bg-[#ECECEC] px-[5%] py-[2%] w-3/4">
+    <div class="flex flex-col md:items-center space-y-4 rounded-md bg-[#ECECEC] md:bg-white px-[2%] py-[2%] md:w-[80%]">
         <h2 class="font-semibold text-[40px] ">Technical Assistance and Capacity Building</h2>
     
     <article class="font-ar font-medium text-[28px] text-justify  space-y-6">
@@ -126,24 +126,24 @@
 </div>
 </section>
 
-<section class="bg-[url('/assets/images/handshake.svg')] bg-center bg-cover bg-fixed  bg-no-repeat py-[10%] px-[20%] font-dg text-white" id="contact">
+<section class="bg-[url('/assets/images/handshake.svg')] bg-center bg-cover bg-fixed  bg-no-repeat py-[10%] px-[5%] md:px-[20%] font-ti text-white" id="contact">
     <div class="max-w-[1440px] flex flex-col gap-6 items-center">
-        <div class="w-[40%]">
+        <div class="md:w-[40%]">
             <h3 class="font-semibold text-[50px] leading-[60px]">Partner With Us</h3>
         </div>
-        <div class="w-[60%]">
+        <div class="w-full md:w-[60%]">
             <form @submit="" class="space-y-3">
 
                 <div class="space-y-3">
-                    <div class="flex flex-row gap-3">
-                        <input type="text" id="name" v-model="name" class="bg-black border border-white text-gray-300 text-[24px] block w-full p-2.5 opacity-50" placeholder="Name" required>
-                        <input type="tel" id="tel" v-model="lastname" class="bg-black border border-white text-gray-300 text-[24px] block w-full p-2.5 opacity-50" placeholder="Phone" required>
+                    <div class="flex flex-col md:flex-row gap-3">
+                        <input type="text" id="name" v-model="name" class="bg-white border border-white text-black text-[24px] block w-full p-2.5 opacity-80" placeholder="Name" required>
+                        <input type="tel" id="tel" v-model="lastname" class="bg-white border border-white text-black text-[24px] block w-full p-2.5 opacity-80" placeholder="Phone" required>
                     </div>
                     <div>
-                        <input type="email" id="email" v-model="lastname" class="bg-black border border-white text-gray-300 text-[24px] block w-full p-2.5 opacity-50" placeholder="Email" required>
+                        <input type="email" id="email" v-model="lastname" class="bg-white border border-white text-black text-[24px] block w-full p-2.5 opacity-80" placeholder="Email" required>
                     </div>
                     <div>
-                        <textarea id="message" v-model="message" rows="4" class="block p-2.5 w-full text-[24px] text-gray-400 bg-black border border-white opacity-50" placeholder="Tell us what you want"></textarea>
+                        <textarea id="message" v-model="message" rows="4" class="block p-2.5 w-full text-[24px] text-black bg-white border border-white opacity-80" placeholder="Tell us what you want"></textarea>
                     </div>
                 </div>
                 <div class="float-right">

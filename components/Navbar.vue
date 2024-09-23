@@ -1,5 +1,5 @@
 <template>
-    <nav ref="navbar" id="navigation" class="bg-white py-4 fixed top-0 left-0 w-full z-40 font-body shadow-card hover:shadow-cardhover transition-all duration-500">
+    <nav ref="navbar" id="navigation" class="bg-white  fixed top-0 left-0 w-full z-40 font-body shadow-card hover:shadow-cardhover transition-all duration-500">
       <div class="flex items-center  flex-wrap max-w-full mx-auto px-4 md:px-8">
         <!-- Logo -->
         <NuxtLink to="/" class="flex items-center flex-shrink-0 w-1/4">
