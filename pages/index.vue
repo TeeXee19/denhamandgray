@@ -132,7 +132,7 @@
                     </div>
                 </div>
                 <div class="float-right">
-                        <button class="bg-primary-theme text-white py-3 px-14 ">
+                        <button class="bg-primary-theme text-black py-3 px-14 ">
                             Submit
                         </button>   
                 </div>
