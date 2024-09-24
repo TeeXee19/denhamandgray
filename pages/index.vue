@@ -55,7 +55,7 @@
     <div class="h-[30%] flex flex-col items-center space-y-4 pt-[6%] mb-[3%]">
         <h2 class="font-semibold text-[64px] leading-[50px]">Our Financial Offerings</h2>
  
-        <p class="font-dg text-[32px] text-theme-gray font-medium w-[70%] leading-[40px]">
+        <p class="font-dg text-[32px] text-black font-medium w-[70%] leading-[40px]">
             Our financial offerings are specialised into three key areas, aligned with the risk profile and financial needs of our partners
         </p>
     </div>
@@ -122,7 +122,7 @@
                 <div class="space-y-3">
                     <div class="flex flex-col md:flex-row gap-3">
                         <input type="text" id="name" v-model="name" class="bg-white border border-white text-black text-[24px] block w-full p-2.5 opacity-80" placeholder="Name" required>
-                        <input type="tel" id="tel" v-model="lastname" class="bg-white border border-white text-black text-[24px] block w-full p-2.5 opacity-80" placeholder="Phone" required>
+                        <input type="tel" id="tel" v-model="lastname" class="bg-white border border-white text-black text-[24px] block w-full p-2.5 opacity-80" placeholder="Phone Number" required>
                     </div>
                     <div>
                         <input type="email" id="email" v-model="lastname" class="bg-white border border-white text-black text-[24px] block w-full p-2.5 opacity-80" placeholder="Email" required>
@@ -132,7 +132,7 @@
                     </div>
                 </div>
                 <div class="float-right">
-                        <button class="bg-theme-green text-white py-3 px-14 ">
+                        <button class="bg-primary-theme text-white py-3 px-14 ">
                             Submit
                         </button>   
                 </div>

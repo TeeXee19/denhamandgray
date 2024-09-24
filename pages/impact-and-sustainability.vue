@@ -2,17 +2,19 @@
 <section class="bg-[url('/assets/images/impact2.png')] bg-center bg-cover bg-clip-border bg-no-repeat text-center text-white items-center m-auto justify-center  space-y-0 flex flex-col py-[5%]">
     <h3 class="text-[64px] font-ti">Impact and Sustainability </h3>
 </section>
-<section class=" bg-white flex flex-row">
-    <div class=" items-center space-y-4 pt-[5%] px-[6%] w-[55%]">
+<section class=" bg-white flex flex-row pt-[2%]">
+    <div class=" items-center space-y-4 pt-[4%] px-[6%] w-[55%]">
         <h2 class="font-bold text-[44px] leading-[50px] font-ti">Our Commitment to Sustainability</h2>
-        <p class="font-ar text-[21px] text-black font-normal leading-[28px]">
+        <p class="font-ar text-[18px] text-black font-normal leading-[29px]">
             Sustainability is at the heart of everything we do. We believe that responsible investment is key to building a resilient and prosperous future for Nigeria. Our focus is on financing projects and businesses that align with the Sustainable Development Goals (SDGs), promoting economic growth that benefits people and protects the planet. Through our investments, we support renewable energy, financing for SMEs, financial inclusion for women, energy efficiency, and more, ensuring that every project we finance contributes to environmental stewardship and long-term prosperity. We work closely with our partners to reduce environmental risks, improve resource efficiency, and foster inclusive development.
         </p>
-        <p class="font-ar text-[21px] text-black font-normal leading-[28px]">
+        <p class="font-ar text-[18px] text-black font-normal leading-[29px] pt-3">
             Through our investments, we support renewable energy, financing for SMEs, financial inclusion for women, energy efficiency, and more, ensuring that every project we finance contributes to environmental stewardship and long-term prosperity. We work closely with our partners to reduce environmental risks, improve resource efficiency, and foster inclusive development.
         </p>
     </div>
         <img src="/assets/images/earth.png"  class="w-[45%]"/>
+</section>
+<section class="bg-[url('/assets/images/impact2.png')] bg-center bg-cover bg-clip-border bg-no-repeat text-center text-white items-center m-auto justify-center  space-y-0 flex flex-col py-[1%]">
 </section>
 <section class=" md:px-[2%] lg:px-[2%] xl:px-[4%] bg-white">
     <h2 class="font-bold text-[48px] leading-[50px] font-ti text-center p-4 py-[8%]">Our Impact Story</h2>
@@ -104,6 +106,8 @@
     </div>
     
 
+</section>
+<section class="bg-[url('/assets/images/impact2.png')] bg-center bg-cover bg-clip-border bg-no-repeat text-center text-white items-center m-auto justify-center  space-y-0 flex flex-col py-[5%]">
 </section>
 </template>
 
