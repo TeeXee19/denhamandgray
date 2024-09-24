@@ -12,7 +12,7 @@
         <!-- Right Side: Address, Contact, Social Icons -->
         <div class="text-left font-ar text-black">
           <p class="">
-            <NuxtLink to="https://maps.app.goo.gl/Zuk77meWv4vrnadh8">4, King AJ Turner Crescent Wuye, FCT Abuja.</NuxtLink>
+            <NuxtLink to="https://maps.app.goo.gl/fDmT9kh8Vyic5TKL6">4, King AJ Turner Crescent Wuye, FCT Abuja.</NuxtLink>
             <br />
             <a href="tel:+2348032270335">+234 803 227 0335</a>
             <br />

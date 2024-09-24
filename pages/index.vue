@@ -1,14 +1,14 @@
 <template>
-<section class="bg-[url('/assets/images/hero.png')] bg-center bg-cover bg-fixed  bg-clip-border bg-no-repeat h-[65vh] text-center text-white items-center m-auto justify-center space-y-0 flex flex-row">
+<section class="bg-[url('/assets/images/hero.png')] bg-center bg-cover bg-fixed  bg-clip-border bg-no-repeat h-[81vh] text-center text-white items-center m-auto justify-center space-y-0 flex flex-row">
     <div class="relative w-[95%] flex flex-col">
         <h1 class="font-bold font-ti text-[48px] md:w-[65%] lg:w-[55%] xl:w-[65%] mx-auto ">Denham &amp; Grey</h1>
-        <span class="font-bold text-[70px]">Financing the SGDs, Ensuring Tomorrow</span>
+        <span class="font-bold text-[60px]">Financing the SGDs, Ensuring Tomorrow</span>
         <div class="mt-8">
                 <NuxtLink to="/#contact" class="bg-primary-theme px-8 py-4 text-black mx-auto">PARTNER WITH US</NuxtLink>
         </div>
     </div>
 </section>
-<section class=" font-ti space-y-0 md:grid grid-cols-3 hidden p-6">
+<section class=" font-ti space-y-0 md:grid grid-cols-3 hidden p-6 px-[5%]">
     <div class="p-2 space-x-4  border-r border-r-width-[60%] border-gray-500 flex items-center">
         <span class="font-ti font-bold text-[30px] text-primary-text tracking-normal">01</span>
         <div class="font-ti text-[30px] font-normal">Empowering Communities</div>
@@ -24,17 +24,15 @@
 </section>
 <section class="font-ar bg-[#F0F0F0]">
     <div class="grid grid-cols-1 md:grid-cols-2  font-ar">
-        <div class="p-[10%]  space-y-[5%] order-last md:order-first">
-            <h3 class="font-bold text-[56px] font-ti">Welcome to Denham &amp; Grey</h3>
-            <p class="font-medium text-black text-[24px] font-ar">
+        <div class="p-[10%]  space-y-[2%] order-last md:order-first">
+            <h3 class="font-bold text-[52px] font-ti">Welcome to Denham &amp; Grey</h3>
+            <p class="font-medium text-black text-[22px] font-ar">
                 At Denham &amp; Grey, our team of seasoned professionals with expertise in institutional lending and development finance, drive positive change by providing wholesale medium to long term financing towards funding initiatives through our Impact Partner Institutions (licensed and regulated financial institutions) that align with the Sustainable Development Goals (SDGs).
                 <br/>
                 We leverage the channels and reach of our Impact Partner Institutions to provide funding towards empowering communities, driving economic growth and protecting the environment.
             </p>
         </div>
-        <div >
-            <img src="/assets/images/about-right.png" alt="" class="w-full h-auto">
-        </div>
+        <img src="/assets/images/about-right.png" alt="" class="w-full h-auto">
     </div>
 </section>
 <section class="bg-[url('/assets/images/est.png')] bg-center bg-cover bg-fixed bg-clip-border bg-no-repeat py-[10%] px-[5%] text-white font-ti ">
