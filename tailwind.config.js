@@ -28,6 +28,9 @@ module.exports = {
        'dg-2xl': '60px',
        'dg-3xl': '80px',
      },
+     fontStyle: {
+      oblique: 'oblique',
+    },
       colors: {
         primary: { 
           "theme": "#E8C86D",
