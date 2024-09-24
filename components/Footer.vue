@@ -10,7 +10,7 @@
         </div>
   
         <!-- Right Side: Address, Contact, Social Icons -->
-        <div class="text-left font-ar text-black">
+        <div class="text-left font-ar font-bold text-black">
           <p class="">
             <NuxtLink to="https://maps.app.goo.gl/fDmT9kh8Vyic5TKL6">4, King AJ Turner Crescent Wuye, FCT Abuja.</NuxtLink>
             <br />
@@ -19,7 +19,7 @@
             <a href="mailto:info@denhamandgrey.com">info@denhamandgrey.com
             </a>
           </p>
-          <div class="flex justify-start space-x-4 mt-2">
+          <div class="flex justify-start space-x-6 mt-4">
             <NuxtLink to="/">
               <img src="/assets/images/youtube.svg" alt="LinkedIn" class="h-5 w-5" />
             </NuxtLink>

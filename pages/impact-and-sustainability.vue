@@ -5,10 +5,10 @@
 <section class=" bg-white flex flex-row pt-[2%]">
     <div class=" items-center space-y-4 pt-[4%] px-[6%] w-[55%]">
         <h2 class="font-bold text-[44px] leading-[50px] font-ti">Our Commitment to Sustainability</h2>
-        <p class="font-ar text-[18px] text-black font-normal leading-[29px]">
-            Sustainability is at the heart of everything we do. We believe that responsible investment is key to building a resilient and prosperous future for Nigeria. Our focus is on financing projects and businesses that align with the Sustainable Development Goals (SDGs), promoting economic growth that benefits people and protects the planet. Through our investments, we support renewable energy, financing for SMEs, financial inclusion for women, energy efficiency, and more, ensuring that every project we finance contributes to environmental stewardship and long-term prosperity. We work closely with our partners to reduce environmental risks, improve resource efficiency, and foster inclusive development.
+        <p class="font-ar text-[24px] text-black font-normal leading-[45px]">
+            Sustainability is at the heart of everything we do. We believe that responsible investment is key to building a resilient and prosperous future for Nigeria. Our focus is on financing projects and businesses that align with the Sustainable Development Goals (SDGs), promoting economic growth that benefits people and protects the planet. 
         </p>
-        <p class="font-ar text-[18px] text-black font-normal leading-[29px] pt-3">
+        <p class="font-ar text-[24px] text-black font-normal leading-[45px] pt-3">
             Through our investments, we support renewable energy, financing for SMEs, financial inclusion for women, energy efficiency, and more, ensuring that every project we finance contributes to environmental stewardship and long-term prosperity. We work closely with our partners to reduce environmental risks, improve resource efficiency, and foster inclusive development.
         </p>
     </div>
@@ -96,11 +96,11 @@
             </div>
         </div>
     </div>
-    <div class="relative text-[32px] font-ar font-oblique  w-[70%] mx-auto py-[5%] text-black">
+    <div class="relative text-[32px] font-ar font-oblique italic  w-[70%] mx-auto py-[5%] text-black">
         
         <p class="text-justify">
             <span class="absolute -left-7 text-[64px] leading-none text-black">&ldquo;</span>
-            Our success with these pilot institutions is just the beginning. We are poised to onboard 10 more partners this year, expanding our impact and ensuring that every region in Nigeria benefits from inclusive and sustainable financing.<span class="absolute   text-[64px] leading-none text-black">&rdquo;</span>
+            Our success with these pilot institutions is just the beginning. We are poised to onboard 10 more partners this year, expanding our impact and ensuring that every region in Nigeria benefits from inclusive and sustainable financing.<span class="absolute bottom-0  text-[64px] leading-none text-black">&rdquo;</span>
         </p>
         
     </div>

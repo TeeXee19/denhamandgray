@@ -38,7 +38,7 @@
 <section class="bg-[url('/assets/images/est.png')] bg-center bg-cover bg-fixed bg-clip-border bg-no-repeat py-[10%] px-[5%] text-white font-ti ">
     <div class="w-1/2 space-y-8">
         <h3 class="text-[36px] tracking-[5px] font-ti">ESTABLISHED IN 2021</h3>
-        <h3 class="font-bold text-[48px] w-[100%] leading-[80px]">We are experts in impact investment and wholesale lending</h3>
+        <h3 class="font-bold md:text-[28px] lg:text-[32px] xl:text-[36px] w-[100%] leading-[80px]">We are experts in impact investment and wholesale lending</h3>
         <div class="grid grid-cols-2 ">
             <div class="flex flex-col font-bold ">
                 <span class="border-b-[3px] w-[85%] border-yellow-theme lg:text-[50px]">$20 Million</span>
