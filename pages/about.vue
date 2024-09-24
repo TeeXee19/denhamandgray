@@ -76,7 +76,7 @@
         <div class="space-y-10">
           <!-- First Item Standing Alone -->
           <div class="flex justify-center">
-            <div class="p-4 w-64 xxl:w-[400px]">
+            <div class="p-4 w-72 xxl:w-[500px]">
               <div class="relative group">
                 <img
                   :src="people[0].imageSrc"
@@ -86,15 +86,15 @@
                 </div>
               </div>
               <div class="border">
-                <h5 class="font-bold font-rub text-rub-md mt-2">{{ people[0].name }}</h5>
-                <span class="font-dm text-dm-md text-primary-theme">{{ people[0].title }}</span>
+                <h5 class="font-bold font-ti text-rub-md mt-2">{{ people[0].name }}</h5>
+                <span class="font-ti text-dm-md text-[#A58C09]">{{ people[0].title }}</span>
               </div>
             </div>
           </div>
         
           <!-- Grid Layout for the Rest of the Items -->
           <div class="grid gap-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center justify-center cursor-pointer">
-            <div class="p-4 w-64 xxl:w-[400px]" v-for="(person, index) in people.slice(1)" :key="index">
+            <div class="p-4 w-72 xxl:w-[500px]" v-for="(person, index) in people.slice(1)" :key="index">
               <div class="relative group">
                 <img
                   :src="person.imageSrc"
@@ -104,8 +104,8 @@
                 </div>
               </div>
               <div class="border">
-                <h5 class="font-bold font-rub text-rub-md mt-2">{{ person.name }}</h5>
-                <span class="font-dm text-dm-md text-primary-theme">{{ person.title }}</span>
+                <h5 class="font-bold font-ti text-rub-md mt-2">{{ person.name }}</h5>
+                <span class="font-ti text-dm-md text-[#A58C09]">{{ person.title }}</span>
               </div>
             </div>
           </div>
@@ -119,7 +119,7 @@
       
         <!-- Grid Layout for the Rest of the Items -->
         <div class="grid gap-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center justify-center cursor-pointer">
-          <div class="p-4 w-64 xxl:w-[400px]" v-for="(mgt, index) in mgts.slice(1)" :key="index">
+          <div class="p-4 w-72 xxl:w-[500px]" v-for="(mgt, index) in mgts.slice(1)" :key="index">
             <div class="relative group">
               <img
                 :src="mgt.imageSrc"
@@ -129,13 +129,13 @@
               </div>
             </div>
             <div class="border">
-              <h5 class="font-bold font-rub text-rub-md mt-2">{{ mgt.name }}</h5>
-              <span class="font-dm text-dm-md text-primary-theme">{{ mgt.title }}</span>
+              <h5 class="font-bold font-ti text-rub-md mt-2">{{ mgt.name }}</h5>
+              <span class="font-ti text-dm-md text-[#A58C09]">{{ mgt.title }}</span>
             </div>
           </div>
         </div> <!-- First Item Standing Alone -->
         <div class="flex justify-center">
-          <div class="p-4 w-64 xxl:w-[400px]">
+          <div class="p-4 w-72 xxl:w-[500px]">
             <div class="relative group">
               <img
                 :src="mgts[0].imageSrc"
@@ -146,7 +146,7 @@
             </div>
             <div class="border">
               <h5 class="font-bold font-ti text-rub-md mt-2">{{ mgts[0].name }}</h5>
-              <span class="font-ti text-dm-md text-primary-theme">{{ mgts[0].title }}</span>
+              <span class="font-ti text-dm-md text-[#A58C09]">{{ mgts[0].title }}</span>
             </div>
           </div>
         </div>

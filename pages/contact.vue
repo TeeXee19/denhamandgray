@@ -13,7 +13,7 @@
           <div class="space-y-3">
               <div class="flex flex-row gap-3">
                   <input type="text" id="name" v-model="name" class=" border-2 text-md text-black block w-full p-2.5 " placeholder="Name" required>
-                  <input type="tel" id="tel" v-model="lastname" class="border-2 text-md text-black block w-full p-2.5" placeholder="Phone" required>
+                  <input type="tel" id="tel" v-model="lastname" class="border-2 text-md text-black block w-full p-2.5" placeholder="Phone Number" required>
                   
               </div>
               <div>
