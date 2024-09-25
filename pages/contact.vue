@@ -58,7 +58,7 @@
             <img src="/assets/images/phone.svg" />
             <div class="font-dg font-semibold leading-tight">
               <h3 class="text-[16px]">Phone Number</h3>
-              <a href="tel:+2348032270335" class="font-medium text-[14px] hover:text-theme-green">+234 (803) 227 0335</a>
+              <a href="tel:+2347067939313" class="font-medium text-[14px] hover:text-theme-green">+234 (706) 793 9313</a>
             </div>
           </div>
           <h3 class="font-dg font-bold text-[14px]">Socials</h3>

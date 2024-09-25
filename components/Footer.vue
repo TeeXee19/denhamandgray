@@ -14,7 +14,7 @@
           <p class="space-y-6">
             <NuxtLink to="https://maps.app.goo.gl/Zuk77meWv4vrnadh8">No 6, Jerry Gana Close, Utako Abuja, Nigeria.</NuxtLink>
             <br />
-            <a href="tel:+2348032270335">+234 803 227 0335</a>
+            <a href="tel:+2347067939313">+234 (706) 793 9313</a>
             <br />
             <a href="mailto:info@denhamandgrey.com">info@denhamandgrey.com
             </a>
