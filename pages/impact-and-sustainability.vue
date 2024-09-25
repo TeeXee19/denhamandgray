@@ -61,7 +61,7 @@
                 <div class="flex gap-4 h-fit items-center">
                     <img src="/assets/images/kiosk.svg" />
                     <div class="font-in text-black font-semibold leading-8">
-                        <h3 class="text-[20px]">Over <span class="text-blue-500">{{summary.businessesFinanced}}</span> MSMEs Financed
+                        <h3 class="text-[20px]">Over <span class="text-blue-500">2,000</span> MSMEs Financed
                         </h3>
                     </div>
                 </div>
