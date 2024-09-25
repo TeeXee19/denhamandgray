@@ -1,31 +1,31 @@
 <template>
 <section class="bg-[url('/assets/images/hero.png')] bg-center bg-cover bg-fixed  bg-clip-border bg-no-repeat text-center text-white items-center m-auto justify-center font-dg space-y-0 flex flex-col py-[5%] font-ti">
-    <h3 class="text-[76px]">ABOUT US</h3>
+    <h3 class="font-ti text-[32px] md:text-[76px]">ABOUT US</h3>
 </section>
-<section class="gap-8 py-16 px-[12%] text-center items-center justify-center flex flex-col">
-    <h5 class="font-ti text-[48px] font-bold">Our Foundation and Operations</h5>
-    <p class="font-ar font-medium text-black text-[24px] leading-[55px] tracking-[2%] w-[80%]">Established in 2021, Denham &amp; Grey began full operations in 2024. Our main office is in Lagos, Nigeria's financial hub, providing easy access to clients, market insights, and effective client monitoring. We also have a secondary location in the Federal Capital Territory.</p>
+<section class="gap-8 py-16 md:px-[12%] text-center items-center justify-center flex flex-col">
+    <h5 class="font-ti text-[24px] md:text-[48px] font-bold ">Our Foundation and Operations</h5>
+    <p class="font-ar font-medium text-black md:text-[24px] md:leading-[55px] tracking-[2%] w-[80%]">Established in 2021, Denham &amp; Grey began full operations in 2024. Our main office is in Lagos, Nigeria's financial hub, providing easy access to clients, market insights, and effective client monitoring. We also have a secondary location in the Federal Capital Territory.</p>
 </section>
 <section class="text-center font- bg-[#FAFAFA] py-[5%]">
     <div class="h-[30%] flex flex-col items-center space-y-4 mb-[3%]">
-        <h2 class="font-normal font-ti text-[64px] text-black">Corporate Philosophy</h2>
+        <h2 class="font-normal font-ti text-[24px] md:text-[64px] text-black">Corporate Philosophy</h2>
     </div>
-    <div class="grid grid-cols-1 md:grid-cols-2  px-[15%] text-left text-black gap-6">
+    <div class="grid grid-cols-1 md:grid-cols-2 px-[16px] md:px-[15%] text-left text-black gap-6">
         <div class="bg-primary-theme flex flex-col gap-2 p-3 rounded-[4px] w-[100%]">
-            <div class="flex text-black font-ti font-bold items-center gap-6">
-                <img src="/assets/images/vision.svg" class="h-[75%]">
-                <span class="text-[32px]">Our Vision</span>
+            <div class="flex text-black font-ti font-bold items-center gap-3 md:gap-6">
+                <img src="/assets/images/vision.svg" class="h-[40%] md:h-[75%]">
+                <span class="text-[24px] md:text-[32px]">Our Vision</span>
             </div>
-            <p class="text-[18px]">
+            <p class="text-[12px] md:text-[18px]">
                 To mobilize capital for Nigeria's SDGs with financial solutions that empower communities, drive growth, and protect the environment.
             </p>
         </div>
         <div class="bg-primary-theme flex flex-col gap-2 p-3 rounded-[4px] w-[100%]">
-            <div class="flex text-black font-ti font-bold items-center gap-6">
-                <img src="/assets/images/mission.svg" class="h-[75%]">
-                <span class="text-[32px]">Our Misssion</span>
+            <div class="flex text-black font-ti font-bold items-center ggap-3 md:ap-6">
+                <img src="/assets/images/mission.svg" class="h-[40%] md:h-[75%]">
+                <span class="text-[24px] md:text-[32px]">Our Misssion</span>
             </div>
-            <p class="text-[18px]">
+            <p class="text-[12px] md:text-[18px]">
                 To be the leading impact investment firm in Nigeria, fostering sustainable development through investments that contribute to a prosperous and equitable future.
             </p>
         </div>

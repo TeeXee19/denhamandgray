@@ -8,8 +8,10 @@
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
    mapsvg:geoViewBox="2.667421 13.892750 14.680752 4.269658"
-   width="744.24182"
-   height="599.92847">
+   viewBox="0 0 744.24182 599.92847"
+   width="100%"
+   height="100%"
+   preserveAspectRatio="xMidYMid meet">
  
   <g id="Abia" class="region"  @mouseleave="hideInfo" @mousemove="moveInfoBox">
    <path
