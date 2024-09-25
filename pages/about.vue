@@ -1,12 +1,12 @@
 <template>
-<section class="bg-[url('/assets/images/hero.png')] bg-center bg-cover bg-fixed  bg-clip-border bg-no-repeat text-center text-white items-center m-auto justify-center font-dg space-y-0 flex flex-col py-[5%] font-ti">
+<section class="bg-[url('/assets/images/hero.png')] bg-center bg-cover bg-fixed  bg-clip-border bg-no-repeat text-center text-white items-center m-auto justify-center font-dg space-y-0 flex flex-col py-[20%] md:py-[5%] font-ti">
     <h3 class="font-ti text-[32px] md:text-[76px]">ABOUT US</h3>
 </section>
 <section class="gap-8 py-16 md:px-[12%] text-center items-center justify-center flex flex-col">
     <h5 class="font-ti text-[24px] md:text-[48px] font-bold ">Our Foundation and Operations</h5>
     <p class="font-ar font-medium text-black md:text-[24px] md:leading-[55px] tracking-[2%] w-[80%]">Established in 2021, Denham &amp; Grey began full operations in 2024. Our main office is in Lagos, Nigeria's financial hub, providing easy access to clients, market insights, and effective client monitoring. We also have a secondary location in the Federal Capital Territory.</p>
 </section>
-<section class="text-center font- bg-[#FAFAFA] py-[5%]">
+<section class="text-left md:text-center font- bg-[#FAFAFA] py-[5%]">
     <div class="h-[30%] flex flex-col items-center space-y-4 mb-[3%]">
         <h2 class="font-normal font-ti text-[24px] md:text-[64px] text-black">Corporate Philosophy</h2>
     </div>
@@ -16,7 +16,7 @@
                 <img src="/assets/images/vision.svg" class="h-[40%] md:h-[75%]">
                 <span class="text-[24px] md:text-[32px]">Our Vision</span>
             </div>
-            <p class="text-[12px] md:text-[18px]">
+            <p class="text-[14px] md:text-[18px]">
                 To mobilize capital for Nigeria's SDGs with financial solutions that empower communities, drive growth, and protect the environment.
             </p>
         </div>
@@ -25,7 +25,7 @@
                 <img src="/assets/images/mission.svg" class="h-[40%] md:h-[75%]">
                 <span class="text-[24px] md:text-[32px]">Our Misssion</span>
             </div>
-            <p class="text-[12px] md:text-[18px]">
+            <p class="text-[14px] md:text-[18px]">
                 To be the leading impact investment firm in Nigeria, fostering sustainable development through investments that contribute to a prosperous and equitable future.
             </p>
         </div>
@@ -33,10 +33,10 @@
 </section>
 <section class="py-[2%] px-[10%] font-dg  ">
     <div class="h-[30%] flex flex-col items-center space-y-4 pt-[3%] mb-[3%]">
-        <h2 class="font-semibold text-[64px] leading-[50px]">Our Core Values</h2>
+        <h2 class="font-semibold font-ti text-[32px] md:text-[64px] leading-[50px]">Our Core Values</h2>
     </div>
-    <div class="flex flex-col justify-center items-center font-ti gap-2 md:gap-8 md:space-y-8">
-        <div class="flex flex-col md:flex-row justify-center md:space-x-[10%] md:w-[50%] gap-2">
+    <div class="flex flex-col  justify-center items-center font-ti gap-2 md:gap-8 md:space-y-8">
+        <div class="flex flex-col md:flex-row justify-center md:space-x-[10%] md:w-[50%] gap-2 w-[">
             <div class="bg-primary-theme text-black font-bold py-4 text-center w-[327.99px]">
                 Sustainability
             </div>
@@ -64,15 +64,15 @@
         </div>
     </div>
 </section>
-<section class="text-center font-dg">
+<section class="text-center">
     <div class="h-[30%] flex flex-col items-center space-y-4 pt-[6%] mb-[3%]">
-        <h2 class="font-semibold text-[64px] leading-[50px]">Meet Our Team</h2>
-        <p class="font-dg md:text-[24px] lg:text-[26px] lg:text-[28px] text-black font-medium w-[90%] leading-[40px]">
+        <h2 class="font-semibold font-ti text-[32px] md:text-[64px] leading-[50px]">Meet Our Team</h2>
+        <p class="font-ar text- md:text-[24px] lg:text-[26px] lg:text-[28px] text-black font-medium w-[90%] md:leading-[40px]">
             Our team at Denham &amp; Grey consists of experienced professionals dedicated to providing innovative financial solutions to our Impact Partners. Together, we leverage our expertise to drive impact in Nigeria's development finance sector
         </p>
     </div>
-    <div class=" px-[10%] py-[3%] flex flex-col items-center ">
-        <h3 class="font-ti font-semibold my-4 text-[40px] bg-[#ECECEC] w-[75%]">Board of Directors</h3>
+    <div class=" md:px-[10%] py-[3%] flex flex-col items-center ">
+        <h3 class="font-ti font-semibold my-4 text-[30px] md:text-[40px] bg-[#ECECEC] w-full md:w-[75%]">Board of Directors</h3>
         <div class="space-y-10">
           <!-- First Item Standing Alone -->
           <div class="flex justify-center">
@@ -112,8 +112,8 @@
         </div>
     </div>
 
-    <div class="px-[10%] py-[5%] flex flex-col items-center ">
-      <h3 class="font-ti font-semibold my-4 text-[40px] bg-[#ECECEC] w-[75%]">Management Team</h3>
+    <div class="md:px-[10%] py-[5%] flex flex-col items-center ">
+      <h3 class="font-ti font-semibold my-4 text-[30px] md:text-[40px] bg-[#ECECEC] w-full md:w-[75%]">Management Team</h3>
       <div class="space-y-10">
        
       

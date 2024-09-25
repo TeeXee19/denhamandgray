@@ -31,14 +31,9 @@
           </template>
         </div>
   
-        <!-- Contact Info (Desktop)
-        <div class="hidden md:flex md:items-center text-white">
-          <img src="/assets/images/phone.svg" />
-          <span>+234 803 227 0835</span>
-        </div> -->
   
         <!-- Mobile Menu -->
-        <div :class="{'hidden': !isVisible, 'block': isVisible}" class="fixed top-0 right-0 bottom-0 w-[80%] bg-theme-dark-blue text-white z-50 transition-transform transform" :style="{ transform: isVisible ? 'translateX(0)' : 'translateX(100%)' }">
+        <div :class="{'hidden': !isVisible, 'block': isVisible}" class="flex flex-col justify-between fixed top-0 right-0 bottom-0 w-[80%] bg-black text-white z-50 transition-transform transform" :style="{ transform: isVisible ? 'translateX(0)' : 'translateX(100%)' }">
           <div class="flex flex-col gap-8 p-6">
             <!-- Close Button -->
             <button type="button" class="self-end text-white" @click="toggleVisibility">
@@ -48,19 +43,16 @@
             </button>
   
             <!-- Menu Links -->
-            <NuxtLink v-for="(link, index) in menuItems" :key="index" :to="link.path" @click="closeMenu" class="text-lg hover:text-blue-400 border-b py-[10%]">
+            <NuxtLink v-for="(link, index) in menuItems" :key="index" :to="link.path" @click="closeMenu" class="text-lg hover:text-blue-400 border-b py-3 md:py-[10%]">
               {{ link.name }}
             </NuxtLink>
   
             <!-- Contact Info (Mobile) -->
-            <div class="flex flex-row items-center mb-[0] space-x-2">
-                <img src="/assets/images/logo-solo.svg" />
-                <!-- <div class="flex flex-row items-center ">
-                    <img src="/assets/images/phone.svg" />
-                    <span>+234 803 227 0835</span>
-                  </div> -->
-            </div>
+           
           </div>
+           <div class="flex flex-row px-6 py-8 space-x-2 ">
+                <img src="/assets/images/logo-solo.svg" />
+            </div>
         </div>
       </div>
     </nav>
