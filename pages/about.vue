@@ -1,5 +1,5 @@
 <template>
-<section class="bg-[url('/assets/images/hero.png')] bg-center bg-cover bg-fixed  bg-clip-border bg-no-repeat text-center text-white items-center m-auto justify-center font-dg space-y-0 flex flex-col py-[20%] md:py-[5%] font-ti">
+<section class="bg-[url('/assets/images/sm-hero.png')] md:bg-[url('/assets/images/hero.png')] bg-center bg-cover bg-fixed  bg-clip-border bg-no-repeat text-center text-white items-center m-auto justify-center font-dg space-y-0 flex flex-col py-[20%] md:py-[5%] font-ti">
     <h3 class="font-ti text-[32px] md:text-[76px]">ABOUT US</h3>
 </section>
 <section class="gap-8 py-16 md:px-[12%] text-center items-center justify-center flex flex-col">

@@ -1,5 +1,5 @@
 <template>
-<section class="bg-[url('/assets/images/hero.png')] bg-center bg-cover bg-fixed  bg-clip-border bg-no-repeat h-[50vh] lg:h-[81vh] text-center text-white items-center m-auto justify-center space-y-0 flex flex-row">
+<section class="bg-[url('/assets/images/sm-hero.png')] md:bg-[url('/assets/images/hero.png')] bg-center bg-cover bg-fixed  bg-clip-border bg-no-repeat h-[50vh] lg:h-[81vh] text-center text-white items-center m-auto justify-center space-y-0 flex flex-row">
     <div class="relative w-[95%] flex flex-col">
         <h1 class="font-bold font-ti text-[32px] md:w-[65%] lg:w-[55%] xl:w-[65%] mx-auto ">Denham &amp; Grey</h1>
         <span class="font-bold text-[24px] lg:text-[60px]">Financing the SGDs, Ensuring Tomorrow</span>
