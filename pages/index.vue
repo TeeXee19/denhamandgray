@@ -122,14 +122,14 @@
 
                 <div class="space-y-3">
                     <div class="flex flex-col md:flex-row gap-3">
-                        <input type="text" id="name" v-model="name" class="bg-white border border-white text-black lg:text-[24px] block w-full lg:p-2.5 opacity-80" placeholder="Name" required>
-                        <input type="tel" id="tel" v-model="lastname" class="bg-white border border-white text-black lg:text-[24px] block w-full lg:p-2.5 opacity-80" placeholder="Phone Number" required>
+                        <input type="text" id="name" v-model="name" class="bg-white border border-white text-black lg:text-[24px] block w-full p-2 lg:p-2.5 opacity-80" placeholder="Name" required>
+                        <input type="tel" id="tel" v-model="lastname" class="bg-white border border-white text-black lg:text-[24px] block w-full p-2 lg:p-2.5 opacity-80" placeholder="Phone Number" required>
                     </div>
                     <div>
-                        <input type="email" id="email" v-model="lastname" class="bg-white border border-white text-black lg:text-[24px] block w-full lg:p-2.5 opacity-80" placeholder="Email" required>
+                        <input type="email" id="email" v-model="lastname" class="bg-white border border-white text-black lg:text-[24px] block w-full p-2 lg:p-2.5 opacity-80" placeholder="Email" required>
                     </div>
                     <div>
-                        <textarea id="message" v-model="message" rows="4" class="block lg:p-2.5 w-full lg:text-[24px] text-black bg-white border border-white opacity-80" placeholder="Tell us what you want"></textarea>
+                        <textarea id="message" v-model="message" rows="4" class="block p-2 lg:p-2.5 w-full lg:text-[24px] text-black bg-white border border-white opacity-80" placeholder="Tell us what you want"></textarea>
                     </div>
                 </div>
                 <div class="float-right">
