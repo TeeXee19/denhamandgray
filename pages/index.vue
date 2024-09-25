@@ -1,8 +1,8 @@
 <template>
-<section class="bg-[url('/assets/images/hero.png')] bg-center bg-cover bg-fixed  bg-clip-border bg-no-repeat h-[81vh] text-center text-white items-center m-auto justify-center space-y-0 flex flex-row">
+<section class="bg-[url('/assets/images/hero.png')] bg-center bg-cover bg-fixed  bg-clip-border bg-no-repeat h-[50vh] lg:h-[81vh] text-center text-white items-center m-auto justify-center space-y-0 flex flex-row">
     <div class="relative w-[95%] flex flex-col">
-        <h1 class="font-bold font-ti text-[48px] md:w-[65%] lg:w-[55%] xl:w-[65%] mx-auto ">Denham &amp; Grey</h1>
-        <span class="font-bold text-[60px]">Financing the SGDs, Ensuring Tomorrow</span>
+        <h1 class="font-bold font-ti text-[32px] md:w-[65%] lg:w-[55%] xl:w-[65%] mx-auto ">Denham &amp; Grey</h1>
+        <span class="font-bold text-[24px] lg:text-[60px]">Financing the SGDs, Ensuring Tomorrow</span>
         <div class="mt-8">
                 <NuxtLink to="/#contact" class="bg-primary-theme px-8 py-4 text-black mx-auto">PARTNER WITH US</NuxtLink>
         </div>
@@ -24,42 +24,43 @@
 </section>
 <section class="font-ar bg-[#F0F0F0]">
     <div class="grid grid-cols-1 md:grid-cols-2  font-ar">
-        <div class="p-[10%]  space-y-[2%] order-last md:order-first">
-            <h3 class="font-bold text-[52px] font-ti">Welcome to Denham &amp; Grey</h3>
-            <p class="font-medium text-black text-[22px] font-ar">
+        <div class="p-[10%] space-y-[2%] order-last md:order-first">
+            <h3 class="font-bold text-[25px] lg:text-[52px] font-ti">Welcome to Denham &amp; Grey</h3>
+            <p class="font-medium text-black text-[14px] lg:text-[22px] font-ar leading-[23px]">
                 At Denham &amp; Grey, our team of seasoned professionals with expertise in institutional lending and development finance, drive positive change by providing wholesale medium to long term financing towards funding initiatives through our Impact Partner Institutions (licensed and regulated financial institutions) that align with the Sustainable Development Goals (SDGs).
-                <br/>
+            </p>
+            <p class="font-medium text-black text-[14px] lg:text-[22px] font-ar leading-[23px]">
                 We leverage the channels and reach of our Impact Partner Institutions to provide funding towards empowering communities, driving economic growth and protecting the environment.
             </p>
         </div>
         <img src="/assets/images/about-right.png" alt="" class="w-full h-auto">
     </div>
 </section>
-<section class="bg-[url('/assets/images/est.png')] bg-center bg-cover bg-fixed bg-clip-border bg-no-repeat py-[10%] px-[5%] text-white font-ti ">
-    <div class="w-1/2 space-y-8">
-        <h3 class="text-[36px] tracking-[5px] font-ti">ESTABLISHED IN 2021</h3>
-        <h3 class="font-bold md:text-[28px] lg:text-[32px] xl:text-[36px] w-[100%] leading-[80px]">We are experts in impact investment and wholesale lending</h3>
-        <div class="grid grid-cols-2 ">
+<section class="bg-[url('/assets/images/est.png')] bg-center bg-cover lg:bg-fixed bg-clip-border bg-no-repeat py-[10%] px-[5%] text-white font-ti ">
+    <div class="lg:w-1/2 space-y-4 lg:space-y-8">
+        <h3 class="text-[22px] lg:text-[36px] tracking-[5px] font-ti">ESTABLISHED IN 2021</h3>
+        <h3 class="font-bold text-[24px] md:text-[28px] lg:text-[32px] xl:text-[36px] w-[100%] md:leading-[80px]">We are experts in impact investment and wholesale lending</h3>
+        <div class="grid grid-cols-1 lg:grid-cols-2 ">
             <div class="flex flex-col font-bold ">
-                <span class="border-b-[3px] w-[85%] border-yellow-theme lg:text-[50px]">$20 Million</span>
-                <span class="font-normal text-[36px]">Approved funding</span>
+                <span class="border-b-[3px] w-[85%] border-yellow-theme text-[24px] lg:text-[50px]">$20 Million</span>
+                <span class="font-normal text-[20px] lg:text-[36px]">Approved funding</span>
             </div>
             <div class="flex flex-col font-bold ">
-                <span class="border-b-[3px] w-[85%] border-yellow-theme lg:text-[50px]">49 Locations</span>
-                <span class="font-normal text-[36px]">Impact channels</span>
+                <span class="border-b-[3px] w-[85%] border-yellow-theme text-[24px] lg:text-[50px]">49 Locations</span>
+                <span class="font-normal text-[20px] lg:text-[36px]">Impact channels</span>
             </div>
         </div>
     </div>
 </section>
 <section class="text-center font-ti">
     <div class="h-[30%] flex flex-col items-center space-y-4 pt-[6%] mb-[3%]">
-        <h2 class="font-semibold text-[64px] leading-[50px]">Our Financial Offerings</h2>
+        <h2 class="font-semibold font-ti text-[32px] lg:text-[64px] leading-[50px]">Our Financial Offerings</h2>
  
-        <p class="font-dg text-[32px] text-black font-medium w-[70%] leading-[40px]">
+        <p class="font-ar text-[16px] lg:text-[32px] text-black font-medium w-[70%] lg:leading-[40px]">
             Our financial offerings are specialised into three key areas, aligned with the risk profile and financial needs of our partners
         </p>
     </div>
-    <div class=" grid grid-cols-3 text-white ">
+    <div class=" grid  grid-cols-1 lg:grid-cols-3 text-white ">
         <div class="relative group">
             <img src="/assets/images/pillar1.png" alt="" class="w-full h-auto transition-opacity duration-800">
             <!-- <div class="absolute p-8 inset-0 flex flex-col justify-center text-left  opacity-0  hover:opacity-70 transition-opacity duration-1000 group-hover:opacity-70 ">
@@ -100,12 +101,12 @@
 </section>
 <section class="h-[50%] bg-clip-border bg-no-repeat m-auto md:bg-[#ECECEC] md:px-25%] md:py-[5%] flex flex-col items-center">
     <div class="flex flex-col items-center space-y-2 ">
-        <h2 class="font-semibold text-[64px] font-ti">Our Non-Financial Offering</h2>
+        <h2 class="font-semibold font-ti text-[24px] lg:text-[64px] font-ti">Our Non-Financial Offering</h2>
     </div>
     <div class="flex flex-col md:items-center space-y-4 rounded-md bg-[#ECECEC] md:bg-white px-[2%] py-[2%] md:w-[80%]">
-        <h2 class="font-semibold text-[40px] font-ti">Technical Assistance and Capacity Building</h2>
+        <h2 class="font-semibold font-ti text-[24px] lg:text-[40px] font-ti">Technical Assistance and Capacity Building</h2>
     
-    <article class="font-ar text-[28px] text-justify  space-y-6">
+    <article class="font-ar text-[16px] lg:text-[28px] lg:text-justify  space-y-6">
         Denham &amp; Grey offers comprehensive technical assistance and capacity-building services to empower partners with the knowledge, skills, and resources for sustainable development. We help impact partners build their capacity to manage their own risks, improve efficiency, and achieve long-term impact. Our support includes developing the technical and financial capacity to structure sustainable financing aligned with the SDGs. Our technical assistance includes structuring green transactions and developing financial and non-financial offerings to promote financial inclusion and optimise impact on the SDGs.
     </article>
 </div>
@@ -121,14 +122,14 @@
 
                 <div class="space-y-3">
                     <div class="flex flex-col md:flex-row gap-3">
-                        <input type="text" id="name" v-model="name" class="bg-white border border-white text-black text-[24px] block w-full p-2.5 opacity-80" placeholder="Name" required>
-                        <input type="tel" id="tel" v-model="lastname" class="bg-white border border-white text-black text-[24px] block w-full p-2.5 opacity-80" placeholder="Phone Number" required>
+                        <input type="text" id="name" v-model="name" class="bg-white border border-white text-black lg:text-[24px] block w-full lg:p-2.5 opacity-80" placeholder="Name" required>
+                        <input type="tel" id="tel" v-model="lastname" class="bg-white border border-white text-black lg:text-[24px] block w-full lg:p-2.5 opacity-80" placeholder="Phone Number" required>
                     </div>
                     <div>
-                        <input type="email" id="email" v-model="lastname" class="bg-white border border-white text-black text-[24px] block w-full p-2.5 opacity-80" placeholder="Email" required>
+                        <input type="email" id="email" v-model="lastname" class="bg-white border border-white text-black lg:text-[24px] block w-full lg:p-2.5 opacity-80" placeholder="Email" required>
                     </div>
                     <div>
-                        <textarea id="message" v-model="message" rows="4" class="block p-2.5 w-full text-[24px] text-black bg-white border border-white opacity-80" placeholder="Tell us what you want"></textarea>
+                        <textarea id="message" v-model="message" rows="4" class="block lg:p-2.5 w-full lg:text-[24px] text-black bg-white border border-white opacity-80" placeholder="Tell us what you want"></textarea>
                     </div>
                 </div>
                 <div class="float-right">

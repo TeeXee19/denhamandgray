@@ -1,6 +1,6 @@
 <template>
     <footer class="text-white font-dg w-full">
-      <div class="mx-auto w-full max-w-[1440px] p-6 flex justify-between">
+      <div class="mx-auto w-full max-w-[1080px] p-6 flex justify-between">
         <!-- Left Side: Logo -->
         <div class="flex flex-col text-xs text-gray-400 mt-2 space-y-4">
           <NuxtLink to="/" class="flex items-center">
@@ -11,7 +11,7 @@
   
         <!-- Right Side: Address, Contact, Social Icons -->
         <div class="text-left font-ar font-bold text-black">
-          <p class="">
+          <p class="space-y-6">
             <NuxtLink to="https://maps.app.goo.gl/fDmT9kh8Vyic5TKL6">4, King AJ Turner Crescent Wuye, FCT Abuja.</NuxtLink>
             <br />
             <a href="tel:+2348032270335">+234 803 227 0335</a>

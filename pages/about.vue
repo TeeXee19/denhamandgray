@@ -10,22 +10,22 @@
     <div class="h-[30%] flex flex-col items-center space-y-4 mb-[3%]">
         <h2 class="font-normal font-ti text-[64px] text-black">Corporate Philosophy</h2>
     </div>
-    <div class="grid grid-cols-1 md:grid-cols-2  px-[17%] text-left text-black">
-        <div class="bg-primary-theme flex flex-col gap-2 p-3 rounded-[4px] w-[90%]">
+    <div class="grid grid-cols-1 md:grid-cols-2  px-[15%] text-left text-black gap-6">
+        <div class="bg-primary-theme flex flex-col gap-2 p-3 rounded-[4px] w-[100%]">
             <div class="flex text-black font-ti font-bold items-center gap-6">
                 <img src="/assets/images/vision.svg" class="h-[75%]">
                 <span class="text-[32px]">Our Vision</span>
             </div>
-            <p class="text-[14px]">
+            <p class="text-[18px]">
                 To mobilize capital for Nigeria's SDGs with financial solutions that empower communities, drive growth, and protect the environment.
             </p>
         </div>
-        <div class="bg-primary-theme flex flex-col gap-2 p-3 rounded-[4px] w-[90%]">
+        <div class="bg-primary-theme flex flex-col gap-2 p-3 rounded-[4px] w-[100%]">
             <div class="flex text-black font-ti font-bold items-center gap-6">
                 <img src="/assets/images/mission.svg" class="h-[75%]">
                 <span class="text-[32px]">Our Misssion</span>
             </div>
-            <p class="text-[14px]">
+            <p class="text-[18px]">
                 To be the leading impact investment firm in Nigeria, fostering sustainable development through investments that contribute to a prosperous and equitable future.
             </p>
         </div>

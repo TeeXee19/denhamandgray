@@ -5,7 +5,7 @@
 <section class="font-ar ">
     <h3 class="font-bold text-[32px]  tracking-0  md:hidden">Join Our Team at Denham and Grey</h3>
     <div class="grid grid-cols-1 md:grid-cols-2  font-ar items-center">
-        <div class="p-[10%]  space-y-[5%] order-last md:order-first w-60%">
+        <div class="p-[10%]  space-y-[6%] order-last md:order-first w-60%">
             <h3 class="font-bold text-[32px]  tracking-0 hidden md:block">Join Our Team at Denham and Grey</h3>
             <p class="text-black text-[20px]">
                 Denham and Grey offers opportunities from entry-level to senior management, providing a platform to achieve your career goals while making a positive impact. We are looking for confident, competent individuals who share our vision to explore rewarding career paths with us. We focus on attracting and retaining top professionals, treating our people as our most valuable assets. As an equal opportunity employer, we ensure a fair, inclusive workplace for all.
@@ -13,7 +13,7 @@
             <p class="text-black text-[20px]">
                 Ready to elevate your career? Discover if you're the right fit for Denham and Grey.
             </p>
-            <button class="bg-primary-theme text-black py-3 px-[18%]">
+            <button class="bg-primary-theme font-ti text-[24px] text-black py-4 px-[18%] mt-[30px]">
                 Email Us
             </button>
         </div>

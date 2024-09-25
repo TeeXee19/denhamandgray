@@ -1,13 +1,13 @@
 <template>
     <nav ref="navbar" id="navigation" class="bg-white  fixed top-0 left-0 w-full z-40 font-body shadow-card hover:shadow-cardhover transition-all duration-500">
-      <div class="flex items-center justify-center flex-wrap max-w-full  px-4 md:px-8">
+      <div class="flex items-center justify-between lg:justify-center flex-wrap max-w-full  px-4 md:px-8">
         <!-- Logo -->
-        <NuxtLink to="/" class="flex items-center flex-shrink-0 w-[30%]">
+        <NuxtLink to="/" class="flex items-center flex-shrink-0 lg:w-[30%]">
           <img src="/assets/images/logo.svg" class="h-[50px] md:h-[50px] w-auto" alt="logo" title="Go Home" />
         </NuxtLink>
   
         <!-- Mobile Menu Button -->
-        <div class="block md:hidden w-3/4">
+        <div class="block md:hidden lg:w-3/4">
           <button type="button" class="inline-flex items-center justify-center p-2 rounded-md text-black hover:text-black focus:outline-none" aria-controls="mobile-menu" aria-expanded="false" @click="toggleVisibility">
             <span class="sr-only">Open main menu</span>
   
