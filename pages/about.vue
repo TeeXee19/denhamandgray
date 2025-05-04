@@ -17,16 +17,16 @@
                 <span class="text-[24px] md:text-[32px]">Our Vision</span>
             </div>
             <p class="text-[14px] md:text-[18px]">
-                To mobilize capital for Nigeria's SDGs with financial solutions that empower communities, drive growth, and protect the environment.
+              To be the premier financial catalyst driving Nigeria’s transition to a sustainable, low-carbon economy.
             </p>
         </div>
         <div class="bg-primary-theme flex flex-col gap-2 p-3 rounded-[4px] w-[100%]">
             <div class="flex text-black font-ti font-bold items-center ggap-3 md:ap-6">
                 <img src="/assets/images/mission.svg" class="h-[40%] md:h-[75%]">
-                <span class="text-[24px] md:text-[32px]">Our Misssion</span>
+                <span class="text-[24px] md:text-[32px]">Our Mission</span>
             </div>
             <p class="text-[14px] md:text-[18px]">
-                To be the leading impact investment firm in Nigeria, fostering sustainable development through investments that contribute to a prosperous and equitable future.
+              To mobilize and channel innovative, scalable and sustainable financial solutions toward environmentally sustainable projects that foster inclusive economic growth.
             </p>
         </div>
     </div>
@@ -119,7 +119,7 @@
       
         <!-- Grid Layout for the Rest of the Items -->
         <div class="grid gap-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center justify-center cursor-pointer">
-          <div class="p-4 w-72 xxl:w-[500px]" v-for="(mgt, index) in mgts.slice(1)" :key="index">
+          <div class="p-4 w-72 xxl:w-[500px]" v-for="(mgt, index) in mgts" :key="index">
             <div class="relative group">
               <img
                 :src="mgt.imageSrc"
@@ -134,7 +134,7 @@
             </div>
           </div>
         </div> <!-- First Item Standing Alone -->
-        <div class="flex justify-center">
+        <!-- <div class="flex justify-center">
           <div class="p-4 w-72 xxl:w-[500px]">
             <div class="relative group">
               <img
@@ -149,7 +149,7 @@
               <span class="font-ti text-dm-md text-[#A58C09]">{{ mgts[0].title }}</span>
             </div>
           </div>
-        </div>
+        </div> -->
       </div>
     </div>
     <div v-if="showModal" class="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50">
@@ -227,11 +227,6 @@ const people: Person[] = [{
 ];
 
 const mgts: Person[] = [{
-        name: "Daniel Ijudai Denis ",
-        title: "Head Human Resources and Administration",
-        imageSrc: "/assets/images/daniel.svg",
-        description: "Daniel joined Denham and Grey Ltd in 2024 as the Head of Human Resources and Administration. Prior to joining Denham and Grey, Daniel worked in Business Strategy and Development in startups such as Scoutsoft, Phenom Sports and Hymam Synergy, with primary focus on business model development, capital raise, asset acquisition and management. Daniel has a BSc in Environmental Sciences from the American University of Nigeria, MSc in Energy Finance and Markets from the University of Edinburgh Business School and an MBA in Entrepreneurship and Innovation from the University of Abuja Business School. Daniel is passionate about Green Energy."
-    },{
         name: "David Chinda",
         title: "Managing Director",
         imageSrc: "/assets/images/david.svg",
@@ -247,6 +242,21 @@ const mgts: Person[] = [{
         name: "Awa Michael",
         title: "Head Internal Audit, Control and Compliance",
         imageSrc: "/assets/images/awa.svg",
+        description: "Awa Michael is a chartered accounting professional with 11 years’ experience in auditing. She started her professional career at PricewaterhouseCoopers and moved to the Development Bank of Nigeria as the Specialist Financial Audit in 2018. In 2022 she became the Head Internal Audit Department of Impact Credit Guarantee Limited. She joined Denham and Grey in 2024 as the Head, Internal Audit, Control and Compliance. Awa holds a BSc. Accountancy from the University of Maiduguri, Borno Nigeria and holds an MBA from the Quantic School of Business and Technology, Washington, DC, USA. She is a member of the Institute of Internal Auditors (IIA), Institute of Chartered Accountants of Nigeria (ICAN), Association of Chartered Certified Accountants (ACCA) and is a Certified Information Systems Auditor (CISA). Awa is passionate about financial inclusion and engages in mentorship activities in her voluntary time."
+    },{
+        name: "Daniel Ijudai Denis ",
+        title: "Head Human Resources and Administration",
+        imageSrc: "/assets/images/daniel.svg",
+        description: "Daniel joined Denham and Grey Ltd in 2024 as the Head of Human Resources and Administration. Prior to joining Denham and Grey, Daniel worked in Business Strategy and Development in startups such as Scoutsoft, Phenom Sports and Hymam Synergy, with primary focus on business model development, capital raise, asset acquisition and management. Daniel has a BSc in Environmental Sciences from the American University of Nigeria, MSc in Energy Finance and Markets from the University of Edinburgh Business School and an MBA in Entrepreneurship and Innovation from the University of Abuja Business School. Daniel is passionate about Green Energy."
+    },{
+        name: "Sunday Ojo",
+        title: " Climate Change and Sustainability Specialist",
+        imageSrc: "/assets/images/Sunday Ojo Pix.jpeg.jpg",
+        description: "Awa Michael is a chartered accounting professional with 11 years’ experience in auditing. She started her professional career at PricewaterhouseCoopers and moved to the Development Bank of Nigeria as the Specialist Financial Audit in 2018. In 2022 she became the Head Internal Audit Department of Impact Credit Guarantee Limited. She joined Denham and Grey in 2024 as the Head, Internal Audit, Control and Compliance. Awa holds a BSc. Accountancy from the University of Maiduguri, Borno Nigeria and holds an MBA from the Quantic School of Business and Technology, Washington, DC, USA. She is a member of the Institute of Internal Auditors (IIA), Institute of Chartered Accountants of Nigeria (ICAN), Association of Chartered Certified Accountants (ACCA) and is a Certified Information Systems Auditor (CISA). Awa is passionate about financial inclusion and engages in mentorship activities in her voluntary time."
+    },{
+        name: "Olayinka Olaiya",
+        title: "Technical Assistant",
+        imageSrc: "/assets/images/Olayinka_Olaiya.png",
         description: "Awa Michael is a chartered accounting professional with 11 years’ experience in auditing. She started her professional career at PricewaterhouseCoopers and moved to the Development Bank of Nigeria as the Specialist Financial Audit in 2018. In 2022 she became the Head Internal Audit Department of Impact Credit Guarantee Limited. She joined Denham and Grey in 2024 as the Head, Internal Audit, Control and Compliance. Awa holds a BSc. Accountancy from the University of Maiduguri, Borno Nigeria and holds an MBA from the Quantic School of Business and Technology, Washington, DC, USA. She is a member of the Institute of Internal Auditors (IIA), Institute of Chartered Accountants of Nigeria (ICAN), Association of Chartered Certified Accountants (ACCA) and is a Certified Information Systems Auditor (CISA). Awa is passionate about financial inclusion and engages in mentorship activities in her voluntary time."
     },
     
