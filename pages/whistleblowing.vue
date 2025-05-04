@@ -16,28 +16,98 @@
       <div class=" space-y-[10%] md:w-[90%] p-4">
         <form @submit="submitForm" class="space-y-6">
           <h3 class="font-dg font-medium text-[24px]">
-            Whistleblowing Form
             <span>The whistleblowing form on the website should have fields for the following:</span>
           </h3>
-          <div class="space-y-3">
-              <div class="flex flex-col md:flex-row gap-3">
-                <label>First</label>
-                  <input type="text" id="first_name" v-model="first_name" class=" border-2 text-md text-black block w-full p-2.5 " placeholder="First Name" >
-                  <label></label>
-                  <input type="text" id="last_name" v-model="last_name" class="border-2 text-md text-black block w-full p-2.5" placeholder="Last Name" >
+          <div>
+            <h2 class="text-lg font-semibold mb-2">Your Information (Optional)</h2>
+            <div class="flex flex-col md:flex-row gap-3">
+              <div class="flex-1">
+                <label for="first_name">First Name</label>
+                <input type="text" id="first_name" v-model="first_name" class="border-2 text-md text-black block w-full p-2.5" placeholder="First Name">
               </div>
-              <div class="flex flex-col md:flex-row gap-3">
-                <label></label>
-                  <input type="email" id="email" v-model="email" class=" border-2 text-md text-black block w-full p-2.5 " placeholder="Email" >
-                  <label></label>
-                  <input type="tel" id="tel" v-model="phone_number" class="border-2 text-md text-black block w-full p-2.5" placeholder="Phone Number" >
+              <div class="flex-1">
+                <label for="last_name">Last Name</label>
+                <input type="text" id="last_name" v-model="last_name" class="border-2 text-md text-black block w-full p-2.5" placeholder="Last Name">
               </div>
-              <div class="flex flex-col md:flex-row gap-3">
-                <input type="text" id="role" v-model="role" class="border-2 text-md text-black block w-full p-2.5" placeholder="Your Role (Employee, Vendor, etc.)" >
+            </div>
+            <div class="flex flex-col md:flex-row gap-3">
+              <div class="flex-1">
+                <label for="email">Email</label>
+                <input type="email" id="email" v-model="email" class="border-2 text-md text-black block w-full p-2.5" placeholder="Email">
               </div>
-              <div>
-                  <textarea id="message" v-model="message" rows="4" class="block p-2.5 w-full text-[14px] font-dg text-black  border-2 bg-white " placeholder="Tell us what you want"></textarea>
+              <div class="flex-1">
+                <label for="tel">Phone Number</label>
+                <input type="tel" id="tel" v-model="phone_number" class="border-2 text-md text-black block w-full p-2.5" placeholder="Phone Number">
               </div>
+            </div>
+            <div>
+              <label for="role">Your Role (Employee, Vendor, etc.)</label>
+              <input type="text" id="role" v-model="role" class="border-2 text-md text-black block w-full p-2.5" placeholder="Your Role">
+            </div>
+          </div>
+        
+          <!-- Incident Details -->
+          <div>
+            <h2 class="text-lg font-semibold mb-2">Incident Details</h2>
+            <div>
+              <label for="misconduct_type">Type of Misconduct</label>
+              <input type="text" id="misconduct_type" v-model="misconduct_type" class="border-2 text-md text-black block w-full p-2.5" placeholder="e.g., Fraud, Harassment, Corruption">
+            </div>
+            <div class="flex flex-col md:flex-row gap-3">
+              <div class="flex-1">
+                <label for="incident_date">Date & Time of Incident</label>
+                <input type="datetime-local" id="incident_date" v-model="incident_date" class="border-2 text-md text-black block w-full p-2.5">
+              </div>
+              <div class="flex-1">
+                <label for="location">Location / Department</label>
+                <input type="text" id="location" v-model="location" class="border-2 text-md text-black block w-full p-2.5" placeholder="e.g., HR, Finance Dept">
+              </div>
+            </div>
+            <div>
+              <label for="people_involved">People Involved (If Known)</label>
+              <input type="text" id="people_involved" v-model="people_involved" class="border-2 text-md text-black block w-full p-2.5" placeholder="Names or descriptions">
+            </div>
+            <div>
+              <label for="description">Description</label>
+              <textarea id="description" v-model="description" rows="4" class="block p-2.5 w-full text-[14px] font-dg text-black border-2 bg-white" placeholder="What happened?"></textarea>
+            </div>
+            <div>
+              <label for="awareness">How did you become aware of it?</label>
+              <textarea id="awareness" v-model="awareness" rows="3" class="block p-2.5 w-full text-[14px] font-dg text-black border-2 bg-white" placeholder="e.g., witnessed it, someone told you..."></textarea>
+            </div>
+            <div>
+              <label>Do you have any supporting evidence?</label>
+              <div class="flex items-center gap-4 mt-2">
+                <label><input type="radio" v-model="has_evidence" value="Yes"> Yes</label>
+                <label><input type="radio" v-model="has_evidence" value="No"> No</label>
+              </div>
+              <div v-if="has_evidence === 'Yes'" class="mt-2">
+                <input type="file" @change="handleFileUpload">
+              </div>
+            </div>
+          </div>
+        
+          <!-- Confidentiality & Follow-up -->
+          <div>
+            <h2 class="text-lg font-semibold mb-2">Confidentiality & Follow-up</h2>
+            <div>
+              <label>Do you wish to remain anonymous?</label>
+              <div class="flex items-center gap-4 mt-2">
+                <label><input type="radio" v-model="anonymous" value="Yes"> Yes</label>
+                <label><input type="radio" v-model="anonymous" value="No"> No</label>
+              </div>
+            </div>
+            <div class="mt-4">
+              <label>Can we contact you for more details?</label>
+              <div class="flex items-center gap-4 mt-2">
+                <label><input type="radio" v-model="can_contact" value="Yes"> Yes</label>
+                <label><input type="radio" v-model="can_contact" value="No"> No</label>
+              </div>
+            </div>
+            <div class="mt-4">
+              <label for="additional_comments">Any additional comments?</label>
+              <textarea id="additional_comments" v-model="additional_comments" rows="3" class="block p-2.5 w-full text-[14px] font-dg text-black border-2 bg-white" placeholder="Anything else you'd like us to know?"></textarea>
+            </div>
           </div>
           <div class="">
               <!-- <div class="relative inline-block"> -->

@@ -66,6 +66,7 @@
     { name: 'Impact and Sustainability', path: '/impact-and-sustainability' },
     { name: 'Career', path: '/career' },
     { name: 'Contact Us', path: '/contact' },
+    { name: 'Whistle Blower', path: '/whistleblowing' },
   ]);
   
   const emit = defineEmits(['update:navbarHeight']);
