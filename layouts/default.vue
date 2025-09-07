@@ -1,6 +1,6 @@
 <template>
-    <Navbar @update:navbarHeight="updateNavbarHeight" />
-    <div :style="{ marginTop: navbarHeight + 'px' }" class="my-0 w-full">
+    <Navbar  />
+    <div  class="my-0 w-full">
       <slot class="w-full"/>
     </div>
     <Footer />

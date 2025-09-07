@@ -1,5 +1,5 @@
 <template>
-    <nav ref="navbar" id="navigation" class="bg-white  fixed top-0 left-0 w-full z-40 font-body shadow-card hover:shadow-cardhover transition-all duration-500">
+    <nav ref="navbar" id="navigation" class="absolute top-0 left-0 w-full z-40 font-body shadow-card hover:shadow-cardhover transition-all duration-500">
       <div class="flex items-center justify-between lg:justify-center flex-wrap max-w-full  px-4 md:px-8">
         <!-- Logo -->
         <NuxtLink to="/" class="flex items-center flex-shrink-0 lg:w-[30%]">
@@ -22,12 +22,12 @@
         </div>
   
         <!-- Desktop Menu -->
-        <div class="hidden md:flex md:items-center md:justify-center space-x-4 text-black font-light">
+        <div class="hidden md:flex md:items-center md:justify-center space-x-6 text-[#EBEBEB] font-medium text-[16px] font-in ">
           <template v-for="(link, index) in menuItems" :key="index">
             <NuxtLink :to="link.path" @click="closeMenu" class="hover:text-primary-theme">
               {{ link.name }}
             </NuxtLink>
-            <span v-if="index < menuItems.length - 1" class="text-theme-gray">|</span>
+            <!-- <span v-if="index < menuItems.length - 1" class="text-theme-gray">|</span> -->
           </template>
         </div>
   
@@ -66,7 +66,7 @@
     { name: 'Impact and Sustainability', path: '/impact-and-sustainability' },
     { name: 'Career', path: '/career' },
     { name: 'Contact Us', path: '/contact' },
-    { name: 'Whistle Blower', path: '/whistleblowing' },
+    { name: 'Whistle Blow', path: '/whistleblowing' },
   ]);
   
   const emit = defineEmits(['update:navbarHeight']);

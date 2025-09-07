@@ -1,10 +1,17 @@
 <template>
-<section class="bg-[url('/assets/images/sm-hero.png')] md:bg-[url('/assets/images/hero.png')] bg-center bg-cover bg-fixed  bg-clip-border bg-no-repeat text-center text-white items-center m-auto justify-center font-dg space-y-0 flex flex-col py-[20%] md:py-[5%] font-ti">
-    <h3 class="font-ti text-[32px] md:text-[76px]">ABOUT US</h3>
+<section class="bg-[url('/assets/images/about.svg')] md:bg-[url('/assets/images/about.svg')] bg-center bg-cover  bg-clip-border bg-no-repeat text-center text-white items-center m-auto justify-center font-dg space-y-0 flex flex-col py-[20%] md:py-[5%] font-sg h-[515px]">
+    <h3 class="font-gt text-[32px] md:text-[76px]">ABOUT US</h3>
 </section>
-<section class="gap-8 py-16 md:px-[12%] text-center items-center justify-center flex flex-col">
-    <h5 class="font-ti text-[24px] md:text-[48px] font-bold ">Our Foundation and Operations</h5>
-    <p class="font-ar font-medium text-black md:text-[24px] md:leading-[55px] tracking-[2%] w-[80%]">Established in 2021, Denham &amp; Grey began full operations in 2024. Our main office is in Lagos, Nigeria's financial hub, providing easy access to clients, market insights, and effective client monitoring. We also have a secondary location in the Federal Capital Territory.</p>
+<section class="py-[4%] md:px-[6%] font-dg ">
+
+  <div class="grid md:grid-cols-2 font-dg md:px-[10%] gap-4 items-center">
+      <div class=" space-y-4 p-4 ">
+        <h5 class="font-gt text-[24px] md:text-[40px] font-bold w-[75%]">Our Foundation and Operations</h5>
+        <p class="font-gt font-bold text-black md:text-[18px] text-[#7B7B7B]">Established in 2021, Denham &amp; Grey began full operations in 2024. Our main office is in Lagos, Nigeria's financial hub, providing easy access to clients, market insights, and effective client monitoring. We also have a secondary location in the Federal Capital Territory.</p>
+      </div>
+      <img src="/assets/images/about-right.svg" alt="" class="w-40% md:w-[80%] h-full order-first md:order-last">
+  </div>
+
 </section>
 <section class="text-left md:text-center font- bg-[#FAFAFA] py-[5%]">
     <div class="h-[30%] flex flex-col items-center space-y-4 mb-[3%]">
@@ -66,9 +73,9 @@
 </section>
 <section class="text-center">
     <div class="h-[30%] flex flex-col items-center space-y-4 pt-[6%] mb-[3%]">
-        <h2 class="font-semibold font-ti text-[32px] md:text-[64px] leading-[50px]">Meet Our Team</h2>
-        <p class="font-ar text- md:text-[24px] lg:text-[26px] lg:text-[28px] text-black font-medium w-[90%] md:leading-[40px]">
-            Our team at Denham &amp; Grey consists of experienced professionals dedicated to providing innovative financial solutions to our Impact Partners. Together, we leverage our expertise to drive impact in Nigeria's development finance sector
+        <h2 class="font-semibold font-gt text-[32px] md:text-[64px] leading-[50px]">Meet Our Team</h2>
+        <p class="font-gt text- md:text-[24px] lg:text-[20px] text-[#7B7B7B] font-bold w-[55%]">
+          Our team at Denham &amp; Grey consists of experienced professionals dedicated to providing innovative financial solutions to our Impact Partners. Together, we leverage our expertise to drive impact in Nigeria's development finance sector
         </p>
     </div>
     <div class=" md:px-[10%] py-[3%] flex flex-col items-center ">
@@ -169,9 +176,9 @@
       </div>
     </div>
 </section>
-<section class="md:flex flex-col items-center text-center font-ti bg-[url('/assets/images/hero.png')] bg-no-repeat bg-cover bg-fixed py-[5%] gap-6 mb-[3%] hidden">
-    <h2 class="font-normal text-[32px] text-white w-[60%] leading-[auto]">Ready to take your business to the next level? Click below to get started with our expert financial solutions.</h2>
-    <button class="bg-primary-theme px-[5%] py-4  mx-auto">PARTNER WITH US</button>
+<section class="md:flex flex-col items-center text-center font-gt bg-[url('/assets/images/about-partner.svg')] bg-no-repeat bg-cover gap-6 hidden h-[400px] py-[5%]">
+    <h2 class="font-bold text-[32px] text-white w-[55%]">Ready to take your business to the next level? Click below to get started with our expert financial solutions.</h2>
+    <button class="bg-primary-theme px-[5%] py-4  mx-auto rounded-lg font-bold">PARTNER WITH US</button>
 </section>
 </template>
 

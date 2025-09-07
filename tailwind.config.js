@@ -17,6 +17,7 @@ module.exports = {
        mc: ['"MonteCarlo"', 'sans'],
        in: ['"Inter"', 'sans'],
        ti: ['"Times New Roman"', 'serif'],
+       gt: ['"Century Gothic Paneuropean"', 'sans-serif'],
      },
      fontSize:{
        'dg-xs': '14px',
@@ -33,7 +34,7 @@ module.exports = {
     },
       colors: {
         primary: { 
-          "theme": "#E8C86D",
+          "theme": "#FFD300",
           "text": "#A58C09",
        },
         secondary: { "theme": "#1B1725" },

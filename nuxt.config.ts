@@ -26,7 +26,8 @@ export default defineNuxtConfig({
         'Titillium+Web':true,
         'Arimo':true,
         'Tinos':true,
-        'MonteCarlo':true
+        'MonteCarlo':true,
+        'Space+Grotesk': true
       },
       display: 'swap', // Recommended for performance
       prefetch: true, // Optional, improves initial loading speed
@@ -47,5 +48,15 @@ export default defineNuxtConfig({
   },
   build:{
     transpile: ['vue-toastification']
+  },
+  app: {
+    head: {
+      link: [
+        {
+          rel: "stylesheet",
+          href: "https://fonts.cdnfonts.com/css/century-gothic-paneuropean"
+        }
+      ]
+    }
   }
 })
