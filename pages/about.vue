@@ -14,24 +14,15 @@
 
 </section>
 <section class="text-left md:text-center font- bg-[#FAFAFA] py-[5%]">
-    <div class="h-[30%] flex flex-col items-center space-y-4 mb-[3%]">
-        <h2 class="font-normal font-ti text-[24px] md:text-[64px] text-black">Corporate Philosophy</h2>
-    </div>
-    <div class="grid grid-cols-1 md:grid-cols-2 px-[16px] md:px-[15%] text-left text-black gap-6">
-        <div class="bg-primary-theme flex flex-col gap-2 p-3 rounded-[4px] w-[100%]">
-            <div class="flex text-black font-ti font-bold items-center gap-3 md:gap-6">
-                <img src="/assets/images/vision.svg" class="h-[40%] md:h-[75%]">
-                <span class="text-[24px] md:text-[32px]">Our Vision</span>
-            </div>
+    <div class="grid grid-cols-1 md:grid-cols-2 px-[16px] md:px-[15%] items-center justify-center text-black gap-6 font-gt">
+        <div class="bg-[url('/assets/images/telo.svg')] bg-no-repeat bg-center flex flex-col justify-center gap-2 p-6 text-center rounded-[4px] w-[100%] h-[250px]">
+            <span class="text-[24px] md:text-[32px]">Our Vision</span>
             <p class="text-[14px] md:text-[18px]">
-              To be the premier financial catalyst driving Nigeria’s transition to a sustainable, low-carbon economy.
+              To mobilize capital for Nigeria's SDGs with financial solutions that empower communities, drive growth, and protect the environment.
             </p>
         </div>
-        <div class="bg-primary-theme flex flex-col gap-2 p-3 rounded-[4px] w-[100%]">
-            <div class="flex text-black font-ti font-bold items-center ggap-3 md:ap-6">
-                <img src="/assets/images/mission.svg" class="h-[40%] md:h-[75%]">
-                <span class="text-[24px] md:text-[32px]">Our Mission</span>
-            </div>
+        <div class="bg-[url('/assets/images/target.svg')] bg-no-repeat bg-center flex flex-col justify-center gap-2 p-6 text-center rounded-[4px] w-[100%] h-[250px]">
+            <span class="text-[24px] md:text-[32px]">Our Mission</span>
             <p class="text-[14px] md:text-[18px]">
               To mobilize and channel innovative, scalable and sustainable financial solutions toward environmentally sustainable projects that foster inclusive economic growth.
             </p>
@@ -42,38 +33,36 @@
     <div class="h-[30%] flex flex-col items-center space-y-4 pt-[3%] mb-[3%]">
         <h2 class="font-semibold font-ti text-[32px] md:text-[64px] leading-[50px]">Our Core Values</h2>
     </div>
-    <div class="flex flex-col  justify-center items-center font-ti gap-2 md:gap-8 md:space-y-8">
-        <div class="flex flex-col md:flex-row justify-center md:space-x-[10%] md:w-[50%] gap-2 w-[">
-            <div class="bg-primary-theme text-black font-bold py-4 text-center w-[327.99px]">
-                Sustainability
-            </div>
-            <div class="bg-primary-theme text-black font-bold py-4 text-center w-[327.99px]">
-                Integrity
-            </div>
+    <div class="grid grid-cols-6  justify-center items-center font-gt font-bold text-[#7B7B7B] text-[18px] ">
+        <div class="flex flex-col items-center justify-center md:space-x-[10%] md:w-[50%] gap-2 w-[">
+            <img src="/assets/images/cv-01.svg"/>
+            Sustainability
         </div>
-
-        <div class="flex flex-col md:flex-row justify-center md:space-x-[40%] md:w-[80%] gap-2">
-            <div class="bg-primary-theme text-black font-bold py-4 w-[327.99px] text-center md:px-[10%] ">
-                Inclusivity
-            </div>
-            <div class="bg-primary-theme text-black font-bold py-4 w-[327.99px] text-center md:px-[10%] ">
-                Competence
-            </div>
+        <div class="flex flex-col items-center justify-center md:space-x-[10%] md:w-[50%] gap-2 w-[">
+            <img src="/assets/images/cv-02.svg"/>
+            Integrity
         </div>
-
-        <div class="flex flex-col md:flex-row justify-center md:space-x-[10%] md:w-[50%] gap-2">
-            <div class="bg-primary-theme text-black font-bold py-4 text-center w-[327.99px]">
-                Partnership
-            </div>
-            <div class="bg-primary-theme text-black font-bold py-4 text-center w-[327.99px]">
-                Innovation
-            </div>
+        <div class="flex flex-col items-center justify-center md:space-x-[10%] md:w-[50%] gap-2 w-[">
+            <img src="/assets/images/cv-03.svg"/>
+            inclusivity
+        </div>
+        <div class="flex flex-col items-center justify-center md:space-x-[10%] md:w-[50%] gap-2 w-[">
+            <img src="/assets/images/cv-04.svg"/>
+            Competence
+        </div>
+        <div class="flex flex-col items-center justify-center md:space-x-[10%] md:w-[50%] gap-2 w-[">
+            <img src="/assets/images/cv-05.svg"/>
+            Partnership
+        </div>
+        <div class="flex flex-col items-center justify-center md:space-x-[10%] md:w-[50%] gap-2 w-[">
+            <img src="/assets/images/cv-06.svg"/>
+            innovation
         </div>
     </div>
 </section>
 <section class="text-center">
     <div class="h-[30%] flex flex-col items-center space-y-4 pt-[6%] mb-[3%]">
-        <h2 class="font-semibold font-gt text-[32px] md:text-[64px] leading-[50px]">Meet Our Team</h2>
+        <h2 class="font-semibold font-gt text-[32px] md:text-[40px] leading-[50px]">Meet Our Team</h2>
         <p class="font-gt text- md:text-[24px] lg:text-[20px] text-[#7B7B7B] font-bold w-[55%]">
           Our team at Denham &amp; Grey consists of experienced professionals dedicated to providing innovative financial solutions to our Impact Partners. Together, we leverage our expertise to drive impact in Nigeria's development finance sector
         </p>

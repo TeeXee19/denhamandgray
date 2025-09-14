@@ -1,8 +1,13 @@
 <template>
-<section class="bg-[url('/assets/images/sm-hero.png')] md:bg-[url('/assets/images/hero.png')] bg-center bg-cover bg-fixed  bg-clip-border bg-no-repeat h-[50vh] lg:h-[81vh] text-center text-white items-center m-auto justify-center space-y-0 flex flex-row">
-    <div class="relative w-[95%] flex flex-col">
-        <h1 class="font-bold font-ti text-[32px] md:w-[65%] lg:w-[55%] xl:w-[65%] mx-auto ">Denham &amp; Grey</h1>
-        <span class="font-bold text-[24px] lg:text-[60px]">Financing the SDGs, Ensuring Tomorrow</span>
+<section class="bg-[url('/assets/images/sm-hero.png')] md:bg-[url('/assets/images/hero.svg')] bg-center bg-cover   bg-clip-border bg-no-repeat h-[90vh] lg:h-[90vh] text-center text-white m-auto justify-center space-y-0 flex flex-col">
+    <div class="justify-end flex px-8">
+        <div class="bg-white/20 w-[200px] flex flex-col items-center p-4 rounded-[12px] ">
+            <img src="/assets/images/dev.svg"/>
+            Development
+        </div>
+    </div>
+    <div class="relative font-gt w-[50%] flex flex-col text-left px-[100px]">
+        <span class="text-[24px] lg:text-[60px]">Financing the SDGs, Ensuring Tomorrow</span>
         <div class="mt-8">
                 <NuxtLink to="/#contact" class="bg-primary-theme px-8 py-4 text-black mx-auto">PARTNER WITH US</NuxtLink>
         </div>

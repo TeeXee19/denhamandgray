@@ -35,20 +35,6 @@
               <a href="mailto:info@denhamandgrey.com">info@denhamandgrey.com
               </a>
             </p>
-            <div class="flex justify-start space-x-6 mt-4">
-              <NuxtLink to="/">
-                <img src="/assets/images/youtube.svg" alt="LinkedIn" class="h-5 w-5" />
-              </NuxtLink>
-              <NuxtLink to="/">
-                <img src="/assets/images/x.svg" alt="Twitter" class="h-5 w-5" />
-              </NuxtLink>
-              <NuxtLink to="/">
-                <img src="/assets/images/instagram.svg" alt="Instagram" class="h-5 w-5" />
-              </NuxtLink>
-              <NuxtLink to="/">
-                <img src="/assets/images/facebook.svg" alt="Facebook" class="h-5 w-5" />
-              </NuxtLink>
-            </div>
           </div>
            <div class="text-left font-ar font-bold text-white space-y-4">
             <p class="font-gt text-primary-theme">Contact Info</p>
