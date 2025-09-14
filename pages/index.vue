@@ -77,8 +77,8 @@
         </div>
     </div>
 </section>
-<section class="text-center font-gt bg-[#FBFBFC]">
-    <div class="h-[30%] flex flex-col items-center space-y-4 pt-[6%] mb-[3%]">
+<section class="text-center font-gt bg-[#FBFBFC] py-[2%]">
+    <div class="h-[30%] flex flex-col items-center space-y-4  mb-[3%]">
         <h2 class="font-bold font-gt text-[32px] lg:text-[40px] leading-[50px]">Our Financial Offerings</h2>
 
         <p class="font-gt text-[16px] lg:text-[24px] text-[#7B7B7B] font-bold w-[60%] lg:leading-[30px] ">
@@ -92,38 +92,46 @@
                 <h3 class="font-gt text-[32px] font-semibold text-[#474A4F]">
                     Impact Funding
                 </h3>
-                <ul class="font-bold text-[#7B7B7B] list-decoration">
-                    <li>Measurable Social Impact</li>
+                <ul class="font-bold text-[#7B7B7B] list-disc pl-6">
+                    <li>Measurable social impact</li>
+                    <li>Environmental sustainability</li>
+                    <li>Community development initiatives</li>
                 </ul>
             </div>
         </div>
-        <div class="relative group">
+        <div class="relative shadow-lg">
             <img src="/assets/images/pillar2.png" alt="" class="w-full h-auto transition-opacity duration-500">
-            <!-- <div class="absolute p-8 inset-0 flex flex-col justify-center text-left  opacity-0  hover:opacity-70 transition-opacity duration-1000 group-hover:opacity-70 ">
-                <h3 class="font-dg text-[32px] font-semibold hover:hidden">
+            <div class="p-8 flex flex-col justify-center text-left">
+                <h3 class="font-gt text-[32px] font-semibold text-[#474A4F]">
                     Wholesale Funding
                 </h3>
-                <p class="font-dg font-medium text-[28px] leading-8">
-                    We are a niche firm with a focus on providing flexible and innovative financing solutions to licensed and regulated financial institutions in Africa with a track record of good corporate governance, competent management, and prudent risk management practices.
-                </p>
-            </div> -->
+                <ul class="font-bold text-[#7B7B7B] list-disc pl-6">
+                    <li>Large-scale development projects</li>
+                    <li>Infrastructure financing</li>
+                    <li>Institutional partnerships</li>
+                </ul>
         </div>
-        <div class="relative group">
+    </div>
+        <div class="relative shadow-lg">
             <img src="/assets/images/pillar3.png" alt="" class="w-full h-auto transition-opacity duration-300">
-            <!-- <div class="absolute p-8 inset-0 flex flex-col justify-center text-left  opacity-0  hover:opacity-70 transition-opacity duration-1000 group-hover:opacity-70 ">
-                <h3 class="font-dg text-[32px] font-semibold hover:hidden">
+            <div class="p-8 flex flex-col justify-center text-left">
+                <h3 class="font-gt text-[32px] font-semibold text-[#474A4F]">
                     Strategic Finance
                 </h3>
-                <p class="font-dg font-medium text-[28px] leading-8">
-                    Our partners require funding to enable them achieve their strategic objectives from acquisition to other financial institutions to branch expansion, we are here to support your strategies to ensure you achieve your mandates.
-                </p>
-            </div> -->
+                <ul class="font-bold text-[#7B7B7B] list-disc pl-6">
+                    <li>Tailored financial strategies</li>
+                    <li>Project optimization</li>
+                    <li>Risk mitigation planning</li>
+                </ul>
+            </div>
         </div>
+
     </div>
 </section>
 <section class="h-[50%] bg-clip-border bg-no-repeat m-auto md:bg-[#ECECEC] md:px-25%] md:py-[5%] flex flex-col items-center">
-    <div class="flex flex-col items-center space-y-2 ">
-        <h2 class="font-semibold font-ti text-[24px] lg:text-[64px] font-ti">Our Non-Financial Offering</h2>
+    <div class="flex flex-col  p-4 bg-[url('/assets/images/non-fin.png')] bg-no-repeat bg-contain h-[600px] w-[80%] items-start justify-end mx-[20%] text-white">
+        <h2 class="font-semibold text-[24px] lg:text-[64px] font-gt text-white">Our Non-Financial Offering</h2>
+        <p class="text-[24px]">Comprehensive support beyond financing to ensure project success.</p>
     </div>
     <div class="flex flex-col md:items-center space-y-4 rounded-md bg-[#ECECEC] md:bg-white px-[2%] py-[2%] md:w-[80%]">
         <h2 class="font-semibold font-ti text-[24px] lg:text-[40px] font-ti">Technical Assistance and Capacity Building</h2>
