@@ -1,84 +1,101 @@
 <template>
-<section class="bg-[url('/assets/images/sm-hero.png')] md:bg-[url('/assets/images/hero.svg')] bg-center bg-cover   bg-clip-border bg-no-repeat h-[90vh] lg:h-[90vh] text-center text-white m-auto justify-center space-y-0 flex flex-col">
+<section class="bg-[url('/assets/images/sm-hero.png')] md:bg-[url('/assets/images/hero.svg')] bg-center bg-cover   bg-clip-border bg-no-repeat h-[90vh] lg:h-[70vh] text-center text-white m-auto justify-center space-y-0 flex flex-col">
     <div class="justify-end flex px-8">
-        <div class="bg-white/20 w-[200px] flex flex-col items-center p-4 rounded-[12px] ">
+        <div class="bg-white/10 w-[200px] flex flex-col items-center p-4 rounded-3xl ">
             <img src="/assets/images/dev.svg"/>
             Development
         </div>
     </div>
-    <div class="relative font-gt w-[50%] flex flex-col text-left px-[100px]">
-        <span class="text-[24px] lg:text-[60px]">Financing the SDGs, Ensuring Tomorrow</span>
-        <div class="mt-8">
-                <NuxtLink to="/#contact" class="bg-primary-theme px-8 py-4 text-black mx-auto">PARTNER WITH US</NuxtLink>
+    <div class="relative font-gt w-[80%] flex flex-col text-left px-[100px]">
+        <span class="text-[24px] lg:text-[70px] w-[60%]">Financing the SDGs, Ensuring Tomorrow</span>
+        <div class="mt-8 flex flex-row gap-4 items-center">
+                <NuxtLink to="/#contact" class="bg-white rounded-[30px] px-8 py-2 text-black h-fit">PARTNER WITH US</NuxtLink>
+                <img src="/assets/images/Line.svg"/>
+                <div class="font-bold text-[20px] w-[50%]">
+                    Leading sustainable development finance across Africa through innovative green banking solutions
+                </div>
+        </div>
+    </div>
+    <div class="justify-end flex px-8">
+        <div class="bg-white/10 w-[200px] flex flex-col items-center p-4 rounded-full ">
+            DENHAM &amp; GREY
         </div>
     </div>
 </section>
-<section class=" font-ti space-y-0 md:grid grid-cols-3 hidden p-6 px-[5%]">
-    <div class="p-2 space-x-4  border-r border-r-width-[60%] border-gray-500 flex items-center">
-        <span class="font-ti font-bold text-[30px] text-primary-text tracking-normal">01</span>
-        <div class="font-ti text-[30px] font-normal">Empowering Communities</div>
+<section class="space-y-0 md:grid grid-cols-3 hidden p-6 px-[5%]">
+    <div class="px-[15%] py-6 h-[300px] justify-center font-gt bg-[url('assets/images/people.svg')] bg-no-repeat bg-center  border-r border-r-width-[60%] border-gray-500 flex flex-col text-left">
+        <div class="text-[24px] text-[#474A4F] font-bold">Empowering Communities</div>
+        <p class="font-bold text-[#7B7B7B]">Building sustainable communities through strategic investment and development initiatives.</p>
     </div>
-    <div class="p-2 space-x-4 border-r border-gray-500 flex items-center">
-        <span class="font-ti font-bold text-[30px] text-primary-text tracking-normal">02</span>
-        <div class="font-ti text-[30px] font-normal">Driving Economic Growth</div>
+    <div class="px-[15%] py-6 h-[300px] justify-center font-gt bg-[url('assets/images/arrow-growth.svg')] bg-no-repeat bg-center  border-r border-r-width-[60%] border-gray-500 flex flex-col text-left">
+        <div class="text-[24px] text-[#474A4F] font-bold">Driving Economic Growth</div>
+        <p class="font-bold text-[#7B7B7B]">Creating value through innovative financial solutions and strategic partnership.</p>
     </div>
-    <div class="p-2 space-x-4 flex items-center">
-        <span class="font-ti font-bold text-[30px] text-primary-text tracking-normal">03</span>
-        <div class="font-ti text-[30px] font-normal">Protecting the Environment</div>
+    <div class="px-[15%] py-6 h-[300px] justify-center font-gt bg-[url('assets/images/user-protect.svg')] bg-no-repeat bg-center flex flex-col text-left">
+        <div class="text-[24px] text-[#474A4F] font-bold">Protecting the Environment</div>
+        <p class="font-bold text-[#7B7B7B]">Commitment to sustainable practices and environmental responsibility in all our ventures.</p>
     </div>
 </section>
-<section class="font-ar bg-[#F0F0F0]">
-    <div class="grid grid-cols-1 md:grid-cols-2  font-ar">
-        <div class="p-[10%] space-y-[2%] order-last md:order-first">
-            <h3 class="font-bold text-[25px] lg:text-[52px] font-ti">Welcome to Denham &amp; Grey</h3>
-            <p class="font-medium text-black text-[14px] lg:text-[22px] font-ar leading-[23px]">
-                At Denham &amp; Grey, our team of seasoned professionals with expertise in institutional lending and development finance, drive positive change by providing wholesale medium to long term financing towards funding initiatives through our Impact Partner Institutions (licensed and regulated financial institutions) that align with the Sustainable Development Goals (SDGs).
-            </p>
-            <p class="font-medium text-black text-[14px] lg:text-[22px] font-ar leading-[23px]">
-                We leverage the channels and reach of our Impact Partner Institutions to provide funding towards empowering communities, driving economic growth and protecting the environment.
-            </p>
+<section class="py-[4%] md:px-[4%] font-dg ">
+
+    <div class="grid md:grid-cols-2 font-dg md:px-[10%] gap-4 items-center">
+        
+        <div class=" space-y-4 p-4 ">
+          <div class="bg-[#474A4F]/10 rounded-full py-2 px-6 font-gt font-bold w-fit">ESTABLISHED IN 2021</div>
+          <h5 class="font-gt text-[24px] md:text-[40px] leading-auto font-bold">Welcome to Denham &amp; Grey</h5>
+          <p class="font-gt font-bold md:text-[16px] text-[#7B7B7B]">
+            At Denham &amp; Grey, our focus is on structured excellence with expertise in structured lending and developmental finance. We leverage industry expertise to develop project efficiency improvements, reduce project delivery risk and strengthen project development and execution. 
+            <br/>
+            <br/>
+            We strive to leverage various management and ownership structures, originating lending rounds, implementing structured partnerships, aligning stakeholder needs and technical risks and providing comprehensive solutions.
+         </p>
+        <button class="bg-white border border-[#474A4F] rounded-lg px-8 py-2 text-black h-fit flex gap-4 font-gt items-center">
+            LEARN MORE ABOUT US
+            <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M2.83679 17.4948L17.8368 10.8282C17.9842 10.7628 18.1094 10.656 18.1973 10.5208C18.2852 10.3856 18.332 10.2278 18.332 10.0665C18.332 9.90525 18.2852 9.74746 18.1973 9.61226C18.1094 9.47706 17.9842 9.37028 17.8368 9.30485L2.83679 2.63818C2.69406 2.57477 2.53637 2.55274 2.38172 2.57462C2.22708 2.5965 2.08169 2.6614 1.96214 2.76192C1.8426 2.86244 1.75371 2.99453 1.70562 3.14312C1.65752 3.29172 1.65215 3.45085 1.69013 3.60235L3.09763 9.23318H10.8318C11.0528 9.23318 11.2648 9.32098 11.421 9.47726C11.5773 9.63354 11.6651 9.8455 11.6651 10.0665C11.6651 10.2875 11.5773 10.4995 11.421 10.6558C11.2648 10.8121 11.0528 10.8998 10.8318 10.8998H3.09763L1.69013 16.5315C1.65235 16.683 1.65787 16.842 1.70605 16.9904C1.75423 17.1389 1.84314 17.2708 1.96265 17.3712C2.08216 17.4716 2.22746 17.5365 2.38201 17.5583C2.53655 17.5802 2.69413 17.5582 2.83679 17.4948Z" fill="#474A4F"/>
+                </svg>                
+        </button>
         </div>
-        <img src="/assets/images/about-right.png" alt="" class="w-full h-auto">
+        <img src="/assets/images/welcome.svg" alt="" class="w-40% md:w-[80%] h-full order-first md:order-last">
     </div>
-</section>
-<section class="bg-[url('/assets/images/est.png')] bg-center bg-cover lg:bg-fixed bg-clip-border bg-no-repeat py-[10%] px-[5%] text-white font-ti ">
-    <div class="lg:w-1/2 space-y-4 lg:space-y-8">
-        <h3 class="text-[22px] lg:text-[36px] tracking-[5px] font-ti">ESTABLISHED IN 2021</h3>
-        <h3 class="font-bold text-[24px] md:text-[28px] lg:text-[32px] xl:text-[36px] w-[100%] md:leading-[80px]">We are experts in impact investment and wholesale lending</h3>
+  
+  </section>
+
+<section class="bg-[url('/assets/images/est.png')] bg-center bg-cover  bg-clip-border bg-no-repeat py-[10%] px-[5%] text-white font-gt">
+    <div class="lg:w-1/2 space-y-4 lg:space-y-8 font-gt">
+        <h3 class="text-[22px] lg:text-[26px] tracking-[5px] font-gt">ESTABLISHED IN 2021</h3>
+        <h3 class="font-bold text-[24px] md:text-[28px] lg:text-[32px] xl:text-[36px] w-[100%] md:leading-[50px]">We are experts in impact investment and wholesale lending</h3>
         <div class="grid grid-cols-1 lg:grid-cols-2 ">
             <div class="flex flex-col font-bold ">
-                <span class="border-b-[3px] w-[85%] border-yellow-theme text-[24px] lg:text-[50px]">$20 Million</span>
-                <span class="font-normal text-[20px] lg:text-[36px]">Approved funding</span>
+                <span class="border-b-[3px] w-[70%] border-yellow-theme text-[24px] lg:text-[40px]">$20 Million</span>
+                <span class="font-normal text-[20px] lg:text-[24px]">Approved funding</span>
             </div>
             <div class="flex flex-col font-bold ">
-                <span class="border-b-[3px] w-[85%] border-yellow-theme text-[24px] lg:text-[50px]">49 Locations</span>
-                <span class="font-normal text-[20px] lg:text-[36px]">Impact channels</span>
+                <span class="border-b-[3px] w-[70%] border-yellow-theme text-[24px] lg:text-[40px]">49 Locations</span>
+                <span class="font-normal text-[20px] lg:text-[24px]">Impact channels</span>
             </div>
         </div>
     </div>
 </section>
-<section class="text-center font-ti">
+<section class="text-center font-gt bg-[#FBFBFC]">
     <div class="h-[30%] flex flex-col items-center space-y-4 pt-[6%] mb-[3%]">
-        <h2 class="font-semibold font-ti text-[32px] lg:text-[64px] leading-[50px]">Our Financial Offerings</h2>
- 
-        <p class="font-ar text-[16px] lg:text-[32px] text-black font-medium w-[70%] lg:leading-[40px]">
+        <h2 class="font-bold font-gt text-[32px] lg:text-[40px] leading-[50px]">Our Financial Offerings</h2>
+
+        <p class="font-gt text-[16px] lg:text-[24px] text-[#7B7B7B] font-bold w-[60%] lg:leading-[30px] ">
             Our financial offerings are specialised into three key areas, aligned with the risk profile and financial needs of our partners
         </p>
     </div>
-    <div class=" grid  grid-cols-1 lg:grid-cols-3 text-white ">
-        <div class="relative group">
+    <div class=" grid grid-cols-1 lg:grid-cols-3 gap-4 text-white px-[15%]">
+        <div class="relative shadow-lg">
             <img src="/assets/images/pillar1.png" alt="" class="w-full h-auto transition-opacity duration-800">
-            <!-- <div class="absolute p-8 inset-0 flex flex-col justify-center text-left  opacity-0  hover:opacity-70 transition-opacity duration-1000 group-hover:opacity-70 ">
-                <h3 class="font-dg text-[32px] font-semibold hover:hidden">
+            <div class="p-8 flex flex-col justify-center text-left">
+                <h3 class="font-gt text-[32px] font-semibold text-[#474A4F]">
                     Impact Funding
                 </h3>
-                <p class="font-dg font-medium text-[28px] leading-8">
-                    Impact driven funding will be made available to drive
-                    financing in specific segments of the economy, with a
-                    focus on women, start-ups, green projects, and other
-                    segments as deemed necessary.
-                </p>
-            </div> -->
+                <ul class="font-bold text-[#7B7B7B] list-decoration">
+                    <li>Measurable Social Impact</li>
+                </ul>
+            </div>
         </div>
         <div class="relative group">
             <img src="/assets/images/pillar2.png" alt="" class="w-full h-auto transition-opacity duration-500">
