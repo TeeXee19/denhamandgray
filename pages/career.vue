@@ -1,55 +1,55 @@
 <template>
-<section class="bg-[url('/assets/images/career-bg.svg')] bg-center bg-cover h-[200px]  bg-clip-border bg-no-repeat text-center text-white items-center m-auto justify-center font-dg space-y-0 flex flex-col py-[5%]">
+<section class="bg-[url('/assets/images/career-bg.svg')] bg-center bg-cover  bg-clip-border bg-no-repeat text-center text-white items-center m-auto justify-center space-y-0 flex flex-col py-[5%] py-[20%] md:py-[5%] font-gt h-[515px]">
     <h3 class="text-[76px]">CAREER</h3>
 </section>
-<section class="">
-    <h3 class="p-4 font-bold text-[28px] font-ti tracking-0  md:hidden w-[75%] ">Join Our Team at Denham and Grey</h3>
-    <div class="grid grid-cols-1 md:grid-cols-2   items-center">
-        <div class="p-6 md:p-[10%]  space-y-[6%] order-last md:order-first w-60%">
-            <h3 class="font-bold font-ti text-[32px]  tracking-0 hidden md:block">Join Our Team at Denham and Grey</h3>
-            <p class="font-ar text-black text-[16px] md:text-[20px]">
-                Denham and Grey offers opportunities from entry-level to senior management, providing a platform to achieve your career goals while making a positive impact. We are looking for confident, competent individuals who share our vision to explore rewarding career paths with us. We focus on attracting and retaining top professionals, treating our people as our most valuable assets. As an equal opportunity employer, we ensure a fair, inclusive workplace for all.
-            </p>
-            <p class="font-ar text-black text-[16px] md:text-[20px]">
-                Ready to elevate your career? Discover if you're the right fit for Denham and Grey.
-            </p>
-            <button class="w-full md:w-1/2 bg-primary-theme font-ti text-[24px] text-black py-4 px-[18%] mt-[30px]">
-                Email Us
-            </button>
+<section class="py-[2%] md:px-[4%] font-dg ">
+
+    <div class="grid md:grid-cols-2 font-dg md:px-[4%] gap-4 items-center">
+        
+        <div class=" space-y-4 p-4 ">
+          <h5 class="font-gt text-[24px] md:text-[40px] leading-auto font-bold">Join Our Team at Denham and Grey</h5>
+          <p class="font-gt font-bold md:text-[16px] text-[#7B7B7B]">
+            Denham and Grey offers opportunities from entry-level to senior management, providing a platform to achieve your career goals while making a positive impact. We are looking for confident, competent individuals who share our vision to explore rewarding career paths with us. We focus on attracting and retaining top professionals, treating our people as our most valuable assets. As an equal opportunity employer, we ensure a fair, inclusive workplace for all. Ready to elevate your career? Discover if you're the right fit for Denham and Grey.
+         </p>
+         <p class="font-gt font-bold md:text-[16px] text-[#7B7B7B]">
+            Ready to elevate your career? Discover if you're the right fit for Denham and Grey.
+        </p>
+         <button class="bg-primary-theme font-gt font-bold  text-[#7B7B7B] py-2 px-[15%] mt-[30px] rounded-xl">
+            Email Us
+        </button>
         </div>
-            <img src="/assets/images/career.png" alt="" class="w-40%">
+        <img src="/assets/images/welcome.svg" alt="" class="w-40% md:w-full h-full order-first md:order-last">
     </div>
-</section>
+  
+  </section>
 <section class="py-[2%] px-[10%] font-dg  ">
     <div class="h-[30%] flex flex-col items-center space-y-4 pt-[3%] mb-[3%]">
-        <h2 class="font-semibold font-ti text-[32px] md:text-[64px] leading-[50px]">Our Core Values</h2>
+        <h2 class="font-semibold font-GT text-[32px] md:text-[40px] leading-[50px]">Our Core Values</h2>
     </div>
-    <div class="flex flex-col  justify-center items-center font-ti gap-2 md:gap-8 md:space-y-8">
-        <div class="flex flex-col md:flex-row justify-center md:space-x-[10%] md:w-[50%] gap-2 w-[">
-            <div class="bg-primary-theme text-black font-bold py-4 text-center w-[327.99px]">
-                Sustainability
-            </div>
-            <div class="bg-primary-theme text-black font-bold py-4 text-center w-[327.99px]">
-                Integrity
-            </div>
+    <div class="grid grid-cols-6  justify-center items-center font-gt font-bold text-[#7B7B7B] text-[18px] ">
+        <div class="flex flex-col items-center justify-center md:space-x-[10%] md:w-[50%] gap-2 w-[">
+            <img src="/assets/images/cv-01.svg"/>
+            Sustainability
         </div>
-
-        <div class="flex flex-col md:flex-row justify-center md:space-x-[40%] md:w-[80%] gap-2">
-            <div class="bg-primary-theme text-black font-bold py-4 w-[327.99px] text-center md:px-[10%] ">
-                Inclusivity
-            </div>
-            <div class="bg-primary-theme text-black font-bold py-4 w-[327.99px] text-center md:px-[10%] ">
-                Competence
-            </div>
+        <div class="flex flex-col items-center justify-center md:space-x-[10%] md:w-[50%] gap-2 w-[">
+            <img src="/assets/images/cv-02.svg"/>
+            Integrity
         </div>
-
-        <div class="flex flex-col md:flex-row justify-center md:space-x-[10%] md:w-[50%] gap-2">
-            <div class="bg-primary-theme text-black font-bold py-4 text-center w-[327.99px]">
-                Partnership
-            </div>
-            <div class="bg-primary-theme text-black font-bold py-4 text-center w-[327.99px]">
-                Innovation
-            </div>
+        <div class="flex flex-col items-center justify-center md:space-x-[10%] md:w-[50%] gap-2 w-[">
+            <img src="/assets/images/cv-03.svg"/>
+            inclusivity
+        </div>
+        <div class="flex flex-col items-center justify-center md:space-x-[10%] md:w-[50%] gap-2 w-[">
+            <img src="/assets/images/cv-04.svg"/>
+            Competence
+        </div>
+        <div class="flex flex-col items-center justify-center md:space-x-[10%] md:w-[50%] gap-2 w-[">
+            <img src="/assets/images/cv-05.svg"/>
+            Partnership
+        </div>
+        <div class="flex flex-col items-center justify-center md:space-x-[10%] md:w-[50%] gap-2 w-[">
+            <img src="/assets/images/cv-06.svg"/>
+            innovation
         </div>
     </div>
 </section>

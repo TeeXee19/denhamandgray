@@ -128,21 +128,28 @@
 
     </div>
 </section>
-<section class="h-[50%] bg-clip-border bg-no-repeat m-auto md:bg-[#ECECEC] md:px-25%] md:py-[5%] flex flex-col items-center">
-    <div class="flex flex-col  p-4 bg-[url('/assets/images/non-fin.png')] bg-no-repeat bg-contain h-[600px] w-[80%] items-start justify-end mx-[20%] text-white">
+<section class="h-[50%] bg-clip-border bg-no-repeat m-auto md:px-25%] md:py-[5%] flex flex-col items-center justify-center">
+    <div class="flex flex-col  p-8 bg-[url('/assets/images/non-fin.png')] bg-no-repeat bg-cover h-[600px] w-[90%] items-start justify-end mx-[20%] text-white rounded-[60px] ">
         <h2 class="font-semibold text-[24px] lg:text-[64px] font-gt text-white">Our Non-Financial Offering</h2>
         <p class="text-[24px]">Comprehensive support beyond financing to ensure project success.</p>
     </div>
-    <div class="flex flex-col md:items-center space-y-4 rounded-md bg-[#ECECEC] md:bg-white px-[2%] py-[2%] md:w-[80%]">
-        <h2 class="font-semibold font-ti text-[24px] lg:text-[40px] font-ti">Technical Assistance and Capacity Building</h2>
-    
-    <article class="font-ar text-[16px] lg:text-[28px] lg:text-justify  space-y-6">
+    <div class="flex flex-row  space-y-4 rounded-md md:bg-white px-[2%] py-[2%] md:w-[80%]">
+        <div class=" space-y-6">
+            <h2 class="font-bold text-[24px] lg:text-[40px] font-gt w-[60%]">Technical Assistance &amp; Capacity Building</h2>
+        <div class="justify-start flex ">
+            <div class="bg-white/10 w-[] flex flex-col items-center py-4 px-8 rounded-3xl border ">
+                <img src="/assets/images/growth-black.svg" class=""/>
+                Growth
+            </div>
+        </div>
+        </div>
+    <article class="font-gt text-[#7B7B7B] font-bold text-[16px] lg:text-[16px] lg:text-justify  space-y-6 w-[50%]">
         Denham &amp; Grey offers comprehensive technical assistance and capacity-building services to empower partners with the knowledge, skills, and resources for sustainable development. We help impact partners build their capacity to manage their own risks, improve efficiency, and achieve long-term impact. Our support includes developing the technical and financial capacity to structure sustainable financing aligned with the SDGs. Our technical assistance includes structuring green transactions and developing financial and non-financial offerings to promote financial inclusion and optimise impact on the SDGs.
     </article>
 </div>
 </section>
 
-<section class="bg-[url('/assets/images/handshake.svg')] bg-center bg-cover bg-fixed  bg-no-repeat py-[10%] px-[5%] md:px-[20%] font-ti text-white" id="contact">
+<section class="bg-[url('/assets/images/handshake.svg')] bg-center bg-cover  bg-no-repeat py-[5%] px-[5%] md:px-[20%] font-gt text-white" id="contact">
     <div class="max-w-[1440px] flex flex-col gap-6 items-center">
         <div class="md:w-[40%]">
             <h3 class="font-semibold text-[50px] leading-[60px]">Partner With Us</h3>
@@ -152,21 +159,19 @@
 
                 <div class="space-y-3">
                     <div class="flex flex-col md:flex-row gap-3">
-                        <input type="text" id="name" v-model="name" class="bg-white border border-white text-black lg:text-[24px] block w-full p-2 lg:p-2.5 opacity-80" placeholder="Name" required>
-                        <input type="tel" id="tel" v-model="lastname" class="bg-white border border-white text-black lg:text-[24px] block w-full p-2 lg:p-2.5 opacity-80" placeholder="Phone Number" required>
+                        <input type="text" id="name" v-model="name" class="bg-white border border-white text-black lg:text-[24px] block w-full p-2 lg:p-2.5 rounded-lg " placeholder="Name" required>
+                        <input type="tel" id="tel" v-model="lastname" class="bg-white border border-white text-black lg:text-[24px] block w-full p-2 lg:p-2.5 rounded-lg " placeholder="Phone Number" required>
                     </div>
                     <div>
-                        <input type="email" id="email" v-model="lastname" class="bg-white border border-white text-black lg:text-[24px] block w-full p-2 lg:p-2.5 opacity-80" placeholder="Email" required>
+                        <input type="email" id="email" v-model="lastname" class="bg-white border border-white text-black lg:text-[24px] block w-full p-2 lg:p-2.5 rounded-lg " placeholder="Email" required>
                     </div>
                     <div>
-                        <textarea id="message" v-model="message" rows="4" class="block p-2 lg:p-2.5 w-full lg:text-[24px] text-black bg-white border border-white opacity-80" placeholder="Tell us what you want"></textarea>
+                        <textarea id="message" v-model="message" rows="4" class="block p-2 lg:p-2.5 w-full lg:text-[24px] text-black bg-white border border-white rounded-lg " placeholder="Tell us what you want"></textarea>
                     </div>
                 </div>
-                <div class="float-right">
-                        <button class="bg-primary-theme text-black py-3 px-14 ">
-                            Submit
+                        <button class="bg-primary-theme text-black py-3 px-14 rounded-xl font-bold w-full">
+                            PARTNER WITH US
                         </button>   
-                </div>
             </form>
         </div>
     </div>
