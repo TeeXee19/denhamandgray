@@ -1,5 +1,5 @@
 <template>
-<section class="bg-[url('/assets/images/sm-hero.png')] md:bg-[url('/assets/images/hero.svg')] bg-center bg-cover   bg-clip-border bg-no-repeat h-[90vh] lg:h-[70vh] text-center text-white m-auto justify-center space-y-0 flex flex-col">
+<section class="bg-[url('/assets/images/hero.png')] md:bg-[url('/assets/images/hero.png')] bg-center bg-cover   bg-clip-border bg-no-repeat h-[90vh] lg:h-[70vh] text-center text-white m-auto justify-center space-y-0 flex flex-col">
     <div class="justify-end flex px-8">
         <div class="bg-white/10 w-[200px] flex flex-col items-center p-4 rounded-3xl ">
             <img src="/assets/images/dev.svg"/>
@@ -149,7 +149,7 @@
 </div>
 </section>
 
-<section class="bg-[url('/assets/images/handshake.svg')] bg-center bg-cover  bg-no-repeat py-[5%] px-[5%] md:px-[20%] font-gt text-white" id="contact">
+<section class="bg-[url('/assets/images/handshake.png')] bg-center bg-cover  bg-no-repeat py-[5%] px-[5%] md:px-[20%] font-gt text-white" id="contact">
     <div class="max-w-[1440px] flex flex-col gap-6 items-center">
         <div class="md:w-[40%]">
             <h3 class="font-semibold text-[50px] leading-[60px]">Partner With Us</h3>

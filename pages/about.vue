@@ -1,5 +1,5 @@
 <template>
-<section class="bg-[url('/assets/images/about.svg')] md:bg-[url('/assets/images/about.svg')] bg-center bg-cover  bg-clip-border bg-no-repeat text-center text-white items-center m-auto justify-center font-dg space-y-0 flex flex-col py-[20%] md:py-[5%] font-gt h-[515px]">
+<section class="bg-[url('/assets/images/about.png')] md:bg-[url('/assets/images/about.png')] bg-center bg-cover  bg-clip-border bg-no-repeat text-center text-white items-center m-auto justify-center font-dg space-y-0 flex flex-col py-[20%] md:py-[5%] font-gt h-[515px]">
     <h3 class="font-gt text-[32px] md:text-[76px]">ABOUT US</h3>
 </section>
 <section class="py-[4%] md:px-[6%] font-dg ">
