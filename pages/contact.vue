@@ -1,5 +1,5 @@
 <template>
-<section class="bg-[url('/assets/images/call-centre.png')] bg-center bg-cover h-[200px]  bg-clip-border bg-no-repeat text-center text-white items-center m-auto justify-center font-ti space-y-0 flex flex-col py-[5%]">
+<section class="bg-[url('/assets/images/call-centre.png')] bg-center bg-cover h-[200px]  bg-clip-border bg-no-repeat text-center text-white items-center m-auto justify-center font-ti space-y-0 flex flex-col py-[5%] h-[515px]">
     <h3 class="font-ti text-[34px] md:text-[76px]">Contact Us</h3>
 </section>
 <section class="py-[4%] md:px-[6%] font-dg ">
