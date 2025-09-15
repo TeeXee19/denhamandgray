@@ -43,7 +43,7 @@
             <img src="/assets/images/home.svg" />
             <div class="font-dg font-semibold leading-tight">
               <h3 class="text-[16px]">Address</h3>
-              <NuxtLink to="https://maps.app.goo.gl/Zuk77meWv4vrnadh8" class="font-medium text-[14px] hover:text-theme-green"> No 6, Jerry Gana Close, Utako Abuja, Nigeria.</NuxtLink>
+              <NuxtLink to="https://maps.app.goo.gl/Zuk77meWv4vrnadh8" class="font-medium text-[14px] hover:text-theme-green">  2nd floor, Silverbird Galleria, Abuja, FCT</NuxtLink>
             </div>
           </div>
           <div class="flex gap-2 h-fit">
