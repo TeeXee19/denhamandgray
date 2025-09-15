@@ -23,15 +23,15 @@
     </div>
 </section>
 <section class="space-y-0 md:grid grid-cols-3 hidden p-6 px-[5%]">
-    <div class="px-[15%] py-6 h-[300px] justify-center font-gt bg-[url('assets/images/people.svg')] bg-no-repeat bg-center  border-r border-r-width-[60%] border-gray-500 flex flex-col text-left">
+    <div class="px-[15%] py-6 h-[300px] justify-center font-gt bg-[url('/assets/images/people.svg')] bg-no-repeat bg-center  border-r border-r-width-[60%] border-gray-500 flex flex-col text-left">
         <div class="text-[24px] text-[#474A4F] font-bold">Empowering Communities</div>
         <p class="font-bold text-[#7B7B7B]">Building sustainable communities through strategic investment and development initiatives.</p>
     </div>
-    <div class="px-[15%] py-6 h-[300px] justify-center font-gt bg-[url('assets/images/arrow-growth.svg')] bg-no-repeat bg-center  border-r border-r-width-[60%] border-gray-500 flex flex-col text-left">
+    <div class="px-[15%] py-6 h-[300px] justify-center font-gt bg-[url('/assets/images/arrow-growth.svg')] bg-no-repeat bg-center  border-r border-r-width-[60%] border-gray-500 flex flex-col text-left">
         <div class="text-[24px] text-[#474A4F] font-bold">Driving Economic Growth</div>
         <p class="font-bold text-[#7B7B7B]">Creating value through innovative financial solutions and strategic partnership.</p>
     </div>
-    <div class="px-[15%] py-6 h-[300px] justify-center font-gt bg-[url('assets/images/user-protect.svg')] bg-no-repeat bg-center flex flex-col text-left">
+    <div class="px-[15%] py-6 h-[300px] justify-center font-gt bg-[url('/assets/images/user-protect.svg')] bg-no-repeat bg-center flex flex-col text-left">
         <div class="text-[24px] text-[#474A4F] font-bold">Protecting the Environment</div>
         <p class="font-bold text-[#7B7B7B]">Commitment to sustainable practices and environmental responsibility in all our ventures.</p>
     </div>
