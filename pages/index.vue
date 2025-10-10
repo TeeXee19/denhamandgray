@@ -1,23 +1,23 @@
 <template>
-<section class="bg-[url('/assets/images/hero.png')] md:bg-[url('/assets/images/hero.png')] bg-center bg-cover   bg-clip-border bg-no-repeat h-[90vh] lg:h-[70vh] text-center text-white m-auto justify-center space-y-0 flex flex-col">
+<section class="bg-[url('/assets/images/hero.png')] md:bg-[url('/assets/images/hero.png')] bg-center bg-cover   bg-clip-border bg-no-repeat h-[90vh] lg:h-[70vh] text-center text-white m-auto justify-center space-y-0 flex flex-col pt-10">
     <div class="justify-end flex px-8">
-        <div class="bg-white/10 w-[200px] flex flex-col items-center p-4 rounded-3xl ">
-            <img src="/assets/images/dev.svg"/>
+        <div class="bg-white/10 w-[100px] flex flex-col items-center p-4 text-[12px] rounded-3xl ">
+            <img src="/assets/images/dev.svg" class="w-[40%]"/>
             Development
         </div>
     </div>
     <div class="relative font-gt w-[80%] flex flex-col text-left px-[100px]">
-        <span class="text-[24px] lg:text-[70px] w-[60%]">Financing the SDGs, Ensuring Tomorrow</span>
+        <span class="text-[24px] lg:text-[40px] w-[60%]">Financing the SDGs, Ensuring Tomorrow</span>
         <div class="mt-8 flex flex-row gap-4 items-center">
                 <NuxtLink to="/#contact" class="bg-white rounded-[30px] px-8 py-2 text-black h-fit">PARTNER WITH US</NuxtLink>
                 <img src="/assets/images/Line.svg"/>
-                <div class="font-bold text-[20px] w-[50%]">
+                <div class="font-bold text-[16px] w-[50%]">
                     Leading sustainable development finance across Africa through innovative green banking solutions
                 </div>
         </div>
     </div>
     <div class="justify-end flex px-8">
-        <div class="bg-white/10 w-[200px] flex flex-col items-center p-4 rounded-full ">
+        <div class="bg-white/10 w-[140px] text-[12px] flex flex-col items-center p-4 rounded-full ">
             DENHAM &amp; GREY
         </div>
     </div>
@@ -81,7 +81,7 @@
     <div class="h-[30%] flex flex-col items-center space-y-4  mb-[3%]">
         <h2 class="font-bold font-gt text-[32px] lg:text-[40px] leading-[50px]">Our Financial Offerings</h2>
 
-        <p class="font-gt text-[16px] lg:text-[24px] text-[#7B7B7B] font-bold w-[60%] lg:leading-[30px] ">
+        <p class="font-gt text-[16px] lg:text-[18px] xl:text-[24px] text-[#7B7B7B] font-bold w-[60%] lg:leading-[30px] ">
             Our financial offerings are specialised into three key areas, aligned with the risk profile and financial needs of our partners
         </p>
     </div>
@@ -89,10 +89,10 @@
         <div class="relative shadow-lg">
             <img src="/assets/images/pillar1.png" alt="" class="w-full h-auto transition-opacity duration-800">
             <div class="p-8 flex flex-col justify-center text-left">
-                <h3 class="font-gt text-[32px] font-semibold text-[#474A4F]">
+                <h3 class="font-gt text-[24px] 2xl:text-[32px] font-semibold text-[#474A4F]">
                     Impact Funding
                 </h3>
-                <ul class="font-bold text-[#7B7B7B] list-disc pl-6">
+                <ul class="font-bold text-[#7B7B7B] text-[12px] list-disc pl-6">
                     <li>Measurable social impact</li>
                     <li>Environmental sustainability</li>
                     <li>Community development initiatives</li>
@@ -102,10 +102,10 @@
         <div class="relative shadow-lg">
             <img src="/assets/images/pillar2.png" alt="" class="w-full h-auto transition-opacity duration-500">
             <div class="p-8 flex flex-col justify-center text-left">
-                <h3 class="font-gt text-[32px] font-semibold text-[#474A4F]">
+                <h3 class="font-gt text-[24px] 2xl:text-[32px] font-semibold text-[#474A4F]">
                     Wholesale Funding
                 </h3>
-                <ul class="font-bold text-[#7B7B7B] list-disc pl-6">
+                <ul class="font-bold text-[#7B7B7B] text-[12px] list-disc pl-6">
                     <li>Large-scale development projects</li>
                     <li>Infrastructure financing</li>
                     <li>Institutional partnerships</li>
@@ -115,10 +115,10 @@
         <div class="relative shadow-lg">
             <img src="/assets/images/pillar3.png" alt="" class="w-full h-auto transition-opacity duration-300">
             <div class="p-8 flex flex-col justify-center text-left">
-                <h3 class="font-gt text-[32px] font-semibold text-[#474A4F]">
+                <h3 class="font-gt text-[24px] 2xl:text-[32px] font-semibold text-[#474A4F]">
                     Strategic Finance
                 </h3>
-                <ul class="font-bold text-[#7B7B7B] list-disc pl-6">
+                <ul class="font-bold text-[#7B7B7B] text-[12px] list-disc pl-6">
                     <li>Tailored financial strategies</li>
                     <li>Project optimization</li>
                     <li>Risk mitigation planning</li>
@@ -129,21 +129,21 @@
     </div>
 </section>
 <section class="h-[50%] bg-clip-border bg-no-repeat m-auto md:px-25%] md:py-[5%] flex flex-col items-center justify-center">
-    <div class="flex flex-col  p-8 bg-[url('/assets/images/non-fin.png')] bg-no-repeat bg-cover h-[600px] w-[90%] items-start justify-end mx-[20%] text-white rounded-[60px] ">
+    <div class="flex flex-col  p-8 bg-[url('/assets/images/non-fin.png')] bg-no-repeat bg-cover h-[400px] w-[90%] items-start justify-end mx-[20%] text-white rounded-[60px] ">
         <h2 class="font-semibold text-[24px] lg:text-[64px] font-gt text-white">Our Non-Financial Offering</h2>
         <p class="text-[24px]">Comprehensive support beyond financing to ensure project success.</p>
     </div>
-    <div class="flex flex-row  space-y-4 rounded-md md:bg-white px-[2%] py-[2%] md:w-[80%]">
-        <div class=" space-y-6">
-            <h2 class="font-bold text-[24px] lg:text-[40px] font-gt w-[60%]">Technical Assistance &amp; Capacity Building</h2>
-        <div class="justify-start flex ">
+    <div class="flex flex-row  space-y-4 rounded-md md:bg-white px-[2%] py-[2%] md:w-[80%] items-center justify-center mt-[-50px] md:mt-0">
+        <div class=" space-y-6 items-center">
+            <h2 class="font-bold text-[24px] lg:text-[40px] 2xl:text-[40px] font-gt w-[70%]">Technical Assistance &amp; Capacity Building</h2>
+        <!-- <div class="justify-start flex ">
             <div class="bg-white/10 w-[] flex flex-col items-center py-4 px-8 rounded-3xl border ">
                 <img src="/assets/images/growth-black.svg" class=""/>
                 Growth
             </div>
+        </div> -->
         </div>
-        </div>
-    <article class="font-gt text-[#7B7B7B] font-bold text-[16px] lg:text-[16px] lg:text-justify  space-y-6 w-[50%]">
+    <article class="font-gt text-[#7B7B7B] font-bold text-[14px] lg:text-[14px] lg:text-justify  space-y-6 w-[50%]">
         Denham &amp; Grey offers comprehensive technical assistance and capacity-building services to empower partners with the knowledge, skills, and resources for sustainable development. We help impact partners build their capacity to manage their own risks, improve efficiency, and achieve long-term impact. Our support includes developing the technical and financial capacity to structure sustainable financing aligned with the SDGs. Our technical assistance includes structuring green transactions and developing financial and non-financial offerings to promote financial inclusion and optimise impact on the SDGs.
     </article>
 </div>
@@ -152,21 +152,21 @@
 <section class="bg-[url('/assets/images/handshake.png')] bg-center bg-cover  bg-no-repeat py-[5%] px-[5%] md:px-[20%] font-gt text-white" id="contact">
     <div class="max-w-[1440px] flex flex-col gap-6 items-center">
         <div class="md:w-[40%]">
-            <h3 class="font-semibold text-[50px] leading-[60px]">Partner With Us</h3>
+            <h3 class="font-semibold text-center text-[30px] leading-[60px]">Partner With Us</h3>
         </div>
         <div class="w-full md:w-[60%]">
             <form @submit="" class="space-y-3">
 
                 <div class="space-y-3">
                     <div class="flex flex-col md:flex-row gap-3">
-                        <input type="text" id="name" v-model="name" class="bg-white border border-white text-black lg:text-[24px] block w-full p-2 lg:p-2.5 rounded-lg " placeholder="Name" required>
-                        <input type="tel" id="tel" v-model="lastname" class="bg-white border border-white text-black lg:text-[24px] block w-full p-2 lg:p-2.5 rounded-lg " placeholder="Phone Number" required>
+                        <input type="text" id="name" v-model="name" class="bg-white border border-white text-black lg:text-[14px] block w-full p-2 lg:p-2.5 rounded-lg " placeholder="Name" required>
+                        <input type="tel" id="tel" v-model="lastname" class="bg-white border border-white text-black lg:text-[14px] block w-full p-2 lg:p-2.5 rounded-lg " placeholder="Phone Number" required>
                     </div>
                     <div>
-                        <input type="email" id="email" v-model="lastname" class="bg-white border border-white text-black lg:text-[24px] block w-full p-2 lg:p-2.5 rounded-lg " placeholder="Email" required>
+                        <input type="email" id="email" v-model="lastname" class="bg-white border border-white text-black lg:text-[14px] block w-full p-2 lg:p-2.5 rounded-lg " placeholder="Email" required>
                     </div>
                     <div>
-                        <textarea id="message" v-model="message" rows="4" class="block p-2 lg:p-2.5 w-full lg:text-[24px] text-black bg-white border border-white rounded-lg " placeholder="Tell us what you want"></textarea>
+                        <textarea id="message" v-model="message" rows="4" class="block p-2 lg:p-2.5 w-full lg:text-[14px] text-black bg-white border border-white rounded-lg " placeholder="Tell us what you want"></textarea>
                     </div>
                 </div>
                         <button class="bg-primary-theme text-black py-3 px-14 rounded-xl font-bold w-full">

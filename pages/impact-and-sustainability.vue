@@ -1,14 +1,14 @@
 <template>
 <section class="bg-[url('/assets/images/iands.png')] md:bg-[url('/assets/images/iands.png')] bg-center bg-cover bg-clip-border bg-no-repeat text-center text-white items-center m-auto justify-center  space-y-0 flex flex-col py-[20%] md:py-[5%] h-[515px]">
-    <h3 class="text-[24px] lg:text-[64px] font-gt">Impact and Sustainability </h3>
+    <h3 class="text-[24px] lg:text-[60px] font-gt">Impact and Sustainability </h3>
 </section>
 <section class=" bg-white flex flex-col md:flex-row space-y-[4%] md:pt-[2%]">
     <div class=" items-center space-y-4 pt-[4%] px-[6%] lg:w-[55%]">
-        <h2 class="font-bold text-[20px] lg:text-[44px] leading-[50px] font-gt">Our Commitment to Sustainability</h2>
-        <p class="font-ar text-[14px] lg:text-[24px] text-black font-normal lg:leading-[45px]">
+        <h2 class="font-bold text-[20px] lg:text-[34px] 2xl:text-[44px] leading-[50px] font-gt">Our Commitment to Sustainability</h2>
+        <p class="font-ar text-[14px] lg:text-[20px] 2xl:text-[24px] text-black font-normal lg:leading-[25px]">
             Sustainability is at the heart of everything we do. We believe that responsible investment is key to building a resilient and prosperous future for Nigeria. Our focus is on financing projects and businesses that align with the Sustainable Development Goals (SDGs), promoting economic growth that benefits people and protects the planet. 
         </p>
-        <p class="font-ar text-[14px] lg:text-[24px] text-black font-normal lg:leading-[45px] pt-3">
+        <p class="font-ar text-[14px] lg:text-[20px] 2xl:text-[24px] text-black font-normal lg:leading-[25px] pt-3">
             Through our investments, we support renewable energy, financing for SMEs, financial inclusion for women, energy efficiency, and more, ensuring that every project we finance contributes to environmental stewardship and long-term prosperity. We work closely with our partners to reduce environmental risks, improve resource efficiency, and foster inclusive development.
         </p>
     </div>
@@ -17,7 +17,7 @@
 <section class="bg-[url('/assets/images/impact2.png')] bg-center bg-cover bg-clip-border bg-no-repeat text-center text-white items-center m-auto justify-center  space-y-0 flex flex-col py-[1%] hidden md:block">
 </section>
 <section class=" md:px-[4%] lg:px-[4%] xl:px-[10%] bg-white">
-    <h2 class="font-bold text-[24px] md:text-[48px] md:leading-[50px] font-gt text-center p-4 py-[8%]">Our Impact Story</h2>
+    <h2 class="font-bold text-[24px] md:text-[44px] md:leading-[50px] font-gt text-center p-4 py-[8%]">Our Impact Story</h2>
     <div class="flex flex-col lg:flex-row items-center justify-center space-y-6">
         <!-- <div class="lg:w-[55%]">
             <mapComponent />

@@ -22,7 +22,7 @@
         </div>
   
         <!-- Desktop Menu -->
-        <div class="hidden md:flex md:items-center md:justify-center space-x-6 text-[#EBEBEB] font-medium text-[16px] font-in ">
+        <div class="hidden md:flex md:items-center md:justify-center space-x-6 text-[#EBEBEB] font-medium text-[14px] font-in ">
           <template v-for="(link, index) in menuItems" :key="index">
             <NuxtLink :to="link.path" @click="closeMenu" class="hover:text-primary-theme">
               {{ link.name }}

@@ -12,12 +12,12 @@
           </h3>
           <div class="space-y-3">
               <div class="flex flex-col md:flex-row gap-3">
-                  <input type="text" id="name" v-model="name" class=" border-2 text-md text-black block w-full p-2.5 " placeholder="Name" required>
-                  <input type="tel" id="tel" v-model="lastname" class="border-2 text-md text-black block w-full p-2.5" placeholder="Phone Number" required>
+                  <input type="text" id="name" v-model="name" class=" border-2 text-[12px] text-black block w-full p-2.5 " placeholder="Name" required>
+                  <input type="tel" id="tel" v-model="lastname" class="border-2 text-[12px] text-black block w-full p-2.5" placeholder="Phone Number" required>
                   
               </div>
               <div>
-                  <input type="email" id="email" v-model="lastname" class=" border-2 text-md text-black block w-full p-2.5 " placeholder="Email" required>
+                  <input type="email" id="email" v-model="lastname" class=" border-2 text-[12px] text-black block w-full p-2.5 " placeholder="Email" required>
               </div>
               <div>
                   <textarea id="message" v-model="message" rows="4" class="block p-2.5 w-full text-[14px] font-dg text-black  border-2 bg-white " placeholder="Tell us what you want"></textarea>
@@ -43,7 +43,7 @@
             <img src="/assets/images/home.svg" />
             <div class="font-dg font-semibold leading-tight">
               <h3 class="text-[16px]">Address</h3>
-              <NuxtLink to="https://maps.app.goo.gl/Zuk77meWv4vrnadh8" class="font-medium text-[14px] hover:text-theme-green">  2nd floor, Silverbird Galleria, Abuja, FCT</NuxtLink>
+              <NuxtLink to="https://maps.app.goo.gl/bXinnSKpGqMmaVLa8" class="font-medium text-[14px] hover:text-theme-green">  2nd floor, Silverbird Galleria, Memorial Drive M, Central Business District, Abuja, FCT</NuxtLink>
             </div>
           </div>
           <div class="flex gap-2 h-fit">
@@ -81,7 +81,7 @@
 
 </section>
 <section class="">
-  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d32633153.85138364!2d0.026524122631017194!3d3.2148771789038095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104e0ada00c64b5f%3A0x3a37b6743c0cf37e!2s6%20Jerry%20Gana%20Cl%2C%20Utako%2C%20Abuja%20900104%2C%20Federal%20Capital%20Territory%2C%20Nigeria!5e0!3m2!1sen!2sru!4v1726013250289!5m2!1sen!2sru" class="w-full h-[600px]" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3939.958390120746!2d7.48316167581189!3d9.067555388382644!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104e0bbf4137ac87%3A0xd09286891907849b!2sSilverbird%20Galleria%2C%20Abuja!5e0!3m2!1sen!2sng!4v1760103454333!5m2!1sen!2sng" class="w-full h-[600px]" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </section>
 </template>
 

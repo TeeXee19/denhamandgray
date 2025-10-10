@@ -1,6 +1,6 @@
 <template>
 <section class="bg-[url('/assets/images/career-bg.svg')] bg-center bg-cover  bg-clip-border bg-no-repeat text-center text-white items-center m-auto justify-center space-y-0 flex flex-col py-[5%] py-[20%] md:py-[5%] font-gt h-[515px]">
-    <h3 class="text-[76px]">CAREER</h3>
+    <!-- <h3 class="text-[76px]">CAREER</h3> -->
 </section>
 <section class="py-[2%] md:px-[4%] font-dg ">
 

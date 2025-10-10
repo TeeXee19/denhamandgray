@@ -47,11 +47,11 @@
             <ul class="space-y-3 text-sm">
               <li>
                 <NuxtLink to="https://maps.app.goo.gl/Zuk77meWv4vrnadh8" target="_blank" rel="noopener noreferrer" class="hover:text-primary-theme transition">
-                  2nd floor, Silverbird Galleria, Abuja, FCT
+                  2nd floor, Silverbird Galleria, Memorial Drive M, Central Business District, Abuja, FCT
                 </NuxtLink>
               </li>
               <li>
-                <a href="tel:+3519393370835" class="hover:text-primary-theme transition">+351 939 337 0835</a>
+                <a href="tel:+2347067939313" class="hover:text-primary-theme transition">+234 (706) 793 9313</a>
               </li>
               <li>
                 <a href="mailto:info@denhamandgrey.com" class="hover:text-primary-theme transition">info@denhamandgrey.com</a>
