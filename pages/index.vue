@@ -1,5 +1,5 @@
 <template>
-<section class="bg-[url('/assets/images/hero.png')] md:bg-[url('/assets/images/hero.png')] bg-center bg-cover   bg-clip-border bg-no-repeat h-[90vh] lg:h-[70vh] text-center text-white m-auto justify-center space-y-0 flex flex-col pt-10">
+<section class="bg-[url('/assets/images/hero.png')] md:bg-[url('/assets/images/hero.png')] bg-center bg-cover   bg-clip-border bg-no-repeat h-[90vh] lg:h-screen text-center text-white m-auto justify-center space-y-0 flex flex-col pt-10">
     <div class="justify-end flex px-8">
         <div class="bg-white/10 w-[100px] flex flex-col items-center p-4 text-[12px] rounded-3xl ">
             <img src="/assets/images/dev.svg" class="w-[40%]"/>
