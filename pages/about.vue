@@ -18,13 +18,13 @@
         <div class="bg-[url('/assets/images/telo.svg')] bg-no-repeat bg-center flex flex-col justify-center gap-2 p-6 text-center rounded-[4px] w-[100%] h-[250px]">
             <span class="text-[24px] md:text-[32px]">Our Vision</span>
             <p class="text-[14px] md:text-[18px]">
-              To mobilize capital for Nigeria's SDGs with financial solutions that empower communities, drive growth, and protect the environment.
+              To mobilize capital for Nigeria's SDGs through financial solutions that empower communities, foster sustainable growth, and protect the environment
             </p>
         </div>
         <div class="bg-[url('/assets/images/target.svg')] bg-no-repeat bg-center flex flex-col justify-center gap-2 p-6 text-center rounded-[4px] w-[100%] h-[250px]">
             <span class="text-[24px] md:text-[32px]">Our Mission</span>
             <p class="text-[14px] md:text-[18px]">
-              To mobilize and channel innovative, scalable and sustainable financial solutions toward environmentally sustainable projects that foster inclusive economic growth.
+              To be Nigeria's leading impact investment firm, driving sustainable development through investments that foster a prosperous and equitable future.
             </p>
         </div>
     </div>

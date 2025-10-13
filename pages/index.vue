@@ -7,11 +7,11 @@
         </div>
     </div>
     <div class="relative font-gt w-[80%] flex flex-col text-left px-[100px]">
-        <span class="text-[24px] lg:text-[40px] w-[60%]">Financing the SDGs, Ensuring Tomorrow</span>
+        <span class="text-[24px] lg:text-[50px] w-[60%]">Financing the SDGs, Ensuring Tomorrow</span>
         <div class="mt-8 flex flex-row gap-4 items-center">
                 <NuxtLink to="/#contact" class="bg-white rounded-[30px] px-8 py-2 text-black h-fit">PARTNER WITH US</NuxtLink>
                 <img src="/assets/images/Line.svg"/>
-                <div class="font-bold text-[16px] w-[50%]">
+                <div class="font-bold text-[18px] w-[50%]">
                     Leading sustainable development finance across Africa through innovative green banking solutions
                 </div>
         </div>
@@ -38,7 +38,7 @@
 </section>
 <section class="py-[4%] md:px-[4%] font-dg ">
 
-    <div class="grid md:grid-cols-2 font-dg md:px-[10%] gap-4 items-center">
+    <div class="grid md:grid-cols-2 font-dg md:px-[6%] gap-4 items-center">
         
         <div class=" space-y-4 p-4 ">
           <div class="bg-[#474A4F]/10 rounded-full py-2 px-6 font-gt font-bold w-fit">ESTABLISHED IN 2021</div>
@@ -56,7 +56,7 @@
                 </svg>                
         </button>
         </div>
-        <img src="/assets/images/welcome.svg" alt="" class="w-40% md:w-[80%] h-full order-first md:order-last">
+        <img src="/assets/images/welcome.svg" alt="" class="w-40% md:w-[90%] h-full order-first md:order-last">
     </div>
   
   </section>
@@ -65,13 +65,13 @@
     <div class="lg:w-1/2 space-y-4 lg:space-y-8 font-gt">
         <h3 class="text-[22px] lg:text-[26px] tracking-[5px] font-gt">ESTABLISHED IN 2021</h3>
         <h3 class="font-bold text-[24px] md:text-[28px] lg:text-[32px] xl:text-[36px] w-[100%] md:leading-[50px]">We are experts in impact investment and wholesale lending</h3>
-        <div class="grid grid-cols-1 lg:grid-cols-2 ">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-8">
             <div class="flex flex-col font-bold ">
-                <span class="border-b-[3px] w-[70%] border-yellow-theme text-[24px] lg:text-[40px]">$20 Million</span>
+                <span class="border-b-[3px]  border-yellow-theme text-[24px] lg:text-[40px]">$20 Million</span>
                 <span class="font-normal text-[20px] lg:text-[24px]">Approved funding</span>
             </div>
             <div class="flex flex-col font-bold ">
-                <span class="border-b-[3px] w-[70%] border-yellow-theme text-[24px] lg:text-[40px]">49 Locations</span>
+                <span class="border-b-[3px]  border-yellow-theme text-[24px] lg:text-[40px]">49 Locations</span>
                 <span class="font-normal text-[20px] lg:text-[24px]">Impact channels</span>
             </div>
         </div>
@@ -81,18 +81,18 @@
     <div class="h-[30%] flex flex-col items-center space-y-4  mb-[3%]">
         <h2 class="font-bold font-gt text-[32px] lg:text-[40px] leading-[50px]">Our Financial Offerings</h2>
 
-        <p class="font-gt text-[16px] lg:text-[18px] xl:text-[24px] text-[#7B7B7B] font-bold w-[60%] lg:leading-[30px] ">
+        <p class="font-gt text-[16px] lg:text-[16px] xl:text-[20px] text-[#7B7B7B] font-bold w-[40%] lg:leading-[30px] ">
             Our financial offerings are specialised into three key areas, aligned with the risk profile and financial needs of our partners
         </p>
     </div>
-    <div class=" grid grid-cols-1 lg:grid-cols-3 gap-4 text-white px-[15%]">
+    <div class=" grid grid-cols-1 lg:grid-cols-3 gap-4 text-white px-[12%]">
         <div class="relative shadow-lg">
             <img src="/assets/images/pillar1.png" alt="" class="w-full h-auto transition-opacity duration-800">
             <div class="p-8 flex flex-col justify-center text-left">
                 <h3 class="font-gt text-[24px] 2xl:text-[32px] font-semibold text-[#474A4F]">
                     Impact Funding
                 </h3>
-                <ul class="font-bold text-[#7B7B7B] text-[12px] list-disc pl-6">
+                <ul class="font-bold text-[#7B7B7B] text-[16px] list-disc pl-6">
                     <li>Measurable social impact</li>
                     <li>Environmental sustainability</li>
                     <li>Community development initiatives</li>
@@ -102,10 +102,10 @@
         <div class="relative shadow-lg">
             <img src="/assets/images/pillar2.png" alt="" class="w-full h-auto transition-opacity duration-500">
             <div class="p-8 flex flex-col justify-center text-left">
-                <h3 class="font-gt text-[24px] 2xl:text-[32px] font-semibold text-[#474A4F]">
+                <h3 class="font-gt text-[24px] 2xl:text-[30px] font-semibold text-[#474A4F]">
                     Wholesale Funding
                 </h3>
-                <ul class="font-bold text-[#7B7B7B] text-[12px] list-disc pl-6">
+                <ul class="font-bold text-[#7B7B7B] text-[16px] list-disc pl-6">
                     <li>Large-scale development projects</li>
                     <li>Infrastructure financing</li>
                     <li>Institutional partnerships</li>
@@ -118,7 +118,7 @@
                 <h3 class="font-gt text-[24px] 2xl:text-[32px] font-semibold text-[#474A4F]">
                     Strategic Finance
                 </h3>
-                <ul class="font-bold text-[#7B7B7B] text-[12px] list-disc pl-6">
+                <ul class="font-bold text-[#7B7B7B] text-[16px] list-disc pl-6">
                     <li>Tailored financial strategies</li>
                     <li>Project optimization</li>
                     <li>Risk mitigation planning</li>
@@ -136,19 +136,13 @@
     <div class="flex flex-row  space-y-4 rounded-md md:bg-white px-[2%] py-[2%] md:w-[80%] items-center justify-center mt-[-50px] md:mt-0">
         <div class=" space-y-6 items-center">
             <h2 class="font-bold text-[24px] lg:text-[40px] 2xl:text-[40px] font-gt w-[70%]">Technical Assistance &amp; Capacity Building</h2>
-        <!-- <div class="justify-start flex ">
-            <div class="bg-white/10 w-[] flex flex-col items-center py-4 px-8 rounded-3xl border ">
-                <img src="/assets/images/growth-black.svg" class=""/>
-                Growth
-            </div>
-        </div> -->
+
         </div>
-    <article class="font-gt text-[#7B7B7B] font-bold text-[14px] lg:text-[14px] lg:text-justify  space-y-6 w-[50%]">
+    <article class="font-gt text-[#7B7B7B] font-bold text-[16px] lg:text-[20px] space-y-6 w-[60%] leading-[25px] text-justify">
         Denham &amp; Grey offers comprehensive technical assistance and capacity-building services to empower partners with the knowledge, skills, and resources for sustainable development. We help impact partners build their capacity to manage their own risks, improve efficiency, and achieve long-term impact. Our support includes developing the technical and financial capacity to structure sustainable financing aligned with the SDGs. Our technical assistance includes structuring green transactions and developing financial and non-financial offerings to promote financial inclusion and optimise impact on the SDGs.
     </article>
 </div>
 </section>
-
 <section class="bg-[url('/assets/images/handshake.png')] bg-center bg-cover  bg-no-repeat py-[5%] px-[5%] md:px-[20%] font-gt text-white" id="contact">
     <div class="max-w-[1440px] flex flex-col gap-6 items-center">
         <div class="md:w-[40%]">
