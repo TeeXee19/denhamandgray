@@ -29,31 +29,36 @@
         </div>
 
         <!-- Right Side: Links + Contact Info -->
-        <div class="flex flex-col sm:flex-row gap-12 lg:gap-20 text-center sm:text-left">
+        <div class="flex flex-col sm:flex-row gap-12 lg:gap-20 text-center sm:text-left justify-end items-end">
           <!-- Quick Links -->
           <div>
             <p class="font-gt font-bold text-primary-theme mb-4">Quick Links</p>
-            <ul class="space-y-3 text-sm">
+            <ul class="space-y-3 text-base font-bold">
               <li><NuxtLink to="/about" class="hover:text-primary-theme transition">About Us</NuxtLink></li>
               <li><NuxtLink to="/impact-and-sustainability" class="hover:text-primary-theme transition">Impact and Sustainability</NuxtLink></li>
               <li><NuxtLink to="/career" class="hover:text-primary-theme transition">Career</NuxtLink></li>
               <li><NuxtLink to="/contact" class="hover:text-primary-theme transition">Contact Us</NuxtLink></li>
             </ul>
           </div>
-
-          <!-- Contact Info -->
+          </div>
+          
+          <div class="flex flex-col sm:flex-row gap-12 lg:gap-20 text-center sm:text-left justify-end items-end">
+          <!-- Quick Links -->
           <div>
             <p class="font-gt font-bold text-primary-theme mb-4">Contact Info</p>
-            <ul class="space-y-3 text-sm">
-              <li>
-                <NuxtLink to="https://maps.app.goo.gl/Zuk77meWv4vrnadh8" target="_blank" rel="noopener noreferrer" class="hover:text-primary-theme transition">
+            <ul class="space-y-3 text-base font-bold">
+              <li class="flex gap-2 h-fit">
+               <img src="/assets/images/location.svg" />
+                <NuxtLink to="https://maps.app.goo.gl/Zuk77meWv4vrnadh8" target="_blank" rel="noopener noreferrer" class="hover:text-primary-theme transition w-[60%]">
                   2nd floor, Silverbird Galleria, Memorial Drive M, Central Business District, Abuja, FCT
                 </NuxtLink>
               </li>
-              <li>
+              <li class="flex gap-2 h-fit">
+               <img src="/assets/images/phone-footer.svg" />
                 <a href="tel:+2347067939313" class="hover:text-primary-theme transition">+234 (706) 793 9313</a>
               </li>
-              <li>
+              <li class="flex gap-2 h-fit">
+               <img src="/assets/images/mail-footer.svg" />
                 <a href="mailto:info@denhamandgrey.com" class="hover:text-primary-theme transition">info@denhamandgrey.com</a>
               </li>
             </ul>
