@@ -2,7 +2,7 @@
 <section class="bg-[url('/assets/images/hero.png')] md:bg-[url('/assets/images/hero.png')] bg-center bg-cover   bg-clip-border bg-no-repeat h-[90vh] lg:h-screen text-center text-white m-auto justify-center space-y-0 flex flex-col pt-10">
     <div class="justify-end flex px-8">
         <div class="bg-white/10 w-[100px] flex flex-col items-center p-4 text-[12px] rounded-3xl ">
-            <img src="/assets/images/dev.svg" class="w-[40%]"/>
+            <img loading="lazy" src="/assets/images/dev.svg" class="w-[40%]"/>
             Development
         </div>
     </div>
@@ -10,7 +10,7 @@
         <span class="text-[24px] lg:text-[50px] w-[60%]">Financing the SDGs, Ensuring Tomorrow</span>
         <div class="mt-8 flex flex-row gap-4 items-center">
                 <NuxtLink to="/#contact" class="bg-white rounded-[30px] px-8 py-2 text-black h-fit">PARTNER WITH US</NuxtLink>
-                <img src="/assets/images/Line.svg"/>
+                <img loading="lazy" src="/assets/images/Line.svg"/>
                 <div class="font-bold text-[18px] w-[50%]">
                     Leading sustainable development finance across Africa through innovative green banking solutions
                 </div>
@@ -56,12 +56,12 @@
                 </svg>                
         </button>
         </div>
-        <img src="/assets/images/welcome.svg" alt="" class="w-40% md:w-[90%] h-full order-first md:order-last">
+        <img loading="lazy" src="/assets/images/welcome.svg" alt="" class="w-40% md:w-[90%] h-full order-first md:order-last">
     </div>
   
   </section>
 
-<section class="bg-[url('/assets/images/est.png')] bg-center bg-cover  bg-clip-border bg-no-repeat py-[10%] px-[5%] text-white font-gt">
+<section class="bg-[url('/assets/images/est.svg')] bg-center bg-cover  bg-clip-border bg-no-repeat py-[10%] px-[5%] text-white font-gt">
     <div class="lg:w-1/2 space-y-4 lg:space-y-8 font-gt">
         <h3 class="text-[22px] lg:text-[26px] tracking-[5px] font-gt">ESTABLISHED IN 2021</h3>
         <h3 class="font-bold text-[24px] md:text-[28px] lg:text-[32px] xl:text-[36px] w-[100%] md:leading-[50px]">We are experts in impact investment and wholesale lending</h3>
@@ -87,7 +87,7 @@
     </div>
     <div class=" grid grid-cols-1 lg:grid-cols-3 gap-4 text-white px-[12%]">
         <div class="relative shadow-lg">
-            <img src="/assets/images/pillar1.png" alt="" class="w-full h-auto transition-opacity duration-800">
+            <img loading="lazy" src="/assets/images/pillar1.png" alt="" class="w-full h-auto transition-opacity duration-800">
             <div class="p-8 flex flex-col justify-center text-left">
                 <h3 class="font-gt text-[24px] 2xl:text-[32px] font-semibold text-[#474A4F]">
                     Impact Funding
@@ -100,7 +100,7 @@
             </div>
         </div>
         <div class="relative shadow-lg">
-            <img src="/assets/images/pillar2.png" alt="" class="w-full h-auto transition-opacity duration-500">
+            <img loading="lazy" src="/assets/images/pillar2.png" alt="" class="w-full h-auto transition-opacity duration-500">
             <div class="p-8 flex flex-col justify-center text-left">
                 <h3 class="font-gt text-[24px] 2xl:text-[30px] font-semibold text-[#474A4F]">
                     Wholesale Funding
@@ -113,7 +113,7 @@
         </div>
     </div>
         <div class="relative shadow-lg">
-            <img src="/assets/images/pillar3.png" alt="" class="w-full h-auto transition-opacity duration-300">
+            <img loading="lazy" src="/assets/images/pillar3.png" alt="" class="w-full h-auto transition-opacity duration-300">
             <div class="p-8 flex flex-col justify-center text-left">
                 <h3 class="font-gt text-[24px] 2xl:text-[32px] font-semibold text-[#474A4F]">
                     Strategic Finance
