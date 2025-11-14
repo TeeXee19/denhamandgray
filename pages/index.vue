@@ -129,17 +129,20 @@
     </div>
 </section>
 <section class="h-[50%] bg-clip-border bg-no-repeat m-auto md:px-25%] md:py-[5%] flex flex-col items-center justify-center">
-    <div class="flex flex-col  p-8 bg-[url('/assets/images/non-fin.png')] bg-no-repeat bg-cover h-[400px] w-[90%] items-start justify-end mx-[20%] text-white rounded-[60px] ">
-        <h2 class="font-semibold text-[24px] lg:text-[64px] font-gt text-white">Our Non-Financial Offering</h2>
-        <p class="text-[24px]">Comprehensive support beyond financing to ensure project success.</p>
+    <div class="flex flex-col p-[3%] bg-[url('/assets/images/non-fin.png')] bg-no-repeat bg-cover h-[700px] w-[90%] items-start justify-end mx-[20%] text-white rounded-[30px] space-y-6 font-gt">
+        <h2 class="font-semibold text-[24px] lg:text-[58px] font-gt text-white w-[40%] leading-[70px] tracking-wide">Our Non-Financial Offering</h2>
+        <p class="text-[24px] w-[40%] leading-[30px] font-bold text-[#EBEBEB]">Comprehensive support beyond financing to ensure project success.</p>
     </div>
     <div class="flex flex-row  space-y-4 rounded-md md:bg-white px-[2%] py-[2%] md:w-[80%] items-center justify-center mt-[-50px] md:mt-0">
         <div class=" space-y-6 items-center">
             <h2 class="font-bold text-[24px] lg:text-[40px] 2xl:text-[40px] font-gt w-[70%]">Technical Assistance &amp; Capacity Building</h2>
 
         </div>
-    <article class="font-gt text-[#7B7B7B] font-bold text-[16px] lg:text-[20px] space-y-6 w-[60%] leading-[25px] text-justify">
-        Denham &amp; Grey offers comprehensive technical assistance and capacity-building services to empower partners with the knowledge, skills, and resources for sustainable development. We help impact partners build their capacity to manage their own risks, improve efficiency, and achieve long-term impact. Our support includes developing the technical and financial capacity to structure sustainable financing aligned with the SDGs. Our technical assistance includes structuring green transactions and developing financial and non-financial offerings to promote financial inclusion and optimise impact on the SDGs.
+    <article class="font-gt text-[#7B7B7B] font-bold text-[16px] lg:text-[20px] space-y-6 w-[60%] leading-[30px] ">
+        Denham &amp; Grey offers comprehensive technical assistance and capacity-building services to empower partners with the knowledge, skills, and resources for sustainable development. We help impact partners build their capacity to manage their own risks, improve efficiency, and achieve long-term impact.
+        <br/>
+        <br/>
+         Our support includes developing the technical and financial capacity to structure sustainable financing aligned with the SDGs. Our technical assistance includes structuring green transactions and developing financial and non-financial offerings to promote financial inclusion and optimise impact on the SDGs.
     </article>
 </div>
 </section>
