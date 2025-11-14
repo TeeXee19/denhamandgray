@@ -65,7 +65,7 @@
     <div class="lg:w-1/2 space-y-4 lg:space-y-8 font-gt">
         <h3 class="text-[22px] lg:text-[26px] tracking-[5px] font-gt">ESTABLISHED IN 2021</h3>
         <h3 class="font-bold text-[24px] md:text-[28px] lg:text-[32px] xl:text-[36px] w-[100%] md:leading-[50px]">We are experts in impact investment and wholesale lending</h3>
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-8 bg-black/10 p-6 lg:p-12 ">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-8 bg-black/10 py-6  ">
             <div class="flex flex-col font-bold ">
                 <span class="border-b-[3px]  border-yellow-theme text-[24px] lg:text-[40px]">$20 Million</span>
                 <span class="font-normal text-[20px] lg:text-[24px]">Approved funding</span>
@@ -81,18 +81,18 @@
     <div class="h-[30%] flex flex-col items-center space-y-4  mb-[3%]">
         <h2 class="font-bold font-gt text-[32px] lg:text-[40px] leading-[50px]">Our Financial Offerings</h2>
 
-        <p class="font-gt text-[16px] lg:text-[16px] xl:text-[20px] text-[#7B7B7B] font-bold w-[40%] lg:leading-[30px] ">
+        <p class="font-gt text-[16px] lg:text-[16px] xl:text-[16px] text-[#7B7B7B] font-bold w-[50%] lg:leading-[30px] tracking-wide ">
             Our financial offerings are specialised into three key areas, aligned with the risk profile and financial needs of our partners
         </p>
     </div>
     <div class=" grid grid-cols-1 lg:grid-cols-3 gap-4 text-white px-[12%]">
         <div class="relative shadow-lg">
             <img loading="lazy" src="/assets/images/pillar1.png" alt="" class="w-full h-auto transition-opacity duration-800">
-            <div class="p-8 flex flex-col justify-center text-left">
-                <h3 class="font-gt text-[24px] 2xl:text-[32px] font-semibold text-[#474A4F]">
+            <div class="py-4 px-8 flex flex-col justify-center text-left">
+                <h3 class="font-gt text-[20px] 2xl:text-[32px] font-bold text-[#474A4F]">
                     Impact Funding
                 </h3>
-                <ul class="font-bold text-[#7B7B7B] text-[16px] list-disc pl-6">
+                <ul class="font-bold text-[#7B7B7B] text-[16px] list-disc pl-6 space-y-2">
                     <li>Measurable social impact</li>
                     <li>Environmental sustainability</li>
                     <li>Community development initiatives</li>
@@ -101,11 +101,11 @@
         </div>
         <div class="relative shadow-lg">
             <img loading="lazy" src="/assets/images/pillar2.png" alt="" class="w-full h-auto transition-opacity duration-500">
-            <div class="p-8 flex flex-col justify-center text-left">
-                <h3 class="font-gt text-[24px] 2xl:text-[30px] font-semibold text-[#474A4F]">
+            <div class="py-4 px-8 flex flex-col justify-center text-left space-y-2">
+                <h3 class="font-gt text-[20px] 2xl:text-[30px] font-bold text-[#474A4F]">
                     Wholesale Funding
                 </h3>
-                <ul class="font-bold text-[#7B7B7B] text-[16px] list-disc pl-6">
+                <ul class="font-bold text-[#7B7B7B] text-[16px] list-disc pl-6 space-y-2">
                     <li>Large-scale development projects</li>
                     <li>Infrastructure financing</li>
                     <li>Institutional partnerships</li>
@@ -114,11 +114,11 @@
     </div>
         <div class="relative shadow-lg">
             <img loading="lazy" src="/assets/images/pillar3.png" alt="" class="w-full h-auto transition-opacity duration-300">
-            <div class="p-8 flex flex-col justify-center text-left">
-                <h3 class="font-gt text-[24px] 2xl:text-[32px] font-semibold text-[#474A4F]">
+            <div class="py-4 px-8 flex flex-col justify-center text-left space-y-2">
+                <h3 class="font-gt text-[20px] 2xl:text-[32px] font-bold text-[#474A4F]">
                     Strategic Finance
                 </h3>
-                <ul class="font-bold text-[#7B7B7B] text-[16px] list-disc pl-6">
+                <ul class="font-bold text-[#7B7B7B] text-[16px] list-disc pl-6 space-y-2">
                     <li>Tailored financial strategies</li>
                     <li>Project optimization</li>
                     <li>Risk mitigation planning</li>
