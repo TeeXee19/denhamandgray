@@ -8,7 +8,7 @@
           <NuxtLink to="/" class="flex justify-center lg:justify-start">
             <img src="/assets/images/logo2.svg" class="h-12" alt="Denham & Grey Logo" />
           </NuxtLink>
-          <p class="text-xs text-gray-300 font-gt leading-relaxed">
+          <p class="text-xs text-gray-300 font-gt leading-relaxed text-[16px]">
             Financing the SDGs, Ensuring Tomorrow through sustainable development,
             finance and green banking solutions.
           </p>
@@ -29,10 +29,10 @@
         </div>
 
         <!-- Right Side: Links + Contact Info -->
-        <div class="flex flex-col sm:flex-row gap-12 lg:gap-20 text-center sm:text-left justify-start items-end w-[30%]">
+        <div class="flex flex-col sm:flex-row gap-12 lg:gap-20 text-center sm:text-left justify-start items-end w-[30%] font-gt">
           <!-- Quick Links -->
           <div>
-            <p class="font-gt font-bold text-primary-theme mb-4">Quick Links</p>
+            <p class=" font-bold text-primary-theme mb-4">Quick Links</p>
             <ul class="space-y-3 text-base font-bold">
               <li><NuxtLink to="/about" class="hover:text-primary-theme transition">About Us</NuxtLink></li>
               <li><NuxtLink to="/impact-and-sustainability" class="hover:text-primary-theme transition">Impact and Sustainability</NuxtLink></li>
@@ -42,11 +42,11 @@
           </div>
         </div>
           
-          <div class="flex flex-col sm:flex-row gap-12 lg:gap-20 text-center sm:text-left justify-end items-end">
+          <div class="flex flex-col sm:flex-row gap-12 lg:gap-20 text-center sm:text-left justify-end items-end font-gt">
           <!-- Quick Links -->
           <div>
-            <p class="font-gt font-bold text-primary-theme mb-4">Contact Info</p>
-            <ul class="space-y-3 text-base font-bold">
+            <p class=" font-bold text-primary-theme mb-4 text-[14px]">Contact Info</p>
+            <ul class="space-y-3 text-[14px] font-bold">
               <li class="flex gap-2 h-fit">
                <img src="/assets/images/location.svg" />
                 <NuxtLink to="https://maps.app.goo.gl/Zuk77meWv4vrnadh8" target="_blank" rel="noopener noreferrer" class="hover:text-primary-theme transition w-[60%]">
