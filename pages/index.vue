@@ -7,7 +7,7 @@
         </div>
     </div>
     <div class="relative font-gt w-[80%] flex flex-col text-left px-[100px]">
-        <span class="text-[30px] lg:text-[64px] w-[60%]">Financing the SDGs, Ensuring Tomorrow</span>
+        <span class="text-[30px] lg:text-[64px] w-[70%]">Financing the SDGs, Ensuring Tomorrow</span>
         <div class="mt-8 flex flex-row gap-4 items-center">
                 <NuxtLink to="/#contact" class="bg-white rounded-[30px] px-8 py-2 text-black h-fit">PARTNER WITH US</NuxtLink>
                 <img loading="lazy" src="/assets/images/Line.svg"/>
@@ -140,6 +140,7 @@
         </div>
     <article class="font-gt text-[#7B7B7B] font-bold text-[16px] lg:text-[16px] space-y-6 w-[60%] leading-[25px] ">
         Denham &amp; Grey offers comprehensive technical assistance and capacity-building services to empower partners with the knowledge, skills, and resources for sustainable development. We help impact partners build their capacity to manage their own risks, improve efficiency, and achieve long-term impact.
+        <br/>
         <br/>
          Our support includes developing the technical and financial capacity to structure sustainable financing aligned with the SDGs. Our technical assistance includes structuring green transactions and developing financial and non-financial offerings to promote financial inclusion and optimise impact on the SDGs.
     </article>
