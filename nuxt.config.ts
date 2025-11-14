@@ -55,6 +55,10 @@ export default defineNuxtConfig({
         {
           rel: "stylesheet",
           href: "https://fonts.cdnfonts.com/css/century-gothic-paneuropean"
+        },
+        {
+          rel: "stylesheet",
+          href: "https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
         }
       ]
     }

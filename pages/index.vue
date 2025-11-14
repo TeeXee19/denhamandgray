@@ -7,7 +7,7 @@
         </div>
     </div>
     <div class="relative font-gt w-[80%] flex flex-col text-left px-[100px]">
-        <span class="text-[24px] lg:text-[50px] w-[60%]">Financing the SDGs, Ensuring Tomorrow</span>
+        <span class="text-[30px] lg:text-[64px] w-[60%]">Financing the SDGs, Ensuring Tomorrow</span>
         <div class="mt-8 flex flex-row gap-4 items-center">
                 <NuxtLink to="/#contact" class="bg-white rounded-[30px] px-8 py-2 text-black h-fit">PARTNER WITH US</NuxtLink>
                 <img loading="lazy" src="/assets/images/Line.svg"/>
@@ -65,7 +65,7 @@
     <div class="lg:w-1/2 space-y-4 lg:space-y-8 font-gt">
         <h3 class="text-[22px] lg:text-[26px] tracking-[5px] font-gt">ESTABLISHED IN 2021</h3>
         <h3 class="font-bold text-[24px] md:text-[28px] lg:text-[32px] xl:text-[36px] w-[100%] md:leading-[50px]">We are experts in impact investment and wholesale lending</h3>
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-8">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-8 bg-black/10 p-6 lg:p-12 ">
             <div class="flex flex-col font-bold ">
                 <span class="border-b-[3px]  border-yellow-theme text-[24px] lg:text-[40px]">$20 Million</span>
                 <span class="font-normal text-[20px] lg:text-[24px]">Approved funding</span>
