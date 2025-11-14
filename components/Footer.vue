@@ -29,7 +29,7 @@
         </div>
 
         <!-- Right Side: Links + Contact Info -->
-        <div class="flex flex-col sm:flex-row gap-12 lg:gap-20 text-center sm:text-left justify-end items-end">
+        <div class="flex flex-col sm:flex-row gap-12 lg:gap-20 text-center sm:text-left justify-start items-end w-[30%]">
           <!-- Quick Links -->
           <div>
             <p class="font-gt font-bold text-primary-theme mb-4">Quick Links</p>
@@ -40,7 +40,7 @@
               <li><NuxtLink to="/contact" class="hover:text-primary-theme transition">Contact Us</NuxtLink></li>
             </ul>
           </div>
-          </div>
+        </div>
           
           <div class="flex flex-col sm:flex-row gap-12 lg:gap-20 text-center sm:text-left justify-end items-end">
           <!-- Quick Links -->
@@ -63,7 +63,7 @@
               </li>
             </ul>
           </div>
-        </div>
+          </div>
       </div>
 
       <!-- Divider -->
