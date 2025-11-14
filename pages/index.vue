@@ -36,14 +36,14 @@
         <p class="font-bold text-[#7B7B7B]">Commitment to sustainable practices and environmental responsibility in all our ventures.</p>
     </div>
 </section>
-<section class="py-[4%] md:px-[4%] font-dg ">
+<section class="py-[4%] md:px-[2%] font-dg ">
 
-    <div class="grid md:grid-cols-2 font-dg md:px-[6%] gap-4 items-center">
+    <div class="grid md:grid-cols-2 font-dg md:px-[6%] gap-6 items-center">
         
-        <div class=" space-y-4 p-4 ">
+        <div class=" space-y-4 px-6 ">
           <div class="bg-[#474A4F]/10 rounded-full py-2 px-6 font-gt font-bold w-fit">ESTABLISHED IN 2021</div>
           <h5 class="font-gt text-[24px] md:text-[38px] leading-auto font-bold">Welcome to Denham &amp; Grey</h5>
-          <p class="font-gt font-bold md:text-[16px] text-[#7B7B7B]">
+          <p class="font-gt font-bold md:text-[16px] text-[#7B7B7B] leading-[25px] tracking-wide ">
             At Denham &amp; Grey, our focus is on structured excellence with expertise in structured lending and developmental finance. We leverage industry expertise to develop project efficiency improvements, reduce project delivery risk and strengthen project development and execution. 
             <br/>
             <br/>
