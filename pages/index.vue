@@ -92,7 +92,7 @@
                 <h3 class="font-gt text-[20px] 2xl:text-[32px] font-bold text-[#474A4F]">
                     Impact Funding
                 </h3>
-                <ul class="font-bold text-[#7B7B7B] text-[16px] list-disc pl-6 space-y-2">
+                <ul class="font-bold text-[#7B7B7B] text-[16px] list-disc pl-6 space-y-3">
                     <li>Measurable social impact</li>
                     <li>Environmental sustainability</li>
                     <li>Community development initiatives</li>
@@ -105,7 +105,7 @@
                 <h3 class="font-gt text-[20px] 2xl:text-[30px] font-bold text-[#474A4F]">
                     Wholesale Funding
                 </h3>
-                <ul class="font-bold text-[#7B7B7B] text-[16px] list-disc pl-6 space-y-2">
+                <ul class="font-bold text-[#7B7B7B] text-[16px] list-disc pl-6 space-y-3">
                     <li>Large-scale development projects</li>
                     <li>Infrastructure financing</li>
                     <li>Institutional partnerships</li>
@@ -118,7 +118,7 @@
                 <h3 class="font-gt text-[20px] 2xl:text-[32px] font-bold text-[#474A4F]">
                     Strategic Finance
                 </h3>
-                <ul class="font-bold text-[#7B7B7B] text-[16px] list-disc pl-6 space-y-2">
+                <ul class="font-bold text-[#7B7B7B] text-[16px] list-disc pl-6 space-y-3">
                     <li>Tailored financial strategies</li>
                     <li>Project optimization</li>
                     <li>Risk mitigation planning</li>
