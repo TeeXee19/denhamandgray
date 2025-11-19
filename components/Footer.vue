@@ -55,7 +55,7 @@
               </li>
               <li class="flex gap-2 h-fit">
                <img src="/assets/images/phone-footer.svg" />
-                <a href="tel:+2347067939313" class="hover:text-primary-theme transition">+234 (706) 793 9313</a>
+                <a href="tel:++2348025177616" class="hover:text-primary-theme transition">+234 (802) 517 7616</a>
               </li>
               <li class="flex gap-2 h-fit">
                <img src="/assets/images/mail-footer.svg" />

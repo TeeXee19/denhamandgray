@@ -17,7 +17,7 @@
 <section class="bg-[url('/assets/images/impact2.png')] bg-center bg-cover bg-clip-border bg-no-repeat text-center text-white items-center m-auto justify-center  space-y-0 flex flex-col py-[1%] hidden md:block">
 </section>
 <section class=" md:px-[4%] lg:px-[4%] xl:px-[10%] bg-white">
-    <h2 class="font-bold text-[24px] md:text-[44px] md:leading-[50px] font-gt text-center p-4 py-[8%]">Our Impact Story</h2>
+    <h2 class="font-bold text-[24px] md:text-[44px] md:leading-[50px] font-gt text-center p-4 py-[8%]">Our Impact At A Glance</h2>
     <div class="flex flex-col lg:flex-row items-center justify-center space-y-6">
         <!-- <div class="lg:w-[55%]">
             <mapComponent />

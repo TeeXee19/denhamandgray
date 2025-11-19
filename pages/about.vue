@@ -167,7 +167,7 @@
 </section>
 <section class="md:flex flex-col items-center text-center font-gt bg-[url('/assets/images/about-partner.svg')] bg-no-repeat bg-cover gap-6 hidden h-[400px] py-[5%]">
     <h2 class="font-bold text-[32px] text-white w-[55%]">Ready to take your business to the next level? Click below to get started with our expert financial solutions.</h2>
-    <button class="bg-primary-theme px-[5%] py-4  mx-auto rounded-lg font-bold">PARTNER WITH US</button>
+    <NuxtLink class="bg-primary-theme px-[5%] py-4  mx-auto rounded-lg font-bold" to="/#contact">PARTNER WITH US</NuxtLink>
 </section>
 </template>
 
