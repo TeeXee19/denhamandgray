@@ -29,11 +29,11 @@
         </div>
 
         <!-- Right Side: Links + Contact Info -->
-        <div class="flex flex-col sm:flex-row gap-12 lg:gap-20 text-center sm:text-left justify-start items-end w-[30%] font-gt">
+        <div class="flex flex-col sm:flex-row gap-12 lg:gap-20 sm:text-left justify-start items-end w-[30%] font-gt">
           <!-- Quick Links -->
           <div>
             <p class=" font-bold text-primary-theme mb-4">Quick Links</p>
-            <ul class="space-y-3 text-base font-bold">
+            <ul class="space-y-3 text-base font-bold w-full">
               <li><NuxtLink to="/about" class="hover:text-primary-theme transition">About Us</NuxtLink></li>
               <li><NuxtLink to="/impact-and-sustainability" class="hover:text-primary-theme transition">Impact and Sustainability</NuxtLink></li>
               <li><NuxtLink to="/career" class="hover:text-primary-theme transition">Career</NuxtLink></li>
@@ -42,9 +42,9 @@
           </div>
         </div>
           
-          <div class="flex flex-col sm:flex-row gap-12 lg:gap-20 text-center sm:text-left justify-end items-end font-gt">
+          <div class="flex flex-col sm:flex-row gap-12 lg:gap-20 sm:text-left justify-end items-end font-gt">
           <!-- Quick Links -->
-          <div>
+          <div class="w-full">
             <p class=" font-bold text-primary-theme mb-4 text-[14px]">Contact Info</p>
             <ul class="space-y-3 text-[14px] font-bold">
               <li class="flex gap-2 h-fit">

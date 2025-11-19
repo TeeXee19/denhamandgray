@@ -1,22 +1,22 @@
 <template>
 <section class="bg-[url('/assets/images/hero.png')] md:bg-[url('/assets/images/hero.png')] bg-center bg-cover   bg-clip-border bg-no-repeat h-[90vh] lg:h-screen text-center text-white m-auto justify-center space-y-0 flex flex-col pt-4">
-    <div class="justify-end flex px-8 mr-[5%]">
+    <div class="justify-end hidden md:flex px-8 mr-[5%]">
         <div class="bg-white/5 w-[200px] flex flex-col items-center p-4 text-[14px] rounded-3xl mb-10">
             <img loading="lazy" src="/assets/images/dev.svg" class="w-[40%]"/>
             Development
         </div>
     </div>
-    <div class="relative font-gt w-[80%] flex flex-col text-left px-[100px]">
+    <div class="relative font-gt w-full px-2 md:w-[80%] flex flex-col text-left md:px-[100px]">
         <span class="text-[30px] lg:text-[64px] w-[70%]">Financing the SDGs, Ensuring Tomorrow</span>
-        <div class="mt-8 flex flex-row gap-4 items-center">
+        <div class="mt-8 flex flex-col md:flex-row gap-4 items-center">
                 <NuxtLink to="/#contact" class="bg-white rounded-[30px] px-8 py-2 text-black h-fit">PARTNER WITH US</NuxtLink>
                 <img loading="lazy" src="/assets/images/Line.svg"/>
-                <div class="font-[600] text-[18px] w-[50%]">
+                <div class="font-[600] text-[18px] w-full md:w-[50%]">
                     Leading sustainable development finance across Africa through innovative green banking solutions
                 </div>
         </div>
     </div>
-    <div class="justify-end flex px-8 mr-[5%]">
+    <div class="justify-end hidden md:flex px-8 mr-[5%]">
         <div class="bg-white/5 w-[200px] text-[14px] flex flex-col items-center p-4 rounded-full ">
             DENHAM &amp; GREY
         </div>
@@ -128,17 +128,17 @@
 
     </div>
 </section>
-<section class="h-[50%] bg-clip-border bg-no-repeat m-auto md:px-25%] md:py-[5%] flex flex-col items-center justify-center">
+<section class="h-[50%] bg-clip-border bg-no-repeat m-auto md:px-25%] md:py-[5%] flex flex-col items-center justify-center space-y-6">
     <div class="flex flex-col p-[3%] bg-[url('/assets/images/non-fin.png')] bg-no-repeat bg-cover h-[700px] w-[90%] items-start justify-end mx-[20%] text-white rounded-[30px] space-y-6 font-gt">
         <h2 class="font-semibold text-[24px] lg:text-[58px] font-gt text-white xl:w-[60%] leading-[70px] tracking-wide">Our Non-Financial Offering</h2>
         <p class="text-[24px] w-[80%] xl:w-[55%] leading-[30px] font-bold text-[#EBEBEB]">Comprehensive support beyond financing to ensure project success.</p>
     </div>
-    <div class="flex flex-row  space-y-4 rounded-md md:bg-white px-[2%] py-[2%] md:w-[80%] items-center justify-center mt-[-50px] md:mt-0">
+    <div class="flex flex-col md:flex-row  space-y-4 rounded-md md:bg-white px-[2%] py-[2%] md:w-[80%] items-center justify-center mt-[-50px] md:mt-0">
         <div class=" space-y-6 items-center">
             <h2 class="font-bold text-[24px] lg:text-[40px] 2xl:text-[40px] font-gt w-[70%]">Technical Assistance &amp; Capacity Building</h2>
 
         </div>
-    <article class="font-gt text-[#7B7B7B] font-bold text-[16px] lg:text-[16px] space-y-6 w-[60%] leading-[25px] ">
+    <article class="font-gt text-[#7B7B7B] font-bold text-[16px] lg:text-[16px] space-y-6 w-full p-2 md:w-[60%] leading-[25px] ">
         Denham &amp; Grey offers comprehensive technical assistance and capacity-building services to empower partners with the knowledge, skills, and resources for sustainable development. We help impact partners build their capacity to manage their own risks, improve efficiency, and achieve long-term impact.
         <br/>
         <br/>
