@@ -6,12 +6,12 @@
             Development
         </div>
     </div>
-    <div class="relative font-gt w-full px-2 md:w-[80%] flex flex-col text-left md:px-[100px]">
-        <span class="text-[30px] lg:text-[64px] w-[70%]">Financing the SDGs, Ensuring Tomorrow</span>
+    <div class="relative font-gt w-full px-2 md:w-[80%] flex flex-col text-center md:text-left md:px-[100px]">
+        <span class="md:font-normal sm:font-bold text-[40px] lg:text-[64px] md:w-[70%] text-center md:text-left">Financing the SDGs, Ensuring Tomorrow</span>
         <div class="mt-8 flex flex-col md:flex-row gap-4 items-center">
                 <NuxtLink to="/#contact" class="bg-white rounded-[30px] px-8 py-2 text-black h-fit">PARTNER WITH US</NuxtLink>
                 <img loading="lazy" src="/assets/images/Line.svg"/>
-                <div class="font-[600] text-[18px] w-full md:w-[50%]">
+                <div class="font-[600] text-[20px] md:text-[18px] w-full md:w-[50%]">
                     Leading sustainable development finance across Africa through innovative green banking solutions
                 </div>
         </div>
