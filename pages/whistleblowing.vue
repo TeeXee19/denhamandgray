@@ -158,7 +158,7 @@
               <!-- Radio Options -->
               <div class="flex flex-col sm:flex-row gap-4">
               
-                <button type="" class="flex-1" @click="currentTab === 'anonymous'">
+                <button type="button" class="flex-1" @click="currentTab = 'anonymous'">
                   <label
                     for="anonymous"
                     class="block p-4 border rounded-lg cursor-pointer peer-checked:border-primary peer-checked:ring-2 peer-checked:ring-primary/40"
@@ -168,7 +168,7 @@
                   </label>
                 </button>
 
-                <button class="flex-1" @click="currentTab === 'provide-details'">
+                <button type="button" class="flex-1" @click="currentTab = 'provide-details'">
 
                   <label
                     for="provide-details"
@@ -183,7 +183,7 @@
               <!-- Contact inputs -->
               <div
                 class="grid grid-cols-1 sm:grid-cols-2 gap-6 pt-4 border-t"
-                x-show="currentTab === 'provide-details'"
+                v-if="currentTab === 'provide-details'"
               >
                 <div>
                   <label for="contact-name" class="text-sm font-medium pb-2">Your Name</label>
@@ -210,6 +210,8 @@
                 </div>
               </div>
             </div>
+
+            
           </div>
 
           <!-- SECTION 4: Submit -->
