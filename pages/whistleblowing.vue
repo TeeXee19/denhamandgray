@@ -9,7 +9,7 @@
   </section>
 
   <!-- MAIN FORM WRAPPER -->
-  <main class="flex justify-center py-8 sm:py-12 px-4 bg-slate-400/10">
+  <main class="flex justify-center py-8 sm:py-12 px-4 bg-slate-400/10 font-gt">
     <div class="w-full max-w-3xl flex flex-col gap-8" id="report-form">
       
       <!-- FORM HEADING -->
@@ -156,16 +156,9 @@
             <div class="p-5 flex flex-col gap-6">
               
               <!-- Radio Options -->
-              <fieldset class="flex flex-col sm:flex-row gap-4">
-                <div class="flex-1">
-                  <input
-                    id="anonymous"
-                    type="radio"
-                    value="anonymous"
-                    x-model="anonymous"
-                    class="peer hidden"
-                    checked
-                  />
+              <div class="flex flex-col sm:flex-row gap-4">
+              
+                <button type="" class="flex-1" @click="currentTab === 'anonymous'">
                   <label
                     for="anonymous"
                     class="block p-4 border rounded-lg cursor-pointer peer-checked:border-primary peer-checked:ring-2 peer-checked:ring-primary/40"
@@ -173,16 +166,10 @@
                     <p class="font-semibold">Remain Anonymous</p>
                     <p class="text-sm text-neutral-text/70">No personal information will be attached.</p>
                   </label>
-                </div>
+                </button>
 
-                <div class="flex-1">
-                  <input
-                    id="provide-details"
-                    type="radio"
-                    value="provide-details"
-                    x-model="anonymous"
-                    class="peer hidden"
-                  />
+                <button class="flex-1" @click="currentTab === 'provide-details'">
+
                   <label
                     for="provide-details"
                     class="block p-4 border rounded-lg cursor-pointer peer-checked:border-primary peer-checked:ring-2 peer-checked:ring-primary/40"
@@ -190,14 +177,13 @@
                     <p class="font-semibold">Provide Contact Details</p>
                     <p class="text-sm text-neutral-text/70">Kept strictly confidential.</p>
                   </label>
-                </div>
-              </fieldset>
+                </button>
+              </div>
 
               <!-- Contact inputs -->
               <div
                 class="grid grid-cols-1 sm:grid-cols-2 gap-6 pt-4 border-t"
-                x-show="anonymous === 'provide-details'"
-                x-transition
+                x-show="currentTab === 'provide-details'"
               >
                 <div>
                   <label for="contact-name" class="text-sm font-medium pb-2">Your Name</label>
@@ -261,6 +247,22 @@
 </template>
 
 <script lang="ts" setup>
+import { ref } from 'vue';
+const showReviewModal = ref(false);
+const currentTab = ref('anonymous');
+const formData = ref({
+  nature: '',
+  datetime: '',
+  location: '',
+  involved: '',
+  description: '',
+  files: [] as string[],
+  name: '',
+  email: ''
+});
+
+
+
 </script>
 
 <style>
