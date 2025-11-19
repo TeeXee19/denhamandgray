@@ -36,7 +36,7 @@
               
               <!-- Nature of Incident -->
               <div class="flex flex-col">
-                <label class="text-sm font-medium pb-2" for="nature-of-incident">Nature of Incident</label>
+                <label class="text-sm  pb-2 font-bold" for="nature-of-incident">Nature of Incident</label>
                 <select
                   id="nature-of-incident"
                   required
@@ -54,7 +54,7 @@
 
               <!-- Date & Time -->
               <div class="flex flex-col">
-                <label class="text-sm font-medium pb-2" for="incident-date">Date & Time of Incident</label>
+                <label class="text-sm  pb-2 font-bold" for="incident-date">Date & Time of Incident</label>
                 <input
                   id="incident-date"
                   type="datetime-local"
@@ -66,7 +66,7 @@
 
               <!-- Location -->
               <div class="flex flex-col md:col-span-2">
-                <label class="text-sm font-medium pb-2" for="incident-location">Location of Incident</label>
+                <label class="text-sm  pb-2 font-bold" for="incident-location">Location of Incident</label>
                 <input
                   id="incident-location"
                   required
@@ -79,7 +79,7 @@
 
               <!-- Individuals -->
               <div class="flex flex-col md:col-span-2">
-                <label class="text-sm font-medium pb-2" for="individuals-involved">Individuals Involved</label>
+                <label class="text-sm  pb-2 font-bold" for="individuals-involved">Individuals Involved</label>
                 <input
                   id="individuals-involved"
                   type="text"
@@ -91,7 +91,7 @@
 
               <!-- Description -->
               <div class="flex flex-col md:col-span-2">
-                <label class="text-sm font-medium pb-2" for="incident-description">Detailed Description</label>
+                <label class="text-sm  pb-2 font-bold" for="incident-description">Detailed Description</label>
                 <textarea
                   id="incident-description"
                   required
@@ -128,12 +128,12 @@
               </label>
 
               <!-- File list -->
-              <div x-show="formData.files.length > 0" class="flex flex-col gap-3">
-                <template x-for="(file, index) in formData.files" :key="index">
+              <div v-if="formData.files.length > 0" class="flex flex-col gap-3">
+                <template v-for="(file, index) in formData.files" :key="index">
                   <div class="flex items-center justify-between p-3 border rounded-md">
                     <div class="flex items-center gap-3">
                       <span class="material-symbols-outlined text-green-600">check_circle</span>
-                      <p class="text-sm font-medium" x-text="file"></p>
+                      <p class="text-sm font-medium" >{{ file }}</p>
                     </div>
                     <button @click.prevent="formData.files.splice(index, 1)" class="hover:text-red-500">
                       <span class="material-symbols-outlined text-base">close</span>
@@ -185,8 +185,8 @@
                 class="grid grid-cols-1 sm:grid-cols-2 gap-6 pt-4 border-t"
                 v-if="currentTab === 'provide-details'"
               >
-                <div>
-                  <label for="contact-name" class="text-sm font-medium pb-2">Your Name</label>
+                <div class="flex flex-col">
+                  <label for="contact-name" class="text-sm font-bold pb-2">Your Name</label>
                   <input
                     type="text"
                     id="contact-name"
@@ -197,8 +197,8 @@
                   />
                 </div>
 
-                <div>
-                  <label for="contact-email" class="text-sm font-medium pb-2">Email</label>
+                <div class="flex flex-col">
+                  <label for="contact-email" class="text-sm font-bold pb-2">Email</label>
                   <input
                     type="email"
                     id="contact-email"
@@ -262,6 +262,8 @@ const formData = ref({
   name: '',
   email: ''
 });
+
+
 
 
 
