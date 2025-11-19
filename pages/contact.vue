@@ -83,10 +83,40 @@
 <section class="">
   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3939.958390120746!2d7.48316167581189!3d9.067555388382644!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104e0bbf4137ac87%3A0xd09286891907849b!2sSilverbird%20Galleria%2C%20Abuja!5e0!3m2!1sen!2sng!4v1760103454333!5m2!1sen!2sng" class="w-full h-[600px]" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </section>
+ <div
+    v-if="showReviewModal"
+    class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50"
+  >
+    
+    <div class="bg-white rounded-lg p-6 max-w-lg mx-auto">
+    <div class=" right-4">
+      <button
+        @click="showReviewModal = false"
+        class="text-black text-[15px] font-bold hover:text-gray-300"
+      >
+        &times;
+      </button>
+    </div>
+      <h2 class="text-xl font-bold mb-4">Message Sent Successfully</h2>
+      <p class="text-sm text-neutral-text/70">Thank you for your submission. We will review your message and take appropriate action.</p>
+    </div>
+  </div>
 </template>
 
 <script lang="ts" setup>
-
+const name = ref('');
+const email = ref('');
+const message = ref('');
+const showReviewModal = ref(false);
+const submitForm = () => {
+  // Handle form submission logic here
+  showReviewModal.value = true;
+  console.log('Form Data:', { name: name.value, email: email.value, message: message.value });
+  // Reset form data after submission
+  name.value = '';
+  email.value = '';
+  message.value = '';
+};
 </script>
 
 <style>

@@ -182,7 +182,7 @@
 
               <!-- Contact inputs -->
               <div
-                class="grid grid-cols-1 sm:grid-cols-2 gap-6 pt-4 border-t"
+                class="grid grid-cols-1 sm:grid-cols-2 gap-6 pt-4 border-t font-gt"
                 v-if="currentTab === 'provide-details'"
               >
                 <div class="flex flex-col">
@@ -246,6 +246,24 @@
       </form>
     </div>
   </main>
+  <div
+    v-if="showReviewModal"
+    class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50"
+  >
+    
+    <div class="bg-white rounded-lg p-6 max-w-lg mx-auto">
+    <div class=" right-4">
+      <button
+        @click="showReviewModal = false"
+        class="text-black text-[15px] font-bold hover:text-gray-300"
+      >
+        &times;
+      </button>
+    </div>
+      <h2 class="text-xl font-bold mb-4">Report Sent Successfully</h2>
+      <p class="text-sm text-neutral-text/70">Thank you for your submission. We will review your report and take appropriate action.</p>
+    </div>
+  </div>
 </template>
 
 <script lang="ts" setup>
@@ -264,7 +282,25 @@ const formData = ref({
 });
 
 
+const submitForm = () => {
+  // Handle form submission logic here
+  showReviewModal.value = true;
+  console.log('Form Data:', formData.value);
+  // Reset form data after submission
+  formData.value = {
+    nature: '',
+    datetime: '',
+    location: '',
+    involved: '',
+    description: '',
+    files: [] as string[],
+    name: '',
+    email: ''
+  };
 
+  currentTab.value = 'anonymous';
+  showModal.value = false;
+};
 
 
 </script>

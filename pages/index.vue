@@ -173,6 +173,25 @@
         </div>
     </div>
 </section>
+
+ <div
+    v-if="showReviewModal"
+    class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50"
+  >
+    
+    <div class="bg-white rounded-lg p-6 max-w-lg mx-auto">
+    <div class=" right-4">
+      <button
+        @click="showReviewModal = false"
+        class="text-black text-[15px] font-bold hover:text-gray-300"
+      >
+        &times;
+      </button>
+    </div>
+      <h2 class="text-xl font-bold mb-4">Message Sent Successfully</h2>
+      <p class="text-sm text-neutral-text/70">Thank you for your submission. We will review your message and take appropriate action.</p>
+    </div>
+  </div>
 </template>
 
 <script lang="ts" setup>
@@ -198,4 +217,19 @@ const posts = [{
     tags: ["News feed"],
     date: 'July 15, 2023'
 }];
+
+const name = ref('');
+const email = ref('');
+const message = ref('');
+const showReviewModal = ref(false);
+
+const submitForm = () => {
+  // Handle form submission logic here
+  showReviewModal.value = true;
+  console.log('Form Data:', { name: name.value, email: email.value, message: message.value });
+  // Reset form data after submission
+  name.value = '';
+  email.value = '';
+  message.value = '';
+};
 </script>
