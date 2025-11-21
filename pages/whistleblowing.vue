@@ -323,58 +323,54 @@ const buildPayload = () => {
     lastName = parts.join(" ");
   }
 
-  const rawDate = formData.value.datetime;
-  const parsedDate = rawDate ? new Date(rawDate) : null;
+  // Ensure valid ISO string or empty string
+  let incidentDateTime = "";
+  if (formData.value.datetime) {
+    const dt = new Date(formData.value.datetime);
+    incidentDateTime = !isNaN(dt.getTime()) ? dt.toISOString() : "";
+  }
 
   return {
-    firstName: firstName || "",
-    lastName: lastName || "",
+    firstName: firstName,
+    lastName: lastName,
     email: formData.value.email || "",
     phone: "",
     role: "",
-    misconductType: formData.value.nature || "",
-
-    incidentDateTime:
-      parsedDate instanceof Date && !isNaN(parsedDate.getTime())
-        ? parsedDate
-        : null,
-
+    misconductType: formData.value.nature || "", // required
+    incidentDateTime, // required
     location: formData.value.location || "",
     peopleInvolved: formData.value.involved || "",
-    description: formData.value.description || "",
-    howAwareDetails: "",
-    hasSupportingEvidence: !!formData.value.files.length,
+    description: formData.value.description || "", // required
+    howAwareDetails: "", // required, you can customize
+    hasSupportingEvidence: formData.value.files.length > 0,
     evidenceFileUrl: null,
     remainAnonymous: currentTab.value === "anonymous",
     canContact: currentTab.value === "provide-details",
     additionalComments: "",
-    evidenceFile: formData.value.files[0] || null,
+    evidenceFile: formData.value.files[0] || null
   };
 };
 
 const submitForm = async () => {
   loading.value = true;
 
-  const payload = buildPayload();
-  console.log("Payload before FormData:", payload);
-
   const fd = new FormData();
+const payload = buildPayload();
 
-  for (const [key, value] of Object.entries(payload)) {
-    if (key === "evidenceFile") {
-      if (value) fd.append("evidenceFile", value);
-    } else if (key === "incidentDateTime") {
-      // Convert Date object to ISO string, or send empty string if null
-      fd.append("incidentDateTime", value ? (value as Date).toISOString() : "");
-    } else {
-      fd.append(key, value ?? "");
-    }
+for (const [key, value] of Object.entries(payload)) {
+  if (key === "evidenceFile" && value) {
+    fd.append("evidenceFile", value);
+  } else {
+    fd.append(key, value ?? ""); // empty string for optional fields
   }
+}
 
-  console.log("FormData contents:");
-  for (const pair of fd.entries()) {
-    console.log(pair[0], pair[1]);
-  }
+console.log("FormData contents:");
+for (const pair of fd.entries()) {
+  console.log(pair[0], pair[1]);
+}
+
+await $services.base.report(fd);
 
   try {
     const response = await $services.base.report(fd);
