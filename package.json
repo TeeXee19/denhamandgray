@@ -33,6 +33,7 @@
     "vue-toastification": "2.0.0-rc.5",
     "vue-apexcharts": "^1.6.2",
     "vue-chartjs": "^5.3.1",
-    "vue-circular-progress": "^1.0.0"
+    "vue-circular-progress": "^1.0.0",
+    "oxc-parser": "0.93.0"
   }
 }

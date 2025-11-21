@@ -13,7 +13,7 @@
           <div class="space-y-3">
               <div class="flex flex-col md:flex-row gap-3">
                   <input type="text" id="name" v-model="name" class=" border-2 text-[12px] text-black block w-full p-2.5 " placeholder="Name" required>
-                  <input type="tel" id="tel" v-model="lastname" class="border-2 text-[12px] text-black block w-full p-2.5" placeholder="Phone Number" required>
+                  <input type="tel" id="tel" v-model="phone" class="border-2 text-[12px] text-black block w-full p-2.5" placeholder="Phone Number" required>
                   
               </div>
               <div>
@@ -105,15 +105,30 @@
 
 <script lang="ts" setup>
 const name = ref('');
+const phone = ref('');
 const email = ref('');
 const message = ref('');
 const showReviewModal = ref(false);
+
 const submitForm = () => {
   // Handle form submission logic here
+  const fd = {
+    name: name.value,
+    phone: phone.value,
+    email: email.value,
+    message: message.value,
+  };
   showReviewModal.value = true;
-  console.log('Form Data:', { name: name.value, email: email.value, message: message.value });
+  try {
+    const response = await $services.base.contact(fd);
+    console.log("Report submitted:", response);
+    showReviewModal.value = true;
+  } catch (error) {
+    console.error('Error submitting form:', error);
+  }
   // Reset form data after submission
   name.value = '';
+  phone.value = '';
   email.value = '';
   message.value = '';
 };

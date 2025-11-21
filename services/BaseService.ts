@@ -38,11 +38,20 @@ export class BaseService implements BaseServiceInterface {
     
     async report(): Promise<UserResponse> {
         try {
-            const response = await this.client.get('/reports')
+            const response = await this.client.post('/reports')
             return response.data
         } catch (error) {
             throw error
         }
+    }
+
+    async contact(): Promise<UserResponse>{
+      try{
+        const response = await this.client.post('/contacts')
+        return response.data
+      } catch (error){
+        throw error
+      }
     }
 
     async updateSummary(input: {
