@@ -324,11 +324,11 @@ const buildPayload = () => {
   }
 
   // Convert datetime-local string to ISO or empty string
-  let incidentDateTime = "";
-  if (formData.value.datetime) {
-    const dt = new Date(formData.value.datetime);
-    incidentDateTime = !isNaN(dt.getTime()) ? dt.toISOString() : "";
-  }
+  let incidentDateTime = "2025-11-21T22:31:37.646Z";
+  // if (formData.value.datetime) {
+  //   const dt = new Date(formData.value.datetime);
+  //   incidentDateTime = !isNaN(dt.getTime()) ? dt.toISOString() : "";
+  // }
 
   return {
     firstName,
