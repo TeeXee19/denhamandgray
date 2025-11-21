@@ -12,6 +12,19 @@ interface UserResponse {
     code: number;
 }
 
+export interface ContactResponse {
+    body: string;
+    message: string;
+    code: number;
+}
+
+interface ContactPayload {
+    name: string;
+    email: string;
+    phone: string;
+    message: string;
+}
+
 export interface BaseServiceInterface {
     summary(): Promise<UserResponse>
 }
@@ -46,9 +59,9 @@ export class BaseService implements BaseServiceInterface {
 }
 
 
-    async contact(): Promise<UserResponse>{
+    async contact(payload: ContactPayload): Promise<ContactResponse>{
       try{
-        const response = await this.client.post('/contact')
+        const response = await this.client.post('/contact', payload)
         return response.data
       } catch (error){
         throw error
