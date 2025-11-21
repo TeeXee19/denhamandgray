@@ -20,7 +20,7 @@
             <button
               type="button"
               aria-describedby="report-tooltip"
-              class="w-7 h-7 rounded-full bg-white/10 flex items-center justify-center text-white hover:bg-white/20"
+              class="w-7 h-7 rounded-full bg-white/10 flex items-center justify-center text-black hover:bg-white/20"
             >
               <span class="material-symbols-outlined text-[18px]">info</span>
             </button>
@@ -30,7 +30,9 @@
               role="tooltip"
               class="absolute -top-9 left-1/2 -translate-x-1/2 whitespace-nowrap bg-black text-white text-xs rounded px-2 py-1 opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none"
             >
-              This form is encrypted and confidential. Choose "Remain Anonymous" to omit personal details.
+             "Denham &amp; Grey is dedicated to the highest standards of openness, integrity, accountability, and ethical behaviour by fostering an environment where employees and other relevant stakeholders can act appropriately without fear of reprisal. To uphold these standards, the Firm encourages employees and stakeholders with material concerns about suspected misconduct or any breach of law or regulation that may adversely impact the Firm to report them through appropriate channels, including confidential means, without fear of retribution or unfair treatment.
+            <br />
+The Firm operates on principles of fairness, honesty, openness, decency, integrity, and respect. This policy aims to encourage employees and stakeholders to report and disclose improper or illegal practices. Denham &amp; Grey is committed to promptly investigating any reported misconduct and protecting those who report such activities, ensuring that all reports are treated with strict confidence. Whistleblower reports will be handled with sensitivity, discretion, and confidentiality, and the Firm will protect whistleblowers from all forms of victimization, retaliation, discrimination, and harassment."
             </span>
           </span>
         </h1>
