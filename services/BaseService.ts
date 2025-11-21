@@ -48,7 +48,7 @@ export class BaseService implements BaseServiceInterface {
 
     async contact(): Promise<UserResponse>{
       try{
-        const response = await this.client.post('/contacts')
+        const response = await this.client.post('/contact')
         return response.data
       } catch (error){
         throw error
