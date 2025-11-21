@@ -385,7 +385,6 @@ const submitForm = async () => {
 };
 
 
-// Reset Form
 const resetForm = () => {
   formData.value = {
     nature: "",
@@ -399,10 +398,10 @@ const resetForm = () => {
   };
 };
 
-// Remove file
 const removeFile = (index: number) => {
   formData.value.files.splice(index, 1);
 };
+
 </script>
 
 <style>
