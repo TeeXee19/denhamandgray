@@ -354,37 +354,44 @@ const buildPayload = () => {
 const submitForm = async () => {
   loading.value = true;
 
-  const fd = new FormData();
-const payload = buildPayload();
-
-for (const [key, value] of Object.entries(payload)) {
-  if (key === "evidenceFile" && value) {
-    fd.append("evidenceFile", value);
-  } else {
-    fd.append(key, value ?? ""); // empty string for optional fields
-  }
-}
-
-console.log("FormData contents:");
-for (const pair of fd.entries()) {
-  console.log(pair[0], pair[1]);
-}
-
-await $services.base.report(fd);
-
   try {
+    // Build payload
+    const payload = buildPayload();
+
+    // Convert to FormData for multipart
+    const fd = new FormData();
+    for (const [key, value] of Object.entries(payload)) {
+      if (key === "evidenceFile" && value) {
+        fd.append("evidenceFile", value);
+      } else if (key === "incidentDateTime") {
+        // Convert Date to ISO string
+        fd.append("incidentDateTime", value ? (value as Date).toISOString() : "");
+      } else {
+        fd.append(key, value ?? "");
+      }
+    }
+
+    // Debug: see exactly what will be sent
+    console.log("FormData contents:");
+    for (const pair of fd.entries()) {
+      console.log(pair[0], pair[1]);
+    }
+
+    // Call the backend service
     const response = await $services.base.report(fd);
     console.log("Report submitted:", response);
 
     showReviewModal.value = true;
     message.value =
       "Thank you for your submission. We will review your report and take appropriate action.";
+
   } catch (err) {
     console.error("Submission error:", err);
 
     showReviewModal.value = true;
     message.value =
       "An error occurred while submitting your report. Please try again later.";
+
   } finally {
     resetForm();
     currentTab.value = "anonymous";
