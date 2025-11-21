@@ -36,6 +36,15 @@ export class BaseService implements BaseServiceInterface {
         }
     }
     
+    async report(): Promise<UserResponse> {
+        try {
+            const response = await this.client.get('/reports')
+            return response.data
+        } catch (error) {
+            throw error
+        }
+    }
+
     async updateSummary(input: {
         financialInstitutions: string;
         beneficiaries: string;
