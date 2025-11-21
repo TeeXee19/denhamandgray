@@ -25,15 +25,31 @@
               <span class="material-symbols-outlined text-[18px]">info</span>
             </button>
 
-            <span
-              id="report-tooltip"
-              role="tooltip"
-              class="absolute -top-9 left-1/2 -translate-x-1/2 whitespace-nowrap bg-black text-white text-xs rounded px-2 py-1 opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none !w-[100px]"
-            >
-             "Denham &amp; Grey is dedicated to the highest standards of openness, integrity, accountability, and ethical behaviour by fostering an environment where employees and other relevant stakeholders can act appropriately without fear of reprisal. To uphold these standards, the Firm encourages employees and stakeholders with material concerns about suspected misconduct or any breach of law or regulation that may adversely impact the Firm to report them through appropriate channels, including confidential means, without fear of retribution or unfair treatment.
-            <br />
-The Firm operates on principles of fairness, honesty, openness, decency, integrity, and respect. This policy aims to encourage employees and stakeholders to report and disclose improper or illegal practices. Denham &amp; Grey is committed to promptly investigating any reported misconduct and protecting those who report such activities, ensuring that all reports are treated with strict confidence. Whistleblower reports will be handled with sensitivity, discretion, and confidentiality, and the Firm will protect whistleblowers from all forms of victimization, retaliation, discrimination, and harassment."
-            </span>
+           <span
+  id="report-tooltip"
+  role="tooltip"
+  class="absolute -top-9 left-1/2 -translate-x-1/2 whitespace-normal bg-black text-white text-xs rounded px-2 py-1 opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none w-[250px]"
+>
+  Denham &amp; Grey is dedicated to the highest standards of openness,
+  integrity, accountability, and ethical behaviour by fostering an environment
+  where employees and other relevant stakeholders can act appropriately without
+  fear of reprisal. To uphold these standards, the Firm encourages employees and
+  stakeholders with material concerns about suspected misconduct or any breach
+  of law or regulation that may adversely impact the Firm to report them through
+  appropriate channels, including confidential means, without fear of
+  retribution or unfair treatment.
+  <br /><br />
+  The Firm operates on principles of fairness, honesty, openness, decency,
+  integrity, and respect. This policy aims to encourage employees and
+  stakeholders to report and disclose improper or illegal practices. Denham
+  &amp; Grey is committed to promptly investigating any reported misconduct and
+  protecting those who report such activities, ensuring that all reports are
+  treated with strict confidence. Whistleblower reports will be handled with
+  sensitivity, discretion, and confidentiality, and the Firm will protect
+  whistleblowers from all forms of victimization, retaliation, discrimination,
+  and harassment.
+</span>
+
           </span>
         </h1>
         <p class="text-neutral-text text-sm sm:text-base leading-relaxed max-w-xl mx-auto px-2">
