@@ -314,81 +314,76 @@ const formData = ref({
 });
 
 // Build payload safely
-const buildPayload = () => {
+const buildPayload = (): FormData => {
   let firstName = "";
   let lastName = "";
+
   if (formData.value.name?.trim()) {
     const parts = formData.value.name.trim().split(" ");
     firstName = parts.shift() || "";
     lastName = parts.join(" ");
   }
 
-  // Convert datetime-local string to ISO or empty string
+  // Convert datetime to ISO string
   let incidentDateTime = "";
   if (formData.value.datetime) {
     const dt = new Date(formData.value.datetime);
     incidentDateTime = !isNaN(dt.getTime()) ? dt.toISOString() : "";
   }
 
-  return {
-    firstName,
-    lastName,
-    email: formData.value.email || "",
-    phone: "",
-    role: "",
-    misconductType: formData.value.nature || "",
-    incidentDateTime,
-    location: formData.value.location || "",
-    peopleInvolved: formData.value.involved || "",
-    description: formData.value.description || "",
-    howAwareDetails: "",
-    hasSupportingEvidence: formData.value.files.length > 0,
-    evidenceFileUrl: null,
-    remainAnonymous: currentTab.value === "anonymous",
-    canContact: currentTab.value === "provide-details",
-    additionalComments: "",
-    evidenceFile: formData.value.files[0] || null
-  };
+  const payload = new FormData();
+  payload.append("firstName", firstName);
+  payload.append("lastName", lastName);
+  payload.append("email", formData.value.email || "");
+  payload.append("phone", ""); // optional
+  payload.append("role", ""); // optional
+  payload.append("misconductType", formData.value.nature || "");
+  payload.append("incidentDateTime", incidentDateTime);
+  payload.append("location", formData.value.location || "");
+  payload.append("peopleInvolved", formData.value.involved || "");
+  payload.append("description", formData.value.description || "");
+  payload.append("howAwareDetails", ""); // optional/custom
+  payload.append("hasSupportingEvidence", formData.value.files.length > 0 ? "true" : "false");
+  payload.append("remainAnonymous", currentTab.value === "anonymous" ? "true" : "false");
+  payload.append("canContact", currentTab.value === "provide-details" ? "true" : "false");
+  payload.append("additionalComments", "");
+
+  // Only append file if present
+  if (formData.value.files.length > 0) {
+    payload.append("evidenceFile", formData.value.files[0]);
+  }
+
+  return payload;
 };
 
-// Submit Form
 const submitForm = async () => {
   loading.value = true;
+
   try {
     const payload = buildPayload();
 
-    const fd = new FormData();
-    for (const [key, value] of Object.entries(payload)) {
-      if (key === "evidenceFile" && value) {
-        fd.append("evidenceFile", value);
-      } else {
-        fd.append(key, value ?? "");
-      }
-    }
-
-    console.log("FormData contents:");
-    for (const pair of fd.entries()) {
+    // Log FormData for debugging
+    for (const pair of payload.entries()) {
       console.log(pair[0], pair[1]);
     }
 
-    const response = await $services.base.report(fd);
+    const response = await $services.base.report(payload);
     console.log("Report submitted:", response);
 
+    message.value = "Thank you for your submission. We will review your report.";
     showReviewModal.value = true;
-    message.value =
-      "Thank you for your submission. We will review your report and take appropriate action.";
 
   } catch (err) {
     console.error("Submission error:", err);
+    message.value = "An error occurred while submitting your report. Please try again later.";
     showReviewModal.value = true;
-    message.value =
-      "An error occurred while submitting your report. Please try again later.";
   } finally {
     resetForm();
     currentTab.value = "anonymous";
     loading.value = false;
   }
 };
+
 
 // Reset Form
 const resetForm = () => {

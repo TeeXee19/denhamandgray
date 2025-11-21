@@ -36,7 +36,7 @@ export class BaseService implements BaseServiceInterface {
         }
     }
     
-    async report(payload: FormData): Promise<UserResponse> {
+    async report(payload: FormData): Promise<any> {
   try {
     const response = await this.client.post('/reports', payload);
     return response.data;
