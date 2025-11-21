@@ -25,30 +25,30 @@
               <span class="material-symbols-outlined text-[18px]">info</span>
             </button>
 
-           <span
-  id="report-tooltip"
-  role="tooltip"
-  class="absolute -top-9 left-1/2 -translate-x-1/2 whitespace-normal bg-black text-white text-xs rounded px-2 py-1 opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none w-[250px]"
->
-  Denham &amp; Grey is dedicated to the highest standards of openness,
-  integrity, accountability, and ethical behaviour by fostering an environment
-  where employees and other relevant stakeholders can act appropriately without
-  fear of reprisal. To uphold these standards, the Firm encourages employees and
-  stakeholders with material concerns about suspected misconduct or any breach
-  of law or regulation that may adversely impact the Firm to report them through
-  appropriate channels, including confidential means, without fear of
-  retribution or unfair treatment.
-  <br /><br />
-  The Firm operates on principles of fairness, honesty, openness, decency,
-  integrity, and respect. This policy aims to encourage employees and
-  stakeholders to report and disclose improper or illegal practices. Denham
-  &amp; Grey is committed to promptly investigating any reported misconduct and
-  protecting those who report such activities, ensuring that all reports are
-  treated with strict confidence. Whistleblower reports will be handled with
-  sensitivity, discretion, and confidentiality, and the Firm will protect
-  whistleblowers from all forms of victimization, retaliation, discrimination,
-  and harassment.
-</span>
+            <span
+              id="report-tooltip"
+              role="tooltip"
+              class="absolute -top-9 left-1/2 -translate-x-1/2 whitespace-normal bg-black text-white text-xs rounded px-2 py-1 opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none w-[250px]"
+            >
+              Denham &amp; Grey is dedicated to the highest standards of openness,
+              integrity, accountability, and ethical behaviour by fostering an environment
+              where employees and other relevant stakeholders can act appropriately without
+              fear of reprisal. To uphold these standards, the Firm encourages employees and
+              stakeholders with material concerns about suspected misconduct or any breach
+              of law or regulation that may adversely impact the Firm to report them through
+              appropriate channels, including confidential means, without fear of
+              retribution or unfair treatment.
+              <br /><br />
+              The Firm operates on principles of fairness, honesty, openness, decency,
+              integrity, and respect. This policy aims to encourage employees and
+              stakeholders to report and disclose improper or illegal practices. Denham
+              &amp; Grey is committed to promptly investigating any reported misconduct and
+              protecting those who report such activities, ensuring that all reports are
+              treated with strict confidence. Whistleblower reports will be handled with
+              sensitivity, discretion, and confidentiality, and the Firm will protect
+              whistleblowers from all forms of victimization, retaliation, discrimination,
+              and harassment.
+            </span>
 
           </span>
         </h1>
@@ -313,17 +313,17 @@ const formData = ref({
   email: ""
 });
 
+// Build payload safely
 const buildPayload = () => {
   let firstName = "";
   let lastName = "";
-
   if (formData.value.name?.trim()) {
     const parts = formData.value.name.trim().split(" ");
     firstName = parts.shift() || "";
     lastName = parts.join(" ");
   }
 
-  // Ensure valid ISO string or empty string
+  // Convert datetime-local string to ISO or empty string
   let incidentDateTime = "";
   if (formData.value.datetime) {
     const dt = new Date(formData.value.datetime);
@@ -331,17 +331,17 @@ const buildPayload = () => {
   }
 
   return {
-    firstName: firstName,
-    lastName: lastName,
+    firstName,
+    lastName,
     email: formData.value.email || "",
     phone: "",
     role: "",
-    misconductType: formData.value.nature || "", // required
-    incidentDateTime, // required
+    misconductType: formData.value.nature || "",
+    incidentDateTime,
     location: formData.value.location || "",
     peopleInvolved: formData.value.involved || "",
-    description: formData.value.description || "", // required
-    howAwareDetails: "", // required, you can customize
+    description: formData.value.description || "",
+    howAwareDetails: "",
     hasSupportingEvidence: formData.value.files.length > 0,
     evidenceFileUrl: null,
     remainAnonymous: currentTab.value === "anonymous",
@@ -351,33 +351,26 @@ const buildPayload = () => {
   };
 };
 
+// Submit Form
 const submitForm = async () => {
   loading.value = true;
-
   try {
-    // Build payload
     const payload = buildPayload();
 
-    // Convert to FormData for multipart
     const fd = new FormData();
     for (const [key, value] of Object.entries(payload)) {
       if (key === "evidenceFile" && value) {
         fd.append("evidenceFile", value);
-      } else if (key === "incidentDateTime") {
-        // Convert Date to ISO string
-        fd.append("incidentDateTime", value ? (value as Date).toISOString() : "");
       } else {
         fd.append(key, value ?? "");
       }
     }
 
-    // Debug: see exactly what will be sent
     console.log("FormData contents:");
     for (const pair of fd.entries()) {
       console.log(pair[0], pair[1]);
     }
 
-    // Call the backend service
     const response = await $services.base.report(fd);
     console.log("Report submitted:", response);
 
@@ -387,11 +380,9 @@ const submitForm = async () => {
 
   } catch (err) {
     console.error("Submission error:", err);
-
     showReviewModal.value = true;
     message.value =
       "An error occurred while submitting your report. Please try again later.";
-
   } finally {
     resetForm();
     currentTab.value = "anonymous";
@@ -399,7 +390,7 @@ const submitForm = async () => {
   }
 };
 
-
+// Reset Form
 const resetForm = () => {
   formData.value = {
     nature: "",
@@ -413,6 +404,7 @@ const resetForm = () => {
   };
 };
 
+// Remove file
 const removeFile = (index: number) => {
   formData.value.files.splice(index, 1);
 };
@@ -429,8 +421,8 @@ const removeFile = (index: number) => {
 }
 
 .loader {
-  border: 2px solid #f3f3f3; /* Light grey */
-  border-top: 2px solid #3498db; /* Blue */
+  border: 2px solid #f3f3f3;
+  border-top: 2px solid #3498db;
   border-radius: 50%;
   width: 16px;
   height: 16px;
