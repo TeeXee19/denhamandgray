@@ -71,7 +71,7 @@ The Firm operates on principles of fairness, honesty, openness, decency, integri
 
               <!-- Date & Time -->
               <div class="flex flex-col">
-                <label class="text-sm pb-2 font-bold">Date & Time of Incident</label>
+                <label class="text-sm pb-2 font-bold">Date &amp; Time of Incident</label>
                 <input
                   type="datetime-local"
                   required
@@ -260,7 +260,7 @@ The Firm operates on principles of fairness, honesty, openness, decency, integri
   <!-- SUCCESS MODAL -->
   <div
     v-if="showReviewModal"
-    class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50"
+    class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50"
   >
     <div class="bg-white rounded-lg p-6 max-w-lg mx-auto relative">
       <button
