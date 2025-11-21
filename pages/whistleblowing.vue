@@ -261,7 +261,7 @@
                 >
                   <span v-if="loading" class="loader"></span> <!-- Loader -->
                   <span v-else class="material-symbols-outlined">lock</span>
-                  <span v-if="!loading">Submit</span>
+                  <span v-if="!loading">Submit Securely</span>
                 </button>
               </div>
 
