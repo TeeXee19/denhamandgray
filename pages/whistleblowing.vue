@@ -352,22 +352,28 @@ const buildPayload = () => {
   };
 };
 
-
 const submitForm = async () => {
   loading.value = true;
 
   const payload = buildPayload();
   console.log("Payload before FormData:", payload);
+
   const fd = new FormData();
 
   for (const [key, value] of Object.entries(payload)) {
     if (key === "evidenceFile") {
       if (value) fd.append("evidenceFile", value);
-    } else if (value === null) {
-      fd.append(key, ""); // empty instead of "Invalid Date"
+    } else if (key === "incidentDateTime") {
+      // Convert Date object to ISO string, or send empty string if null
+      fd.append("incidentDateTime", value ? (value as Date).toISOString() : "");
     } else {
-      fd.append(key, value as any);
+      fd.append(key, value ?? "");
     }
+  }
+
+  console.log("FormData contents:");
+  for (const pair of fd.entries()) {
+    console.log(pair[0], pair[1]);
   }
 
   try {
@@ -389,6 +395,7 @@ const submitForm = async () => {
     loading.value = false;
   }
 };
+
 
 const resetForm = () => {
   formData.value = {
