@@ -225,7 +225,7 @@ const message = ref('');
 const showReviewModal = ref(false);
 const { $services } = useNuxtApp();
 
-const submitForm = () => {
+const submitForm = async () => {
   const fd = {
     name: name.value,
     phone: phone.value,
