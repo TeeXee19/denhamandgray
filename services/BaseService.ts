@@ -36,14 +36,15 @@ export class BaseService implements BaseServiceInterface {
         }
     }
     
-    async report(): Promise<UserResponse> {
-        try {
-            const response = await this.client.post('/reports')
-            return response.data
-        } catch (error) {
-            throw error
-        }
-    }
+    async report(payload: FormData): Promise<UserResponse> {
+  try {
+    const response = await this.client.post('/reports', payload);
+    return response.data;
+  } catch (error) {
+    throw error;
+  }
+}
+
 
     async contact(): Promise<UserResponse>{
       try{
