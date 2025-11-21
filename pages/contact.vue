@@ -111,13 +111,14 @@ const email = ref('');
 const message = ref('');
 const showReviewModal = ref(false);
 const loading = ref(false);
+const { $services } = useNuxtApp();
 
 const submitForm = () => {
   const fd = {
     name: name.value,
     phone: phone.value,
     email: email.value,
-    message: message.value,
+    notes: message.value,
   };
   showReviewModal.value = true;
   try {

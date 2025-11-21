@@ -157,10 +157,10 @@
                 <div class="space-y-3">
                     <div class="flex flex-col md:flex-row gap-3">
                         <input type="text" id="name" v-model="name" class="bg-white border border-white !text-black lg:text-[14px] block w-full p-2 lg:p-2.5 rounded-lg " placeholder="Name" required>
-                        <input type="tel" id="tel" v-model="lastname" class="bg-white border border-white !text-black lg:text-[14px] block w-full p-2 lg:p-2.5 rounded-lg " placeholder="Phone Number" required>
+                        <input type="tel" id="tel" v-model="phone" class="bg-white border border-white !text-black lg:text-[14px] block w-full p-2 lg:p-2.5 rounded-lg " placeholder="Phone Number" required>
                     </div>
                     <div>
-                        <input type="email" id="email" v-model="lastname" class="bg-white border border-white !text-black lg:text-[14px] block w-full p-2 lg:p-2.5 rounded-lg " placeholder="Email" required>
+                        <input type="email" id="email" v-model="email" class="bg-white border border-white !text-black lg:text-[14px] block w-full p-2 lg:p-2.5 rounded-lg " placeholder="Email" required>
                     </div>
                     <div>
                         <textarea id="message" v-model="message" rows="4" class="block p-2 lg:p-2.5 w-full lg:text-[14px] !text-black bg-white border border-white rounded-lg " placeholder="Tell us what you want"></textarea>
@@ -220,16 +220,33 @@ const posts = [{
 
 const name = ref('');
 const email = ref('');
+const phone = ref('');
 const message = ref('');
 const showReviewModal = ref(false);
+const { $services } = useNuxtApp();
 
 const submitForm = () => {
-  // Handle form submission logic here
+  const fd = {
+    name: name.value,
+    phone: phone.value,
+    email: email.value,
+    notes: message.value,
+  };
   showReviewModal.value = true;
-  console.log('Form Data:', { name: name.value, email: email.value, message: message.value });
+  try {
+    loading.value = true;
+    const response = await $services.base.contact(fd);
+    console.log("Report submitted:", response);
+    showReviewModal.value = true;
+  } catch (error) {
+    console.error('Error submitting form:', error);
+
+  }
   // Reset form data after submission
   name.value = '';
+  phone.value = '';
   email.value = '';
   message.value = '';
+  loading.value = false;
 };
 </script>
