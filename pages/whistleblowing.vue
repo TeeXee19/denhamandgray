@@ -28,7 +28,7 @@
             <span
               id="report-tooltip"
               role="tooltip"
-              class="absolute -top-9 left-1/2 -translate-x-1/2 whitespace-nowrap bg-black text-white text-xs rounded px-2 py-1 opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none"
+              class="absolute -top-9 left-1/2 -translate-x-1/2 whitespace-nowrap bg-black text-white text-xs rounded px-2 py-1 opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none w-1/3"
             >
              "Denham &amp; Grey is dedicated to the highest standards of openness, integrity, accountability, and ethical behaviour by fostering an environment where employees and other relevant stakeholders can act appropriately without fear of reprisal. To uphold these standards, the Firm encourages employees and stakeholders with material concerns about suspected misconduct or any breach of law or regulation that may adversely impact the Firm to report them through appropriate channels, including confidential means, without fear of retribution or unfair treatment.
             <br />
