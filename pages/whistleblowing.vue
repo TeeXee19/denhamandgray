@@ -296,11 +296,11 @@
 <script setup lang="ts">
 import { ref } from "vue";
 const { $services } = useNuxtApp();
+
 const showReviewModal = ref(false);
 const currentTab = ref("anonymous");
-const loading = ref(false); // Add loading state
-
-const message = "";
+const loading = ref(false);
+const message = ref("");
 
 const formData = ref({
   nature: "",
@@ -318,8 +318,8 @@ const buildPayload = () => {
   let firstName = "";
   let lastName = "";
 
-  if (formData.value.name) {
-    const parts = formData.value.name.split(" ");
+  if (formData.value.name.trim()) {
+    const parts = formData.value.name.trim().split(" ");
     firstName = parts.shift() || "";
     lastName = parts.join(" ");
   }
@@ -330,11 +330,13 @@ const buildPayload = () => {
     email: formData.value.email || "",
     phone: "",
     role: "",
-    misconductType: formData.value.nature,
-    incidentDateTime: formData.value.datetime,
-    location: formData.value.location,
-    peopleInvolved: formData.value.involved,
-    description: formData.value.description,
+    misconductType: formData.value.nature || "",
+    incidentDateTime: formData.value.datetime
+      ? new Date(formData.value.datetime)
+      : null,   // ✅ FIXED
+    location: formData.value.location || "",
+    peopleInvolved: formData.value.involved || "",
+    description: formData.value.description || "",
     howAwareDetails: "",
     hasSupportingEvidence: formData.value.files.length > 0,
     remainAnonymous: currentTab.value === "anonymous",
@@ -345,13 +347,16 @@ const buildPayload = () => {
 };
 
 const submitForm = async () => {
-  loading.value = true; // Start loading
+  loading.value = true;
+
   const payload = buildPayload();
   const fd = new FormData();
 
   for (const [key, value] of Object.entries(payload)) {
-    if (key === "evidenceFile" && value) {
-      fd.append("evidenceFile", value);
+    if (key === "evidenceFile") {
+      if (value) fd.append("evidenceFile", value);
+    } else if (value === null) {
+      fd.append(key, ""); // empty instead of "Invalid Date"
     } else {
       fd.append(key, value as any);
     }
@@ -360,16 +365,20 @@ const submitForm = async () => {
   try {
     const response = await $services.base.report(fd);
     console.log("Report submitted:", response);
+
     showReviewModal.value = true;
-    message.value = "Thank you for your submission. We will review your report and take appropriate action.";
+    message.value =
+      "Thank you for your submission. We will review your report and take appropriate action.";
   } catch (err) {
     console.error("Submission error:", err);
+
     showReviewModal.value = true;
-    message.value = "An error occurred while submitting your report. Please try again later.";
+    message.value =
+      "An error occurred while submitting your report. Please try again later.";
   } finally {
     resetForm();
     currentTab.value = "anonymous";
-    loading.value = false; // Stop loading
+    loading.value = false;
   }
 };
 
