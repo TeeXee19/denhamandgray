@@ -16,6 +16,23 @@
       <div class="text-center flex flex-col gap-3">
         <h1 class="text-neutral-heading text-2xl sm:text-4xl font-black">
           Submit a Confidential Report
+          <span class="inline-flex items-center ml-2 relative group">
+            <button
+              type="button"
+              aria-describedby="report-tooltip"
+              class="w-7 h-7 rounded-full bg-white/10 flex items-center justify-center text-white hover:bg-white/20"
+            >
+              <span class="material-symbols-outlined text-[18px]">info</span>
+            </button>
+
+            <span
+              id="report-tooltip"
+              role="tooltip"
+              class="absolute -top-9 left-1/2 -translate-x-1/2 whitespace-nowrap bg-black text-white text-xs rounded px-2 py-1 opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none"
+            >
+              This form is encrypted and confidential. Choose "Remain Anonymous" to omit personal details.
+            </span>
+          </span>
         </h1>
         <p class="text-neutral-text text-sm sm:text-base leading-relaxed max-w-xl mx-auto px-2">
           Your report is encrypted and submitted securely. We are committed to maintaining a safe and ethical environment for everyone.
