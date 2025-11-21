@@ -313,43 +313,51 @@ const formData = ref({
   email: ""
 });
 
-/* Build payload exactly as backend expects */
 const buildPayload = () => {
   let firstName = "";
   let lastName = "";
 
-  if (formData.value.name.trim()) {
+  if (formData.value.name?.trim()) {
     const parts = formData.value.name.trim().split(" ");
     firstName = parts.shift() || "";
     lastName = parts.join(" ");
   }
 
+  const rawDate = formData.value.datetime;
+  const parsedDate = rawDate ? new Date(rawDate) : null;
+
   return {
-    firstName,
-    lastName,
+    firstName: firstName || "",
+    lastName: lastName || "",
     email: formData.value.email || "",
     phone: "",
     role: "",
     misconductType: formData.value.nature || "",
-    incidentDateTime: formData.value.datetime
-      ? new Date(formData.value.datetime)
-      : null,   // ✅ FIXED
+
+    incidentDateTime:
+      parsedDate instanceof Date && !isNaN(parsedDate.getTime())
+        ? parsedDate
+        : null,
+
     location: formData.value.location || "",
     peopleInvolved: formData.value.involved || "",
     description: formData.value.description || "",
     howAwareDetails: "",
-    hasSupportingEvidence: formData.value.files.length > 0,
+    hasSupportingEvidence: !!formData.value.files.length,
+    evidenceFileUrl: null,
     remainAnonymous: currentTab.value === "anonymous",
     canContact: currentTab.value === "provide-details",
     additionalComments: "",
-    evidenceFile: formData.value.files[0] || null
+    evidenceFile: formData.value.files[0] || null,
   };
 };
+
 
 const submitForm = async () => {
   loading.value = true;
 
   const payload = buildPayload();
+  console.log("Payload before FormData:", payload);
   const fd = new FormData();
 
   for (const [key, value] of Object.entries(payload)) {
