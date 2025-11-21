@@ -25,8 +25,9 @@
           </div>
           <div class="">
               <!-- <div class="relative inline-block"> -->
-                  <button class="bg-primary-theme py-3 px-[20%] text-black font-bold text-[16px]">
-                      Submit
+                  <button class="bg-primary-theme py-3 px-[20%] text-black font-bold text-[16px]" type="submit" :disabled="loading">
+                     <span class="loader"></span>
+                     <span v-if="!loading">Submit</span>
                   </button>
                   <!-- <div class="absolute inset-0 flex justify-center items-center">
                       <div class="w-full h-px bg-theme-gray transform translate-y-8 translate-x-5"></div>
@@ -109,9 +110,9 @@ const phone = ref('');
 const email = ref('');
 const message = ref('');
 const showReviewModal = ref(false);
+const loading = ref(false);
 
 const submitForm = () => {
-  // Handle form submission logic here
   const fd = {
     name: name.value,
     phone: phone.value,
@@ -120,17 +121,20 @@ const submitForm = () => {
   };
   showReviewModal.value = true;
   try {
+    loading.value = true;
     const response = await $services.base.contact(fd);
     console.log("Report submitted:", response);
     showReviewModal.value = true;
   } catch (error) {
     console.error('Error submitting form:', error);
+
   }
   // Reset form data after submission
   name.value = '';
   phone.value = '';
   email.value = '';
   message.value = '';
+  loading.value = false;
 };
 </script>
 

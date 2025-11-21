@@ -156,7 +156,7 @@
                 <button type="button" class="flex-1" @click="currentTab = 'anonymous'">
                   <div
                     class="p-4 border rounded-lg cursor-pointer"
-                    :class="currentTab === 'anonymous' ? 'ring-2 ring-primary/40 border-primary' : ''"
+                    :class="currentTab === 'anonymous' ? 'ring-2 ring-yellow-400 border-yellow-400' : ''"
                   >
                     <p class="font-semibold">Remain Anonymous</p>
                     <p class="text-sm text-neutral-text/70">No personal information will be attached.</p>
@@ -166,7 +166,7 @@
                 <button type="button" class="flex-1" @click="currentTab = 'provide-details'">
                   <div
                     class="p-4 border rounded-lg cursor-pointer"
-                    :class="currentTab === 'provide-details' ? 'ring-2 ring-primary/40 border-primary' : ''"
+                    :class="currentTab === 'provide-details' ? 'ring-2 ring-yellow-400 border-yellow-400' : ''"
                   >
                     <p class="font-semibold">Provide Contact Details</p>
                     <p class="text-sm text-neutral-text/70">Kept strictly confidential.</p>
@@ -222,9 +222,11 @@
                 <button
                   type="submit"
                   class="flex items-center justify-center gap-2 min-w-[140px] h-12 px-6 bg-primary-theme text-black font-bold rounded-lg hover:bg-primary/80"
+                  :disabled="loading"
                 >
-                  <span class="material-symbols-outlined">lock</span>
-                  Submit Securely
+                  <span v-if="loading" class="loader"></span> <!-- Loader -->
+                  <span v-else class="material-symbols-outlined">lock</span>
+                  <span v-if="!loading">Submit</span>
                 </button>
               </div>
 
@@ -261,6 +263,7 @@ import { ref } from "vue";
 const { $services } = useNuxtApp();
 const showReviewModal = ref(false);
 const currentTab = ref("anonymous");
+const loading = ref(false); // Add loading state
 
 const message = "";
 
@@ -307,6 +310,7 @@ const buildPayload = () => {
 };
 
 const submitForm = async () => {
+  loading.value = true; // Start loading
   const payload = buildPayload();
   const fd = new FormData();
 
@@ -330,6 +334,7 @@ const submitForm = async () => {
   } finally {
     resetForm();
     currentTab.value = "anonymous";
+    loading.value = false; // Stop loading
   }
 };
 
@@ -359,5 +364,19 @@ const removeFile = (index: number) => {
   display: inline-block;
   line-height: 1;
   -webkit-font-smoothing: antialiased;
+}
+
+.loader {
+  border: 2px solid #f3f3f3; /* Light grey */
+  border-top: 2px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
 }
 </style>
