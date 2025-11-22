@@ -152,7 +152,7 @@
             <h3 class="font-semibold text-center text-[30px] leading-[60px]">Partner With Us</h3>
         </div>
         <div class="w-full md:w-[60%]">
-            <form @submit="" class="space-y-3">
+            <form @submit.prevent="submitForm" class="space-y-3">
 
                 <div class="space-y-3">
                     <div class="flex flex-col md:flex-row gap-3">
