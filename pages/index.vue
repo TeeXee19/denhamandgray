@@ -166,8 +166,9 @@
                         <textarea id="message" v-model="message" rows="4" class="block p-2 lg:p-2.5 w-full lg:text-[14px] !text-black bg-white border border-white rounded-lg " placeholder="Tell us what you want"></textarea>
                     </div>
                 </div>
-                        <button class="bg-primary-theme !text-black py-3 px-14 rounded-xl font-bold w-full">
-                            PARTNER WITH US
+                        <button class="bg-primary-theme !text-black py-3 px-14 rounded-xl font-bold w-full" :disabled="loading">
+                            <span v-if="loading" class="loader"></span>
+                            <span v-else>PARTNER WITH US</span>
                         </button>   
             </form>
         </div>
