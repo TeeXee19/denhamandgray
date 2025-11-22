@@ -146,23 +146,35 @@
     </article>
 </div>
 </section>
- <!-- CONTACT FORM -->
-  <section class="bg-[url('/assets/images/handshake.png')] bg-cover bg-center py-12 px-6 md:px-20 text-white" id="contact">
-    <div class="max-w-4xl mx-auto">
-      <h3 class="text-3xl md:text-4xl font-bold text-center mb-8">Partner With Us</h3>
-      <form @submit.prevent="submitForm" class="space-y-4 bg-white/10 p-6 rounded-lg">
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-          <input v-model="name" type="text" placeholder="Name" class="p-2 rounded-lg w-full text-black"/>
-          <input v-model="phone" type="tel" placeholder="Phone Number" class="p-2 rounded-lg w-full text-black"/>
+<section class="bg-[url('/assets/images/handshake.png')] bg-center bg-cover  bg-no-repeat py-[5%] px-[5%] md:px-[20%] font-gt text-white" id="contact">
+    <div class="max-w-[1440px] flex flex-col gap-6 items-center">
+        <div class="md:w-[40%]">
+            <h3 class="font-semibold text-center text-[30px] leading-[60px]">Partner With Us</h3>
         </div>
-        <input v-model="email" type="email" placeholder="Email" class="p-2 rounded-lg w-full text-black"/>
-        <textarea v-model="message" rows="4" placeholder="Tell us what you want" class="p-2 rounded-lg w-full text-black"></textarea>
-        <button type="submit" class="bg-primary-theme text-black py-3 px-6 rounded-xl w-full font-bold">
-          PARTNER WITH US
-        </button>
-      </form>
+        <div class="w-full md:w-[60%]">
+            <form @submit.prevent="submitForm" class="space-y-3">
+
+                <div class="space-y-3">
+                    <div class="flex flex-col md:flex-row gap-3">
+                        <input type="text" id="name" v-model="name" class="bg-white border border-white !text-black lg:text-[14px] block w-full p-2 lg:p-2.5 rounded-lg " placeholder="Name" required>
+                        <input type="tel" id="tel" v-model="phone" class="bg-white border border-white !text-black lg:text-[14px] block w-full p-2 lg:p-2.5 rounded-lg " placeholder="Phone Number" required>
+                    </div>
+                    <div>
+                        <input type="email" id="email" v-model="email" class="bg-white border border-white !text-black lg:text-[14px] block w-full p-2 lg:p-2.5 rounded-lg " placeholder="Email" required>
+                    </div>
+                    <div>
+                        <textarea id="message" v-model="message" rows="4" class="block p-2 lg:p-2.5 w-full lg:text-[14px] !text-black bg-white border border-white rounded-lg " placeholder="Tell us what you want"></textarea>
+                    </div>
+                </div>
+                        <button class="bg-primary-theme !text-black py-3 px-14 rounded-xl font-bold w-full">
+                            PARTNER WITH US
+                        </button>   
+            </form>
+        </div>
     </div>
-  </section>
+</section>
+
+
 
   <!-- SUCCESS MODAL -->
   <div v-if="showReviewModal" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
