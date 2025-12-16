@@ -25,7 +25,6 @@
     "chart.js": "^4.4.1",
     "chartjs-plugin-datalabels": "^2.2.0",
     "optional": "^0.1.4",
-    "oxc-parser": "0.103.0",
     "pinia": "^2.1.7",
     "postcss": "^8.4.31",
     "svg-path-parser": "^1.1.0",

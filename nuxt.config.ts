@@ -5,6 +5,9 @@ export default defineNuxtConfig({
     "@": resolve(__dirname, "/")
   },
   devtools: { enabled: true },
+  experimental: {
+    parser: 'acorn'
+  },
   //  modules: [
   //   ['@nuxtjs/google-fonts', {
   //     families: {
