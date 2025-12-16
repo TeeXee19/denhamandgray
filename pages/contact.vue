@@ -1,4 +1,4 @@
-<template>
+ <template>
   <!-- HERO SECTION -->
   <section class="bg-[url('/assets/images/call-centre.png')] bg-center bg-cover text-center text-white flex flex-col justify-center items-center py-[5%] h-[515px] font-ti">
     <h3 class="text-[34px] md:text-[76px] font-ti">Contact Us</h3>
@@ -15,16 +15,16 @@
 
           <div class="space-y-3">
             <div class="flex flex-col md:flex-row gap-3">
-              <input type="text" v-model="name" class="border-2 border-black text-[12px] text-black block w-full p-2.5" placeholder="Name" required>
-              <input type="tel" v-model="phone" class="border-2 border-black text-[12px] text-black block w-full p-2.5" placeholder="Phone Number" required>
+              <input type="text" v-model="name" class="form-input rounded-lg border border-yellow-400 h-12 px-3 text-sm" placeholder="Name" required>
+              <input type="tel" v-model="phone" class="form-input rounded-lg border border-yellow-400 h-12 px-3 text-sm" placeholder="Phone Number" required>
             </div>
 
             <div>
-              <input type="email" v-model="email" class="border-2 border-black text-[12px] text-black block w-full p-2.5" placeholder="Email" required>
+              <input type="email" v-model="email" class="form-input rounded-lg border border-yellow-400 h-12 px-3 text-sm" placeholder="Email" required>
             </div>
 
             <div>
-              <textarea v-model="message" rows="4" class="block p-2.5 w-full text-[14px] text-black border-2 border-black bg-white" placeholder="Tell us what you want"></textarea>
+              <textarea v-model="message" rows="4" class="form-textarea rounded-lg border border-yellow-400 p-3 text-sm" placeholder="Tell us what you want"></textarea>
             </div>
           </div>
 

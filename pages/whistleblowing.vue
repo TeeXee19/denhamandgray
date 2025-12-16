@@ -28,7 +28,7 @@
             <span
               id="report-tooltip"
               role="tooltip"
-              class="absolute -top-9 left-1/2 -translate-x-1/2 whitespace-normal bg-black text-white text-xs rounded px-2 py-1 opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none w-[250px]"
+              class="absolute -top-9 left-1/2 -translate-x-1/2 whitespace-normal bg-black text-white text-xs rounded px-2 py-1 opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none w-[500px]"
             >
               Denham &amp; Grey is dedicated to the highest standards of openness,
               integrity, accountability, and ethical behaviour by fostering an environment
@@ -91,7 +91,7 @@
                 <input
                   type="datetime-local"
                   required
-                  class="form-input rounded-lg border h-12 px-3 text-sm"
+                  class="form-input rounded-lg border border-yellow-400 h-12 px-3 text-sm"
                   v-model="formData.datetime"
                 />
               </div>
@@ -103,7 +103,7 @@
                   type="text"
                   required
                   placeholder="e.g., Office Building, Floor 3, Warehouse Section B"
-                  class="form-input rounded-lg border h-12 px-3 text-sm"
+                  class="form-input rounded-lg border border-yellow-400 h-12 px-3 text-sm"
                   v-model="formData.location"
                 />
               </div>
@@ -114,7 +114,7 @@
                 <input
                   type="text"
                   placeholder="Names or descriptions (comma separated)"
-                  class="form-input rounded-lg border h-12 px-3 text-sm"
+                  class="form-input rounded-lg border border-yellow-400 h-12 px-3 text-sm"
                   v-model="formData.involved"
                 />
               </div>
@@ -126,7 +126,7 @@
                   rows="6"
                   required
                   placeholder="Provide a clear and detailed account of the incident..."
-                  class="form-textarea rounded-lg border p-3 text-sm"
+                  class="form-textarea rounded-lg border border-yellow-400 p-3 text-sm"
                   v-model="formData.description"
                 ></textarea>
               </div>
@@ -256,7 +256,7 @@
               <div class="flex justify-end pt-4 border-t">
                 <button
                   type="submit"
-                  class="flex items-center justify-center gap-2 min-w-[140px] h-12 px-6 bg-primary-theme text-black font-bold rounded-lg hover:bg-primary/80"
+                  class="flex items-center justify-center gap-2 min-w-[140px] h-12 px-6 bg-primary-theme text-black font-bold rounded-lg hover:bg-theme-primary/60"
                   :disabled="loading"
                 >
                   <span v-if="loading" class="loader"></span> <!-- Loader -->
