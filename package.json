@@ -24,16 +24,16 @@
     "axios": "^1.6.7",
     "chart.js": "^4.4.1",
     "chartjs-plugin-datalabels": "^2.2.0",
+    "optional": "^0.1.4",
     "pinia": "^2.1.7",
     "postcss": "^8.4.31",
     "svg-path-parser": "^1.1.0",
     "tailwindcss": "^3.3.3",
-    "vue-datepicker": "^1.3.0",
-    "vue-sweetalert2": "^5.0.5",
-    "vue-toastification": "2.0.0-rc.5",
     "vue-apexcharts": "^1.6.2",
     "vue-chartjs": "^5.3.1",
     "vue-circular-progress": "^1.0.0",
-    "oxc-parser": "0.93.0"
+    "vue-datepicker": "^1.3.0",
+    "vue-sweetalert2": "^5.0.5",
+    "vue-toastification": "2.0.0-rc.5"
   }
 }
