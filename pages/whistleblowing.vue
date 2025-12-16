@@ -285,7 +285,7 @@
       >
         &times;
       </button>
-      <h2 class="text-xl font-bold mb-4">Report Sent Successfully</h2>
+      <h2 class="text-xl font-bold mb-4">{{messageTitle}}</h2>
       <p class="text-sm text-neutral-text/70">
         {{message}}
       </p>
@@ -301,6 +301,7 @@ const showReviewModal = ref(false);
 const currentTab = ref("anonymous");
 const loading = ref(false);
 const message = ref("");
+const messageTitle = ref("");
 
 const formData = ref({
   nature: "",
@@ -371,11 +372,13 @@ const submitForm = async () => {
     console.log("Report submitted:", response);
 
     message.value = "Thank you for your submission. We will review your report.";
+    messageTitle.value = "Report Sent Successfully!";
     showReviewModal.value = true;
 
   } catch (err) {
     console.error("Submission error:", err);
     message.value = "An error occurred while submitting your report. Please try again later.";
+    messageTitle.value = "Submission Error";
     showReviewModal.value = true;
   } finally {
     resetForm();
