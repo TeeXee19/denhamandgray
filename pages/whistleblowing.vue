@@ -249,7 +249,7 @@
                 <input type="checkbox" required class="h-5 w-5 rounded" />
                 <span class="text-sm">
                   I agree to the
-                  <a href="#" class="text-primary font-medium underline">Whistleblowing Policy</a> and confirm all provided information is accurate.
+                  <NuxtLink to="/policy" class="text-primary font-medium underline">Whistleblowing Policy</NuxtLink> and confirm all provided information is accurate.
                 </span>
               </label>
 
