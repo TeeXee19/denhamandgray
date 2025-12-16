@@ -19,7 +19,7 @@
                 <input 
                   type="text" 
                   v-model="name" 
-                  class="w-full rounded-xl border border-yellow-400 px-5 py-4 text-base text-neutral-800 placeholder-neutral-400 outline-none transition-all duration-300 focus:border-yellow-500 focus:bg-white focus:ring-4 focus:ring-yellow-500/10 shadow-sm hover:border-yellow-400" 
+                  class="w-full rounded-xl border border-yellow-400 px-5 py-4 text-[18px] font-medium text-neutral-800 placeholder-neutral-400 outline-none transition-all duration-300 focus:border-yellow-500 focus:bg-white focus:ring-4 focus:ring-yellow-500/10 shadow-sm hover:border-yellow-400" 
                   placeholder="Your Name" 
                   required
                 >
@@ -28,7 +28,7 @@
                 <input 
                   type="tel" 
                   v-model="phone" 
-                  class="w-full rounded-xl border border-yellow-400 px-5 py-4 text-base text-neutral-800 placeholder-neutral-400 outline-none transition-all duration-300 focus:border-yellow-500 focus:bg-white focus:ring-4 focus:ring-yellow-500/10 shadow-sm hover:border-yellow-400" 
+                  class="w-full rounded-xl border border-yellow-400 px-5 py-4 text-[18px]  text-neutral-800 placeholder-neutral-400 outline-none transition-all duration-300 focus:border-yellow-500 focus:bg-white focus:ring-4 focus:ring-yellow-500/10 shadow-sm hover:border-yellow-400" 
                   placeholder="Phone Number" 
                   required
                 >
@@ -39,7 +39,7 @@
               <input 
                 type="email" 
                 v-model="email" 
-                class="w-full rounded-xl border border-yellow-400 px-5 py-4 text-base text-neutral-800 placeholder-neutral-400 outline-none transition-all duration-300 focus:border-yellow-500 focus:bg-white focus:ring-4 focus:ring-yellow-500/10 shadow-sm hover:border-yellow-400" 
+                class="w-full rounded-xl border border-yellow-400 px-5 py-4 text-[18px] text-neutral-800 placeholder-neutral-400 outline-none transition-all duration-300 focus:border-yellow-500 focus:bg-white focus:ring-4 focus:ring-yellow-500/10 shadow-sm hover:border-yellow-400" 
                 placeholder="Email Address" 
                 required
               >
@@ -49,7 +49,7 @@
               <textarea 
                 v-model="message" 
                 rows="5" 
-                class="w-full rounded-xl border border-yellow-400 px-5 py-4 text-base text-neutral-800 placeholder-neutral-400 outline-none transition-all duration-300 focus:border-yellow-500 focus:bg-white focus:ring-4 focus:ring-yellow-500/10 shadow-sm hover:border-yellow-400 resize-none" 
+                class="w-full rounded-xl border border-yellow-400 px-5 py-4 text-[18px] text-neutral-800 placeholder-neutral-400 outline-none transition-all duration-300 focus:border-yellow-500 focus:bg-white focus:ring-4 focus:ring-yellow-500/10 shadow-sm hover:border-yellow-400 resize-none" 
                 placeholder="How can we help you?"
               ></textarea>
             </div>
