@@ -13,18 +13,45 @@
         <form @submit.prevent="submitForm" class="space-y-6">
           <h3 class="font-medium text-[48px]">Send us a message</h3>
 
-          <div class="space-y-3">
-            <div class="flex flex-col md:flex-row gap-3">
-              <input type="text" v-model="name" class="form-input rounded-lg border border-yellow-400 h-12 px-3 text-sm" placeholder="Name" required>
-              <input type="tel" v-model="phone" class="form-input rounded-lg border border-yellow-400 h-12 px-3 text-sm" placeholder="Phone Number" required>
+          <div class="space-y-5">
+            <div class="flex flex-col md:flex-row gap-5">
+              <div class="w-full group">
+                <input 
+                  type="text" 
+                  v-model="name" 
+                  class="w-full rounded-xl border border-yellow-400 px-5 py-4 text-base text-neutral-800 placeholder-neutral-400 outline-none transition-all duration-300 focus:border-yellow-500 focus:bg-white focus:ring-4 focus:ring-yellow-500/10 shadow-sm hover:border-yellow-400" 
+                  placeholder="Your Name" 
+                  required
+                >
+              </div>
+              <div class="w-full group">
+                <input 
+                  type="tel" 
+                  v-model="phone" 
+                  class="w-full rounded-xl border border-yellow-400 px-5 py-4 text-base text-neutral-800 placeholder-neutral-400 outline-none transition-all duration-300 focus:border-yellow-500 focus:bg-white focus:ring-4 focus:ring-yellow-500/10 shadow-sm hover:border-yellow-400" 
+                  placeholder="Phone Number" 
+                  required
+                >
+              </div>
             </div>
 
-            <div>
-              <input type="email" v-model="email" class="form-input rounded-lg border border-yellow-400 h-12 px-3 text-sm" placeholder="Email" required>
+            <div class="group">
+              <input 
+                type="email" 
+                v-model="email" 
+                class="w-full rounded-xl border border-yellow-400 px-5 py-4 text-base text-neutral-800 placeholder-neutral-400 outline-none transition-all duration-300 focus:border-yellow-500 focus:bg-white focus:ring-4 focus:ring-yellow-500/10 shadow-sm hover:border-yellow-400" 
+                placeholder="Email Address" 
+                required
+              >
             </div>
 
-            <div>
-              <textarea v-model="message" rows="4" class="form-textarea rounded-lg border border-yellow-400 p-3 text-sm" placeholder="Tell us what you want"></textarea>
+            <div class="group">
+              <textarea 
+                v-model="message" 
+                rows="5" 
+                class="w-full rounded-xl border border-yellow-400 px-5 py-4 text-base text-neutral-800 placeholder-neutral-400 outline-none transition-all duration-300 focus:border-yellow-500 focus:bg-white focus:ring-4 focus:ring-yellow-500/10 shadow-sm hover:border-yellow-400 resize-none" 
+                placeholder="How can we help you?"
+              ></textarea>
             </div>
           </div>
 

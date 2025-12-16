@@ -73,7 +73,7 @@
                 <label class="text-sm pb-2 font-bold">Nature of Incident</label>
                 <select
                   required
-                  class="form-select rounded-lg border h-12 px-3 text-sm"
+                  class="form-select rounded-lg border border-yellow-400 h-12 px-3 text-sm"
                   v-model="formData.nature"
                 >
                   <option disabled value="">Select a category...</option>
