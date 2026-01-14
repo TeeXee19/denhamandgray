@@ -1,11 +1,11 @@
 <template>
 <section class="bg-[url('/assets/images/hero.png')] md:bg-[url('/assets/images/hero.png')] bg-center bg-cover   bg-clip-border bg-no-repeat h-[90vh] lg:h-screen text-center text-white m-auto justify-center space-y-0 flex flex-col pt-4">
-    <div class="justify-end hidden md:flex px-8 mr-[5%]">
+    <!-- <div class="justify-end hidden md:flex px-8 mr-[5%]">
         <div class="bg-white/5 w-[200px] flex flex-col items-center p-4 text-[14px] rounded-3xl mb-10">
             <img loading="lazy" src="/assets/images/dev.svg" class="w-[40%]"/>
             Development
         </div>
-    </div>
+    </div> -->
     <div class="relative font-gt w-full px-2 md:w-[80%] flex flex-col text-center md:text-left md:px-[100px]">
         <span class="md:font-normal sm:font-bold text-[40px] lg:text-[64px] md:w-[70%] text-center md:text-left">Financing the SDGs, Ensuring Tomorrow</span>
         <div class="mt-8 flex flex-col md:flex-row gap-8 md:gap-4 items-center">
@@ -23,15 +23,18 @@
     </div>
 </section>
 <section class="space-y-0 md:grid grid-cols-3 hidden p-6 px-[5%] shadow-xl">
-    <div class="px-[15%] py-6 h-[300px] justify-center font-gt bg-[url('/assets/images/people.svg')] bg-no-repeat bg-center  border-r border-r-width-[60%] border-gray-500 flex flex-col text-left">
+    <div class="px-[15%] py-6 h-[300px] justify-center items-center font-gt   border-r border-r-width-[60%] border-gray-500 flex flex-col text-left">
+        <img src="/assets/images/people.svg" alt="" class="w-[30%]">
         <div class="text-[24px] text-[#474A4F] font-bold">Empowering Communities</div>
         <p class="font-bold text-[#7B7B7B]">Building sustainable communities through strategic investment and development initiatives.</p>
     </div>
-    <div class="px-[15%] py-6 h-[300px] justify-center font-gt bg-[url('/assets/images/arrow-growth.svg')] bg-no-repeat bg-center  border-r border-r-width-[60%] border-gray-500 flex flex-col text-left">
+    <div class="px-[15%] py-6 h-[300px] justify-center items-center font-gt   border-r border-r-width-[60%] border-gray-500 flex flex-col text-left">
+        <img src="/assets/images/arrow-growth.svg" alt="" class="w-[30%]">
         <div class="text-[24px] text-[#474A4F] font-bold">Driving Economic Growth</div>
         <p class="font-bold text-[#7B7B7B]">Creating value through innovative financial solutions and strategic partnership.</p>
     </div>
-    <div class="px-[15%] py-6 h-[300px] justify-center font-gt bg-[url('/assets/images/user-protect.svg')] bg-no-repeat bg-center flex flex-col text-left">
+    <div class="px-[15%] py-6 h-[300px] justify-center items-center font-gt flex flex-col text-left">
+        <img src="/assets/images/user-protect.svg" alt="" class="w-[30%]">
         <div class="text-[24px] text-[#474A4F] font-bold">Protecting the Environment</div>
         <p class="font-bold text-[#7B7B7B]">Commitment to sustainable practices and environmental responsibility in all our ventures.</p>
     </div>

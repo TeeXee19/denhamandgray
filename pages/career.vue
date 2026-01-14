@@ -26,30 +26,26 @@
     <div class="h-[30%] flex flex-col items-center space-y-4 pt-[3%] mb-[3%]">
         <h2 class="font-semibold font-GT text-[32px] md:text-[40px] leading-[50px]">Our Core Values</h2>
     </div>
-    <div class="grid grid-cols-6  justify-center items-center font-gt font-bold text-[#7B7B7B] text-[18px] ">
-        <div class="flex flex-col items-center justify-center md:space-x-[10%] md:w-[50%] gap-2 w-[">
+    <div class="grid grid-cols-5 justify-items-center  justify-center items-center font-gt font-bold text-[#7B7B7B] text-[18px] w-full ">
+        <div class="flex flex-col items-center justify-center md:space-x-[10%] md:w-[40%] gap-2 w-[">
             <img src="/assets/images/cv-01.svg"/>
             Sustainability
         </div>
-        <div class="flex flex-col items-center justify-center md:space-x-[10%] md:w-[50%] gap-2 w-[">
-            <img src="/assets/images/cv-02.svg"/>
-            Integrity
-        </div>
-        <div class="flex flex-col items-center justify-center md:space-x-[10%] md:w-[50%] gap-2 w-[">
+        <div class="flex flex-col items-center justify-center md:space-x-[10%] md:w-[40%] gap-2 w-[">
             <img src="/assets/images/cv-03.svg"/>
-            inclusivity
+            Inclusivity
         </div>
-        <div class="flex flex-col items-center justify-center md:space-x-[10%] md:w-[50%] gap-2 w-[">
+        <div class="flex flex-col items-center justify-center md:space-x-[10%] md:w-[40%] gap-2 w-[">
             <img src="/assets/images/cv-04.svg"/>
-            Competence
+            Excellence
         </div>
-        <div class="flex flex-col items-center justify-center md:space-x-[10%] md:w-[50%] gap-2 w-[">
+        <div class="flex flex-col items-center justify-center md:space-x-[10%] md:w-[40%] gap-2 w-[">
             <img src="/assets/images/cv-05.svg"/>
             Partnership
         </div>
-        <div class="flex flex-col items-center justify-center md:space-x-[10%] md:w-[50%] gap-2 w-[">
+        <div class="flex flex-col items-center justify-center md:space-x-[10%] md:w-[40%] gap-2 w-[">
             <img src="/assets/images/cv-06.svg"/>
-            innovation
+            Innovation
         </div>
     </div>
 </section>

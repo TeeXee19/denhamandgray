@@ -1,12 +1,12 @@
 <template>
-<section class="bg-[url('/assets/images/about.png')] md:bg-[url('/assets/images/about.png')] bg-center bg-cover  bg-clip-border bg-no-repeat text-center text-white items-center m-auto justify-center font-dg space-y-0 flex flex-col py-[20%] md:py-[5%] font-gt h-[515px]">
-    <h3 class="font-gt text-[32px] md:text-[76px]">ABOUT US</h3>
+<section class="bg-[url('/assets/images/about.svg')] md:bg-[url('/assets/images/about.svg')] bg-center bg-cover  bg-clip-border bg-no-repeat text-center text-white items-center m-auto justify-center font-dg space-y-0 flex flex-col py-[20%] md:py-[5%] font-gt h-[515px]">
+    <h3 class="font-gt text-[32px] md:text-[76px]">About Us</h3>
 </section>
 <section class="py-[4%] md:px-[6%] font-dg ">
 
   <div class="grid md:grid-cols-2 font-dg md:px-[10%] gap-4 items-center">
       <div class=" space-y-4 p-4 ">
-        <h5 class="font-gt text-[24px] md:text-[40px] font-bold w-[75%]">Our Foundation and Operations</h5>
+        <h5 class="font-gt text-[24px] md:text-[40px] font-bold w-[75%] leading-[1]">Our Foundation and Operations</h5>
         <p class="font-gt font-bold text-black md:text-[18px] text-[#7B7B7B]">Established in 2021, Denham &amp; Grey began full operations in 2024. Our main office is in Lagos, Nigeria's financial hub, providing easy access to clients, market insights, and effective client monitoring. We also have a secondary location in the Federal Capital Territory.</p>
       </div>
       <img src="/assets/images/about-right.svg" alt="" class="w-40% md:w-[80%] h-full order-first md:order-last">
@@ -15,48 +15,46 @@
 </section>
 <section class="text-left md:text-center font- bg-[#FAFAFA] py-[5%]">
     <div class="grid grid-cols-1 md:grid-cols-2 px-[16px] md:px-[15%] items-center justify-center text-black gap-6 font-gt">
-        <div class="bg-[url('/assets/images/telo.svg')] bg-no-repeat bg-center flex flex-col justify-center gap-2 p-6 text-center rounded-[4px] w-[100%] h-[250px]">
-            <span class="text-[24px] md:text-[32px]">Our Vision</span>
+        <div class=" flex flex-col justify-center items-center gap-2 p-6 text-center rounded-[4px] w-[100%] h-[250px]">
+          <img src="/assets/images/telo.svg" alt="" class="w-[50px] md:w-[100px]">  
+          <span class="text-[24px] md:text-[32px]">Our Vision</span>
             <p class="text-[14px] md:text-[18px]">
               To mobilize capital for Nigeria's SDGs through financial solutions that empower communities, foster sustainable growth, and protect the environment
             </p>
         </div>
-        <div class="bg-[url('/assets/images/target.svg')] bg-no-repeat bg-center flex flex-col justify-center gap-2 p-6 text-center rounded-[4px] w-[100%] h-[250px]">
-            <span class="text-[24px] md:text-[32px]">Our Mission</span>
+        <div class="flex flex-col justify-center items-center gap-2 p-6 text-center rounded-[4px] w-[100%] h-[250px]">
+          <img src="/assets/images/target.svg" alt="" class="w-[50px] md:w-[100px]">  
+          <span class="text-[24px] md:text-[32px]">Our Mission</span>
             <p class="text-[14px] md:text-[18px]">
               To be Nigeria's leading impact investment firm, driving sustainable development through investments that foster a prosperous and equitable future.
             </p>
         </div>
     </div>
 </section>
-<section class="py-[2%] px-[10%] font-dg  ">
+<section class="py-[2%] px-[10%] font-dg  items-center justify-center flex flex-col">
     <div class="h-[30%] flex flex-col items-center space-y-4 pt-[3%] mb-[3%]">
         <h2 class="font-semibold font-ti text-[32px] md:text-[64px] leading-[50px]">Our Core Values</h2>
     </div>
-    <div class="grid grid-cols-6  justify-center items-center font-gt font-bold text-[#7B7B7B] text-[18px] ">
-        <div class="flex flex-col items-center justify-center md:space-x-[10%] md:w-[50%] gap-2 w-[">
+    <div class="grid grid-cols-5 justify-items-center  justify-center items-center font-gt font-bold text-[#7B7B7B] text-[18px] w-full ">
+        <div class="flex flex-col items-center justify-center md:space-x-[10%] md:w-[40%] gap-2 w-[">
             <img src="/assets/images/cv-01.svg"/>
             Sustainability
         </div>
-        <div class="flex flex-col items-center justify-center md:space-x-[10%] md:w-[50%] gap-2 w-[">
-            <img src="/assets/images/cv-02.svg"/>
-            Integrity
-        </div>
-        <div class="flex flex-col items-center justify-center md:space-x-[10%] md:w-[50%] gap-2 w-[">
+        <div class="flex flex-col items-center justify-center md:space-x-[10%] md:w-[40%] gap-2 w-[">
             <img src="/assets/images/cv-03.svg"/>
-            inclusivity
+            Inclusivity
         </div>
-        <div class="flex flex-col items-center justify-center md:space-x-[10%] md:w-[50%] gap-2 w-[">
+        <div class="flex flex-col items-center justify-center md:space-x-[10%] md:w-[40%] gap-2 w-[">
             <img src="/assets/images/cv-04.svg"/>
-            Competence
+            Excellence
         </div>
-        <div class="flex flex-col items-center justify-center md:space-x-[10%] md:w-[50%] gap-2 w-[">
+        <div class="flex flex-col items-center justify-center md:space-x-[10%] md:w-[40%] gap-2 w-[">
             <img src="/assets/images/cv-05.svg"/>
             Partnership
         </div>
-        <div class="flex flex-col items-center justify-center md:space-x-[10%] md:w-[50%] gap-2 w-[">
+        <div class="flex flex-col items-center justify-center md:space-x-[10%] md:w-[40%] gap-2 w-[">
             <img src="/assets/images/cv-06.svg"/>
-            innovation
+            Innovation
         </div>
     </div>
 </section>
@@ -73,11 +71,13 @@
           <!-- First Item Standing Alone -->
           <div class="flex justify-center">
             <div class="p-4 w-72 xxl:w-[500px]">
-              <div class="relative group">
+              <div class="relative group" @click="openModal(people[0])" >
                 <img
                   :src="people[0].imageSrc"
                   :alt="people[0].name"
-                  class="w-full h-auto grayscale-0 group-hover:grayscale hover:opacity-75 transition-opacity duration-300">
+                  class="w-full h-auto grayscale-0 group-hover:grayscale hover:opacity-75 transition-opacity duration-300"
+                 
+                  >
                 <div class="absolute inset-0 flex items-center justify-center opacity-0 bg-gray-900 hover:opacity-70 transition-opacity duration-300 group-hover:opacity-70">
                 </div>
               </div>
@@ -91,7 +91,7 @@
           <!-- Grid Layout for the Rest of the Items -->
           <div class="grid gap-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center justify-center cursor-pointer">
             <div class="p-4 w-72 xxl:w-[500px]" v-for="(person, index) in people.slice(1)" :key="index">
-              <div class="relative group">
+              <div class="relative group" @click="openModal(person)">
                 <img
                   :src="person.imageSrc"
                   :alt="person.name"
@@ -116,7 +116,7 @@
         <!-- Grid Layout for the Rest of the Items -->
         <div class="grid gap-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center justify-center cursor-pointer">
           <div class="p-4 w-72 xxl:w-[500px]" v-for="(mgt, index) in mgts" :key="index">
-            <div class="relative group">
+            <div class="relative group" @click="openModal(mgt)" >
               <img
                 :src="mgt.imageSrc"
                 :alt="mgt.name"
@@ -148,9 +148,9 @@
         </div> -->
       </div>
     </div>
-    <div v-if="showModal" class="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50">
+    <div v-if="showModal" class="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50" @click="closeModal">
 
-      <div class="bg-white px-8 pb-8 rounded-lg shadow-lg max-w-[70%] mx-2 flex flex-col align-right" @click="closeModal">
+      <div class="bg-white px-8 pb-8 rounded-lg shadow-lg max-w-[70%] mx-2 flex flex-col align-right" @click.stop>
          <button @click="closeModal" class="text-black font-bold text-[50px] text-end">×</button>
         <div class="flex flex-row gap-8">
           <div class="w-[30%]">
@@ -176,6 +176,7 @@ interface Person {
     name: string;
     title: string;
     imageSrc: string;
+    description: string;
 }
 
 const people: Person[] = [{
@@ -196,7 +197,12 @@ const people: Person[] = [{
         imageSrc: "/assets/images/kazeem.svg",
         description: "Kazeem Abdulrasheed Olanrewaju is a transformative senior executive renowned for his visionary leadership and expertise across diverse sectors. With a proven track record spanning strategic planning, entrepreneurship, credit risk management, policy formulation, and microfinance banking, Kazeem excels at aligning corporate goals with comprehensive strategies. As the Founder of Alert Group Limited, Kazeem's forward-thinking vision centers on Microfinance development in Nigeria and Africa targeting over 5 million entrepreneurs. During his tenure as MD/CEO of Baobab Microfinance Ltd Nigeria, Kazeem propelled the institution to the top 3 in Nigeria. Overseeing steady growth in balance sheet size, customer retention, and profitability for five consecutive years. Mr. Kazeem holds a Ph.D. in Management Finance, M.Sc. in Financial Economics, and an MBA in Finance. Other professional affiliations include the Chartered Institute of Bankers of Nigeria, Certified Microfinance Banker, and more. He is a dedicated philanthropist through initiatives such as school sponsorship, scholarships, medical ambulance donations, and community service projects."
     },
-    
+   {
+        name: "Sadiya El-Rufai",
+        title: "Independent Non-executive Director",
+        imageSrc: "/assets/images/sadiat.svg",
+        description: "Sadiya El-Rufai is an accomplished legal professional with a dynamic career spanning over 18 years, marked by her exceptional expertise in Corporate & Commercial Law and Arbitration. She is a qualified Chartered Secretary and a Data Protection Practitioner, which has enabled her to weave through both the public and private sector engagements successfully. Sadiya has worked at Dikko & Mahmoud law firm where she rose to the position of Partner. She has served as the Regional Legal Officer at the Bank of Industry, Nigeria. She has been DBN’s (Development Bank of Nigeria Plc) Legal Counsel since its inception, thereby helping shape policies, procedures, standardization of its credit appraisal processes, and board evaluation exercises towards good governance. Sadiya is an alumna of Ahmadu Bello University (ABU), Bayero University, and the Smith's School of Business at Queen's University in Canada. She currently serves as the Managing Partner at El-Rufai Attorneys at Law."
+    },    
     {
         name: "Dauda Madubu Milgwe",
         title: "Non-executive Director",
