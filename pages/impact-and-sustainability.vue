@@ -2,7 +2,7 @@
 <section class="bg-[url('/assets/images/iands.png')] md:bg-[url('/assets/images/iands.png')] bg-center bg-cover bg-clip-border bg-no-repeat text-center text-white items-center m-auto justify-center  space-y-0 flex flex-col py-[20%] md:py-[5%] h-[515px]">
     <h3 class="text-[24px] lg:text-[60px] font-gt">Impact and Sustainability </h3>
 </section>
-<section class=" bg-white flex flex-col md:flex-row space-y-[4%] md:pt-[2%]">
+<section class=" bg-white flex flex-col md:flex-row space-y-[4%] md:pt-[2%] items">
     <div class=" items-center space-y-4 pt-[4%] px-[6%] lg:w-[55%]">
         <h2 class="font-bold text-[20px] lg:text-[34px] 2xl:text-[44px] leading-[50px] font-gt">Our Commitment to Sustainability</h2>
         <p class="font-ar text-[14px] lg:text-[20px] 2xl:text-[24px] text-black font-normal lg:leading-[25px]">

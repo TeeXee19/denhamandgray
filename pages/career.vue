@@ -14,9 +14,9 @@
          <p class="font-gt font-bold md:text-[16px] text-[#7B7B7B]">
             Ready to elevate your career? Discover if you're the right fit for Denham and Grey.
         </p>
-         <button class="bg-primary-theme font-gt font-bold  text-[#7B7B7B] py-2 px-[15%] mt-[30px] rounded-xl">
+         <a href="mailto:info@denhamandgrey.com" class="bg-primary-theme font-gt font-bold  text-[#7B7B7B] py-2 px-[15%] mt-[30px] rounded-xl">
             Email Us
-        </button>
+        </a>
         </div>
         <img src="/assets/images/welcome.svg" alt="" class="w-40% md:w-full h-full order-first md:order-last">
     </div>

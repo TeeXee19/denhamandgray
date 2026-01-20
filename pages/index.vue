@@ -22,7 +22,7 @@
         </div>
     </div>
 </section>
-<section class="space-y-0 md:grid grid-cols-3 hidden p-6 px-[5%] shadow-xl">
+<section class="space-y-0 md:grid grid-cols-3 hidden p-6 px-[5%]">
     <div class="px-[15%] py-6 h-[300px] justify-center items-center font-gt   border-r border-r-width-[60%] border-gray-500 flex flex-col text-left">
         <img src="/assets/images/people.svg" alt="" class="w-[30%]">
         <div class="text-[24px] text-[#474A4F] font-bold">Empowering Communities</div>
@@ -66,7 +66,7 @@
 
 <section class="bg-[url('/assets/images/est.svg')] bg-center bg-cover  bg-clip-border bg-no-repeat py-[10%] px-[5%] text-white font-gt">
     <div class="lg:w-1/2 space-y-4 lg:space-y-8 font-gt">
-        <h3 class="text-[22px] lg:text-[26px] tracking-[5px] font-gt">ESTABLISHED IN 2021</h3>
+        <h3 class="text-[20px] lg:text-[20px] tracking-[5px] font-gt">ESTABLISHED IN 2021</h3>
         <h3 class="font-bold text-[24px] md:text-[28px] lg:text-[32px] xl:text-[36px] w-[100%] md:leading-[50px]">We are experts in impact investment and wholesale lending</h3>
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-8 bg-black/10 py-6  ">
             <div class="flex flex-col font-bold ">
@@ -80,7 +80,7 @@
         </div>
     </div>
 </section>
-<section class="text-center font-gt bg-[#FBFBFC] py-[2%]">
+<section class="text-center font-gt bg-[#FBFBFC] py-[4%]">
     <div class="h-[30%] flex flex-col items-center space-y-4  mb-[3%]">
         <h2 class="font-bold font-gt text-[32px] lg:text-[40px] leading-[50px]">Our Financial Offerings</h2>
 

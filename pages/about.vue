@@ -9,19 +9,21 @@
         <h5 class="font-gt text-[24px] md:text-[40px] font-bold w-[75%] leading-[1]">Our Foundation and Operations</h5>
         <p class="font-gt font-bold text-black md:text-[18px] text-[#7B7B7B]">Established in 2021, Denham &amp; Grey began full operations in 2024. Our main office is in Lagos, Nigeria's financial hub, providing easy access to clients, market insights, and effective client monitoring. We also have a secondary location in the Federal Capital Territory.</p>
       </div>
-      <img src="/assets/images/about-right.svg" alt="" class="w-40% md:w-[80%] h-full order-first md:order-last">
+      <img src="/assets/images/about-right.svg" alt="" class="w-40% md:w-[100%] h-full order-first md:order-last">
   </div>
 
 </section>
 <section class="text-left md:text-center font- bg-[#FAFAFA] py-[5%]">
     <div class="grid grid-cols-1 md:grid-cols-2 px-[16px] md:px-[15%] items-center justify-center text-black gap-6 font-gt">
-        <div class=" flex flex-col justify-center items-center gap-2 p-6 text-center rounded-[4px] w-[100%] h-[250px]">
-          <img src="/assets/images/telo.svg" alt="" class="w-[50px] md:w-[100px]">  
-          <span class="text-[24px] md:text-[32px]">Our Vision</span>
-            <p class="text-[14px] md:text-[18px]">
-              To mobilize capital for Nigeria's SDGs through financial solutions that empower communities, foster sustainable growth, and protect the environment
-            </p>
-        </div>
+      <div class="relative flex flex-col justify-center items-center gap-2 p-6 text-center w-full h-[250px]">
+      <div class="absolute right-0 top-1/2 -translate-y-1/2 h-[60%] border-r-2   bg-gradient-to-b from-black via-white to-black"></div>
+      <img src="/assets/images/telo.svg" alt="" class="w-[50px] md:w-[100px]">  
+      <span class="text-[24px] md:text-[32px]">Our Vision</span>
+      <p class="text-[14px] md:text-[18px]">
+        To mobilize capital for Nigeria's SDGs through financial solutions that empower communities, foster sustainable growth, and protect the environment
+      </p>
+    </div>
+
         <div class="flex flex-col justify-center items-center gap-2 p-6 text-center rounded-[4px] w-[100%] h-[250px]">
           <img src="/assets/images/target.svg" alt="" class="w-[50px] md:w-[100px]">  
           <span class="text-[24px] md:text-[32px]">Our Mission</span>
@@ -33,7 +35,7 @@
 </section>
 <section class="py-[2%] px-[10%] font-dg  items-center justify-center flex flex-col">
     <div class="h-[30%] flex flex-col items-center space-y-4 pt-[3%] mb-[3%]">
-        <h2 class="font-semibold font-ti text-[32px] md:text-[64px] leading-[50px]">Our Core Values</h2>
+        <h2 class="font-semibold font-gt text-[32px] md:text-[48px] leading-[50px]">Our Core Values</h2>
     </div>
     <div class="grid grid-cols-5 justify-items-center  justify-center items-center font-gt font-bold text-[#7B7B7B] text-[18px] w-full ">
         <div class="flex flex-col items-center justify-center md:space-x-[10%] md:w-[40%] gap-2 w-[">
@@ -66,7 +68,7 @@
         </p>
     </div>
     <div class=" md:px-[10%] py-[3%] flex flex-col items-center ">
-        <h3 class="font-ti font-semibold my-4 text-[30px] md:text-[40px] bg-[#ECECEC] w-full md:w-[75%]">Board of Directors</h3>
+        <h3 class="font-ti font-semibold my-4 text-[30px] md:text-[40px] w-full md:w-[75%]">Board of Directors</h3>
         <div class="space-y-10">
           <!-- First Item Standing Alone -->
           <div class="flex justify-center">
@@ -81,7 +83,7 @@
                 <div class="absolute inset-0 flex items-center justify-center opacity-0 bg-gray-900 hover:opacity-70 transition-opacity duration-300 group-hover:opacity-70">
                 </div>
               </div>
-              <div class="border">
+              <div class="border py-[2%]">
                 <h5 class="font-bold font-ti text-rub-md mt-2">{{ people[0].name }}</h5>
                 <span class="font-ti text-dm-md text-[#A58C09]">{{ people[0].title }}</span>
               </div>
@@ -99,7 +101,7 @@
                 <div class="absolute inset-0 flex items-center justify-center opacity-0 bg-gray-900 hover:opacity-70 transition-opacity duration-300 group-hover:opacity-70">
                 </div>
               </div>
-              <div class="border">
+              <div class="border py-[2%]">
                 <h5 class="font-bold font-ti text-rub-md mt-2">{{ person.name }}</h5>
                 <span class="font-ti text-dm-md text-[#A58C09]">{{ person.title }}</span>
               </div>
@@ -109,7 +111,7 @@
     </div>
 
     <div class="md:px-[10%] py-[5%] flex flex-col items-center ">
-      <h3 class="font-ti font-semibold my-4 text-[30px] md:text-[40px] bg-[#ECECEC] w-full md:w-[75%]">Management Team</h3>
+      <h3 class="font-ti font-semibold my-4 text-[30px] md:text-[40px] w-full md:w-[75%]">Management Team</h3>
       <div class="space-y-10">
        
       
@@ -124,7 +126,7 @@
               <div class="absolute inset-0 flex items-center justify-center opacity-0 bg-gray-900 hover:opacity-70 transition-opacity duration-300 group-hover:opacity-70">
               </div>
             </div>
-            <div class="border">
+            <div class="border py-[2%]">
               <h5 class="font-bold font-ti text-rub-md mt-2">{{ mgt.name }}</h5>
               <span class="font-ti text-dm-md text-[#A58C09]">{{ mgt.title }}</span>
             </div>

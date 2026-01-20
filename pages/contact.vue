@@ -30,7 +30,8 @@
                   v-model="phone" 
                   class="w-full rounded-xl border border-yellow-400 px-5 py-4 text-[18px]  text-neutral-800 placeholder-neutral-400 outline-none transition-all duration-300 focus:border-yellow-500 focus:bg-white focus:ring-4 focus:ring-yellow-500/10 shadow-sm hover:border-yellow-400" 
                   placeholder="Phone Number" 
-                  required
+                  maxlength="11"
+                  pattern="[0-9]{11}"
                 >
               </div>
             </div>
@@ -51,6 +52,7 @@
                 rows="5" 
                 class="w-full rounded-xl border border-yellow-400 px-5 py-4 text-[18px] text-neutral-800 placeholder-neutral-400 outline-none transition-all duration-300 focus:border-yellow-500 focus:bg-white focus:ring-4 focus:ring-yellow-500/10 shadow-sm hover:border-yellow-400 resize-none" 
                 placeholder="How can we help you?"
+                required
               ></textarea>
             </div>
           </div>
