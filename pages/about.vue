@@ -4,9 +4,9 @@
 </section>
 <section class="py-[4%] md:px-[6%] font-dg ">
 
-  <div class="grid md:grid-cols-2 font-dg md:px-[10%] gap-4 items-center">
+  <div class="grid md:grid-cols-2 font-dg md:px-[5%] gap-4 items-center">
       <div class=" space-y-4 p-4 ">
-        <h5 class="font-gt text-[24px] md:text-[40px] font-bold w-[75%] leading-[1]">Our Foundation and Operations</h5>
+        <h5 class="font-gt text-[24px] md:text-[40px] font-bold w-[100%] leading-[1]">Our Foundation and Operations</h5>
         <p class="font-gt font-bold text-black md:text-[18px] text-[#7B7B7B]">Established in 2021, Denham &amp; Grey began full operations in 2024. Our main office is in Lagos, Nigeria's financial hub, providing easy access to clients, market insights, and effective client monitoring. We also have a secondary location in the Federal Capital Territory.</p>
       </div>
       <img src="/assets/images/about-right.svg" alt="" class="w-40% md:w-[100%] h-full order-first md:order-last">
@@ -35,7 +35,7 @@
 </section>
 <section class="py-[2%] px-[10%] font-dg  items-center justify-center flex flex-col">
     <div class="h-[30%] flex flex-col items-center space-y-4 pt-[3%] mb-[3%]">
-        <h2 class="font-semibold font-gt text-[32px] md:text-[48px] leading-[50px]">Our Core Values</h2>
+        <h2 class="font-semibold font-gt text-[32px] md:text-[40px] leading-[50px]">Our Core Values</h2>
     </div>
     <div class="grid grid-cols-5 justify-items-center  justify-center items-center font-gt font-bold text-[#7B7B7B] text-[18px] w-full ">
         <div class="flex flex-col items-center justify-center md:space-x-[10%] md:w-[40%] gap-2 w-[">
@@ -68,7 +68,7 @@
         </p>
     </div>
     <div class=" md:px-[10%] py-[3%] flex flex-col items-center ">
-        <h3 class="font-ti font-semibold my-4 text-[30px] md:text-[40px] w-full md:w-[75%]">Board of Directors</h3>
+        <h3 class="font-semibold font-gt text-[32px] md:text-[40px] leading-[50px]">Board of Directors</h3>
         <div class="space-y-10">
           <!-- First Item Standing Alone -->
           <div class="flex justify-center">
@@ -111,7 +111,7 @@
     </div>
 
     <div class="md:px-[10%] py-[5%] flex flex-col items-center ">
-      <h3 class="font-ti font-semibold my-4 text-[30px] md:text-[40px] w-full md:w-[75%]">Management Team</h3>
+      <h3 class="font-semibold font-gt text-[32px] md:text-[40px] leading-[50px]">Management Team</h3>
       <div class="space-y-10">
        
       
